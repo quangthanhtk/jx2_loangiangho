@@ -1,0 +1,8 @@
+ReloadType	ScriptPath	ScriptBuff
+1	\script\ksgvn\lib.lua
+1	\script\ksgvn\autoexec\ksg_system_head.lua
+1	\script\ksgvn\autoexec\ksg_login_listener.lua
+1	\script\ksgvn\event\top_server\top_player.lua
+1	\script\ksgvn\item\item_newplayer_card.lua
+1	\script\ksgvn\item\item_admin_card.lua
+1	\script\ksgvn\functions\gm.lua

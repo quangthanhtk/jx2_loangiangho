@@ -1,0 +1,22 @@
+#!/bin/bash
+# -----------------------------------------------------
+# Load Variables
+DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+source "$DIR/config.sh"
+
+nMStop=120
+
+cd ./..${APP_DIR}/bishop
+for ((i=0; i<nMStop; i++))
+do
+	nM=$(echo " $nMStop - $i" | bc -l)
+	echo -e "${BL}Send GS message ${YL} $nM phut."
+	./KG_Bishop send-msg-to-gs to-players all "Th«ng b¸o, m¸y chñ MINH LONG sÏ tiÕn hµnh REOPEN trong thêi gian s¾p tíi!!!"
+	./KG_Bishop send-msg-to-gs to-players all "Th«ng tin n¹p thÎ cña quý nh©n sÜ sÏ ®­îc tr¶ l¹i vÒ ban ®Çu, c¶m ¬n quý nh©n sÜ ®· ñng hé m¸y chñ MINH LONG trong thêi gian võa qua!!!"
+	./KG_Bishop send-msg-to-gs to-players all "§Ó tr¸nh c¸c tr­êng hîp lõa ®¶o ®¸ng tiÕc x¶y ra, quý nh©n sÜ kh«ng nªn giao dÞch cã gi¸ trÞ tiÒn mÆt trong thêi gian hiÖn t¹i!!!"
+	#./KG_Bishop send-msg-to-gs to-players all "T¹m ®ãng tÝnh n¨ng Tµng KiÕm sau $nM phót n÷a!"
+	# ./KG_Bishop send-msg-to-gs to-players all "M¸y chñ sÏ ®ãng l¹i Alpha Test sau $nM phót n÷a. Thêi gian Open lµ 19h00 tèi nay.!!!"
+	# ./KG_Bishop send-msg-to-gs to-players all "C¶m ¬n c¸c b¹n ®· nhiÖt t×nh tham gia tr¶i nghiÖm test, h·y quay l¹i vµo lóc 19h00 tèi nay nhÐ.!!!"
+	# ./KG_Bishop send-msg-to-gs to-players all "Sau b¶o tr×, ®¹i hiÖp cÇn tho¸t game & ch¹y Autoupdate ®Ó t¶i client míi nhÊt.!"
+	sleep 60
+done

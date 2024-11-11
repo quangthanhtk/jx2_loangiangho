@@ -1,0 +1,58 @@
+[Ui]
+;TiÕng kªu khi tho¸t hoÆc t¾t Game
+0=\Sound\sound_i001.wav
+;§¨ng nhËp game sau ®ã vµo 1 Giao diÖn bÊt kú
+1=\Sound\sound_i014.wav
+NhÊp chuét vµo 1 Giao diÖn bÊt kú trong game
+2=\Sound\sound_i002.wav
+;Hñy bá mét giao diÖn
+;2=\Sound\sound_i015.wav
+;TiÕng kªu khi lÊy hoÆc ®Æt vËt phÈm vµo thanh c«ng cô
+3=\Sound\sound_i012.wav
+;TiÕng kªu khi chän thuéc tİnh
+4=\Sound\sound_i018.wav
+;Tİn hiÖu khİ h¶o h÷u QQ lªn m¹ng
+5=\Sound\sound_i019.wav
+;Tİn hiÖu khi QQ göi tin tøc
+6=\Sound\sound_i020.wav
+;Tin tøc cña hÖ thèng
+7=\Sound\sound_i021.wav
+;Tİn hiÖu kh chØ chuét vµo ®èi ph­ong hoÆc NPC
+8=\Sound\sound_i022.wav
+9=\Sound\IB\ÉÏËø.wav
+10=\Sound\IB\½»Ò×Ê§°Ü.wav
+11=\Sound\IB\½»Ò×³É¹¦.wav
+12=\Sound\IB\ÊıÁ¿Ñ¡Ôñ.wav
+13=\Sound\IB\»¶Ó­¹âÁÙ.WAV
+14=\Sound\IB\·­Êé.wav
+15=\Sound\IB\Ñ¡ÖĞ.wav
+
+[Game]
+;Tİn hiÖu khi vËt phÈm r¬i xuèng ®Êt
+0=\Sound\sound_i003.wav
+;TiÕng r¬i cña trang phôc
+1=\Sound\sound_i004.wav
+;TiÕng r¬i cña vò khİ
+2=\Sound\sound_i005.wav
+;TiÕng r¬i cña trang søc 
+3=\Sound\sound_i006.wav
+;TiÕng r¬i cña tiÒn 
+4=\Sound\sound_i007.wav
+;TiÕng r¬i cña nh÷ng vËt phÈm kh¸c
+5=\Sound\sound_i008.wav
+;TiÕng r¬i cña trang bŞ-vò khİ
+6=\Sound\sound_i009.wav
+;TiÕng r¬i cña trang bŞ-trang phôc
+7=\Sound\sound_i010.wav
+;TiÕng r¬i cña trang bŞ-trang søc 
+8=\Sound\sound_i011.wav
+;Tİn hiÖu khi nh©n vËt t¨ng cÊp
+9=\Sound\sound_i016.wav
+;Tİn hiÖu khi nh©n vËt häc vâ c«ng
+10=\Sound\sound_i017.wav
+;Tİn hiÖu khi më r­¬ng
+11=\Sound\sound_i023.wav
+;Tİn hiÖu khi ®ãng r­¬ng
+12=\Sound\sound_i024.wav
+;Tİn hiÖu khi sö dông vËt phÈm
+13=\Sound\sound_i013.wav

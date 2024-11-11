@@ -1,0 +1,4 @@
+Genre	Detail	Particular	Desc	ATTR_XIUWEI	
+2	0	552	Ti”u Nh©n s©m qu∂	600	
+2	0	553	ßπi Nh©n s©m	1800	
+2	0	31011	ßπi Th«n Nh©n S©m	3200

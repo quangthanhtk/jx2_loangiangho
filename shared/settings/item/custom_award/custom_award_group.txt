@@ -1,0 +1,367 @@
+	group_id	eng_name	view_name	award_method	need_room	need_weight
+		Not NULL	name that will be viewed by player	1=GroupAwardSpec	>0	>0
+		eg: lsBox1	Not NULL	2=GroupAwardRand		
+				3=GroupAwardAll		
+	1	silian_tong_1	ThÝ LuyÖn Tø Linh	2	3	500
+	2	silian_tong_2	ThÝ LuyÖn Tø Linh	2	3	500
+	3	silian_tong_3	ThÝ LuyÖn Tø Linh	2	3	500
+	4	silian_yin	ThÝ LuyÖn Tø Linh	2	3	500
+	5	silian_jin_free	ThÝ LuyÖn Tø Linh	2	3	500
+	6	silian_jin_IB	ThÝ LuyÖn Tø Linh	2	3	500
+	7	diji_huoban_book	Nhãm S¸ch Kü N¨ng-S¬	2	3	500
+	8	zhongji_huoban_book	Nhãm S¸ch Kü N¨ng-Trung	2	3	500
+	9	gaoji_huoban_book	Nhãm S¸ch Kü N¨ng-Cao	2	3	500
+	10	dijidan	Trøng Linh Thó-S¬	2		
+	11	zhongjidan	Trøng Linh Thó-Trung	2		
+	12	gaojidan	Trøng Linh Thó-Cao	2		
+	13	jingmailv4	HuyÖt vÞ cÊp 4 tiªu hao	4		
+	14	jingmailv5	HuyÖt vÞ cÊp 5 tiªu hao	4		
+	15	jingmailv6	HuyÖt vÞ cÊp 6 tiªu hao	4		
+	16	YXTY_tong1	Th¸i NhÊt Th¸p_Anh Hïng	2	3	500
+	17	YXTY_tong2	Th¸i NhÊt Th¸p_Anh Hïng	2	3	500
+	18	YXTY_tong3	Th¸i NhÊt Th¸p_Anh Hïng	2	3	500
+	19	YXTY_yin	Th¸i NhÊt Th¸p_Anh Hïng	2	3	500
+	20	YXTY_jin1_free	Th¸i NhÊt Th¸p_Anh Hïng	2	3	500
+	21	YXTY_jin1_IB	Th¸i NhÊt Th¸p_Anh Hïng	2	3	500
+	22	YXTY_jin2_free	Th¸i NhÊt Th¸p_Anh Hïng	2	3	500
+	23	YXTY_jin2_IB	Th¸i NhÊt Th¸p_Anh Hïng	2	3	500
+	24	gem_lv1_normal	§¸ quý th­êng cÊp 1	2		
+	25	gem_lv2_normal	§¸ quý th­êng cÊp 2	2		
+	26	gem_lv3_normal	§¸ quý th­êng cÊp 3	2		
+	27	gem_lv4_normal	§¸ quý th­êng cÊp 4	2		
+	28	yunling_lv4	UÈn Linh CÊp 4	2		
+	29	yunling_lv5	UÈn Linh CÊp 5	2		
+	30	yunling_lv6	UÈn Linh CÊp 6	2		
+	31	3v3_free_WLlibao_1	Tói Quµ Vâ L©m (ThiÕu HiÖp) miÔn phÝ	3	2	500
+	32	3v3_free_WLlibao_2	Tói Quµ Vâ L©m (§¹i HiÖp) miÔn phÝ	2	2	500
+	33	3v3_IB_WLlibao_1	Tói Quµ Vâ L©m (ThiÕu HiÖp) tr¶ phÝ	3	2	500
+	34	3v3_IB_WLlibao_2	Tói Quµ Vâ L©m (§¹i HiÖp) tr¶ phÝ	2	2	500
+	35	3v3_free_HXlibao_1	Tói Quµ Vâ L©m Hµo HiÖp (ThiÕu HiÖp) miÔn phÝ	3	2	500
+	36	3v3_free_HXlibao_2	Tói Quµ Vâ L©m Hµo HiÖp (§¹i HiÖp) miÔn phÝ	2	2	500
+	37	3v3_IB_HXlibao_1	Tói Quµ Vâ L©m Hµo HiÖp (ThiÕu HiÖp) tr¶ phÝ	3	2	500
+	38	3v3_IB_HXlibao_2	Tói Quµ Vâ L©m Hµo HiÖp (§¹i HiÖp) tr¶ phÝ	2	2	500
+	39	lingtu_ring	Linh §å Giíi ChØ	2		
+	40	csm_1_tianjiaoling	Tiªu hao 1 Thiªn Kiªu LÖnh	4		
+	41	csm_2_tianjiaoling	Tiªu hao 2 Thiªn Kiªu LÖnh	4		
+	42	EY_jinbaoxiang_2_free	¢n O¸n §µi	2	3	500
+	43	EY_jinbaoxiang_2_IB	¢n O¸n §µi	2	3	500
+	44	EY_baoxiang_2	¢n O¸n §µi	2	3	500
+	45	EY_baoxiang_2_IB	¢n O¸n §µi	2	3	500
+	46	Fire_Killjinying	phÇn th­ëng qu¸i nhá háa ®µn	2	1	1
+	47	Fire_Single	phÇn th­ëng th¾p löa háa dµn miÔn phÝ	2	3	10
+	48	Fire_Five	phÇn th­ëng th¾p löa háa dµn thu phÝ	2	3	10
+	49	WinterBoss_Box	hép quµ thu ho¹ch	2	1	10
+	50	WinterBoss_Heart	Tr¸i Tim B¨ng Gi¸	2	2	10
+	51	gem_Lv1-3_Rd	§¸ quý cÊp 1-3 (NgÉu nhiªn)	2		
+Tû lÖ 7:2:1	52	Fire_Num_800	UÈn Linh cÊp 4-6 (NgÉu nhiªn)	2		
+Tû lÖ: 95:4:1	53	Fire_Num_1000	§¸ quý cÊp 4-6 (NgÉu nhiªn)	2		
+	54	Xmas_orna	2014_C©y Gi¸ng Sinh_§ãng gãp	3		
+	55	Xmas_tree1	2014_C©y Gi¸ng Sinh_C©y cÊp 1	3		
+	56	Xmas_tree2	2014_C©y Gi¸ng Sinh_C©y cÊp 2	3		
+	57	Xmas_tree3	2014_C©y Gi¸ng Sinh_C©y cÊp 3	3		
+	58	Xmas_tree4	2014_C©y Gi¸ng Sinh_C©y cÊp 4	3		
+	59	Xmas_tree5	2014_C©y Gi¸ng Sinh_C©y cÊp 5	3		
+	60	LS_tong1	L­¬ng S¬n_R­¬ng §ång 1	2	3	500
+	61	LS_tong2	L­¬ng S¬n_R­¬ng §ång 2	2	3	500
+	62	LS_tong3	L­¬ng S¬n_R­¬ng §ång 3	2	3	500
+	63	LS_tong4	L­¬ng S¬n_R­¬ng §ång 4	2	3	500
+	64	LS_tong5	L­¬ng S¬n_R­¬ng §ång 5	2	3	500
+	65	LS_tong6	L­¬ng S¬n_R­¬ng §ång 6	2	3	500
+	66	LS_yin	L­¬ng S¬n_R­¬ng Thiªn Kiªu	2	3	500
+	67	LS_haohanE	L­¬ng S¬n_R­¬ng H¶o H¸n E	2	3	500
+	68	LS_haohanD	L­¬ng S¬n_R­¬ng H¶o H¸n D	2	3	500
+	69	LS_haohanC	L­¬ng S¬n_R­¬ng H¶o H¸n C	2	3	500
+	70	LS_haohanB	L­¬ng S¬n_R­¬ng H¶o H¸n B	2	3	500
+	71	LS_haohanA	L­¬ng S¬n_R­¬ng H¶o H¸n A	2	3	500
+	72	LS_jin_free1	L­¬ng S¬n_R­¬ng Vµng 1_free	2	3	500
+	73	LS_jin_IB1	L­¬ng S¬n_R­¬ng Vµng 1_IB	2	3	500
+	74	LS_jin_free2	L­¬ng S¬n_R­¬ng Vµng 2_free	2	3	500
+	75	LS_jin_IB2	L­¬ng S¬n_R­¬ng Vµng 2_IB	2	3	500
+	76	TY_tong1	Th¸i NhÊt (Th­êng)_R­¬ng §ång 1	2	3	500
+	77	TY_tong2	Th¸i NhÊt (Th­êng)_R­¬ng §ång 2	2	3	500
+	78	TY_tong3	Th¸i NhÊt (Th­êng)_R­¬ng §ång 3	2	3	500
+	79	TY_yin	Th¸i NhÊt (Th­êng)_R­¬ng B¹c	2	3	500
+	80	TY_free1	Th¸i NhÊt (Th­êng)_R­¬ng Vµng 1_free	2	3	500
+	81	TY_IB1	Th¸i NhÊt (Th­êng)_R­¬ng Vµng 1_IB	2	3	500
+	82	TY_free2	Th¸i NhÊt (Th­êng)_R­¬ng Vµng 2_free	2	3	500
+	83	TY_IB2	Th¸i NhÊt (Th­êng)_R­¬ng Vµng 2_IB	2	3	500
+	84	lingtu_tou	Nãn Linh §å (KiÓu d¸ng ngÉu nhiªn)	2		
+	85	lingtu_yi	¸o Linh §å (KiÓu d¸ng ngÉu nhiªn)	2		
+	86	lingtu_ku	QuÇn Linh §å (KiÓu d¸ng ngÉu nhiªn)	2		
+	87	tree_cherry3	H¹t Gièng Anh §µo_Lo¹i 3	3	2	20
+	88	tree_peach3	H¹t Gièng C©y §µo_Lo¹i 3	3	2	20
+	89	tree_pepper3	H¹t Gièng Hoa Tiªu_Lo¹i 3	3	2	20
+	90	tree_metasequoia3	H¹t Gièng Thñy Sam_Lo¹i 3	3	2	20
+	91	tree_PurpleSandalwood2	Tö §µn Tiªn Chñng_Lo¹i 2	3	2	20
+	92	tree_YellowSandalwood2	Hoµng §µn Tiªn Chñng_Lo¹i 2	3	2	20
+	93	tree_wisteria2	Tö §»ng Tiªn Chñng_Lo¹i 2	3	2	20
+	94	tree_ginkgo2	Ng©n H¹nh Tiªn Chñng_Lo¹i 2	3	2	20
+	95	tree_fig1	V« Hoa Tö_Lo¹i 1	3	2	20
+	96	tree_bodhi1	Bå §Ò Tö_Lo¹i 1	3	2	20
+	97	tree_mature3	PhÇn th­ëng c©y chÝn cÊp 3	2	3	500
+	98	tree_mature2	PhÇn th­ëng c©y chÝn cÊp 2	2	3	500
+	99	tree_mature1	PhÇn th­ëng c©y chÝn cÊp 1	2	3	500
+	100	JadeSoul3	B¨ng T©m Ngäc Ph¸ch_Tam phÈm	3	5	200
+	101	JadeSoul2	Tó Tr¹ch Ngäc Ph¸ch_NhÞ phÈm	3	5	200
+	102	JadeSoul1	MÆc Tµ Ngäc Ph¸ch_NhÊt phÈm	3	5	200
+	103	JadeSoul0	H­ Kh«ng Ngäc Ph¸ch_§Æc biÖt	3	5	200
+	104	tree_mission	PhÇn th­ëng nhiÖm vô trång trät	3	2	20
+	105	tree_steal	PhÇn th­ëng ¨n trém qu¶	3	2	20
+	106	hunter_a	Th­ëng vµng Thî S¨n cßn thõa 0 huy ch­¬ng phÇn th­ëng	3	4	40
+	107	hunter_b	Th­ëng vµng Thî S¨n cßn thõa 1~8 huy ch­¬ng phÇn th­ëng	3	4	40
+	108	hunter_c	Th­ëng vµng Thî S¨n cßn thõa 9~16 huy ch­¬ng phÇn th­ëng	3	4	40
+	109	hunter_d	Th­ëng vµng Thî S¨n cßn thõa 17~24 huy ch­¬ng phÇn th­ëng	3	4	40
+	110	StealingBooks_a	Hoµn thµnh trém kinh th­ b­íc 0	3	3	30
+	111	StealingBooks_b	Hoµn thµnh trém kinh th­ b­íc 1	3	3	30
+	112	StealingBooks_c	Hoµn thµnh trém kinh th­ b­íc 2	3	3	30
+	113	StealingBooks_d	Hoµn thµnh trém kinh th­ b­íc 3	3	3	30
+	114	StealingBooks_e	Hoµn thµnh trém kinh th­ b­íc 4	3	3	30
+	115	StealingBooks_f	Hoµn thµnh trém kinh th­ b­íc 5	3	3	30
+	116	StealingBooks_g	Hoµn thµnh trém kinh th­ b­íc 6	3	3	30
+	117	StealingBooks_h	B¶n ®å phÇn th­ëng trong khu trém kinh th­ 	2	2	500
+	118	treasure_a	§µo B¶o - ThÕ lùc Kho B¸u Tr©n PhÈm	3	5	200
+	119	treasure_b	§µo B¶o - ThÕ Lùc Kho B¸u T× H­u	3	5	200
+	120	treasure_c	§µo B¶o - ThÕ Lùc Kho B¸u Di VËt	3	5	200
+	121	treasure_d	Trung lËp-§µo kho b¸u Minh M«n 	3	5	200
+	122	treasure_e	Trung lËp-§µo kho b¸u Thiªn Long Tù	3	5	200
+	123	treasure_f	Trung lËp-§µo kho b¸u Quúnh KÕt 	3	5	200
+	124	treasure_g	§µo B¶o - Trung LËp Kho B¸u Kinh ThÕ	3	5	200
+	125	treasure_mission1	Hoµn thµnh nhiÖm vô QuËt B¶o	3	5	200
+	126	treasure_mission2a	Hoµn thµnh nhiÖm vô §µo kho b¸u-PhÇn th­ëng ®é cèng hiÕn thÕ lùc	3		
+	127	preach_roast	Löa truyÒn ®¹o	3		
+	128	preach_relic	Th¸nh VËt truyÒn ®¹o	2	1	10
+	129	preach_HeartSutra99	T©m Kinh Tµng KiÕm cÊp 99	3	5	200
+	130	preach_arcane99	B¸ch HiÓu Sinh BÝ Ph¸p cÊp 99	3	5	200
+	131	npc_legion_disappear	npc PhÇn th­ëng Qu©n §oµn mÊt tÝch - T©y Vùc TruyÒn §¹o 	3	2	10
+	132	npc_legion_package	npc PhÇn th­ëng Qu©n §oµn tói - T©y Vùc TruyÒn §¹o 	3	5	200
+	133	npc_legion_bosskill	npc PhÇn th­ëng giÕt boss Qu©n §oµn - T©y Vùc TruyÒn §¹o 	3	2	200
+	134	npc_legion_bosspackage	npc PhÇn th­ëng tói boss Qu©n §oµn - T©y Vùc TruyÒn §¹o 	3	4	200
+	135	ChargeDart_a	Tiªu Xa Th­êng - VËn Tèng 	3	5	200
+	136	ChargeDart_b	Tiªu Xa Quan Träng - VËn Tèng 	3	5	200
+	137	ChargeDart_c	Tiªu Xa Qu©n Dông - VËn Tèng 	3	5	200
+	138	ChargeDart_d	Tiªu Xa C¬ MËt - VËn Tèng 	3	5	200
+	139	ChargeDart_e	Tiªu Xa Hoµng Gia - VËn Tèng 	3	5	200
+	140	robbery_a	Tiªu Xa Th­êng- C­íp tiªu	3	5	200
+	141	robbery_b	Tiªu Xa Quan Träng- C­íp tiªu	3	5	200
+	142	robbery_c	Tiªu Xa Qu©n Dông- C­íp tiªu	3	5	200
+	143	robbery_d	Tiªu Xa C¬ MËt- C­íp tiªu	3	5	200
+	144	robbery_e	Tiªu Xa Hoµng Gia- C­íp tiªu	3	5	200
+	145	treasure_mission2b	Hoµn thµnh nhiÖm vô ®µo kho b¸u-PhÇn th­ëng ngÉu nhiªn (NgÉu nhiªn theo tõng ng­êi)	2	5	200
+	146	treasure_mission2c	Hoµn thµnh nhiÖm vô ®µo kho b¸u-PhÇn th­ëng ngÉu nhiªn (NgÉu nhiªn theo tõng ng­êi)	2	5	200
+	147	treasure_mission2d	Hoµn thµnh nhiÖm vô ®µo kho b¸u-PhÇn th­ëng ngÉu nhiªn (NgÉu nhiªn theo tõng ng­êi)	2	5	200
+	148	TreePlanting	PhÇn th­ëng gèc trång c©y	3	3	30
+	149	TreePlanting_share	Trång c©y-Ng­êi kh¸c nhÊp vµo phÇn th­ëng	2	1	10
+	150	csm_fusheng3_89	Tiªu hao khi th¨ng cÊp Phôc sinh 3	4		
+	151	csm_fusheng3_90	Tiªu hao khi th¨ng cÊp Phôc sinh 3	4		
+	152	csm_fusheng3_91	Tiªu hao khi th¨ng cÊp Phôc sinh 3	4		
+	153	csm_fusheng3_92	Tiªu hao khi th¨ng cÊp Phôc sinh 3	4		
+	154	csm_fusheng3_93	Tiªu hao khi th¨ng cÊp Phôc sinh 3	4		
+	155	csm_fusheng3_94	Tiªu hao khi th¨ng cÊp Phôc sinh 3	4		
+	156	csm_fusheng3_95	Tiªu hao khi th¨ng cÊp Phôc sinh 3	4		
+	157	csm_fusheng3_96	Tiªu hao khi th¨ng cÊp Phôc sinh 3	4		
+	158	csm_fusheng3_97	Tiªu hao khi th¨ng cÊp Phôc sinh 3	4		
+	159	csm_fusheng3_98	Tiªu hao khi th¨ng cÊp Phôc sinh 3	4		
+	160	csm_fusheng3_99	Tiªu hao khi th¨ng cÊp Phôc sinh 3	4		
+	161	preach_HeartSutra99_2	T©m Kinh Tµng KiÕm CÊp 99-PhÇn th­ëng 2	2	5	200
+	162	preach_HeartSutra99_3	T©m Kinh Tµng KiÕm CÊp 99-PhÇn th­ëng 3	2	5	200
+	163	preach_arcane99_2	B¸ch HiÓu Sinh BÝ Ph¸p CÊp 99-PhÇn th­ëng 2	2	5	200
+	164	preach_arcane99_3	B¸ch HiÓu Sinh BÝ Ph¸p CÊp 99-PhÇn th­ëng 3	2	5	200
+	165	Faction_Reputation_2000	Danh väng thÕ lùc-Béc lé tµi n¨ng	3	5	200
+	166	Faction_Reputation_6000	Danh väng thÕ lùc-Danh tiÕng th­íc khëi	3	5	200
+	167	Faction_Reputation_12000	Danh väng thÕ lùc-C«ng danh lín lao	3	5	200
+	168	Faction_Reputation_20000	Danh väng thÕ lùc-Cùu phô thÞnh danh	3	5	200
+	169	Faction_Reputation_40000	Danh väng thÕ lùc-V¹n ng­êi ng­ìng mé	3	5	200
+	170	Contribute_Point_900	PhÇn th­ëng cèng hiÕn thÕ lùc-900	3	4	30
+	171	Contribute_Point_1200	PhÇn th­ëng cèng hiÕn thÕ lùc-1200	3	4	30
+	172	Contribute_Point_1500	PhÇn th­ëng cèng hiÕn thÕ lùc-1500	3	4	30
+	173	Contribute_Point_2100	PhÇn th­ëng cèng hiÕn thÕ lùc-2100	3	4	30
+	174	Contribute_Point_5000	PhÇn th­ëng cèng hiÕn thÕ lùc-5000	3	4	30
+	175	JadeSoul2_0	Tó Tr¹ch Ngäc Ph¸ch_NhÞ phÈm ngÉu nhiªn	2	2	500
+	176	JadeSoul1_0	MÆc Tµ Ngäc Ph¸ch_NhÊt phÈm ngÉu nhiªn	2	2	500
+	177	JadeSoul0_0	H­ Kh«ng Ngäc Ph¸ch_§Æc biÖt ngÉu nhiªn	2	2	500
+	178	Dart_Insurance_a	B¶o hiÓm Tiªu Xa Th­êng	3	5	200
+	179	Dart_Insurance_b	B¶o hiÓm Tiªu Xa Quan Träng	3	5	200
+	180	Dart_Insurance_c	B¶o hiÓm Tiªu Xa Qu©n Dông	3	5	200
+	181	Dart_Insurance_d	B¶o hiÓm Tiªu Xa C¬ MËt	3	5	200
+	182	Dart_Insurance_e	B¶o hiÓm Tiªu Xa Hoµng Gia	3	5	200
+	183	gem_Lv1	§¸ quý cÊp 1	2	5	500
+	184	gem_Lv2	§¸ quý cÊp 2	2	5	500
+	185	gem_Lv3	§¸ quý cÊp 3	2	5	500
+	186	Bht_Charge	phÇn th­ëng cña khu vùc thu phi Long Hæ §­êng	2	1	500
+	187	Bht_Free	phÇn th­ëng cña khu vùc miÔn phi Long Hæ §­êng	3		
+	188	Bht_Free_a	MiÔn phÝ gi¶i th­ëng Khu B¶o R­¬ng	2	1	500
+	189	worldboss_sly	Cuéc chiÕn ë ThÊt L¹c nhai dÊu tiÓu qu¸i sôt gi¶m	3		
+	190	worldboss_sly_a	VËt phÈm Èn tiÓu qu¸i sôt gi¶m	2		
+	191	worldboss_sly1	Cuéc chiÕn ë ThÊt L¹c nhai tiÓu qu¸i thó thø nhÊt sôt gi¶m 	3		
+	192	worldboss_sly2	Cuéc chiÕn ë ThÊt L¹c nhai tiÓu qu¸i thó thø hai sôt gi¶m 	3		
+	193	worldboss_sly3	Cuéc chiÕn ë ThÊt L¹c nhai BOSS sôt gi¶m 	3		
+	194	worldboss_sly4	Cuéc chiÕn ë ThÊt L¹c nhai phÇn th­ëng Tø Thµnh K× Tr©n	3		
+	195	worldboss_sly4_a	PhÇn th­ëng vËt phÈm	2	1	500
+	196	adventureboss_sly	PhÇn th­ëng BOSS m¹o hiÓm	3		
+	197	adventureboss_sly_a	PhÇn th­ëng vËt phÈm	2		
+	198	act_2xu_free	Ho¹t ®éng 2xu-Hép PhÇn Th­ëng Lv1	3	1	
+	199	act_2xu_free2	Ho¹t ®éng 2xu-Hép PhÇn Th­ëng Theo Mèc Lv1	3	1	
+	200	act_2xu_ib	Ho¹t ®éng 2xu-Hép PhÇn Th­ëng Lv2	3	1	
+	201	act_2xu_ib2	Ho¹t ®éng 2xu-Hép PhÇn Th­ëng Theo Mèc Lv2	3	1	
+	202	act_2xu_free_rand	Ho¹t ®éng 2xu-Hép PhÇn Th­ëng Lv1 (NgÉu nhiªn)	2	1	
+	203	act_2xu_free2_rand	Ho¹t ®éng 2xu-Hép PhÇn Th­ëng Theo Mèc Lv1 (NgÉu nhiªn)	2	1	
+	204	act_2xu_ib_rand	Ho¹t ®éng 2xu-Hép PhÇn Th­ëng Lv2 (NgÉu nhiªn)	2	1	
+	205	act_2xu_ib2_rand	Ho¹t ®éng 2xu-Hép PhÇn Th­ëng Theo Mèc Lv2 (NgÉu nhiªn)	2	1	
+	206	highlvbook70_rand	MËt TÞch S­ M«n Cao CÊp Lv70 (NgÉu nhiªn)	2	1	
+	207	act_11_normal	PhÇn th­ëng Tµng B¶o §å-Th­êng	2	1	500
+	208	act_11_ib	PhÇn th­ëng Tµi S¶n §¹o Mé TÆc	2	1	500
+	209	TZWJ_free	Khiªu ChiÕn V¹n KiÕm (MiÔn phÝ)	2	1	100
+	210	TZWJ_charge	Khiªu ChiÕn V¹n KiÕm (Thu phÝ)	2	1	500
+	211	everydayaward	PhÇn th­ëng b¸o danh h»ng ngµy	2	1	
+	212	QiandaoGift1	Quµ B¸o Danh-S¬	2	1	
+	213	QiandaoGift2	Quµ B¸o Danh-Trung	2	1	
+	214	QiandaoGift3	Quµ B¸o Danh-Cao	2	1	
+	215	QiandaoGift4	Quµ B¸o Danh-Hµo Hoa	2	1	
+	216	SLYWZ_SLJSBX	R­¬ng X©y Dùng ThÕ Lùc	2	1	
+	217	act_12_normal	Quµ Song §¸n-Th­êng	2	1	
+	218	act_12_ib	Quµ Song §¸n-Hµo Hoa	2	1	
+	219	hd_1y_putong	PhiÕu Âm Thùc-Th­êng	2	1	
+	220	hd_1y_jipin	PhiÕu Âm Thùc-Cùc phÈm	2	1	
+	221	jubaoex	Tô B¶o Bån-§iÓm tÝch lòy phóc lîi (Th­ëng ngÉu nhiªn)	2	1	500
+	222	cailu	Th­ëng H¸i Léc	2	1	
+	223	newyearlishi	Th­ëng L× X× N¨m Míi	2	1	
+	224	caishenbox	R­¬ng ThÇn Tµi	2	1	
+	225	hd_1y_msqdlb	Quµ LÔ Héi Âm Thùc	2	1	500
+	226	SLYWZ_YJSLPMJ_a	Th­ëng thÕ lùc h¹ng 1 (Giai ®o¹n 1)	3	2	500
+	227	SLYWZ_YJSLPMJ_b	Th­ëng thÕ lùc h¹ng 2 (Giai ®o¹n 1)	3	2	500
+	228	SLYWZ_YJSLPMJ_c	Th­ëng thÕ lùc h¹ng 3 (Giai ®o¹n 1)	3	2	500
+	229	SLYWZ_YJJSHYJ	Th­ëng n¨ng ®éng x©y dùng thÕ lùc (Giai ®o¹n 1)	3	1	500
+	230	SLYWZ_YJGRPMJ_a	Th­ëng h¹ng 1 trong thÕ lùc (Giai ®o¹n 1)	3	2	500
+	231	SLYWZ_YJGRPMJ_b	Th­ëng h¹ng 2-5 trong thÕ lùc (Giai ®o¹n 1)	3	2	500
+	232	SLYWZ_EJSLPMJ_a	Th­ëng thÕ lùc h¹ng 1 (Giai ®o¹n 2)	3	1	500
+	233	SLYWZ_EJSLPMJ_b	Th­ëng thÕ lùc h¹ng 2 (Giai ®o¹n 2)	3	1	500
+	234	SLYWZ_EJSLPMJ_c	Th­ëng thÕ lùc h¹ng 3 (Giai ®o¹n 2)	3	1	500
+	235	SLYWZ_EJGRPMJ_a	Th­ëng c¸ nh©n h¹ng 1 (Giai ®o¹n 2)	3	3	500
+	236	SLYWZ_EJGRPMJ_b	Th­ëng c¸ nh©n h¹ng 2 (Giai ®o¹n 2)	3	3	500
+	237	SLYWZ_EJGRPMJ_c	Th­ëng c¸ nh©n h¹ng 3 (Giai ®o¹n 2)	3	3	500
+	238	SLYWZ_EJGRPMJ_d	Th­ëng c¸ nh©n h¹ng 4-20 (Giai ®o¹n 2)	1	1	500
+	239	SLYWZ_YWHYJ_a	DiÔn Vâ ChiÕn giai ®o¹n 2-H¹ng 1	3	1	500
+	240	SLYWZ_YWHYJ_b	DiÔn Vâ ChiÕn giai ®o¹n 2-H¹ng 2	3	1	500
+	241	SLYWZ_YWHYJ_c	DiÔn Vâ ChiÕn giai ®o¹n 2-H¹ng 3	3	1	500
+	242	SLYWZ_YWHYJ_d	DiÔn Vâ ChiÕn giai ®o¹n 2-H¹ng 4	3	1	500
+	243	SLYWZ_YWHYJ_e	DiÔn Vâ ChiÕn giai ®o¹n 2-KhuyÕn khÝch	3	1	500
+	244	SLYWZ_YWHYBX_FREE	Më R­¬ng DiÔn Vâ miÔn phÝ	2	1	500
+	245	SLYWZ_YWHYBX_IB	Më R­¬ng DiÔn Vâ thu phÝ	2	1	500
+	246	SLYWZ_SLPMBX	R­¬ng xÕp h¹ng thÕ lùc	2	1	500
+	251	JD_free1	KiÕm §·ng YÕn V©n-Th­êng l¹t bµi miÔn phÝ	2	1	500
+	252	JD_IB1	KiÕm §·ng YÕn V©n-Th­êng l¹t bµi thu phÝ	2	1	500
+	253	JD_free2	R­¬ng Hoµng Kim KiÕm §ang YÕn V©n 2-MiÔn phÝ lËt bµi	2	1	500
+	259	YXJD_free1	Anh hïng KiÕm §¶ng YÕn V©n-MiÔn phÝ lËt bµi	2	1	500
+	260	YXJD_IB1	Anh hïng KiÕm §¶ng YÕn V©n-Thu phÝ lËt bµi	2	1	500
+	263	gem_lv5_normal	§¸ quý cÊp 5	2		
+	264	csm_fusheng4_80	Phôc sinh 4 t¨ng cÊp tiªu hao	4		
+	265	csm_fusheng4_81	Phôc sinh 4 t¨ng cÊp tiªu hao	4		
+	266	csm_fusheng4_82	Phôc sinh 4 t¨ng cÊp tiªu hao	4		
+	267	csm_fusheng4_83	Phôc sinh 4 t¨ng cÊp tiªu hao	4		
+	268	csm_fusheng4_84	Phôc sinh 4 t¨ng cÊp tiªu hao	4		
+	269	csm_fusheng4_85	Phôc sinh 4 t¨ng cÊp tiªu hao	4		
+	270	csm_fusheng4_86	Phôc sinh 4 t¨ng cÊp tiªu hao	4		
+	271	csm_fusheng4_87	Phôc sinh 4 t¨ng cÊp tiªu hao	4		
+	272	csm_fusheng4_88	Phôc sinh 4 t¨ng cÊp tiªu hao	4		
+	273	csm_fusheng4_89	Phôc sinh 4 t¨ng cÊp tiªu hao	4		
+	274	csm_fusheng4_90	Phôc sinh 4 t¨ng cÊp tiªu hao	4		
+	275	csm_fusheng4_91	Phôc sinh 4 t¨ng cÊp tiªu hao	4		
+	276	csm_fusheng4_92	Phôc sinh 4 t¨ng cÊp tiªu hao	4		
+	277	csm_fusheng4_93	Phôc sinh 4 t¨ng cÊp tiªu hao	4		
+	278	csm_fusheng4_94	Phôc sinh 4 t¨ng cÊp tiªu hao	4		
+	279	csm_fusheng4_95	Phôc sinh 4 t¨ng cÊp tiªu hao	4		
+	280	csm_fusheng4_96	Phôc sinh 4 t¨ng cÊp tiªu hao	4		
+	281	csm_fusheng4_97	Phôc sinh 4 t¨ng cÊp tiªu hao	4		
+	282	csm_fusheng4_98	Phôc sinh 4 t¨ng cÊp tiªu hao	4		
+	283	csm_fusheng4_99	Phôc sinh 4 t¨ng cÊp tiªu hao	4		
+	284	9y_jrptbx	PhÇn th­ëng R­¬ng LÔ Héi-Th­êng	2	1	1
+	285	9y_jrgjbx	PhÇn th­ëng R­¬ng LÔ Héi-Cao	2	1	1
+	286	9y_jrhhbx	PhÇn th­ëng R­¬ng LÔ Héi-Hµo Hoa	2	1	1
+	287	5ji_huoban_book	S¸ch Kü N¨ng Thó C­ng CÊp 5	2	3	500
+	288	chaojidan	Trøng Thó C­ng-Siªu	2		
+	289	heibaiqi	H¾c B¹ch Kú	2		
+	290	Fire_Num_1200	tæ ®¸ quý ngÉu nhiªn cÊp 4-6	2	1	1
+	291	gem_Lv4	§¸ quý cÊp 4	2	5	500
+	292	sb_monster	NÐm TuyÕt-Th­ëng Qu¸i nhá	2	1	500
+	293	sb_boss	NÐm TuyÕt-Th­ëng BOSS	2	1	500
+	294	lshdzy_7d	DiÒu GiÊy B­ím-Lam (7 ngµy)	1	1	500
+	295	bn_7d	B¨ng §iÓu (7 ngµy)	1	1	500
+	296	sdhd_sdsjl	Event Song §¸n-PhÇn th­ëng trang trÝ c©y th«ng	2	1	500
+	297	sdhd_kp	Event Song §¸n-PhÇn th­ëng Tµng B¶o §å	2	1	500
+	298	sdhd_ydklk	Event Song §¸n-ThÎ Nguyªn §¸n Vui VÎ	2	1	500
+	299	xnhd_cth	Ho¹t ®éng xu©n míi-PhÇn th­ëng H¸i hoa ®µo	2	1	500
+	300	xnhd_fsjl	Ho¹t ®éng xu©n míi-PhÇn th­ëng Phóc ThÇn	2	1	500
+	301	xnhd_xcbx	PhÇn th­ëng xu©n míi-PhÇn th­ëng R­¬ng Xu©n Míi	2	1	500
+	302	3v3_dx_pmjl_1	PhÇn th­ëng Top 1 §éi ChiÕn §éi HiÖp SÜ	3	2	500
+	303	3v3_dx_pmjl_2	PhÇn th­ëng Top 2-3 ChiÕn §éi §éi HiÖp SÜ	3	2	500
+	304	3v3_dx_pmjl_3	PhÇn th­ëng Top 4-8 ChiÕn §éi §éi HiÖp SÜ	3	2	500
+	305	3v3_dx_pmjl_4	PhÇn th­ëng Top 9-16 ChiÕn §éi §éi HiÖp SÜ	3	2	500
+	306	3v3_xx_pmjl_1	PhÇn th­ëng Top 1 ChiÕn §éi §éi T©n Tó	3	2	500
+	307	3v3_xx_pmjl_2	PhÇn th­ëng Top 2-3 ChiÕn §éi §éi T©n Tó	3	2	500
+	308	3v3_xx_pmjl_3	PhÇn th­ëng Top 4-8 ChiÕn §éi §éi T©n Tó	3	2	500
+	309	3v3_xx_pmjl_4	PhÇn th­ëng Top 9-16 ChiÕn §éi §éi T©n Tó	3	2	500
+	310	tong_free1	Tói Quµ Phóc Lîi Bang CÊp 1	2	2	500
+	311	tong_free2	Tói Quµ Phóc Lîi Bang CÊp 2	2	2	500
+	312	tong_free3	Tói Quµ Phóc Lîi Bang CÊp 3	2	2	500
+	313	4xingjinshe	Tói Trang BÞ Kim Xµ 4 Sao	2	2	500
+	314	tong_xiaojiangquan	VÐ Sè Bang-Nhá	2	2	500
+	315	tong_dajiangquan	VÐ Sè Bang-Lín	2	2	500
+	316	csm_fusheng5_80	Phôc sinh 5 t¨ng cÊp tiªu hao	4		
+	317	csm_fusheng5_81	Phôc sinh 5 t¨ng cÊp tiªu hao	4		
+	318	csm_fusheng5_82	Phôc sinh 5 t¨ng cÊp tiªu hao	4		
+	319	csm_fusheng5_83	Phôc sinh 5 t¨ng cÊp tiªu hao	4		
+	320	csm_fusheng5_84	Phôc sinh 5 t¨ng cÊp tiªu hao	4		
+	321	csm_fusheng5_85	Phôc sinh 5 t¨ng cÊp tiªu hao	4		
+	322	csm_fusheng5_86	Phôc sinh 5 t¨ng cÊp tiªu hao	4		
+	323	csm_fusheng5_87	Phôc sinh 5 t¨ng cÊp tiªu hao	4		
+	324	csm_fusheng5_88	Phôc sinh 5 t¨ng cÊp tiªu hao	4		
+	325	csm_fusheng5_89	Phôc sinh 5 t¨ng cÊp tiªu hao	4		
+	326	csm_fusheng5_90	Phôc sinh 5 t¨ng cÊp tiªu hao	4		
+	327	csm_fusheng5_91	Phôc sinh 5 t¨ng cÊp tiªu hao	4		
+	328	csm_fusheng5_92	Phôc sinh 5 t¨ng cÊp tiªu hao	4		
+	329	csm_fusheng5_93	Phôc sinh 5 t¨ng cÊp tiªu hao	4		
+	330	csm_fusheng5_94	Phôc sinh 5 t¨ng cÊp tiªu hao	4		
+	331	csm_fusheng5_95	Phôc sinh 5 t¨ng cÊp tiªu hao	4		
+	332	csm_fusheng5_96	Phôc sinh 5 t¨ng cÊp tiªu hao	4		
+	333	csm_fusheng5_97	Phôc sinh 5 t¨ng cÊp tiªu hao	4		
+	334	csm_fusheng5_98	Phôc sinh 5 t¨ng cÊp tiªu hao	4		
+	335	csm_fusheng5_99	Phôc sinh 5 t¨ng cÊp tiªu hao	4		
+	336	haoxiacailiaobao	Tói Nguyªn LiÖu Hµo HiÖp	2	1	500
+	337	meishaoxue_7d	Mai Tiªu TuyÕt(7 ngµy)	1	1	500
+	338	xiezhu_7d	Héc Ch©u (7 ngµy)	1	1	500
+	339	zuipo_7d	Tóy Ph¸ch (7 ngµy)	1	1	500
+	340	haoxia_ring	Nhãm giíi chØ Hµo HiÖp	2	1	500
+	341	xialuxiangfeng_1	Th­ëng HiÖp Lé T­¬ng Phïng Lv1	2	1	500
+	342	xialuxiangfeng_2	Th­ëng HiÖp Lé T­¬ng Phïng Lv2	2	1	500
+	343	haoxiafangju	Nhãm phßng cô Hµo HiÖp	2	1	500
+	344	tashaxing_7d	Nhãm Ngo¹i Trang §¹p Sa Hµnh	2	1	500
+	345	hantangyan_7d	Nhãm Ngo¹i Trang Hµn §­êng Nh¹n	2	1	500
+	346	mashentouzhong_7d	Nhãm Xóc X¾c Ma ThÇn	2	1	500
+	347	chunjie_zongzi	B¸nh Ngon	2	1	500
+	348	chunjie_xiaonianshou	Quµ TiÓu Niªn Thó	2	1	500
+	349	chunjie_danianshou	§¹i Niªn Thó Tu LuyÖn	2	1	500
+	350	chunjie_kainianfan	M·n Hång	2	1	500
+	351	xinchunchoujiangquan	VÐ Sè TÕt ¢m LÞch	2	1	500
+	352	gem_lv6_normal	B¶o Th¹ch CÊp 6	2		
+	353	zhaoyaoqi	Thó Nu«i HiÕm Lv7	2	3	500
+	354	baiyaoyuanshen	Thó Nu«i Th­êng Lv7	2	3	500
+	355	xiaofudai_1	Nhãm Tói Phóc Lîi-Nhá-NgÉu Nhiªn	2	1	
+	356	dafudai_1	Nhãm Tói Phóc Lîi-Lín-NgÉu Nhiªn	2	1	
+	357	xiaofudai	Tói Phóc Lîi-Nhá	3	2	
+	358	dafudai	Tói Phóc Lîi-Lín	3	2	
+	359	6ji_huoban_book	S¸ch Kü N¨ng Thó C­ng Lv6	2	3	500
+	360	KFboss_libao1	Tói Quµ BOSS Liªn Server ( kinh nghiÖm)	3		
+	361	KFboss_libao2	Tói Quµ BOSS Liªn Server (§¹o cô ngÉu nhiªn)	2		
+	362	KFboss_libaojihe	Tæng hîp hai tói quµ trªn	3	1	
+	363	VNG_event1	VNG_event1	2		
+	364	VNG_event2	VNG_event2	2		
+	365	VNG_event3	VNG_event3	2		
+	366	suolingshixiang	R­¬ng Táa Linh Th¹ch	2	1	
+	367	yizhu5_7	Th­¬ng H¶i Ch©u Lv5-Lv7 (Kho¸)	2	1	
+	368	fenghua1	Quµ §¹i Sø Phong Hoa_Trang søc ®eo h«ng h¹n giê	2		
+	369	fenghua2	Quµ §¹i Sø Phong Hoa_Trang søc ®eo h«ng vÜnh viÔn	2		
+	370	fenghua3	Quµ §¹i Sø Phong Hoa-Tæng Hîp	2	1	
+	371	kfymg_win	Nh¹n M«n Quan Liªn Server-Th­ëng ChiÕn Th¾ng	2	1	
+	372	kfymg_failure	Nh¹n M«n Quan Liªn Server-Th­ëng ThÊt B¹i	2	1	
+	373	dilingjinghua	Thó Nu«i HiÕm Lv8	2	3	500
+	1000	csm_100_tianjiaoling	Tiªu hao 100 Thiªn Kiªu LÖnh	4		

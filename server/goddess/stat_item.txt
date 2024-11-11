@@ -1,0 +1,12 @@
+ItemName	ItemGene	ItemSub	ItemDetail	StatByRole
+Tö Kim Hång Bao	2	1	537	1
+§¹i hång bao hoµng kim	2	1	539	1
+B¹ch Kim Hång Bao	2	1	30229	1
+Thiªn Kiªu LÖnh	2	97	236	1
+Thiªn Th¹ch Tinh Th¹ch	2	1	1009	1
+Thiªn M«n Kim LÖnh	2	1	30370	1
+Thiªn Cang LÖnh	2	95	204	1
+VËt phÈm Xu	2	1	30230	1
+§¹i ng©n phiÕu	2	1	199	1
+Hoµng Kim §¹i Ng©n PhiÕu 	2	1	30490	1
+Phong Bao 10k VND 	2	1	40062	1

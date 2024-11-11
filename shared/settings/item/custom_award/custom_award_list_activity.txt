@@ -1,0 +1,10 @@
+desc	group_id	rate	award_name	award_type	item_g	item_d	item_p	num	neet_body	need_route	bind	expire_hours	msg_type	runtime_stat_id	script	func
+		groupSum=1000000	NOT NULL	1=OtherGroup	5=Money	9=XiuWei		if award_type=OtherGroup is refer group_id	-1|1~4	-1|0~30	0=Kh«ng khãa, mÆc ®Þnh		0=None(default)	Eg: 2;3		
+				2=Script	6=ZhenQi	10=huoban					4=Khãa, th­êng dïng		1=GlobalMsg			
+				3=Item	7=JunGong	11=linglizhi					1=IDENTIFY §· gi¸m ®Þnh					
+				4=Exp	8=JingLi	12=ShengWang					2=PICKBIND nhÆt khãa					
+				0 = trèng, bæ sung tû lÖ kh«ng ®ñ 100%		13=ShiMenGongXianDu					3=EQUIPBIND khãa					
+				14=ShiLiShegnWang		16=ZhanChangJiFen					5=PRESENT_IB_ITEM TÆng ®¹o cô					
+				15=ShiLiGongXiandu		17=PetChengZhangZhi					99=default					
+				18=FengHuaPoint												
+																

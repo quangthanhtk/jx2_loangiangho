@@ -1,0 +1,30 @@
+Name	G	D	P	Num	freePbby	freeExpire	freeBind	freeNotice	Pbby	Expire	Bind	Notice
+Tªn vËt phÈm:	id	id	id	Chän	Tû lÖ miÔn phÝ (§iÒn ngÉu nhiªn)	Thêi gian tån t¹i (Ngµy)	Khãa kh«ng (4 khãa, 1 kh«ng khãa)	Th«ng b¸o kh«ng	Tû lÖ (§iÒn ngÉu nhiªn)	Thêi gian tån t¹i (Ngµy)	Khãa kh«ng	Th«ng b¸o kh«ng
+Thanh Long Hån	2	1	31194	10	1000	0	4	0	1000	0	4	0
+1 TÈy T©m Th¹ch CÊp 7	2	1	31402	1	5000	0	4	0	5000	0	4	0
+1 LuyÖn L« ThiÕt cÊp 7	2	1	31401	1	5000	0	4	0	5000	0	4	0
+1 LuyÖn L« ThiÕt cÊp 8	2	1	31614	1	3000	0	4	1	3000	0	4	1
+1 TÈy T©m Th¹ch CÊp 8	2	1	31615	1	3000	0	4	1	3000	0	4	1
+1 Thiªn Cang LÖnh	2	95	204	1	1000	0	4	0	1000	0	4	0
+1 Thiªn M«n Kim LÖnh	2	1	30370	1	1000	0	4	1	1000	0	4	1
+50 HiÖp nghÜa chi chøng	2	1	30912	50	7000	0	4	0	7000	0	4	0
+500 Bét tr©n ch©u	2	102	215	500	3000	0	4	0	3000	0	4	0
+1 X· Qu©n Táa Linh Th¹ch 1	2	1	31391	5	5000	0	4	0	5000	0	4	0
+1 X· Qu©n Táa Linh Th¹ch 2	2	1	31392	5	5000	0	4	1	5000	0	4	1
+1 X· Qu©n Táa Linh Th¹ch 3	2	1	31393	5	5000	0	4	1	5000	0	4	1
+1 X· Qu©n Táa Linh Th¹ch 4	2	1	31394	5	5000	0	4	0	5000	0	4	0
+1 X· Qu©n Táa Linh Th¹ch 5	2	1	31395	1	5000	0	4	1	5000	0	4	1
+1 X· Qu©n Táa Linh Th¹ch 6	2	1	31396	1	5000	0	4	0	5000	0	4	0
+1 Tói ®¸ quý 7	2	1	31505	1	6000	0	4	0	6000	0	4	0
+1 Th­¬ng H¶i Ch©u 7	2	102	225	1	500	0	4	0	500	0	4	0
+1 Th­¬ng H¶i Ch©u 6	2	102	224	1	5000	0	4	1	5000	0	4	1
+1 Th­¬ng H¶i Ch©u 5	2	102	223	1	3000	0	4	1	3000	0	4	1
+1 Tói ®¸ quý 8	2	1	40030	1	3000	0	4	0	3000	0	4	0
+5 b¸nh Ýt ch©n gµ	2	1	1124	5	5000	0	4	1	5000	0	4	1
+5 b¸nh Ýt B¸c B¶o	2	1	1125	5	5000	0	4	0	5000	0	4	0
+1§¹i Ch©n vâ hån th¹ch	2	114	144	1	2000	0	4	0	2000	0	4	0
+3 Ch©n vâ hån th¹ch	2	114	143	3	3000	0	4	0	3000	0	4	0
+B¸t nh· lín	2	0	398	1	300	0	4	1	300	0	4	1
+Tô linh quyÕt	2	1	31248	1	5000	0	4	1	5000	0	4	1
+50 Bét tr©n ch©u Tinh anh	2	1	40137	50	3000	0	4	0	3000	0	4	0
+B¸t nh· lín	2	0	398	1	200	0	4	1	200	0	4	1

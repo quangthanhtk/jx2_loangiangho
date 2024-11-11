@@ -1,0 +1,15 @@
+#!/bin/bash
+# -----------------------------------------------------
+# Load Variables
+DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+source "$DIR/config.sh"
+
+echo "===== Begin task: Start Remove Backup ====="
+cd ${APP_DIR}/goddess
+rm -rf paysys
+rm -rf jx2ib_log
+rm -rf jx2ib_db
+rm -rf jx2ib_cdkey
+rm -rf global_jx2ib_log
+rm -rf global_jx2ib_db
+echo "===== Finish task: Start Remove Backup ====="

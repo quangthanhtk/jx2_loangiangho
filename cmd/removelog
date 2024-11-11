@@ -1,0 +1,43 @@
+#!/bin/bash
+# -----------------------------------------------------
+# Load Variables
+DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+source "$DIR/config.sh"
+
+echo "===== Begin task: Start Remove Logs ====="
+echo "----- Remove Paysys logs..."
+cd ${APP_DIR}/paysys
+rm -rf logs Logs
+
+echo "----- Remove Goddess logs..."
+cd ${APP_DIR}/goddess
+rm -rf logs Logs Statistic
+rm -rf Full_KG_RoleStatistic.dat
+rm -rf RoleProcessorData.dat
+rm -rf Top10_KG_RoleStatistic.dat
+
+echo "----- Remove Bishop logs..."
+cd ${APP_DIR}/bishop
+rm -rf logs
+
+echo "----- Remove Relay logs..."
+cd ${APP_DIR}/relay
+rm -rf _RELAY_LOG_ gest_convention_rank IBLog logs RelayRunData runtime_stat_result TongSortLog
+
+echo "----- Remove GameServer1 logs..."
+cd ${APP_DIR}/gameserver1
+rm -rf _GAMESVR_LOG_ logs
+
+echo "----- Remove GRouter logs..."
+cd ${APP_DIR}/grouter
+rm -rf logs
+
+echo "----- Remove GRelay logs..."
+cd ${APP_DIR}/grelay
+rm -rf _RELAY_LOG_ gest_convention_rank IBLog logs RelayRunData runtime_stat_result TongSortLog
+
+echo "----- Remove GGameServer1 logs..."
+cd ${APP_DIR}/ggameserver1
+rm -rf _GAMESVR_LOG_ logs
+
+echo "===== Finish task: Start Remove Logs ====="

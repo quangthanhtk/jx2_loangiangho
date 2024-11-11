@@ -1,0 +1,4 @@
+Script	FuncName	Enable
+§­íng dÉn file	Thùc hiÖn hµm sè	Cã hiÖu kh«ng
+\script\missions\yp\pop_ex.lua	Init	1
+\script\function\zk_update\zk_main.lua	Init	1

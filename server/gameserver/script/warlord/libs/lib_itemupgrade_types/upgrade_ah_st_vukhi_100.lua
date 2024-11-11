@@ -1,0 +1,97 @@
+WItemUpgrade:RegType({
+    nGroupId = 5,
+    szLogTitle = "upgrade_ah_st_vukhi_100",
+    szFeatureName = "N©ng c p vÚ kh› »m Huy’t thµnh S∏t Tinh 100%", nDateOpen = 1, nDateClose = 1, -- ngµy mÎ t›nh n®ng, 1= lu´n mÎ; 0= lu´n Æ„ng; Æﬁnh dπng yyyymmdd t¯c lµ Æﬁnh ngµy sΩn
+    szPutinTitle = "ß∆t vµo vÚ kh› »H",
+    nPutinNum = 1,
+    szConsumeInfo = " vµ <color=white>1 vÚ kh› »m Huy’t c≠Íng h„a 15<color>",
+    tbMaterialConsume = {
+        tbItems = {
+            { szName = "Thi™n Cang L÷nh", tbProp = { 2, 95, 204 }, nCount = 20 },
+            { szName = "Thi™n M´n Kim L÷nh", tbProp = { 2, 1, 30370 }, nCount = 20 },
+            --{ szName = "Hoµng Kim ßπi HÂng Bao", tbProp = { 2, 1, 539 }, nCount = 20 },
+        },
+    },
+    nMatchBodyMode = 4, -- Ch’ ÆÈ t˘ ÆÈng tr∂ v“ vÀt ph»m phÔ hÓp vÌi ki”u h◊nh ng≠Íi n©ng c p, 1= gi˜ nguy™n, 2= auto
+    nEnhanceReq = 0, -- Y™u c«u ÆÈ c≠Íng h„a tı m y? gi∏ trﬁ =0 lµ ko ki”m tra
+    nEnhanceMode = 1, -- Ch’ ÆÈ gi˜ c≠Íng h„a: gi∏ trﬁ =1 lµ gi˜ nguy™n ÆÈ c≠Íng h„a; =2 lµ trı Æi 1 Æ¨n vﬁ; =3 lµ n’u >= 7 th◊ v“ lπi 7, n’u < 7 th◊ v“ 0; 4= lµ v“ 0
+    nMaxRandom = 10000, -- Random tı 1 -> m_nMaxRandom
+    nLuckyNum = 10000, -- Trong kho∂ng tı 1 -> m_nLuckyNum sœ ra thµnh c´ng, gi∏ trﬁ =0 lµ th t bπi toµn tÀp; =m_nMaxRandom lµ 100% thµnh c´ng
+    nDoWaitTime = 3, -- T›nh bªng gi©y
+    tbItemAllowUpgrade = {
+        { [1] = { "»m Huy’t ßao", { 0, 3, 30884 } }, nSex = 0, nBody = 0, nRoute = 2 },
+        { [1] = { "»m Huy’t Tr≠Óng", { 0, 8, 30885 } }, nSex = 0, nBody = 0, nRoute = 3 },
+        { [1] = { "»m Huy’t ThÒ", { 0, 0, 30886 } }, nSex = 0, nBody = 0, nRoute = 4 },
+        { [1] = { "»m Huy’t Ch©m", { 0, 1, 30887 } }, nSex = 0, nBody = 0, nRoute = 6 },
+        { [1] = { "»m Huy’t Ki’m", { 0, 2, 30888 } }, nSex = 0, nBody = 0, nRoute = 8 },
+        { [1] = { "»m Huy’t C«m", { 0, 10, 30889 } }, nSex = 0, nBody = 0, nRoute = 9 },
+        { [1] = { "»m Huy’t ThÒ", { 0, 0, 30890 } }, nSex = 0, nBody = 0, nRoute = 11 },
+        { [1] = { "»m Huy’t CÂn", { 0, 5, 30891 } }, nSex = 0, nBody = 0, nRoute = 12 },
+        { [1] = { "»m Huy’t Ki’m", { 0, 2, 30892 } }, nSex = 0, nBody = 0, nRoute = 14 },
+        { [1] = { "»m Huy’t BÛt", { 0, 9, 30893 } }, nSex = 0, nBody = 0, nRoute = 15 },
+        { [1] = { "»m Huy’t Th≠¨ng", { 0, 6, 30894 } }, nSex = 0, nBody = 0, nRoute = 17 },
+        { [1] = { "»m Huy’t Cung", { 0, 4, 30895 } }, nSex = 0, nBody = 0, nRoute = 18 },
+        { [1] = { "»m Huy’t Song ßao", { 0, 7, 30896 } }, nSex = 0, nBody = 0, nRoute = 20 },
+        { [1] = { "»m Huy’t Tr∂o", { 0, 11, 30897 } }, nSex = 0, nBody = 0, nRoute = 21 },
+        { [1] = { "»m Huy’t Ki’m", { 0, 2, 30898 } }, nSex = 0, nBody = 0, nRoute = 23 },
+        { [1] = { "»m Huy’t ßao", { 0, 3, 30899 } }, nSex = 0, nBody = 0, nRoute = 25 },
+        { [1] = { "»m Huy’t BÛt", { 0, 9, 30900 } }, nSex = 0, nBody = 0, nRoute = 26 },
+        { [1] = { "»m Huy’t Tr∂o", { 0, 11, 30901 } }, nSex = 0, nBody = 0, nRoute = 27 },
+        { [1] = { "»m Huy’t Phi’n", { 0, 13, 30902 } }, nSex = 0, nBody = 0, nRoute = 29 },
+        { [1] = { "»m Huy’t ßﬁch", { 0, 12, 30903 } }, nSex = 0, nBody = 0, nRoute = 30 },
+        { [1] = { "»m Huy’t ChÒy", { 0, 14, 32164 } }, nSex = 0, nBody = 0, nRoute = 31 },
+        { [1] = { "»m Huy’t Ki’m", { 0, 2, 32192 } }, nSex = 0, nBody = 0, nRoute = 32 },
+    },
+    tbTargetItem = {
+        -- Trang bﬁ gËc
+        --{[1]={"S∏t Tinh-L≠u Ly GiÌi ßao", {0,3,30884}}, nSex=0, nBody=0, nRoute=2},
+        --{[1]={"S∏t Tinh-L´i ¢m Nang ThÒ", {0,8,30885}}, nSex=0, nBody=0, nRoute=3},
+        --{[1]={"S∏t Tinh-Kinh L´i Thi“n Tr≠Óng", {0,0,30886}}, nSex=0, nBody=0, nRoute=4},
+        --{[1]={"S∏t Tinh-¢m D≠¨ng Xuy™n ∂nh", {0,1,30887}}, nSex=0, nBody=0, nRoute=6},
+        --{[1]={"S∏t Tinh-Tı Hµn ¢m Ki’m", {0,2,30888}}, nSex=0, nBody=0, nRoute=8},
+        --{[1]={"S∏t Tinh-Cˆu Hoµn BËi C«m", {0,10,30889}}, nSex=0, nBody=0, nRoute=9},
+        --{[1]={"S∏t Tinh-Quy L©n HÈ ThÒ", {0,0,30890}}, nSex=0, nBody=0, nRoute=11},
+        --{[1]={"S∏t Tinh-Tr n Ngπo C´n", {0,5,30891}}, nSex=0, nBody=0, nRoute=12},
+        --{[1]={"S∏t Tinh-Thu«n Phong Ki’m", {0,2,30892}}, nSex=0, nBody=0, nRoute=14},
+        --{[1]={"S∏t Tinh-Tinh ß»u Chuy”n BÛt", {0,9,30893}}, nSex=0, nBody=0, nRoute=15},
+        --{[1]={"S∏t Tinh-Ph∏ Qu©n TrÀn Th≠¨ng", {0,6,30894}}, nSex=0, nBody=0, nRoute=17},
+        --{[1]={"S∏t Tinh-Truy M÷nh Cung", {0,4,30895}}, nSex=0, nBody=0, nRoute=18},
+        --{[1]={"S∏t Tinh-Thi÷p CËt Huy’t ßao", {0,7,30896}}, nSex=0, nBody=0, nRoute=20},
+        --{[1]={"S∏t Tinh-Luy÷n HÂn Huy’t Tr∂o", {0,11,30897}}, nSex=0, nBody=0, nRoute=21},
+        --{[1]={"S∏t Tinh-Ng˘ Thi™n Phong Ki’m", {0,2,30898}}, nSex=0, nBody=0, nRoute=23},
+        --{[1]={"S∏t Tinh-Th«n Di÷m Thi™n ßao", {0,3,30899}}, nSex=0, nBody=0, nRoute=25},
+        --{[1]={"S∏t Tinh-Th«n Phong Ph∏n BÛt", {0,9,30900}}, nSex=0, nBody=0, nRoute=26},
+        --{[1]={"S∏t Tinh-Th«n Linh ChÛ Tr∂o", {0,11,30901}}, nSex=0, nBody=0, nRoute=27},
+        --{[1]={"S∏t Tinh-Linh Lung Chi", {0,13,30902}}, nSex=0, nBody=0, nRoute=29},
+        --{[1]={"S∏t Tinh-Cˆu Ti™u S∏o", {0,12,30903}}, nSex=0, nBody=0, nRoute=30},
+        --{[1]={"S∏t Tinh-Ng≠ Tµng", {0,14,32164}}, nSex=0, nBody=0, nRoute=31},
+        --{[1]={"S∏t Tinh-Chÿ Qua", {0,2,32192}}, nSex=0, nBody=0, nRoute=32},
+
+        -- L÷nh bµi gËc
+        --{[1]={"S∏t Tinh L÷nh Bµi (VÚ Kh›)", {2,1,31317}}, nSex=0, nBody=0, nRoute=0},
+
+        -- L÷nh bµi mod l≠u b∂o l≠u c≠Íng h„a
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+        { [1] = { "S∏t Tinh L÷nh Bµi (VÚ Kh›)", { 2, 1, 40004 } }, nSex = 0, nBody = 0, nRoute = 0 },
+    },
+});

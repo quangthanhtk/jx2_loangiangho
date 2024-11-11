@@ -1,0 +1,86 @@
+Tªn	Lo¹i h×nh chİnh	Lo¹i h×nh phô	Ph©n lo¹i chi tiÕt	NÆng	Gi¸	SÕp chång nhiÒu nhÊt	Håi phôc thuéc tİnh1	TrŞ sè phôc håi thuéc tİnh mçi n÷a gi©y (1)	Håi phôc thuéc tİnh2	TrŞ sè phôc håi thuéc tİnh mçi n÷a gi©y (2)	Håi phôc thuéc tİnh3	TrŞ sè phôc håi thuéc tİnh mçi n÷a gi©y (3)	Håi phôc thuéc tİnh4	TrŞ sè phôc håi thuéc tİnh mçi n÷a gi©y (4)	Thêi gian duy tr× hiÖu lùc (Sè ch½n)	L­u ( Ch÷ sè)	L­u ( Ch÷ sè)	HiÖn h×nh nhá trªn giao diÖn	HiÖn h×nh lín trªn giao diÖn	ThuyÕt minh	L­u (chuçi kı tù)	Khi vøt ra ngoµi sÏ hiÓn thŞ tªn	File gèc	CÊp	Cã thÓ giao dŞch hay kh«ng ( 0 cã thÓ giao dŞch, cã thÓ b¸n; 1 kh«ng thÓ giao dŞch kh«ng thÓ b¸n; 2 cã thÓ b¸n, kh«ng thÓ giao dŞch; 3 kh«ng thÓ b¸n, cã thÓ giao dŞch; 4 cã thÓ b¸n, sau khi mang vµo sÏ bŞ khãa)	Cã/kh«ng thÓ vøt (0 ®­îc; 1 kh«ng ®­îc)	B¶o l­u 1	B¶o l­u 2	B¶o l­u 3	Tiªu chİ ph¸t triÓn	Biªn hiÖu ph¸t triÓn	Biªn hiÖu më khãa	Biªn hiÖu kinh nghiÖm
+Ngßi Ph¸o	2	200	1	0	0	2000												\image\item\other\±¬ÖñÒıĞÅ32.spr	\image\item\other\±¬ÖñÒıĞÅ80.spr	Dïng ®Ó chÕ t¹o Ph¸o Hoa Huy Hoµng vµ Ph¸o Hoa Rùc Rì		ThÇn bİ		1	0	0							
+èng Phãng	2	200	2	0	0	2000												\image\item\other\ÖÀµ¯Í²32.spr	\image\item\other\ÖÀµ¯Í²80.spr	Dïng ®Ó chÕ t¹o Ph¸o Hoa Huy Hoµng vµ Ph¸o Hoa Rùc Rì		ThÇn bİ		1	0	0							
+Thuèc Næ	2	200	3	0	0	2000												\image\item\other\Õ¨Ò©32.spr	\image\item\other\Õ¨Ò©80.spr	Dïng ®Ó chÕ t¹o Ph¸o Hoa §¹i LÔ.		ThÇn bİ		1	0	0							
+Ph¸o Hoa Huy Hoµng	2	200	4	0	0	2000												\image\item\other\»Ô»Í±¬Öñ32.spr	\image\item\other\»Ô»Í±¬Öñ80.spr	Dïng Ngßi Ph¸o vµ èng Phãng chÕ t¹o ra		ThÇn bİ		1	0	1							
+Ph¸o Hoa Rùc Rì	2	200	5	0	0	2000												\image\item\other\²ÓÀÃ±¬Öñ32.spr	\image\item\other\²ÓÀÃ±¬Öñ80.spr	Dïng Ngßi Ph¸o vµ èng Phãng chÕ t¹o ra		ThÇn bİ		1	0	1							
+Ph¸o Hoa §¹i LÔ	2	200	6	0	0	2000												\image\item\other\½ÚÈÕ±¬Öñ32.spr	\image\item\other\½ÚÈÕ±¬Öñ80.spr	Dïng Ph¸o Hoa Huy Hoµng, Ph¸o Hoa Rùc Rì vµ Thuèc Næ chÕ t¹o ra		ThÇn bİ		1	0	1							
+C¸c lo¹i ®Ëu	2	200	7	0	0	2000												\image\item\other\¸÷Àà¶¹32.spr	\image\item\other\¸÷Àà¶¹80.spr	Dïng ®Ó nÊu ChÌ ba mµu vµ ChÌ ThËp CÈm		ThÇn bİ		1	0	0							
+§­êng PhÌn	2	200	8	0	0	2000												\image\item\other\±ùÌÇ32.spr	\image\item\other\±ùÌÇ80.spr	Dïng ®Ó nÊu ChÌ ba mµu vµ ChÌ ThËp CÈm		ThÇn bİ		1	0	0							
+H¹t Sen	2	200	9	0	0	2000												\image\item\other\Á«×Ó32.spr	\image\item\other\Á«×Ó80.spr	Dïng ®Ó nÊu ChÌ Sen		ThÇn bİ		1	0	0							
+ChÌ ba mµu	2	200	10	0	0	2000												\image\item\other\ÈıÉ«¸ş32.spr	\image\item\other\ÈıÉ«¸ş80.spr	Dïng §­êng PhÌn vµ c¸c lo¹i §Ëu chÕ t¹o ra		ThÇn bİ		1	0	1							
+ChÌ ThËp CÈm	2	200	11	0	0	2000												\image\item\other\Ê²½õ¸ş32.spr	\image\item\other\Ê²½õ¸ş80.spr	Dïng §­êng PhÌn vµ c¸c lo¹i §Ëu chÕ t¹o ra		ThÇn bİ		1	0	1							
+ChÌ Sen	2	200	12	0	0	2000												\image\item\other\Á«×Ó¸ş32.spr	\image\item\other\Á«×Ó¸ş80.spr	Dïng Canh Tam S¾c, Canh ThËp CÈm vµ H¹t Sen chÕ t¹o ra		ThÇn bİ		1	0	1							
+DiÒu GiÊy	2	200	13	0	0	2000												\image\item\other\Ö½ğ° 32.spr	\image\item\other\Ö½ğ° 80 .spr	Dïng ®Ó chÕ t¹o Hép §å Ch¬i Nhá vµ Hép §å Ch¬i Lín		ThÇn bİ		1	0	0							
+Con Quay	2	200	14	0	0	2000												\image\item\other\ÍÓÂİ 32.spr	\image\item\other\ÍÓÂİ 80.spr	Dïng ®Ó chÕ t¹o Hép §å Ch¬i Nhá vµ Hép §å Ch¬i Lín		ThÇn bİ		1	0	0							
+Robot	2	200	15	0	0	2000												\image\item\other\»úÆ÷ÈË 32.spr	\image\item\other\»úÆ÷ÈË 80.spr	Dïng ®Ó chÕ t¹o Thïng §å Ch¬i		ThÇn bİ		1	0	0							
+Hép §å Ch¬i Nhá	2	200	16	0	0	2000												\image\item\other\Ğ¡Íæ¾ßºĞ 32.spr	\image\item\other\Ğ¡Íæ¾ßºĞ 80.spr	Hép ®å ch¬i xinh x¾n		ThÇn bİ		1	0	1							
+Hép §å Ch¬i Lín	2	200	17	0	0	2000												\image\item\other\´óÍæ¾ßºĞ 32.spr	\image\item\other\´óÍæ¾ßºĞ 80.spr	Hép §å Ch¬i Lín		ThÇn bİ		1	0	1							
+Thïng §å Ch¬i	2	200	18	0	0	2000												\image\item\other\Íæ¾ßÏä 32.spr	\image\item\other\Íæ¾ßÏä 80.spr	Thïng ®å ch¬i chøa ®Çy ®å ch¬i		ThÇn bİ		1	0	1							
+Bót Mùc	2	200	19	0	0	2000												\image\item\other\±ÊÄ« 32.spr	\image\item\other\±ÊÄ« 80.spr	Dïng ®Ó chÕ t¹o Kû YÕu vµ L­u Bót		ThÇn bİ		1	0	0							
+TËp Vë	2	200	20	0	0	2000												\image\item\other\±¾×Ó 32.spr	\image\item\other\±¾×Ó 80.spr	Dïng ®Ó chÕ t¹o Kû YÕu vµ L­u Bót		ThÇn bİ		1	0	0							
+Hoa Phông Hoµng	2	200	21	0	0	2000												\image\item\other\·ï»Ë»¨ 32.spr	\image\item\other\·ï»Ë»¨ 80.spr	Dïng ®Ó chÕ t¹o Sæ Tay Kû NiÖm		ThÇn bİ		1	0	0							
+Kû YÕu	2	200	22	0	0	2000												\image\item\other\¼ÍÒª 32.spr	\image\item\other\¼ÍÒª 80.spr	Kû YÕu		ThÇn bİ		1	0	1							
+L­u Bót	2	200	23	0	0	2000												\image\item\other\Áô±Ê 32.spr	\image\item\other\Áô±Ê 80.spr	L­u Bót		ThÇn bİ		1	0	1							
+Sæ Tay Kû NiÖm	2	200	24	0	0	2000												\image\item\other\¼ÍÄîÊÖÔı 32.spr	\image\item\other\¼ÍÄîÊÖÔı 80.spr	Sæ Tay Kû NiÖm		ThÇn bİ		1	0	1							
+N­íc M¾t Chøc N÷	2	200	25	0	0	2000												\image\item\other\Ö¯Å®µÄÑÛÀá32.spr	\image\item\other\Ö¯Å®µÄÑÛÀá80.spr	Dïng ®Ó chÕ t¹o hép quµ Ng­u Lang vµ hép quµ Chøc N÷		ThÇn bİ		1	0	0							
+§ãa Hoa Ng­u Lang	2	200	26	0	0	2000												\image\item\other\Å£ÀÉµÄ»¨¶ä32.spr	\image\item\other\Å£ÀÉµÄ»¨¶ä80.spr	Dïng ®Ó chÕ t¹o hép quµ Ng­u Lang vµ hép quµ Chøc N÷		ThÇn bİ		1	0	0							
+CÇu ¤ Th­íc	2	200	27	0	0	2000												\image\item\other\ÈµÇÅ32.spr	\image\item\other\ÈµÇÅ80.spr	Dïng ®Ó chÕ t¹o hép quµ Uyªn ¦êng		ThÇn bİ		1	0	0							
+Hép Quµ Ng­u Lang	2	200	28	0	0	2000												\image\item\other\Å£ÀÉÀñºĞ32.spr	\image\item\other\Å£ÀÉÀñºĞ80.spr	Hép quµ Ng­u Lang, dïng ®ãa hoa ng­u lang vµ n­íc m¾t chøc n÷ ®Ó t¹o ra		ThÇn bİ		1	0	1							
+Hép Quµ Chøc N÷	2	200	29	0	0	2000												\image\item\other\Ö¯Å®ÀñºĞ32.spr	\image\item\other\Ö¯Å®ÀñºĞ80.spr	Hép quµ Chøc N÷, dïng ®ãa hoa Ng­u Lang vµ n­íc m¾t Chøc N÷ ®Ó t¹o ra		ThÇn bİ		1	0	1							
+Hép Quµ Uyªn ¦¬ng	2	200	30	0	0	2000												\image\item\other\Ô§ÑìÀñºĞ32.spr	\image\item\other\Ô§ÑìÀñºĞ80.spr	Hép quµ Uyªn ¦¬ng, dïng hép quµ Ng­u Lang, hép quµ Chøc N÷ vµ cÇu « th­íc ®Ó chÕ t¹o ra		ThÇn bİ		1	0	1							
+Bét m×	2	200	31	0	0	2000												\image\item\other\Ãæ·Û2016 32.spr	\image\item\other\Ãæ·Û2016 80.spr	Dïng ®Ó chÕ t¹o B¸nh Trung Thu Th­êng vµ B¸nh Trung Thu §Æc BiÖt		ThÇn bİ		1	0	0							
+Nh©n B¸nh	2	200	32	0	0	2000												\image\item\other\ÏÚ¶ù2016 32.spr	\image\item\other\ÏÚ¶ù2016 80.spr	Dïng ®Ó chÕ t¹o B¸nh Trung Thu Th­êng vµ B¸nh Trung Thu §Æc BiÖt		ThÇn bİ		1	0	0							
+Nh©n B¸nh ThËp CÈm	2	200	33	0	0	2000												\image\item\other\Ê²½õÏÚ2016 32.spr	\image\item\other\Ê²½õÏÚ2016 80.spr	Dïng ®Ó chÕ b¸nh thËp cÈm		ThÇn bİ		1	0	0							
+B¸nh trung thu	2	200	34	0	0	2000												\image\item\other\ÔÂ±ı2016 32.spr	\image\item\other\ÔÂ±ı2016 80.spr	N©ng cÊp tõ Bét M× vµ Nh©n B¸nh		ThÇn bİ		1	0	1							
+B¸nh ®Æc biÖt	2	200	35	0	0	2000												\image\item\other\ÌØÖÆÔÂ±ı2016 32.spr	\image\item\other\ÌØÖÆÔÂ±ı2016 80.spr	N©ng cÊp tõ Bét M× vµ Nh©n B¸nh		ThÇn bİ		1	0	1							
+B¸nh thËp cÈm	2	200	36	0	0	2000												\image\item\other\Ê²½õÔÂ±ı2016 32.spr	\image\item\other\Ê²½õÔÂ±ı2016 80.spr	N©ng cÊp tõ B¸nh Trung Thu Th­êng, B¸nh Trung Thu §Æc BiÖt vµ Nh©n B¸nh ThËp CÈm		ThÇn bİ		1	0	1							
+X¹ h­¬ng	2	200	37	0	0	2000												\image\item\other\¹ÌÌåÏãË®2016 32.spr	\image\item\other\¹ÌÌåÏãË®2016 80.spr	Dïng ®Ó chÕ t¹o N­íc Hoa Th­êng vµ N­íc Hoa Kh«		ThÇn bİ		1	0	0							
+Tói Th¬m	2	200	38	0	0	2000												\image\item\other\¿áÁÒÏãË®2016 32.spr	\image\item\other\¿áÁÒÏãË®2016 80.spr	Dïng ®Ó chÕ t¹o N­íc Hoa Th­êng vµ N­íc Hoa Kh«		ThÇn bİ		1	0	0							
+Tói Th¬m§Æc BiÖt	2	200	39	0	0	2000												\image\item\other\ÆÕÍ¨ÏãË®2016 32.spr	\image\item\other\ÆÕÍ¨ÏãË®2016 80.spr	Dïng ®Ó chÕ t¹o N­íc Hoa Nång Nµn		ThÇn bİ		1	0	0							
+n­íc hoa th­êng 	2	200	40	0	0	2000												\image\item\other\÷êÏã2016 32.spr	\image\item\other\÷êÏã2016 80.spr	Dïng X¹ H­¬ng vµ Tói Th¬m chÕ t¹o ra		ThÇn bİ		1	0	1							
+N­íc Hoa Kh«	2	200	41	0	0	2000												\image\item\other\ÌØ±ğµÄÏãÄÒ2016 32.spr	\image\item\other\ÌØ±ğµÄÏãÄÒ2016 80.spr	Dïng X¹ H­¬ng vµ Tói Th¬m chÕ t¹o ra		ThÇn bİ		1	0	1							
+N­íc Hoa Nång Nµn	2	200	42	0	0	2000												\image\item\other\ÏãÄÒ2016 32.spr	\image\item\other\ÏãÄÒ2016 80.spr	Dïng N­íc Hoa Th­êng, N­íc Hoa Kh« vµ Tói Th¬m§Æc BiÖt chÕ t¹o ra		ThÇn bİ		1	0	1							
+Tói Quµ	2	200	43	0	0	2000												\image\item\other\Àñ°ü2016 32.spr	\image\item\other\Àñ°ü2016 80.spr	Dïng ®Ó chÕ t¹o Hép Quµ B¹c vµ Hép Quµ B¹ch Kim		ThÇn bİ		1	0	0							
+GiÊy B¹c	2	200	44	0	0	2000												\image\item\other\ÒøÉ«Ö½2016 32.spr	\image\item\other\ÒøÉ«Ö½2016 80.spr	Dïng ®Ó chÕ t¹o Hép Quµ B¹c vµ Hép Quµ B¹ch Kim		ThÇn bİ		1	0	0							
+ThiÖp T«n S­	2	200	45	0	0	2000												\image\item\other\×ğÊ¦Ö®Ìû2016 32.spr	\image\item\other\×ğÊ¦Ö®Ìû2016 80.spr	Dïng ®Ó chÕ t¹o Hép Quµ T«n S­		ThÇn bİ		1	0	0							
+Hép Quµ B¹c	2	200	46	0	0	2000												\image\item\other\ÒøÉ«ÀñºĞ2016 32.spr	\image\item\other\ÒøÉ«ÀñºĞ2016 80.spr	Dïng Tói Quµ vµ GiÊy B¹c t¹o ra		ThÇn bİ		1	0	1							
+Hép Quµ B¹ch Kim	2	200	47	0	0	2000												\image\item\other\°×½ğÀñºĞ2016 32.spr	\image\item\other\°×½ğÀñºĞ2016 80.spr	Dïng Tói Quµ vµ GiÊy B¹c t¹o ra		ThÇn bİ		1	0	1							
+Hép Quµ T«n s­	2	200	48	0	0	2000												\image\item\other\×ğÊ¦ÀñºĞ2016 32.spr	\image\item\other\×ğÊ¦ÀñºĞ2016 80.spr	Dïng Hép Quµ B¹c, Hép Quµ B¹ch Kim vµ ThiÖp T«n S­ t¹o ra		ThÇn bİ		1	0	1							
+C©y th«ng gi¸o héi	2	200	49	0	0	2000												\image\item\other\Ê¥µ®Ê÷2016 32.spr	\image\item\other\Ê¥µ®Ê÷2016 80.spr	Dïng ®Ó chÕ t¹o C©y Th«ng An Lµnh vµ C©y Th«ng Êm ¸p 		ThÇn bİ		1	0	0							
+VËt Trang Trİ	2	200	50	0	0	2000												\image\item\other\Ê¥µ®Ê÷ÊÎÆ·2016 32.spr	\image\item\other\Ê¥µ®Ê÷ÊÎÆ·2016 80.spr	Dïng ®Ó chÕ t¹o C©y Th«ng An Lµnh vµ C©y Th«ng Êm ¸p 		ThÇn bİ		1	0	0							
+Ng«i Sao Gi¸ng Sinh	2	200	51	0	0	2000												\image\item\other\Ê¥µ®ĞÇĞÇ2016 32.spr	\image\item\other\Ê¥µ®ĞÇĞÇ2016 80.spr	Dïng ®Ó chÕ t¹o C©y Th«ng Gi¸ng Sinh		ThÇn bİ		1	0	0							
+C©y Th«ng An Lµnh	2	200	52	0	0	2000												\image\item\other\Æ½°²Ê¥µ®Ê÷2016 32.spr	\image\item\other\Æ½°²Ê¥µ®Ê÷2016 80.spr	Dïng C©y Th«ng vµ VËt Trang Trİ t¹o ra		ThÇn bİ		1	0	1							
+C©y Th«ng Êm ¸p	2	200	53	0	0	2000												\image\item\other\ÎÂÅ¯Ê¥µ®Ê÷2016 32.spr	\image\item\other\ÎÂÅ¯Ê¥µ®Ê÷2016 80.spr	Dïng C©y Th«ng vµ VËt Trang Trİ t¹o ra		ThÇn bİ		1	0	1							
+C©y Th«ng Gi¸ng Sinh	2	200	54	0	0	2000												\image\item\other\»¶ÀÖÊ¥µ®Ê÷2016 32.spr	\image\item\other\»¶ÀÖÊ¥µ®Ê÷2016 80.spr	Dïng C©y Th«ng An Lµnh, C©y Th«ng Êm ¸p vµ Ng«i Sao Gi¸ng Sinh t¹o ra		ThÇn bİ		1	0	1							
+L¸ Dong	2	200	55	0	0	2000												\image\item\other\Ò¶×Ó2017 32.spr	\image\item\other\Ò¶×Ó2017 80.spr	Dïng ®Ó chÕ t¹o B¸nh TĞt vµ B¸nh Ch­ng		ThÇn bİ		1	0	0							
+G¹o nÕp	2	200	56	0	0	2000												\image\item\other\Å´Ã×2017 32.spr	\image\item\other\Å´Ã×2017 80.spr	Dïng ®Ó chÕ t¹o B¸nh TĞt vµ B¸nh Ch­ng		ThÇn bİ		1	0	0							
+§Ëu Xanh ThŞt Heo	2	200	57	0	0	2000												\image\item\other\ÂÌ¶¹ÈâÏÚ2017 32.spr	\image\item\other\ÂÌ¶¹ÈâÏÚ2017 80.spr	Dïng ®Ó chÕ t¹o B¸nh Ch­ng ThËp CÈm		ThÇn bİ		1	0	0							
+B¸nh TĞt	2	200	58	0	0	2000												\image\item\other\Ô²ôÕ2017 32.spr	\image\item\other\Ô²ôÕ2017 80.spr	N©ng cÊp tõ G¹o NÕp vµ L¸ Dong		ThÇn bİ		1	0	1							
+B¸nh Ch­ng	2	200	59	0	0	2000												\image\item\other\·½ôÕ2017 32.spr	\image\item\other\·½ôÕ2017 80.spr	N©ng cÊp tõ G¹o NÕp vµ L¸ Dong		ThÇn bİ		1	0	1							
+B¸nh Ch­ng ThËp CÈm	2	200	60	0	0	2000												\image\item\other\Ê²½õ·½ôÕ2017 32.spr	\image\item\other\Ê²½õ·½ôÕ2017 80.spr	N©ng cÊp tõ B¸nh TĞt, B¸nh Ch­ng vµ §Ëu Xanh ThŞt Heo		ThÇn bİ		1	0	1							
+ThiÖp B¹c Xu©n Míi	2	200	61	0	0	9999												\image\item\other\Òø¿¨a1.spr	\image\item\other\Òø¿¨a0.spr	ThiÖp B¹c tuyÖt ®Ñp, dïng ®Ó ®æi vËt phÈm trong cöa hµng Xu©n Míi.		ThÇn bİ		1	2	1							
+ThiÖp Vµng Xu©n Míi	2	200	62	0	0	9999												\image\item\other\½ğ¿¨a1.spr	\image\item\other\½ğ¿¨a0.spr	ThiÖp Vµng tuyÖt ®Ñp, dïng ®Ó ®æi vËt phÈm trong cöa hµng Xu©n Míi.		ThÇn bİ		1	0	1							
+R­¬ng Xu©n Míi	2	200	63	0	0	99												\image\item\other\¸ß¼¶ÎåĞĞÔ­Ê¯±¦Ïäa1.spr	\image\item\other\¸ß¼¶ÎåĞĞÔ­Ê¯±¦Ïäa0.spr	R­¬ng r¬i ra tõ ng­êi Niªn Thó, nhÊn chuét ph¶i sö dông ®Ó nhËn th­ëng.		ThÇn bİ		1	2	1							
+Háa D­îc S¬ ChÕ	2	200	64	0	0	999												\image\item\other\³åÑ¨É¢a1.spr	\image\item\other\³åÑ¨É¢a0.spr	Háa d­îc tù chÕ cña ng­ d©n, gia c«ng ®¬n gi¶n.		ThÇn bİ		1	0	1							
+Háa D­îc Tinh ChÕ	2	200	65	0	0	999												\image\item\other\ÎåÊ¯É¢a1.spr	\image\item\other\ÎåÊ¯É¢a0.spr	Háa d­îc ®­îc chÕ t¹o tõ Ph­êng Háa D­îc cña triÒu ®×nh, gia c«ng rÊt tinh x¶o.		ThÇn bİ		1	0	1							
+Ph¸o S¬ ChÕ	2	200	66	0	0	999												\image\item\happy\banger_a1.spr	\image\item\happy\banger_a0.spr	Uy lùc cña ph¸o b×nh th­êng, lùc ®e däa víi Niªn Thó kh¸ İt, nh­ng ®«i khi còng t¹o ra uy lùc kh¸ lín.		ThÇn bİ		1	2	1							
+Ph¸o Tinh ChÕ	2	200	67	0	0	999												\image\item\happy\banger_much_a1.spr	\image\item\happy\banger_much_a0.spr	Uy lùc cña ph¸o m¹nh, lùc ®e däa víi Niªn Thó rÊt lín.		ThÇn bİ		1	0	1							
+ThiÖp Chóc Mõng Xu©n Míi	2	200	68	0	0	1												\image\item\other\secr_022a1.spr	\image\item\other\secr_022a0.spr	Lêi chóc xu©n mµ §¹i Sø Xu©n Míi tÆng cho mäi ng­êi.		ThÇn bİ		1	2	1							
+M¶nh Thiªn Tinh Th¹ch	2	200	69	0	0	99												\image\item\other\Ì«Ê¼ÁéÊ¯ËéÆ¬a1.spr	\image\item\other\Ì«Ê¼ÁéÊ¯ËéÆ¬a0.spr	Dïng ®Ó ®æi Thiªn Tinh Th¹ch.		ThÇn bİ		1	0	1							
+M¶nh H¾c B¹ch Kú	2	200	70	0	0	99												\image\item\other\å«Óîºé»ÄËéÆ¬a1.spr	\image\item\other\å«Óîºé»ÄËéÆ¬a0.spr	Dïng ®Ó ®æi H¾c B¹ch Kú.		ThÇn bİ		1	0	1							
+Hoa §µo	2	200	71	0	0	10												\image\item\other\Viet_ÌÒ»¨_36.spr	\image\item\other\Viet_ÌÒ»¨_80.spr	Hoa ®µo t­¬i ®Ñp, nhÊn chuét ph¶i sö dông ®Ó nhËn th­ëng		ThÇn bİ		1	2	1							
+Bao Ph¸o Tinh ChÕ	2	200	72	0	0	10												\image\item\other\holi_008a1.spr	\image\item\other\holi_008a0.spr	Chuét ph¶i sö dông ®Ó nhËn ®­îc 10 c¸i Ph¸o Tinh ChÕ		ThÇn bİ	\script\item\item_billing\packed_ib_item.lua	1	0	1							
+Bao ThiÖp Vµng Xu©n Míi	2	200	73	0	0	99												\image\item\other\ºìÉ«¸ß¼¶°ü¹üa1.spr	\image\item\other\ºìÉ«¸ß¼¶°ü¹üa0.spr	Chuét ph¶i sö dông ®Ó nhËn ®­îc 100 ThiÖp Vµng Xu©n Míi		ThÇn bİ	\script\item\item_billing\packed_ib_item.lua	1	0	1							
+Tr¸i c©y	2	200	74	0	0	2000												\image\item\other\Ë®¹û2017_32.spr	\image\item\other\Ë®¹û2017_80.spr	Dïng ®Ó chª t¹o M©m Ngò Qu¶ vµ C©u §èi §á		ThÇn bİ		1	0	0							
+Bót Nghiªn GiÊy Mùc	2	200	75	0	0	2000												\image\item\other\±ÊÑâ_32.spr	\image\item\other\±ÊÑâ_80.spr	Dïng ®Ó chª t¹o M©m Ngò Qu¶ vµ C©u §èi §á		ThÇn bİ		1	0	0							
+Hång bao	2	200	76	0	0	2000												\image\item\other\ºì°ü2017_32 .spr	\image\item\other\ºì°ü2017_80 .spr	Dïng ®Ó chÕ t¹o L× X× §¹i C¸t		ThÇn bİ		1	0	0							
+M©m Ngò Qu¶	2	200	77	0	0	2000												\image\item\other\Îå¹ûÅÌ2017_32.spr	\image\item\other\Îå¹ûÅÌ_80.spr	M©m Ngò Qu¶		ThÇn bİ		1	0	1							
+C©u §èi §á	2	200	78	0	0	2000												\image\item\other\ºì¶ÔÁª_32 .spr	\image\item\other\ºì¶ÔÁª_80.spr	C©u §èi §á		ThÇn bİ		1	0	1							
+L× X× §¹i C¸t	2	200	79	0	0	2000												\image\item\other\´ó¼ªºì°ü_32 .spr	\image\item\other\´ó¼ªºì°ü_ 80 .spr	L× X× §¹i C¸t		ThÇn bİ		1	0	1							
+Hæ Ph¸ch	2	200	80	0	0	2000												\image\item\other\çúçê32.spr	\image\item\other\çúçê80.spr	Dïng ®Ó chÕ t¹o N­íc Hoa Kh« vµ N­íc Hoa Tinh ChÊt		ThÇn bİ		1	0	0							
+Tói X¹ H­¬ng	2	200	81	0	0	2000												\image\item\other\÷êÏã´ü32.spr	\image\item\other\÷êÏã´ü80.spr	Dïng ®Ó chÕ t¹o N­íc Hoa Kh« vµ N­íc Hoa Tinh ChÊt		ThÇn bİ		1	0	0							
+Phông HuyÕt H­¬ng	2	200	82	0	0	2000												\image\item\other\ÁúÏÑÏã32.spr	\image\item\other\ÁúÏÑÏã80.spr	Dïng ®Ó chÕ t¹o Quèc S¾c Thiªn H­¬ng		ThÇn bİ		1	0	0							
+N­íc Hoa Kh«	2	200	83	0	0	2000												\image\item\other\¸ÉÏãË®32.spr	\image\item\other\¸ÉÏãË®80.spr	Dïng Tói X¹ H­¬ng vµ Hæ Ph¸ch chÕ t¹o ra		ThÇn bİ		1	0	1							
+N­íc Hoa Tinh ChÊt	2	200	84	0	0	2000												\image\item\other\¾«ÖÂÏãË®32.spr	\image\item\other\¾«ÖÂÏãË®80.spr	Dïng Tói X¹ H­¬ng vµ Hæ Ph¸ch chÕ t¹o ra		ThÇn bİ		1	0	1							
+Quèc S¾c Thiªn H­¬ng	2	200	85	0	0	2000												\image\item\other\Å®¶ùÏã32.spr	\image\item\other\Å®¶ùÏã80.spr	Dïng N­íc Hoa Kh« vµ N­íc Hoa Tinh ChÊt vµ Phông HuyÕt H­¬ng chÕ t¹o ra		ThÇn bİ		1	0	1							

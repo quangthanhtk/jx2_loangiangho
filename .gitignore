@@ -1,0 +1,20 @@
+# windows
+Thumbs.db
+
+# winscp
+*.filepart
+*.tmp
+
+# git
+**/.git
+
+# ide
+**/.idea
+**/.vs
+/.vscode/
+
+# server 2022
+*.cipher
+*.pid
+backup_data_svrtest/
+shared/backup

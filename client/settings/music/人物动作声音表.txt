@@ -1,0 +1,522 @@
+Danh s¸ch npc	®øng yªn chiÕn ®Êu	®øng yªn c¶nh giíi	®øng yªn b×nh th­êng	®i	ch¹y	bÞ tÊn c«ng	Ng¨n c¶n	NÐ tr¸nh	§¸nh lui	§¸nh ng·	Tö vong	bß dËy	tÊn c«ng 1	tÊn c«ng 2	§¸nh m¹nh 
+Nam tiªu chuÈn				rol_ma2_w1.wav	rol_ma2_r1.wav						rol_ma2_d1.wav		rol_ma2_a1.wav	rol_ma2_a2.wav	
+Nam kh«i ng«				rol_ma1_w1.WAV	rol_ma1_r1.WAV						rol_ma1_d1.wav		rol_ma1_a1.wav	rol_ma1_a2.wav	
+N÷ gîi c¶m				rol_fm2_w1.wav	rol_fm2_r1.wav						rol_fm2_d1.WAV		rol_fm2_a1.wav	rol_fm2_a2.wav	
+KiÒu n÷				rol_fm1_w1.WAV	rol_fm1_r1.wav						rol_fm1_d1.WAV		rol_fm1_a1.wav	rol_fm1_a2.wav	
+Cäc gç						mon_001a.wav									
+Cäc gç 2						mon_001b.wav									
+Ong vµng											mon_002a_d1.wav		mon_002a_a1.wav		
+Ong ®éc															
+Hå Ly															
+Ng©n Hå															
+Sãi ®iªn															
+¸c Lang															
+NhÖn													mon_005a_a1.wav		
+NhÖn ®á															
+NhÖn tr¾ng															
+Bß c¹p													
+Bß c¹p n­íc													
+ThiÕt Gi¸p											mon_007a_d1.wav		mon_007a_a1.wav
+Kim Gi¸p													
+Hæ				mon_008a_w1.wav							mon_008a_d1.wav		mon_008a_a1.wav
+Hæ tr¾ng													
+GÊu x¸m											mon_009a_d1.wav		mon_009a_a1.wav
+GÊu ®iªn													
+Cãc1													
+Cãc2													
+D¬i											mon_011a_d1.wav		mon_011a_a1.wav
+D¬i hót m¸u											mon_011b_d1.wav		mon_011b_a1.wav
+V­în to													
+V­în to2													
+C¸ sÊu1													
+C¸ sÊu2													
+§ét ¦ng													
+B¹ch §iªu													
+Nh·n kÝnh xµ													
+Tu Xµ													
+Qu¹ §en											mon_016a_d1.wav		mon_016a_a1.wav
+Qu¹ Tr¾ng													
+L­u Manh											mon_017a_d1.wav		mon_017a_a1.wav
+Du C«n													
+C«n ®å											mon_017c_d1.wav		mon_017c_a1.wav
+Hçn Hçn													
+S¬n tÆc											mon_017e_d1.wav		mon_017e_a1.wav
+L·ng nh©n													
+§ao phØ													
+C«n phØ													
+Th­¬ng phØ													
+TiÔn phØ													
+Th¶o KhÊu													
+M·ng KhÊu													mon_019b_a1.wav
+Cïng KhÊu													
+L­u KhÊu											mon_019d_d1.wav		mon_019d_a1.wav
+Quû ThiÕt													
+Minh Th©u											mon_020b_d1.wav		
+Ngôy §¹o													
+¸m TÆc											mon_020d_d1.wav		mon_020d_a1.wav
+KiÕm Kh¸ch													
+KiÕm kh¸ch trung cÊp													
+L·ng KiÕm Kh¸ch													
+§ao Kh¸ch													mon_022a_a1.wav
+§ao kh¸ch trung cÊp													
+§·ng §ao Kh¸ch													mon_022c_a1.wav
+Th­¬ng Kh¸ch											mon_023a_d1.wav		mon_023a_a1.wav
+Th­¬ng kh¸ch trung cÊp											mon_023b_d1.wav		mon_023b_a1.wav
+Kim Th­¬ng Kh¸ch													
+ThÝch Kh¸ch1													mon_024a_a1.wav
+ThÝch Kh¸ch2													mon_024b_a1.wav
+Phi Tr¶o													
+¸m Cung													
+ThiÕt C©u													
+B¸ch NhËt TiÔn													
+Thiªn Lý Tiªu											mon_026b_d1.wav		
+Vâ Tßng				mon_027a_w1.wav							mon_027a_d1.wav		mon_027a_a1.wav
+§Çu §µ2													
+§Çu §µ3													
+Lç TrÝ Th©m				mon_028a_w1.wav							mon_028a_dl.wav		mon_028a_a1.wav
+¸c T¨ng													
+Tµ T¨ng											mon_028c_dl.wav		mon_028c_a1.wav
+T¶ hé ph¸p													
+Hång bµo sø gi¶1													
+Hång bµo sø gi¶2
+Hång bµo sø gi¶3
+H÷u hé ph¸p
+H¾c bµo sø gi¶1
+H¾c bµo sø gi¶2
+H¾c bµo sø gi¶3
+Nam ®Ö tö1
+Nam ®Ö tö2
+Nam ®Ö tö3
+N÷ ®Ö tö1
+N÷ ®Ö tö2
+N÷ ®Ö tö3
+Oa KhÊu1
+Oa KhÊu2
+Oa KhÊu3
+Oa KhÊu4
+Phiªn Di §ao Kh¸ch													
+Phiªn Di Cæ S­													
+Phiªn Di Tiªu Thñ													
+¸c B¸													
+Vâ sÜ dÞ téc											mon_035b_d1.wav		mon_035b_a1.wav
+Phï thñy dÞ téc													
+TiÔn thñ dÞ téc											mon_036d_d1.wav		mon_036d_a1.wav
+S¸t thñ ngo¹i téc											mon_036a_d1.wav		mon_036a_a1.wav
+ThuËt sÜ ngo¹i téc													
+C­êng ®¹o ngo¹i téc													
+Cung thñ ngo¹i téc											mon_035d_d1.wav		mon_035d_a1.wav
+Tèng th­¬ng qu©n													mon_037a_a1.wav
+Tèng ®ao binh													mon_037b_a1.wav
+Tèng tiÔn binh													
+Tèng nâ binh													mon_037d_a1.wav
+Tèng thuÉn binh													
+Kim th­¬ng qu©n													mon_038a_a1.wav
+Kim ®ao binh													mon_038b_a1.wav
+Kim tiÔn binh													mon_038c_a1.wav
+Kim nâ binh													
+Kim thuÉn binh													
+§ao Tµ													
+KiÕm Tµ													mon_039b_a1.wav
+Th­¬ng Tµ													
+§ao Cuång													
+KiÕm Cuång											mon_041b_d1.wav		
+Th­¬ng Cuång											mon_040c_d1.wav		
+§ao TuyÖt											mon_041a_d1.wav		mon_041a_a1.wav
+KiÕm TuyÖt											mon_040b_d1.wav		
+Th­¬ng TuyÖt													mon_040c_a1.wav
+§ao S¸t											mon_042a_d1.wav		mon_042a_a1.wav
+KiÕm S¸t											mon_042b_d1.wav		mon_042b_a1.wav
+Th­¬ng S¸t													
+D¹ Xoa1													
+D¹ Xoa2													
+D¹ Xoa3													
+C« L©u ®ao thñ				mon_044a_w1.wav							mon_044a_d1.wav		mon_044a_a1.wav
+C« L©u th­¬ng thñ				mon_044b_w1.wav							mon_044b_d1.wav		mon_044b_a1.wav
+C« L©u tiÔn thñ													
+C­¬ng Thi1													
+C­¬ng Thi2													
+C­¬ng Thi3													
+Hñ thi1				mon_046a_w1.wav							mon_046a_d1.wav		mon_046a_a1.wav
+Hñ thi2				mon_046b_w1.wav							mon_046b_d1.wav		mon_046b_a1.wav
+Hñ thi3													
+Cöu Phông1													
+Cöu Phông2													
+Cöu Phông3													
+Phi Thiªn1													
+Phi Thiªn2													
+Phi Thiªn3													
+Yªu Hå1													
+Yªu Hå 2											mon_049b_d1.wav		mon_049b_a1.wav
+Yªu Hå3													
+TuyÕt Qu¸i1													mon_050a_dl.wav
+TuyÕt Qu¸i2													
+TuyÕt Qu¸i3											mon_050c_dl.wav		
+Trïng Qu¸i1											mon_051a_d1.wav		mon_051a_a1.wav
+Trïng Qu¸i2											mon_051b_d1.wav		mon_051b_a1.wav
+Trïng Qu¸i3													
+Th¹ch Nh©n1											mon_052a_dl.wav		mon_052a_a1.wav
+Th¹ch Nh©n2													
+Th¹ch Nh©n3													
+Xµ Yªu1													
+Xµ Yªu2													
+Xµ Yªu3													
+Háa kú l©n1											mon_054a_d1.wav		mon_054a_a1.wav
+Ngäc kú l©n2											mon_054b_d1.wav		mon_054b_a1.wav
+Tö kú l©n3													
+Ng­ Qu¸i1													
+Ng­ Qu¸i2													
+Ng­ Qu¸i3													
+¸c Quû													
+O¸n Quû				mon_056b_w1.wav		mon_056b_bh1.wav					mon_056b_d1.wav		mon_056b_a1.wav
+¸c Quû				mon_056c_w1.wav		mon_056c_d1.wav					mon_056c_bh1.wav		mon_056c_a1.wav
+¢m Hån1				mon_057a_w1.wav							mon_057a_d1.wav		mon_057a_a1.wav
+¢m Hån2				mon_057b_w2.wav							mon_057b_d1.wav		mon_057b_a1.wav
+¢m Hån3													
+Thô Qu¸i1													
+Thô Qu¸i2													
+Thô Qu¸i3													
+C¬ quan nh©n1				mon_059a_wl.wav							mon_059a_dl.wav		mon_059a_a1.wav
+C¬ quan nh©n2				mon_059b_wl.wav							mon_059b_dl.wav		mon_059b_a1.wav
+Thiªn Binh1													
+Thiªn Binh2													
+Thiªn Binh3													
+Thiªn Binh4													
+Tiªn N÷1													mon_061a_d1.wav
+Tiªn N÷2													
+Tiªn N÷3													
+Thiªn T­íng 1													
+Thiªn T­íng 2													
+Thiªn T­íng 3													
+Thiªn T­íng 4													
+Tèng kþ binh				mon_063_w1.wav		mon_063_bh1.wav					mon_063_d1.wav		mon_063_a1.wav
+Kim kþ binh				mon_064_w1.wav		mon_064_bh1.wav					mon_064_d1.wav		mon_064_a1.wav
+NhÊt §ao
+NhÊt ThiÓm
+NhÊt Khiªu
+HuyÕt C« L©u
+Tèng Giang
+Phong Hi
+H×nh Thiªn
+Hoµn Nhan Hång LiÖt
+Dù L­u
+Dù L­u
+Ch­ëng d­îc Trung Nguyªn
+Ch­ëng d­îc T©y Nam
+Ch­ëng d­îc Thæ Phån
+TiÓu nhÞ Trung Nguyªn
+TiÓu nhÞ T©y Nam
+TiÓu nhÞ Thæ Phån
+Chñ Vò khÝ Trung Nguyªn
+Chñ tiÖm vò khÝ T©y Nam
+Chñ tiÖm vò khÝ Thæ Phån
+Chñ tiÖm ®¸ Trung Nguyªn
+Chñ tiÖm ®¸ T©y Nam
+Chñ tiÖm ®¸ Thæ Phån
+Chñ T¬ lôa Trung Nguyªn
+Chñ tiÖm v¶i T©y Nam
+Chñ tiÖm v¶i
+Xa phu Trung Nguyªn
+Xa phu T©y Nam
+Xa phu
+Thî rÌn Trung Nguyªn
+Thî rÌn T©y Nam
+Thî rÌn Thæ Phån
+Chñ cÇm ®å Trung Nguyªn
+Chñ cÇm ®å T©y Nam
+Chñ cÇm ®å Thæ Phån
+R­¬ng ®å Trung Nguyªn
+R­¬ng ®å T©y Nam
+R­¬ng ®å Tr.Nguyªn
+Tr­¬ng Tr¹ch §oan
+ThiÖu Ung
+Tr×nh Di
+LiÔu VÜnh
+T« Thøc
+V­¬ng An Th¹ch
+Trung niªn nam
+TrÝch ThÇn
+Tö Thanh Th­îng Nh©n
+NguyÖt L·o
+T­ M· Quang
+Cô giµ
+Quan viªn
+ThÈm Qu¸t
+Diªm La
+H¾c V« Th­êng
+B¹ch V« Th­êng
+Quû Sai
+TriÖu C¸t
+Con b¹c
+Thanh niªn nam
+Lý S­ S­
+Tè Hoµn Ch©n
+N÷ thiÕu niªn1
+N÷ thiÕu niªn2
+N÷ thiÕu niªn3
+M¹nh Bµ
+Bµ l·o1
+Bµ l·o2
+Bµ l·o3
+Phô n÷1
+Phô n÷2
+Tó bµ
+§ång tö1
+§ång tö2
+§ång tö 3
+§ång n÷1
+§ång n÷2
+§ång n÷3
+§ång Qu¸n
+D­¬ng §Ønh Thiªn
+T©y D­¬ng Quû Tö
+Thiªn V­¬ng Bang Chñ
+Thiªn V­¬ng Phã bang
+Thiªn V­¬ng hé ph¸p
+Thiªn V­¬ng Bang §å
+ThiÕu L©m Trô tr×
+ThiÕu L©m Ph­¬ng Tr­îng
+ThiÕu L©m Thñ Täa
+ThiÕu L©m T¨ng Nh©n
+§­êng M«n M«n Chñ
+§­êng M«n phã m«n chñ
+§­êng M«n ®¹i ®å ®Ö
+§­êng M«n M«n Nh©n
+Ngò §éc gi¸o chñ
+Ngò §éc Phã gi¸o chñ
+Ngò §éc hé ph¸p
+Ngò §éc gi¸o ®å
+Nga My ch­ëng m«n
+Nga My phã ch­ëng m«n
+Nga My hé ph¸p
+Nga My m«n nh©n
+Thóy Yªn ch­ëng m«n
+Thóy Yªn phã ch­ëng m«n
+Thóy Yªn hé ph¸p
+Thóy Yªn m«n nh©n
+C¸i Bang ch­ëng m«n
+C¸i Bang phã ch­ëng m«n
+C¸i Bang tr­ëng l·o
+C¸i Bang m«n nh©n
+C«n L«n ch­ëng m«n
+C«n L«n phã ch­ëng m«n
+C«n L«n hé ph¸p
+C«n L«n m«n nh©n
+Vâ §ang  ch­ëng m«n
+Vâ §ang  phã ch­ëng m«n
+Vâ §ang  hé ph¸p
+Vâ §ang  m«n nh©n
+Lõa
+Chuét
+Tr­
+Chã
+Thá
+Tr©u
+C¸
+S¬n d­¬ng
+Gµ
+VÞt
+Thá tr¾ng
+Thá x¸m
+Thá ®en
+Sãi x¸m											mon_074a_d1.wav		mon_074a_a1.wav
+Sãi xanh											mon_074b_d1.wav		mon_074b_a1.wav
+Sãi n©u											mon_074c_d1.wav		mon_074c_a1.wav
+TiÓu D· tr­											mon_075a_d1.wav		mon_075a_a1.wav
+TiÓu H¾c tr­											mon_075b_d1.wav		mon_075b_a1.wav
+N÷ kiÕm kh¸ch											mon_076a_d1.wav		mon_076a_a1.wav
+N÷ HiÖp Kh¸ch											mon_076b_d1.wav		mon_076b_a1.wav
+N÷ KiÕm hµo											mon_076c_d1.wav		mon_076c_a1.wav
+N÷ KiÕm tiªn													
+N÷ §Þch tiªn													
+N÷ Tiªu tiªn													
+N÷ Tú Bµ tiªn													
+N÷ cÇm tiªn													
+N÷ t¶n tiªn													
+M· HÇu											mon_078a_d1.wav		mon_078a_a1.wav
+Th­¬ng Viªn													
+TiÓu Hång ®ao quû													mon_079a_a1.wav
+TiÓu Hång xoa quû													mon_079b_a1.wav
+Hång Phi tr¶o quû													
+Lam TiÓu ®ao quû													
+Lam TiÓu xoa quû													
+Lam Phi tr¶o quû						mon_079f_bh1.wav					mon_079f_d1.wav		mon_079f_a1.wav
+Du Hån				mon_080a_w1.wav							mon_080a_d1.wav		mon_080a_a1.wav
+Oan Hån				mon_080b_w1.wav							mon_080b_d1.wav		mon_080b_a1.wav
+NghiÖt Hån				mon_080c_w1.wav							mon_080c_d1.wav		mon_080c_a1.wav
+Ng­u §Çu													
+M· DiÖn													
+Th­¬ng t­îng													
+KiÕm t­îng													
+Cung t­îng													
+§ång t­îng													
+HuyÒn Vâ §ao						mon_083e_bh1.wav							mon_083e_a1.wav
+HuyÒn Vâ KiÕm													
+HuyÒn Vâ Th­ong						mon_083g_bh1.wav							mon_083g_a1.wav
+HuyÒn Vâ Cung													
+Cung LiÖp						mon_084a_bh1.wav							mon_084a_a1.wav
+Hæ Y Nh©n											mon_084b_d1.wav		
+Lý Quú				mon_086a_w1.wav		mon_086a_bh1.wav					mon_086a_dl.wav		mon_086a_a1.wav
+Dù L­u													
+Dù L­u													
+H¾c y nh©n thÇn bÝ													
+M·ng Phu													
+S¬n TÆc §Çu Môc											mon_086b_dl.wav		mon_086b_a1.wav
+D­îc V­¬ng													
+Cao thñ ®¹i néi													
+Vâ l©m minh chñ													
+Dù L­u													
+Hoµng Hæ V­¬ng				mon_088a_w1.wav		mon_088a_bh1.wav					mon_088a_d1.wav		mon_088a_a1.wav
+B¹ch Hæ V­¬ng													
+Vâ §¹i Lang-ôc Þch													
+Vâ §¹i Lang-b×nh th­êng											mon_089b_d1.wav		mon_089b_a1.wav
+Dù L­u													
+B¨ng N÷													
+B¸t Phô MÉu D¹ Xoa													
+B¸t Phô Hµ §«ng S­											mon_091b_d1.wav		mon_091b_a1.wav
+B¸t Phô													
+Dù L­u													
+T¨ng ¸c				mon_092a_w1.wav		mon_092a_bh1.wav					mon_092a_dl.wav		mon_092a_a1.wav
+Dù L­u													
+Dù L­u													
+Tµ Tiªn Nh©n				mon_093a_w1.wav		mon_093a_bh1.wav					mon_093a_d1.wav		mon_093a_a1.wav
+D¹ Xoa Nha				mon_094a_w1.wav									
+Quû T­íng Qu©n				mon_095a_w1.wav		mon_095a_bh1.wav							mon_095a_a1.wav
+Méc nh©n				mon_096a_wl.wav							mon_096a_dl.wav		mon_096a_al.wav
+§ång nh©n				mon_097a_wl.wav		mon_097a_bh1.wav					mon_097a_d1.wav		mon_097a_a1.wav
+Quan sø				mon_098a_w1.wav							mon_098a_d1.wav		mon_098a_a1.wav
+Bé kho¸i				mon_098b_w1.wav									mon_098b_a1.wav
+MËt th¸m													
+KiÕm Hån						mon_099a_bh1.wav					mon_099a_d1.wav		mon_099a_a1.wav
+S¸t Thñ Oa Oa													
+xxx													
+Xa Lu©n B¸ V­¬ng													
+HuyÕt Tr¶o													
+Miªu téc thiÕu n÷1													
+Miªu téc tiÓu n÷2													
+Hoang m¹c ®ao kh¸ch				mon_105a_w1.wav		mon_105a_bh1.wav					mon_105a_d1.wav		mon_105a_a1.wav
+D­îc V­¬ng													
+VÖ binh thµnh m«n													
+L­u manh thµnh thÞ													
+Nha dÞch													
+B¸t Phô siªu cÊp
+Giang hå tuÊn kiÖt
+Giang hå hµo kiÖt
+T©y Nam Miªu Nh©n
+ThiÕu n÷ Miªu Téc
+Lôc PhiÕn cao thñ1
+Lôc PhiÕn cao thñ2
+Lôc PhiÕn cao thñ3
+Lam §ao Quû
+Vâ t­íng Liªu_®èi tho¹i
+Liªu Quèc Vâ T­íng
+¡n mµy
+Du Ph­¬ng T­íng SÜ
+ThiÕu niªn nam1
+ThiÕu niªn nam2
+ThiÕu niªn3
+Th«n phô1
+Th«n phô2
+Th«n phô 3
+Qu¶n gia
+Gi¸o chñ Minh Gi¸o
+Th¸nh n÷ Minh Gi¸o
+Hé ph¸p Minh Gi¸o
+§Ö tö Minh Gi¸o
+Th­¬ng nh©n thu thËp
+Du Ph­¬ng ®¹i phu
+Ngù Trï
+V©n Du §¹o Nh©n
+ThÇy luyÖn thó
+ThÇy nghi thøc
+Thî c¹o
+Vâ L©m truyÒn nh©n
+Dßng th«ng b¸o
+L·o phó hé
+Quan sø-trung niªn1
+Quan sø2
+Quan sø3
+Vâ L©m Minh Chñ1
+Vâ L©m Minh Chñ2
+Th­ sinh
+Xa Th¸i Qu©n
+Phu nh©n (cao)
+Phu nh©n-phæ th«ng
+§¹i tiÓu th­ tËp vâ
+HiÖp n÷
+L·o n«ng d©n
+ThiÕu niªn trong th«n
+Bµ l·o n«ng d©n
+D©n n÷
+B¸n s¸ch
+G¸nh hµng
+B¸n hµng
+KÑo hå l«
+Bµ chñ
+Ng­ d©n
+Tèng T­íng Qu©n
+Tèng Giang
+§­êng M«n T©n Ch­ëng M«n
+Chñ qu¶n ¸m KhÝ phßng
+Chñ qu¶n Háa KhÝ phßng
+§­êng M«n T©n m«n nh©n
+C«n L«n T©n Ch­ëng M«n
+C«n L«n T©n Phã Ch­ëng M«n
+C«n L«n T©n Tr­ëng L·o
+C«n L«n T©n M«n Nh©n
+Ngò §éc T©n Ch­ëng M«n
+T­íng qu©n ph­¬ng B¾c
+Nam nh©n ph­¬ng B¾c1
+Nam nh©n ph­¬ng B¾c2
+Nam nh©n ph­¬ng B¾c3
+¤ng giµ ph­¬ng B¾c1
+¤ng giµ ph­¬ng B¾c2
+Phô n÷ ph­¬ng B¾c1
+Phô n÷ ph­¬ng B¾c2
+ThiÕu n÷ ph­¬ng B¾c1
+ThiÕu n÷ ph­¬ng B¾c2
+Nam nh©n T©y Nam
+Phô n÷ T©y Nam
+Nam nh©n T©y B¾c
+Phô n÷ T©y B¾c
+TruyÒn gi¸o sÜ			
+Phu nh©n T©y D­¬ng			
+Th­¬ng nh©n Ba T­			
+Vò n÷ Ba T­			
+§æi			
+Th¸c n­íc			nat_falls.wav
+L©m Gian §iÓu KhiÕu			nat_bird.wav
+Hµ Thñy			nat_river.wav
+maptrap1			
+maptrap2			
+maptrap3			
+maptrap4			
+maptrap5			
+maptrap6			
+maptrap7			
+maptrap8			
+S¬n d­¬ng													
+Hæ con				mon_008a_w1.wav							mon_008a_d1.wav		mon_008a_a1.wav
+GÊu con											mon_009a_d1.wav		mon_009a_a1.wav
+LiÖp Hé											mon_084b_d1.wav		
+Mé TuyÕt KiÕm Kh¸ch											mon_023a_d1.wav		mon_023a_a1.wav
+Mé TuyÕt Th­¬ng Kh¸ch											mon_023b_d1.wav		mon_023b_a1.wav
+Lé tÆc											mon_017e_d1.wav		mon_017e_a1.wav
+Thêi Thiªn													
+Tµng Hång Hoa													
+C¸t C¸nh													
+§iÒn thÊt													
+R­¬ng cã thÓ më													
+Tói r¸nh													
+Hñ Thi trªn ®Êt													
+Quan sai													mon_037a_a1.wav
+Quan binh													mon_037b_a1.wav
+V­¬ng Lu©n													mon_039b_a1.wav
+NhÞ Hçn											mon_017a_d1.wav		mon_017a_a1.wav
+L­¬ng Trung Th­											mon_017a_d1.wav		mon_017a_a1.wav
+Cao CÇu													
+Tèng Hµ											mon_017e_d1.wav		mon_017e_a1.wav
+Lý Quû											mon_017e_d1.wav		mon_017e_a1.wav
+H¹ V« Ly													mon_039b_a1.wav
+Lôc Phong													mon_017a_a1.wav
+TÝn sø													mon_024b_a1.wav
+L­u KhÊu §Çu Môc													mon_019b_a1.wav

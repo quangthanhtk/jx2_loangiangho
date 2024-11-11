@@ -1,0 +1,618 @@
+SourceMapId	SourceMapString	TargetMapId	TargetMapString	Type	SourceScriptFile	ScrollType	NpcName_0	Position_0	NpcName_1	Position_1	NpcName_2	Position_2	NpcName_3	Position_3	SelIndexs_0	SelIndexs_1	SelIndexs_2	SelIndexs_3	SelIndexs_4	SelIndexs_5	SelIndexs_6	SelIndexs_7	SelIndexs_8	SelIndexs_9	SelIndexs_10
+100	TuyÒn Ch©u	204	ThiÕu L©m	1	\script\½­ÄÏÇø\ÈªÖİ\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1464;2962							1;	1;	2;	2;	2;	2;	2;	2;	2;	2;	2;
+100	TuyÒn Ch©u	312	Vâ §ang	1	\script\½­ÄÏÇø\ÈªÖİ\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1464;2962							2;	2;	1;	3;	3;	3;	3;	3;	3;	3;	3;
+100	TuyÒn Ch©u	303	Nga My	1	\script\½­ÄÏÇø\ÈªÖİ\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1464;2962							3;	3;	3;	1;	4;	4;	4;	4;	4;	4;	4;
+100	TuyÒn Ch©u	209	C¸i Bang	1	\script\½­ÄÏÇø\ÈªÖİ\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1464;2962							4;	4;	4;	4;	1;	5;	5;	5;	5;	5;	5;
+100	TuyÒn Ch©u	305	§­êng M«n	1	\script\½­ÄÏÇø\ÈªÖİ\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1464;2962							5;	5;	5;	5;	5;	1;	6;1;	6;1;	6;1;	6;1;	6;1;
+100	TuyÒn Ch©u	219	Thiªn Ba D­¬ng phñ	1	\script\½­ÄÏÇø\ÈªÖİ\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1464;2962							6;1;	6;1;	6;1;	6;1;	6;1;	6;1;	1;	6;2;	6;2;	6;2;	6;2;
+100	TuyÒn Ch©u	407	Ngò §éc Gi¸o	1	\script\½­ÄÏÇø\ÈªÖİ\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1464;2962							6;2;	6;2;	6;2;	6;2;	6;2;	6;2;	6;2;	1;	6;3;	6;3;	6;3;
+100	TuyÒn Ch©u	509	C«n L«n	1	\script\½­ÄÏÇø\ÈªÖİ\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1464;2962							6;3;	6;3;	6;3;	6;3;	6;3;	6;3;	6;3;	6;3;	1;	6;4;	6;4;
+100	TuyÒn Ch©u	404	Thóy Yªn	1	\script\½­ÄÏÇø\ÈªÖİ\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1464;2962							6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	1;	6;5;
+100	TuyÒn Ch©u	152	Minh gi¸o	1	\script\½­ÄÏÇø\ÈªÖİ\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1464;2962							6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	1;	6;5;
+100	TuyÒn Ch©u	200	BiÖn Kinh	2	\script\½­ÄÏÇø\ÈªÖİ\npc\ÈªÖİ³µ·ò.lua		Xa phu TuyÒn Ch©u	1370;2892	Xa phu TuyÒn Ch©u	1508;2881	Xa phu TuyÒn Ch©u	1541;3061			1;										
+100	TuyÒn Ch©u	300	Thµnh §«	2	\script\½­ÄÏÇø\ÈªÖİ\npc\ÈªÖİ³µ·ò.lua		Xa phu TuyÒn Ch©u	1370;2892	Xa phu TuyÒn Ch©u	1508;2881	Xa phu TuyÒn Ch©u	1541;3061			2;										
+100	TuyÒn Ch©u	400	§¹i Lı phñ	2	\script\½­ÄÏÇø\ÈªÖİ\npc\ÈªÖİ³µ·ò.lua		Xa phu TuyÒn Ch©u	1370;2892	Xa phu TuyÒn Ch©u	1508;2881	Xa phu TuyÒn Ch©u	1541;3061			5;										
+100	TuyÒn Ch©u	500	Phông T­êng phñ	2	\script\½­ÄÏÇø\ÈªÖİ\npc\ÈªÖİ³µ·ò.lua		Xa phu TuyÒn Ch©u	1370;2892	Xa phu TuyÒn Ch©u	1508;2881	Xa phu TuyÒn Ch©u	1541;3061			6;										
+100	TuyÒn Ch©u	350	T­¬ng D­¬ng	2	\script\½­ÄÏÇø\ÈªÖİ\npc\ÈªÖİ³µ·ò.lua		Xa phu TuyÒn Ch©u	1370;2892	Xa phu TuyÒn Ch©u	1508;2881	Xa phu TuyÒn Ch©u	1541;3061			3;										
+100	TuyÒn Ch©u	150	D­¬ng Ch©u	2	\script\½­ÄÏÇø\ÈªÖİ\npc\ÈªÖİ³µ·ò.lua		Xa phu TuyÒn Ch©u	1370;2892	Xa phu TuyÒn Ch©u	1508;2881	Xa phu TuyÒn Ch©u	1541;3061			4;										
+100	TuyÒn Ch©u	105	T©y TuyÒn Ch©u	3	\script\½­ÄÏÇø\ÈªÖİ\trap\ÈªÖİtoÈªÖİ¸®Î÷.lua			1310;2805																	
+100	TuyÒn Ch©u	108	B¾c TuyÒn Ch©u	3	\script\½­ÄÏÇø\ÈªÖİ\trap\ÈªÖİtoÈªÖİ¸®±±.lua			1579;2808																	
+102	§µo Hoa ®¶o	109	Thanh ¢m ®éng_1	3	\script\½­ÄÏÇø\ÌÒ»¨µº\trap\ÌÒ»¨µºtoÇåÒô¶´.lua			1392;2783																	
+102	§µo Hoa ®¶o	104	§«ng H¶i H¶i T©n 2	2	\script\½­ÄÏÇø\ÌÒ»¨µº\npc\ÌÒ»¨µº´¬·ò.lua		ThuyÒn Phu §µo Hoa ®¶o	1459;3163							1;										
+102	§µo Hoa ®¶o	6009	#§µo Hoa TiÓu S¹n	2	\script\ÊÀ½çµØÍ¼\ÌÒ»¨Ğ¡Õ»\Í¯×Ó3.lua		M«n §ång	1456;3066							1;										
+103	§«ng H¶i H¶i T©n 1	108	B¾c TuyÒn Ch©u	3	\script\½­ÄÏÇø\¶«º£º£±õÒ»\trap\¶«º£º£±õÒ»toÁ½Ë®¶´.lua			1651;3032																	
+103	§«ng H¶i H¶i T©n 1	104	§«ng H¶i H¶i T©n 2	3	\script\½­ÄÏÇø\¶«º£º£±õÒ»\trap\¶«º£º£±õÒ»to¶«º£º£±õ¶ş.lua			1871;3155																	
+104	§«ng H¶i H¶i T©n 2	103	§«ng H¶i H¶i T©n 1	3	\script\½­ÄÏÇø\¶«º£º£±õ¶ş\trap\¶«º£º£±õ¶şto¶«º£º£±õÒ».lua			1285;3122																	
+104	§«ng H¶i H¶i T©n 2	102	§µo Hoa ®¶o	2	\script\½­ÄÏÇø\¶«º£º£±õ¶ş\npc\¶«º£º£±õ2´¬·ò.lua		ThuyÒn phu H¶i T©n	1568;2975							1;										
+105	T©y TuyÒn Ch©u	100	TuyÒn Ch©u	3	\script\½­ÄÏÇø\ÈªÖİ¸®Î÷\trap\ÈªÖİ¸®Î÷toÈªÖİ.lua			1593;3204																	
+105	T©y TuyÒn Ch©u	407	Ngò §éc Gi¸o	3	\script\½­ÄÏÇø\ÈªÖİ¸®Î÷\trap\ÈªÖİ¸®Î÷toÎå¶¾.lua			1395;2872	
+105	T©y TuyÒn Ch©u	152	Minh gi¸o	3	\script\½­ÄÏÇø\ÈªÖİ¸®Î÷\trap\ÈªÖİ¸®Î÷toÃ÷½Ì.lua			1402;3186													
+106	Long TuyÒn Th«n	108	B¾c TuyÒn Ch©u	3	\script\½­ÄÏÇø\ÁúÈª´å\trap\ÁúÈª´åtoÈªÖİ¸®±±.lua			1580;3144																	
+106	Long TuyÒn Th«n	150	D­¬ng Ch©u	3	\script\½­ÄÏÇø\ÁúÈª´å\trap\ÁúÈª´åtoÑïÖİ.lua			1564;2874																	
+106	Long TuyÒn Th«n	111	Thanh Khª ®éng	3	\script\½­ÄÏÇø\ÁúÈª´å\trap\ÁúÈª´åtoÇåÏª¶´.lua			1557;2959																	
+106	Long TuyÒn Th«n	118	Dao Tiªn ®éng	2	\script\½­ÄÏÇø\ÁúÈª´å\npc\linxi_npc.lua		L©m TŞch	1557;3069							1;										
+106	Long TuyÒn Th«n	6016	Mai Trang	2	\script\Î÷ÄÏÇø\Ã·×¯\Ã·×¯ÊéÍ¯1.lua		Mai Trang Th­ §ång	1300;3100							1;										
+107	Vò Di s¬n	112	L­ìng Thñy ®éng_1	3	\script\½­ÄÏÇø\ÎäÒÄÉ½\trap\ÎäÒÄÉ½toÁ½Ë®¶´.lua			1582;2950																	
+107	Vò Di s¬n	108	B¾c TuyÒn Ch©u	3	\script\½­ÄÏÇø\ÎäÒÄÉ½\trap\ÎäÒÄÉ½toÈªÖİ¸®±±.lua			1282;3162																	
+108	B¾c TuyÒn Ch©u	103	§«ng H¶i H¶i T©n 1	3	\script\½­ÄÏÇø\ÈªÖİ¸®±±\trap\ÈªÖİ¸®±±to¶«º£º£±õ1.lua			1599;3201																	
+108	B¾c TuyÒn Ch©u	107	Vò Di s¬n	3	\script\½­ÄÏÇø\ÈªÖİ¸®±±\trap\ÈªÖİ¸®±±toÎäÒÄÉ½.lua			1599;2871																	
+108	B¾c TuyÒn Ch©u	100	TuyÒn Ch©u	3	\script\½­ÄÏÇø\ÈªÖİ¸®±±\trap\ÈªÖİ¸®±±toÈªÖİ.lua			1397;3211																	
+108	B¾c TuyÒn Ch©u	106	Long TuyÒn Th«n	3	\script\½­ÄÏÇø\ÈªÖİ¸®±±\trap\ÈªÖİ¸®±±toÁúÈª´å.lua			1391;2875																	
+109	Thanh ¢m ®éng_1	102	§µo Hoa ®¶o	3	\script\½­ÄÏÇø\ÇåÒô¶´Ò»²ã\trap\ÇåÒô¶´Ò»²ãtoÁúÈª´å.lua			1590;2739																	
+109	Thanh ¢m ®éng_1	110	Thanh ¢m ®éng_2	3	\script\½­ÄÏÇø\ÇåÒô¶´Ò»²ã\trap\ÇåÒô¶´Ò»²ãtoÇåÒô¶´¶ş²ã.lua			1319;3166																	
+110	Thanh ¢m ®éng_2	109	Thanh ¢m ®éng_1	3	\script\½­ÄÏÇø\ÇåÒô¶´¶ş²ã\trap\ÇåÒô¶´¶ş²ãtoÇåÒô¶´Ò»²ã.lua			1596;2687																	
+111	Thanh Khª ®éng	106	Long TuyÒn Th«n	3	\script\½­ÄÏÇø\ÇåÏª¶´\trap\ÇåÏª¶´toÁúÈª´å.lua			1599;3200																	
+112	L­ìng Thñy ®éng_1	107	Vò Di s¬n	3	\script\½­ÄÏÇø\Á½Ë®¶´Ò»²ã\trap\Á½Ë®¶´Ò»²ãtoÎäÒÄÉ½.lua			1558;2700																	
+112	L­ìng Thñy ®éng_1	113	L­ìng Thñy ®éng_2	3	\script\½­ÄÏÇø\Á½Ë®¶´Ò»²ã\trap\Á½Ë®¶´Ò»²ãtoÁ½Ë®¶´¶ş²ã.lua			1688;2968																	
+113	L­ìng Thñy ®éng_2	112	L­ìng Thñy ®éng_1	3	\script\½­ÄÏÇø\Á½Ë®¶´¶ş²ã\trap\Á½Ë®¶´¶ş²ãtoÁ½Ë®¶´Ò»²ã.lua			1537;3317																	
+114	V­¬ng MÉu ®éng_1	151	V©n Méng Tr¹ch	3	\script\½­ÄÏÇø\ÍõÄ¸¶´Ò»²ã\trap\ÍõÄ¸¶´toÔÆÃÎÔó.lua			1594;3493																	
+114	V­¬ng MÉu ®éng_1	115	V­¬ng MÉu ®éng_2	3	\script\½­ÄÏÇø\ÍõÄ¸¶´Ò»²ã\trap\ÍõÄ¸¶´Ò»²ãtoÍõÄ¸¶´¶ş²ã.lua			1682;3657																	
+115	V­¬ng MÉu ®éng_2	114	V­¬ng MÉu ®éng_1	3	\script\½­ÄÏÇø\ÍõÄ¸¶´¶ş²ã\trap\ÍõÄ¸¶´¶ş²ãtoÍõÄ¸¶´Ò»²ã.lua			1674;3219																	
+115	V­¬ng MÉu ®éng_2	116	V­¬ng MÉu ®éng-3	3	\script\½­ÄÏÇø\ÍõÄ¸¶´¶ş²ã\trap\ÍõÄ¸¶´¶ş²ãtoÍõÄ¸¶´Èı²ã.lua			1761;3358																	
+116	V­¬ng MÉu ®éng-3	115	V­¬ng MÉu ®éng_2	3	\script\½­ÄÏÇø\ÍõÄ¸¶´Èı²ã\trap\ÍõÄ¸¶´Èı²ãtoÍõÄ¸¶´¶ş²ã.lua			1727;3058																	
+118	Dao Tiªn ®éng	106	Long TuyÒn Th«n	3	\script\½­ÄÏÇø\Ò£ÏÉ¶´\trap\Ò£ÏÉ¶´toÁúÈª´å.lua			1615;3208																	
+150	D­¬ng Ch©u	200	BiÖn Kinh	2	\script\½­ÄÏÇø\ÑïÖİ\npc\ÑïÖİ³µ·ò.lua		Xa phu	1628;3045	Xa phu	1625;3173	Xa phu	1717;3075	Xa phu	1761;3181	3;										
+150	D­¬ng Ch©u	300	Thµnh §«	2	\script\½­ÄÏÇø\ÑïÖİ\npc\ÑïÖİ³µ·ò.lua		Xa phu	1628;3045	Xa phu	1625;3173	Xa phu	1717;3075	Xa phu	1761;3181	1;										
+150	D­¬ng Ch©u	400	§¹i Lı phñ	2	\script\½­ÄÏÇø\ÑïÖİ\npc\ÑïÖİ³µ·ò.lua		Xa phu	1628;3045	Xa phu	1625;3173	Xa phu	1717;3075	Xa phu	1761;3181	5;										
+150	D­¬ng Ch©u	500	Phông T­êng phñ	2	\script\½­ÄÏÇø\ÑïÖİ\npc\ÑïÖİ³µ·ò.lua		Xa phu	1628;3045	Xa phu	1625;3173	Xa phu	1717;3075	Xa phu	1761;3181	6;										
+150	D­¬ng Ch©u	100	TuyÒn Ch©u	2	\script\½­ÄÏÇø\ÑïÖİ\npc\ÑïÖİ³µ·ò.lua		Xa phu	1628;3045	Xa phu	1625;3173	Xa phu	1717;3075	Xa phu	1761;3181	2;										
+150	D­¬ng Ch©u	350	T­¬ng D­¬ng	2	\script\½­ÄÏÇø\ÑïÖİ\npc\ÑïÖİ³µ·ò.lua		Xa phu	1628;3045	Xa phu	1625;3173	Xa phu	1717;3075	Xa phu	1761;3181	4;										
+150	D­¬ng Ch©u	202	H¹nh Hoa th«n	3	\script\½­ÄÏÇø\ÑïÖİ\trap\ÑïÖİtoĞÓ»¨´å.lua			1765;3028																	
+150	D­¬ng Ch©u	209	C¸i Bang	3	\script\½­ÄÏÇø\ÑïÖİ\trap\ÑïÖİtoØ¤°ï.lua			1807;3240																	
+150	D­¬ng Ch©u	151	V©n Méng Tr¹ch	3	\script\½­ÄÏÇø\ÑïÖİ\trap\ÑïÖİtoÔÆÃÎÔó.lua			1583;3001																	
+150	D­¬ng Ch©u	106	Long TuyÒn Th«n	3	\script\½­ÄÏÇø\ÑïÖİ\trap\ÑïÖİtoÁúÈª´å.lua			1559;3250																	
+150	D­¬ng Ch©u	204	ThiÕu L©m	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1723;3143							1;	1;	2;	2;	2;	2;	2;	2;	2;	2;	2;
+150	D­¬ng Ch©u	312	Vâ §ang	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1723;3143							2;	2;	1;	3;	3;	3;	3;	3;	3;	3;	3;
+150	D­¬ng Ch©u	303	Nga My	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1723;3143							3;	3;	3;	1;	4;	4;	4;	4;	4;	4;	4;
+150	D­¬ng Ch©u	209	C¸i Bang	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1723;3143							4;	4;	4;	4;	1;	5;	5;	5;	5;	5;	5;
+150	D­¬ng Ch©u	305	§­êng M«n	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1723;3143							5;	5;	5;	5;	5;	1;	6;1;	6;1;	6;1;	6;1;	6;1;
+150	D­¬ng Ch©u	219	Thiªn Ba D­¬ng phñ	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1723;3143							6;1;	6;1;	6;1;	6;1;	6;1;	6;1;	1;	6;2;	6;2;	6;2;	6;2;
+150	D­¬ng Ch©u	407	Ngò §éc Gi¸o	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1723;3143							6;2;	6;2;	6;2;	6;2;	6;2;	6;2;	6;2;	1;	6;3;	6;3;	6;3;
+150	D­¬ng Ch©u	509	C«n L«n	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1723;3143							6;3;	6;3;	6;3;	6;3;	6;3;	6;3;	6;3;	6;3;	1;	6;4;	
+150	D­¬ng Ch©u	404	Thóy Yªn	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1723;3143							6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	1;	6;5
+150	D­¬ng Ch©u	152	Minh gi¸o	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1723;3143							6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	1;	6;5;
+151	V©n Méng Tr¹ch	114	V­¬ng MÉu ®éng_1	3	\script\½­ÄÏÇø\ÔÆÃÎÔó\trap\ÔÆÃÎÔótoÍõÄ¸¶´.lua			1359;2708																	
+151	V©n Méng Tr¹ch	150	D­¬ng Ch©u	3	\script\½­ÄÏÇø\ÔÆÃÎÔó\trap\ÔÆÃÎÔótoÑïÖİ.lua			1581;3095																	
+152	Minh gi¸o	105	T©y TuyÒn Ch©u	3	\script\½­ÄÏÇø\Ã÷½Ì\trap\Ã÷½ÌtoÃ÷½ÌÍâ.lua			1727;3312
+152	Minh gi¸o	100	TuyÒn Ch©u	2	\script\½­ÄÏÇø\Ã÷½Ì\npc\·½°Ù»¨.lua		Ph­¬ng B¸ch Hoa	1686;3283							1;
+200	BiÖn Kinh	204	ThiÕu L©m	1	\script\ÖĞÔ­Ò»Çø\ãê¾©\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1402;2824							1;	1;	2;	2;	2;	2;	2;	2;	2;	2;	2;
+200	BiÖn Kinh	312	Vâ §ang	1	\script\ÖĞÔ­Ò»Çø\ãê¾©\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1402;2824							2;	2;	1;	3;	3;	3;	3;	3;	3;	3;	3;
+200	BiÖn Kinh	303	Nga My	1	\script\ÖĞÔ­Ò»Çø\ãê¾©\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1402;2824							3;	3;	3;	1;	4;	4;	4;	4;	4;	4;	4;
+200	BiÖn Kinh	209	C¸i Bang	1	\script\ÖĞÔ­Ò»Çø\ãê¾©\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1402;2824							4;	4;	4;	4;	1;	5;	5;	5;	5;	5;	5;
+200	BiÖn Kinh	305	§­êng M«n	1	\script\ÖĞÔ­Ò»Çø\ãê¾©\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1402;2824							5;	5;	5;	5;	5;	1;	6;1;	6;1;	6;1;	6;1;	6;1;
+200	BiÖn Kinh	219	Thiªn Ba D­¬ng phñ	1	\script\ÖĞÔ­Ò»Çø\ãê¾©\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1402;2824							6;1;	6;1;	6;1;	6;1;	6;1;	6;1;	1;	6;2;	6;2;	6;2;	6;2;
+200	BiÖn Kinh	407	Ngò §éc Gi¸o	1	\script\ÖĞÔ­Ò»Çø\ãê¾©\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1402;2824							6;2;	6;2;	6;2;	6;2;	6;2;	6;2;	6;2;	1;	6;3;	6;3;	6;3;
+200	BiÖn Kinh	509	C«n L«n	1	\script\ÖĞÔ­Ò»Çø\ãê¾©\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1402;2824							6;3;	6;3;	6;3;	6;3;	6;3;	6;3;	6;3;	6;3;	1;	6;4;	
+200	BiÖn Kinh	404	Thóy Yªn	1	\script\ÖĞÔ­Ò»Çø\ãê¾©\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1402;2824							6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	1;	6;5
+200	BiÖn Kinh	152	Minh gi¸o	1	\script\ÖĞÔ­Ò»Çø\ãê¾©\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1402;2824							6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	1;	6;5;
+200	BiÖn Kinh	300	Thµnh §«	2	\script\ÖĞÔ­Ò»Çø\ãê¾©\npc\ãê¾©³µ·ò.lua		Xa phu	1260;2953	Xa phu	1268;2720	Xa phu	1469;2984			1;										
+200	BiÖn Kinh	400	§¹i Lı phñ	2	\script\ÖĞÔ­Ò»Çø\ãê¾©\npc\ãê¾©³µ·ò.lua		Xa phu	1260;2953	Xa phu	1268;2720	Xa phu	1469;2984			6;										
+200	BiÖn Kinh	500	Phông T­êng phñ	2	\script\ÖĞÔ­Ò»Çø\ãê¾©\npc\ãê¾©³µ·ò.lua		Xa phu	1260;2953	Xa phu	1268;2720	Xa phu	1469;2984			5;										
+200	BiÖn Kinh	100	TuyÒn Ch©u	2	\script\ÖĞÔ­Ò»Çø\ãê¾©\npc\ãê¾©³µ·ò.lua		Xa phu	1260;2953	Xa phu	1268;2720	Xa phu	1469;2984			2;										
+200	BiÖn Kinh	350	T­¬ng D­¬ng	2	\script\ÖĞÔ­Ò»Çø\ãê¾©\npc\ãê¾©³µ·ò.lua		Xa phu	1260;2953	Xa phu	1268;2720	Xa phu	1469;2984			3;										
+200	BiÖn Kinh	150	D­¬ng Ch©u	2	\script\ÖĞÔ­Ò»Çø\ãê¾©\npc\ãê¾©³µ·ò.lua		Xa phu	1260;2953	Xa phu	1268;2720	Xa phu	1469;2984			4;										
+200	BiÖn Kinh	203	T©y BiÖn Kinh	3	\script\ÖĞÔ­Ò»Çø\ãê¾©\trap\ãê¾©toãê¾©¸®Î÷.lua			1196;2659																	
+200	BiÖn Kinh	201	Nam BiÖn Kinh	3	\script\ÖĞÔ­Ò»Çø\ãê¾©\trap\ãê¾©toãê¾©¸®ÄÏ.lua			1194;3047																	
+200	BiÖn Kinh	205	§«ng BiÖn Kinh	3	\script\ÖĞÔ­Ò»Çø\ãê¾©\trap\ãê¾©toãê¾©¸®¶«.lua			1583;3069																	
+201	Nam BiÖn Kinh	200	BiÖn Kinh	3	\script\ÖĞÔ­Ò»Çø\ãê¾©¸®ÄÏ\trap\ãê¾©¸®ÄÏtoãê¾©.lua			1592;2782																	
+201	Nam BiÖn Kinh	207	NhŞ Long s¬n	3	\script\ÖĞÔ­Ò»Çø\ãê¾©¸®ÄÏ\trap\ãê¾©¸®ÄÏto¶şÁúÉ½.lua			1567;3179																	
+201	Nam BiÖn Kinh	202	H¹nh Hoa th«n	3	\script\ÖĞÔ­Ò»Çø\ãê¾©¸®ÄÏ\trap\ãê¾©¸®ÄÏtoĞÓ»¨´å.lua			1405;3168																	
+202	H¹nh Hoa th«n	201	Nam BiÖn Kinh	3	\script\ÖĞÔ­Ò»Çø\ĞÓ»¨´å\trap\ĞÓ»¨´åtoãê¾©¸®ÄÏ.lua			1580;2719																	
+202	H¹nh Hoa th«n	210	D­¬ng Trung ®éng-1	3	\script\ÖĞÔ­Ò»Çø\ĞÓ»¨´å\trap\ĞÓ»¨´åtoÑôÖĞ¶´.lua			1353;3109																	
+202	H¹nh Hoa th«n	150	D­¬ng Ch©u	3	\script\ÖĞÔ­Ò»Çø\ĞÓ»¨´å\trap\ĞÓ»¨´åtoÑïÖİ.lua			1345;3163																	
+203	T©y BiÖn Kinh	200	BiÖn Kinh	3	\script\ÖĞÔ­Ò»Çø\ãê¾©¸®Î÷\trap\ãê¾©¸®Î÷toãê¾©.lua			1583;3154																	
+203	T©y BiÖn Kinh	204	ThiÕu L©m	3	\script\ÖĞÔ­Ò»Çø\ãê¾©¸®Î÷\trap\ãê¾©¸®Î÷toÉÙÁÖÅÉ.lua			1375;2750																	
+204	ThiÕu L©m	200	BiÖn Kinh	2	\script\ÖĞÔ­Ò»Çø\ÉÙÁÖ\npc\Öª¿ÍÉ®.lua		TŞnh Viªn	1507;3298							1;										
+204	ThiÕu L©m	203	T©y BiÖn Kinh	3	\script\ÖĞÔ­Ò»Çø\ÉÙÁÖ\trap\ÉÙÁÖtoãê¾©¸®Î÷.lua			1770;3524																	
+204	ThiÕu L©m	218	Linh B¶o s¬n	3	\script\ÖĞÔ­Ò»Çø\ÉÙÁÖ\trap\ÉÙÁÖtoÏåÑô.lua			1379;3541																	
+204	ThiÕu L©m	213	ThiÕu L©m mËt thÊt-1	3	\script\ÖĞÔ­Ò»Çø\ÉÙÁÖ\trap\ÉÙÁÖtoÉÙÁÖÃÜÊÒ.lua			1786;3137																	
+205	§«ng BiÖn Kinh	604	Nh¹n M«n quan	3	\script\ÖĞÔ­Ò»Çø\ãê¾©¸®¶«\trap\ãê¾©¸®¶«toÑãÃÅ¹Ø.lua			1807;2855																	
+205	§«ng BiÖn Kinh	219	Thiªn Ba D­¬ng phñ	3	\script\ÖĞÔ­Ò»Çø\ãê¾©¸®¶«\trap\ãê¾©¸®¶«toÌì²¨Ñî¸®.lua			1770;3425																	
+205	§«ng BiÖn Kinh	207	NhŞ Long s¬n	3	\script\ÖĞÔ­Ò»Çø\ãê¾©¸®¶«\trap\ãê¾©¸®¶«to¶şÁúÉ½.lua			1567;3242																	
+205	§«ng BiÖn Kinh	200	BiÖn Kinh	3	\script\ÖĞÔ­Ò»Çø\ãê¾©¸®¶«\trap\ãê¾©¸®¶«toãê¾©.lua			1567;2858																	
+207	NhŞ Long s¬n	201	Nam BiÖn Kinh	3	\script\ÖĞÔ­Ò»Çø\¶şÁúÉ½\trap\¶şÁúÉ½toãê¾©¸®ÄÏ.lua			1291;2742																	
+207	NhŞ Long s¬n	208	L­¬ng S¬n B¹c	3	\script\ÖĞÔ­Ò»Çø\¶şÁúÉ½\trap\¶şÁúÉ½toÁºÉ½²´.lua			1581;3192																	
+207	NhŞ Long s¬n	205	§«ng BiÖn Kinh	3	\script\ÖĞÔ­Ò»Çø\¶şÁúÉ½\trap\¶şÁúÉ½toãê¾©¸®¶«.lua			1584;2783																	
+208	L­¬ng S¬n B¹c	215	H¾c Phong ®éng	3	\script\ÖĞÔ­Ò»Çø\ÁºÉ½²´\trap\ÁºÉ½²´toºÚ·ç¶´2.lua			1457;2955																	
+208	L­¬ng S¬n B¹c	215	H¾c Phong ®éng	3	\script\ÖĞÔ­Ò»Çø\ÁºÉ½²´\trap\ÁºÉ½²´toºÚ·ç¶´1.lua			1578;2853																	
+208	L­¬ng S¬n B¹c	207	NhŞ Long s¬n	3	\script\ÖĞÔ­Ò»Çø\ÁºÉ½²´\trap\ÁºÉ½²´to¶şÁúÉ½.lua			1500;3307																	
+208	L­¬ng S¬n B¹c	217	D· Tr­ l©m	3	\script\ÖĞÔ­Ò»Çø\ÁºÉ½²´\trap\ÁºÉ½²´toØ¤°ï.lua			1583;3306																	
+209	C¸i Bang	150	D­¬ng Ch©u	2	\script\ÖĞÔ­Ò»Çø\Ø¤°ï\npc\Öª¿ÍØ¤.lua		Hång ThÊt	1521;3243							1;										
+209	C¸i Bang	217	D· Tr­ l©m	3	\script\ÖĞÔ­Ò»Çø\Ø¤°ï\trap\Ø¤°ïtoÁºÉ½²´.lua			1717;3071																	
+209	C¸i Bang	150	D­¬ng Ch©u	3	\script\ÖĞÔ­Ò»Çø\Ø¤°ï\trap\Ø¤°ïtoÑïÖİ.lua			1424;3290																	
+209	C¸i Bang	216	T­êng V©n ®éng	3	\script\ÖĞÔ­Ò»Çø\Ø¤°ï\trap\Ø¤°ïtoÏéÔÆ¶´.lua			1485;3078																	
+210	D­¬ng Trung ®éng-1	211	D­¬ng Trung ®éng-2	3	\script\ÖĞÔ­Ò»Çø\ÑôÖĞ¶´Ò»²ã\trap\ÑôÖĞ¶´Ò»²ãtoÑôÖĞ¶´¶ş²ã.lua			1282;2979																	
+210	D­¬ng Trung ®éng-1	202	H¹nh Hoa th«n	3	\script\ÖĞÔ­Ò»Çø\ÑôÖĞ¶´Ò»²ã\trap\ÑôÖĞ¶´Ò»²ãtoĞÓ»¨´å.lua			1604;3191																	
+211	D­¬ng Trung ®éng-2	210	D­¬ng Trung ®éng-1	3	\script\ÖĞÔ­Ò»Çø\ÑôÖĞ¶´¶ş²ã\trap\ÑôÖĞ¶´¶ş²ãtoÑôÖĞ¶´Ò»²ã.lua			1998;3164																	
+211	D­¬ng Trung ®éng-2	212	D­¬ng Trung ®éng-3	3	\script\ÖĞÔ­Ò»Çø\ÑôÖĞ¶´¶ş²ã\trap\ÑôÖĞ¶´¶ş²ãtoÑôÖĞ¶´Èı²ã.lua			1499;3123																	
+212	D­¬ng Trung ®éng-3	211	D­¬ng Trung ®éng-2	3	\script\ÖĞÔ­Ò»Çø\ÑôÖĞ¶´Èı²ã\trap\ÑôÖĞ¶´Èı²ãtoÑôÖĞ¶´¶ş²ã.lua			1607;3192																	
+213	ThiÕu L©m mËt thÊt-1	214	ThiÕu L©m mËt thÊt-2	3	\script\ÖĞÔ­Ò»Çø\ÉÙÁÖÃÜÊÒÒ»²ã\trap\ÉÙÁÖÃÜÊÒÒ»²ãtoÉÙÁÖÃÜÊÒ¶ş²ã.lua			1427;3251																	
+213	ThiÕu L©m mËt thÊt-1	204	ThiÕu L©m	3	\script\ÖĞÔ­Ò»Çø\ÉÙÁÖÃÜÊÒÒ»²ã\trap\ÉÙÁÖÃÜÊÒÒ»²ãtoÉÙÁÖ.lua			1630;3200																	
+214	ThiÕu L©m mËt thÊt-2	213	ThiÕu L©m mËt thÊt-1	3	\script\ÖĞÔ­Ò»Çø\ÉÙÁÖÃÜÊÒ¶ş²ã\trap\ÉÙÁÖÃÜÊÒ¶ş²ãtoÉÙÁÖÃÜÊÒÒ»²ã.lua			1636;3194																	
+215	H¾c Phong ®éng	208	L­¬ng S¬n B¹c	3	\script\ÖĞÔ­Ò»Çø\ºÚ·ç¶´\trap\ºÚ·ç¶´1toÁºÉ½²´.lua			1743;3332																	
+215	H¾c Phong ®éng	208	L­¬ng S¬n B¹c	3	\script\ÖĞÔ­Ò»Çø\ºÚ·ç¶´\trap\ºÚ·ç¶´2toÁºÉ½²´.lua			1568;3241																	
+216	T­êng V©n ®éng	209	C¸i Bang	3	\script\ÖĞÔ­Ò»Çø\ÏéÔÆ¶´\trap\ÏéÔÆ¶´toØ¤°ï.lua			1586;3207																	
+217	D· Tr­ l©m	208	L­¬ng S¬n B¹c	3	\script\ÖĞÔ­Ò»Çø\Ò°ÖíÁÖ\trap\Ò°ÖíÁÖtoÁºÉ½²´.lua			2043;2791																	
+217	D· Tr­ l©m	209	C¸i Bang	3	\script\ÖĞÔ­Ò»Çø\Ò°ÖíÁÖ\trap\Ò°ÖíÁÖtoØ¤°ï.lua			1602;3236																	
+218	Linh B¶o s¬n	204	ThiÕu L©m	3	\script\ÖĞÔ­Ò»Çø\Áé±¦É½\trap\Áé±¦É½toÉÙÁÖ.lua			1902;3240																	
+218	Linh B¶o s¬n	350	T­¬ng D­¬ng	3	\script\ÖĞÔ­Ò»Çø\Áé±¦É½\trap\Áé±¦É½toÏåÑô.lua			1601;3654																	
+219	Thiªn Ba D­¬ng phñ	205	§«ng BiÖn Kinh	3	\script\ÖĞÔ­Ò»Çø\Ìì²¨Ñî¸®\trap\Ìì²¨Ñî¸®toãê¾©¸®¶«.lua			1103;3031																	
+219	Thiªn Ba D­¬ng phñ	200	BiÖn Kinh	2	\script\ÖĞÔ­Ò»Çø\Ìì²¨Ñî¸®\npc\Ñîºé.lua		D­¬ng Hång	1634;3278							1;										
+300	Thµnh §«	204	ThiÕu L©m	1	\script\ÖĞÔ­¶şÇø\³É¶¼\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1799;3532							1;	1;	2;	2;	2;	2;	2;	2;	2;	2;	2;
+300	Thµnh §«	312	Vâ §ang	1	\script\ÖĞÔ­¶şÇø\³É¶¼\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1799;3532							2;	2;	1;	3;	3;	3;	3;	3;	3;	3;	3;
+300	Thµnh §«	303	Nga My	1	\script\ÖĞÔ­¶şÇø\³É¶¼\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1799;3532							3;	3;	3;	1;	4;	4;	4;	4;	4;	4;	4;
+300	Thµnh §«	209	C¸i Bang	1	\script\ÖĞÔ­¶şÇø\³É¶¼\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1799;3532							4;	4;	4;	4;	1;	5;	5;	5;	5;	5;	5;
+300	Thµnh §«	305	§­êng M«n	1	\script\ÖĞÔ­¶şÇø\³É¶¼\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1799;3532							5;	5;	5;	5;	5;	1;	6;1;	6;1;	6;1;	6;1;	6;1;
+300	Thµnh §«	219	Thiªn Ba D­¬ng phñ	1	\script\ÖĞÔ­¶şÇø\³É¶¼\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1799;3532							6;1;	6;1;	6;1;	6;1;	6;1;	6;1;	1;	6;2;	6;2;	6;2;	6;2;
+300	Thµnh §«	407	Ngò §éc Gi¸o	1	\script\ÖĞÔ­¶şÇø\³É¶¼\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1799;3532							6;2;	6;2;	6;2;	6;2;	6;2;	6;2;	6;2;	1;	6;3;	6;3;	6;3;
+300	Thµnh §«	509	C«n L«n	1	\script\ÖĞÔ­¶şÇø\³É¶¼\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1799;3532							6;3;	6;3;	6;3;	6;3;	6;3;	6;3;	6;3;	6;3;	1;	6;4;	
+300	Thµnh §«	404	Thóy Yªn	1	\script\ÖĞÔ­¶şÇø\³É¶¼\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1799;3532							6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	1;	6;5
+300	Thµnh §«	152	Minh gi¸o	1	\script\ÖĞÔ­¶şÇø\³É¶¼\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1799;3532							6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	1;	6;5;
+300	Thµnh §«	200	BiÖn Kinh	2	\script\ÖĞÔ­¶şÇø\³É¶¼\npc\³É¶¼³µ·ò.lua		Xa phu	1675;3493	Xa phu	1707;3691	Xa phu	1886;3443	Xa phu	1895;3632	1;										
+300	Thµnh §«	400	§¹i Lı phñ	2	\script\ÖĞÔ­¶şÇø\³É¶¼\npc\³É¶¼³µ·ò.lua		Xa phu	1675;3493	Xa phu	1707;3691	Xa phu	1886;3443	Xa phu	1895;3632	5;										
+300	Thµnh §«	500	Phông T­êng phñ	2	\script\ÖĞÔ­¶şÇø\³É¶¼\npc\³É¶¼³µ·ò.lua		Xa phu	1675;3493	Xa phu	1707;3691	Xa phu	1886;3443	Xa phu	1895;3632	6;										
+300	Thµnh §«	100	TuyÒn Ch©u	2	\script\ÖĞÔ­¶şÇø\³É¶¼\npc\³É¶¼³µ·ò.lua		Xa phu	1675;3493	Xa phu	1707;3691	Xa phu	1886;3443	Xa phu	1895;3632	2;										
+300	Thµnh §«	350	T­¬ng D­¬ng	2	\script\ÖĞÔ­¶şÇø\³É¶¼\npc\³É¶¼³µ·ò.lua		Xa phu	1675;3493	Xa phu	1707;3691	Xa phu	1886;3443	Xa phu	1895;3632	3;										
+300	Thµnh §«	150	D­¬ng Ch©u	2	\script\ÖĞÔ­¶şÇø\³É¶¼\npc\³É¶¼³µ·ò.lua		Xa phu	1675;3493	Xa phu	1707;3691	Xa phu	1886;3443	Xa phu	1895;3632	4;										
+300	Thµnh §«	301	T©y Thµnh §«	3	\script\ÖĞÔ­¶şÇø\³É¶¼\trap\³É¶¼to³É¶¼¸®Î÷.lua			1631;3397																	
+300	Thµnh §«	308	B¾c Thµnh §«	3	\script\ÖĞÔ­¶şÇø\³É¶¼\trap\³É¶¼to³É¶¼¸®±±.lua			1954;3380																	
+300	Thµnh §«	304	Nam Thµnh §«	3	\script\ÖĞÔ­¶şÇø\³É¶¼\trap\³É¶¼to³É¶¼¸®ÄÏ.lua			1616;3740																	
+301	T©y Thµnh §«	300	Thµnh §«	3	\script\ÖĞÔ­¶şÇø\³É¶¼¸®Î÷\trap\³É¶¼¸®Î÷to³É¶¼.lua			1599;3194																	
+301	T©y Thµnh §«	303	Nga My	3	\script\ÖĞÔ­¶şÇø\³É¶¼¸®Î÷\trap\³É¶¼¸®Î÷to¶ëáÒÅÉ.lua			1448;3209																	
+301	T©y Thµnh §«	302	Thanh Thµnh s¬n	3	\script\ÖĞÔ­¶şÇø\³É¶¼¸®Î÷\trap\³É¶¼¸®Î÷toÇà³ÇÉ½.lua			1391;2785																	
+302	Thanh Thµnh s¬n	313	Thiªn S­ ®éng-1	3	\script\ÖĞÔ­¶şÇø\Çà³ÇÉ½\trap\Çà³ÇÉ½toÌìÊ¦¶´.lua			1317;2828																	
+302	Thanh Thµnh s¬n	301	T©y Thµnh §«	3	\script\ÖĞÔ­¶şÇø\Çà³ÇÉ½\trap\Çà³ÇÉ½to³É¶¼¸®Î÷.lua			1594;3170																	
+303	Nga My	300	Thµnh §«	2	\script\ÖĞÔ­¶şÇø\¶ëáÒ\npc\¶ëáÒ´«ËÍÈË.lua		Nghi Hßa	1592;3222							1;										
+303	Nga My	301	T©y Thµnh §«	3	\script\ÖĞÔ­¶şÇø\¶ëáÒ\trap\¶ëáÒto³É¶¼¸®Î÷.lua			1887;3324																	
+303	Nga My	315	B¨ng T©m ®éng_1	3	\script\ÖĞÔ­¶şÇø\¶ëáÒ\trap\¶ëáÒto±ùĞÄ¶´.lua			1820;2978																	
+303	Nga My	304	Nam Thµnh §«	3	\script\ÖĞÔ­¶şÇø\¶ëáÒ\trap\¶ëáÒto³É¶¼¸®ÄÏ.lua			1630;3468																	
+304	Nam Thµnh §«	303	Nga My	3	\script\ÖĞÔ­¶şÇø\³É¶¼¸®ÄÏ\trap\³É¶¼¸®ÄÏto¶ëáÒÅÉ.lua			1391;2821																	
+304	Nam Thµnh §«	300	Thµnh §«	3	\script\ÖĞÔ­¶şÇø\³É¶¼¸®ÄÏ\trap\³É¶¼¸®ÄÏto³É¶¼.lua			1577;2808																	
+304	Nam Thµnh §«	305	§­êng M«n	3	\script\ÖĞÔ­¶şÇø\³É¶¼¸®ÄÏ\trap\³É¶¼¸®ÄÏtoÌÆÃÅ.lua			1404;3207																	
+304	Nam Thµnh §«	306	Giang T©n Th«n	3	\script\ÖĞÔ­¶şÇø\³É¶¼¸®ÄÏ\trap\³É¶¼¸®ÄÏto½­½ò´å.lua			1583;3198																	
+305	§­êng M«n	300	Thµnh §«	2	\script\ÖĞÔ­¶şÇø\ÌÆÃÅ\npc\ÌÆÍñ¶ù.lua		§­êng UyÓn Nhi	1554;2893							1;										
+305	§­êng M«n	304	Nam Thµnh §«	3	\script\ÖĞÔ­¶şÇø\ÌÆÃÅ\trap\ÌÆÃÅto³É¶¼¸®ÄÏ.lua			1735;3096																	
+305	§­êng M«n	327	¤ M«ng Bé	3	\script\ÖĞÔ­¶şÇø\ÌÆÃÅ\trap\ÌÆÃÅtoÎÚÃÉ²¿.lua			1545;3271																	
+305	§­êng M«n	317	Tróc Ty ®éng_1	3	\script\ÖĞÔ­¶şÇø\ÌÆÃÅ\trap\ÌÆÃÅtoÖñË¿¶´.lua			1439;3097																	
+306	Giang T©n Th«n	319	Phong Ma ®éng-1	3	\script\ÖĞÔ­¶şÇø\½­½ò´å\trap\½­½ò´åto·âÄ§¶´.lua			1382;3182																	
+306	Giang T©n Th«n	400	§¹i Lı phñ	3	\script\ÖĞÔ­¶şÇø\½­½ò´å\trap\½­½ò´åto´óÀí.lua			1362;3205																	
+306	Giang T©n Th«n	307	Phong §«	3	\script\ÖĞÔ­¶şÇø\½­½ò´å\trap\½­½ò´åto·á¶¼.lua			1599;2757																	
+306	Giang T©n Th«n	304	Nam Thµnh §«	3	\script\ÖĞÔ­¶şÇø\½­½ò´å\trap\½­½ò´åto³É¶¼¸®ÄÏ.lua			1328;2826																	
+307	Phong §«	306	Giang T©n Th«n	3	\script\ÖĞÔ­¶şÇø\·á¶¼\trap\·á¶¼to½­½ò´å.lua			1460;3203																	
+307	Phong §«	328	Quû M«n Håi Lang	3	\script\ÖĞÔ­¶şÇø\·á¶¼\trap\·á¶¼toÊ®°Ë²ãµØÓü.lua			1592;2686																	
+308	B¾c Thµnh §«	309	KiÕm C¸c Thôc ®¹o	3	\script\ÖĞÔ­¶şÇø\³É¶¼¸®±±\trap\³É¶¼¸®±±to½£¸óÊñµÀ.lua			1595;2933																	
+308	B¾c Thµnh §«	300	Thµnh §«	3	\script\ÖĞÔ­¶şÇø\³É¶¼¸®±±\trap\³É¶¼¸®±±to³É¶¼.lua			1390;3232																	
+309	KiÕm C¸c Thôc ®¹o	321	Kim Quang ®éng	3	\script\ÖĞÔ­¶şÇø\½£¸óÊñµÀ\trap\½£¸óÊñµÀto½ğ¹â¶´.lua			1119;2926																	
+309	KiÕm C¸c Thôc ®¹o	310	KiÕm M«n quan	3	\script\ÖĞÔ­¶şÇø\½£¸óÊñµÀ\trap\½£¸óÊñµÀto½£ÃÅ¹Ø.lua			1587;3192																	
+309	KiÕm C¸c Thôc ®¹o	308	B¾c Thµnh §«	3	\script\ÖĞÔ­¶şÇø\½£¸óÊñµÀ\trap\½£¸óÊñµÀto³É¶¼¸®±±.lua			1086;3292																	
+309	KiÕm C¸c Thôc ®¹o	501	Nam Phông T­êng	3	\script\ÖĞÔ­¶şÇø\½£¸óÊñµÀ\trap\½£¸óÊñµÀto·ïÏè¸®ÄÏ.lua			1585;2949																	
+310	KiÕm M«n quan	309	KiÕm C¸c Thôc ®¹o	3	\script\ÖĞÔ­¶şÇø\½£ÃÅ¹Ø\trap\½£ÃÅ¹Øto½£¸óÊñµÀ.lua			1278;2911																	
+310	KiÕm M«n quan	311	Phôc Ng­u s¬n	3	\script\ÖĞÔ­¶şÇø\½£ÃÅ¹Ø\trap\½£ÃÅ¹Øto·üÅ£É½.lua			1583;2870																	
+310	KiÕm M«n quan	326	Mé TuyÕt s¬n trang	3	\script\ÖĞÔ­¶şÇø\½£ÃÅ¹Ø\trap\½£ÃÅ¹ØtoÎäµ±ÅÉ.lua			1487;3207																	
+311	Phôc Ng­u s¬n	322	Long Hæ ®éng-1	3	\script\ÖĞÔ­¶şÇø\·üÅ£É½\trap\·üÅ£É½toÁú»¢¶´.lua			1542;3170																	
+311	Phôc Ng­u s¬n	312	Vâ §ang	3	\script\ÖĞÔ­¶şÇø\·üÅ£É½\trap\·üÅ£É½toÎäµ±ÅÉ.lua			1411;3206																	
+311	Phôc Ng­u s¬n	310	KiÕm M«n quan	3	\script\ÖĞÔ­¶şÇø\·üÅ£É½\trap\·üÅ£É½to½£ÃÅ¹Ø.lua			1342;2727																	
+312	Vâ §ang	350	T­¬ng D­¬ng	2	\script\ÖĞÔ­¶şÇø\Îäµ±\npc\Îäµ±Ó­¿ÍµÀÈË.lua		M¹c Thu Phong	1746;3420							1;										
+312	Vâ §ang	350	T­¬ng D­¬ng	3	\script\ÖĞÔ­¶şÇø\Îäµ±\trap\Îäµ±toÏåÑô.lua			2012;3866																	
+312	Vâ §ang	311	Phôc Ng­u s¬n	3	\script\ÖĞÔ­¶şÇø\Îäµ±\trap\Îäµ±to·üÅ£É½.lua			1786;3050																	
+312	Vâ §ang	326	Mé TuyÕt s¬n trang	3	\script\ÖĞÔ­¶şÇø\Îäµ±\trap\Îäµ±to½£ÃÅ¹Ø.lua			1487;3136																	
+312	Vâ §ang	324	ThÊt Tinh ®éng-1	3	\script\ÖĞÔ­¶şÇø\Îäµ±\trap\Îäµ±toÆßĞÇ¶´.lua			1463;3317																	
+313	Thiªn S­ ®éng-1	302	Thanh Thµnh s¬n	3	\script\ÖĞÔ­¶şÇø\ÌìÊ¦¶´Ò»²ã\trap\ÌìÊ¦¶´Ò»²ãtoÇà³ÇÉ½.lua			1403;3488																	
+313	Thiªn S­ ®éng-1	314	Thiªn S­ ®éng-2	3	\script\ÖĞÔ­¶şÇø\ÌìÊ¦¶´Ò»²ã\trap\ÌìÊ¦¶´Ò»²ãtoÌìÊ¦¶´¶ş²ã.lua			1781;3157																	
+314	Thiªn S­ ®éng-2	313	Thiªn S­ ®éng-1	3	\script\ÖĞÔ­¶şÇø\ÌìÊ¦¶´¶ş²ã\trap\ÌìÊ¦¶´¶ş²ãtoÌìÊ¦¶´Ò»²ã.lua			1583;3047																	
+314	Thiªn S­ ®éng-2	329	Thiªn s­ bİ c¶nh	2	\script\ÖĞÔ­¶şÇø\ÌìÊ¦ÃØ¾³\npc\ÃØ¾³´«ËÍÈË.lua		§Ö tö C«n L«n thÇn bİ	1584;2856							1;										
+315	B¨ng T©m ®éng_1	316	B¨ng T©m ®éng_2	3	\script\ÖĞÔ­¶şÇø\±ùĞÄ¶´Ò»²ã\trap\±ùĞÄ¶´Ò»²ãto±ùĞÄ¶´¶ş²ã.lua			1841;2838																	
+315	B¨ng T©m ®éng_1	303	Nga My	3	\script\ÖĞÔ­¶şÇø\±ùĞÄ¶´Ò»²ã\trap\±ùĞÄ¶´Ò»²ãto¶ëáÒ.lua			1586;3172																	
+316	B¨ng T©m ®éng_2	315	B¨ng T©m ®éng_1	3	\script\ÖĞÔ­¶şÇø\±ùĞÄ¶´¶ş²ã\trap\±ùĞÄ¶´¶ş²ãto±ùĞÄ¶´Ò»²ã.lua			1579;3439																	
+317	Tróc Ty ®éng_1	305	§­êng M«n	3	\script\ÖĞÔ­¶şÇø\ÖñË¿¶´Ò»²ã\trap\ÖñË¿¶´Ò»²ãtoÌÆÃÅ.lua			1330;3141																	
+317	Tróc Ty ®éng_1	318	Tróc Ty ®éng-2	3	\script\ÖĞÔ­¶şÇø\ÖñË¿¶´Ò»²ã\trap\ÖñË¿¶´Ò»²ãtoÖñË¿¶´¶ş²ã.lua			1548;2791																	
+318	Tróc Ty ®éng-2	317	Tróc Ty ®éng_1	3	\script\ÖĞÔ­¶şÇø\ÖñË¿¶´¶ş²ã\trap\ÖñË¿¶´¶ş²ãtoÖñË¿¶´Ò»²ã.lua			1322;3151																	
+319	Phong Ma ®éng-1	320	Phong Ma ®éng-2	3	\script\ÖĞÔ­¶şÇø\·âÄ§¶´Ò»²ã\trap\·âÄ§¶´Ò»²ãto·âÄ§¶´¶ş²ã.lua			2023;2908																	
+319	Phong Ma ®éng-1	306	Giang T©n Th«n	3	\script\ÖĞÔ­¶şÇø\·âÄ§¶´Ò»²ã\trap\·âÄ§¶´Ò»²ãto½­½ò´å.lua			1599;3203																	
+320	Phong Ma ®éng-2	319	Phong Ma ®éng-1	3	\script\ÖĞÔ­¶şÇø\·âÄ§¶´¶ş²ã\trap\·âÄ§¶´¶ş²ãto·âÄ§¶´Ò»²ã.lua			1598;3204																	
+321	Kim Quang ®éng	309	KiÕm C¸c Thôc ®¹o	3	\script\ÖĞÔ­¶şÇø\½ğ¹â¶´\trap\½ğ¹â¶´to½£¸óÊñµÀ.lua			1617;3617																	
+322	Long Hæ ®éng-1	323	Long Hæ ®éng-2	3	\script\ÖĞÔ­¶şÇø\Áú»¢¶´Ò»²ã\trap\Áú»¢¶´Ò»²ãtoÁú»¢¶´¶ş²ã.lua			1804;2982																	
+322	Long Hæ ®éng-1	311	Phôc Ng­u s¬n	3	\script\ÖĞÔ­¶şÇø\Áú»¢¶´Ò»²ã\trap\Áú»¢¶´Ò»²ãto·üÅ£É½.lua			1461;3352																	
+323	Long Hæ ®éng-2	322	Long Hæ ®éng-1	3	\script\ÖĞÔ­¶şÇø\Áú»¢¶´¶ş²ã\trap\Áú»¢¶´¶ş²ãtoÁú»¢¶´Ò»²ã.lua			1431;3386																	
+324	ThÊt Tinh ®éng-1	325	ThÊt Tinh ®éng-2	3	\script\ÖĞÔ­¶şÇø\ÆßĞÇ¶´Ò»²ã\trap\ÆßĞÇ¶´Ò»²ãtoÆßĞÇ¶´¶ş²ã.lua			1585;3203																	
+324	ThÊt Tinh ®éng-1	312	Vâ §ang	3	\script\ÖĞÔ­¶şÇø\ÆßĞÇ¶´Ò»²ã\trap\ÆßĞÇ¶´Ò»²ãtoÎäµ±.lua			2139;2870																	
+325	ThÊt Tinh ®éng-2	324	ThÊt Tinh ®éng-1	3	\script\ÖĞÔ­¶şÇø\ÆßĞÇ¶´¶ş²ã\trap\ÆßĞÇ¶´¶ş²ãtoÆßĞÇ¶´Ò»²ã.lua			1602;3186																	
+326	Mé TuyÕt s¬n trang	310	KiÕm M«n quan	3	\script\ÖĞÔ­¶şÇø\ÄºÑ©É½×¯\trap\ÄºÑ©É½×¯toÎäµ±.lua			1414;2847																	
+326	Mé TuyÕt s¬n trang	312	Vâ §ang	3	\script\ÖĞÔ­¶şÇø\ÄºÑ©É½×¯\trap\ÄºÑ©É½×¯toÏåÑô.lua			1679;3140																	
+327	¤ M«ng Bé	305	§­êng M«n	3	\script\ÖĞÔ­¶şÇø\ÎÚÃÉ²¿\trap\ÎÚÃÉ²¿toÌÆÃÅ.lua			1325;2741																	
+327	¤ M«ng Bé	401	§iÓm Th­¬ng s¬n	3	\script\ÖĞÔ­¶şÇø\ÎÚÃÉ²¿\trap\ÎÚÃÉ²¿to³É¶¼¸®ÄÏ.lua			1584;3019																	
+328	Quû M«n Håi Lang	307	Phong §«	3	\script\ÖĞÔ­¶şÇø\¹íÃÅ»ØÀÈ\trap\¹íÃÅto·á¶¼.lua			1615;4000																	
+329	Thiªn s­ bİ c¶nh	314	Thiªn S­ ®éng-2	3	\script\ÖĞÔ­¶şÇø\ÌìÊ¦ÃØ¾³\trap\ÌìÊ¦ÃØ¾³toÌìÊ¦¶´¶ş²ã.lua			1900;3753																	
+350	T­¬ng D­¬ng	200	BiÖn Kinh	2	\script\ÖĞÔ­¶şÇø\ÏåÑô\npc\ÏåÑô³µ·ò.lua		Xa phu	1326;2895	Xa phu	1348;3029	Xa phu	1521;2860			3;										
+350	T­¬ng D­¬ng	300	Thµnh §«	2	\script\ÖĞÔ­¶şÇø\ÏåÑô\npc\ÏåÑô³µ·ò.lua		Xa phu	1326;2895	Xa phu	1348;3029	Xa phu	1521;2860			1;										
+350	T­¬ng D­¬ng	400	§¹i Lı phñ	2	\script\ÖĞÔ­¶şÇø\ÏåÑô\npc\ÏåÑô³µ·ò.lua		Xa phu	1326;2895	Xa phu	1348;3029	Xa phu	1521;2860			5;										
+350	T­¬ng D­¬ng	500	Phông T­êng phñ	2	\script\ÖĞÔ­¶şÇø\ÏåÑô\npc\ÏåÑô³µ·ò.lua		Xa phu	1326;2895	Xa phu	1348;3029	Xa phu	1521;2860			6;										
+350	T­¬ng D­¬ng	100	TuyÒn Ch©u	2	\script\ÖĞÔ­¶şÇø\ÏåÑô\npc\ÏåÑô³µ·ò.lua		Xa phu	1326;2895	Xa phu	1348;3029	Xa phu	1521;2860			2;										
+350	T­¬ng D­¬ng	150	D­¬ng Ch©u	2	\script\ÖĞÔ­¶şÇø\ÏåÑô\npc\ÏåÑô³µ·ò.lua		Xa phu	1326;2895	Xa phu	1348;3029	Xa phu	1521;2860			4;										
+350	T­¬ng D­¬ng	406	Vò L¨ng s¬n	3	\script\ÖĞÔ­¶şÇø\ÏåÑô\trap\ÏåÑôtoÏåÑô¸®ÄÏ.lua			1332;3137																	
+350	T­¬ng D­¬ng	218	Linh B¶o s¬n	3	\script\ÖĞÔ­¶şÇø\ÏåÑô\trap\ÏåÑôtoÏåÑô¸®±±.lua			1575;2798																	
+350	T­¬ng D­¬ng	312	Vâ §ang	3	\script\ÖĞÔ­¶şÇø\ÏåÑô\trap\ÏåÑôtoÏåÑô¸®Î÷.lua			1312;2763																	
+350	T­¬ng D­¬ng	204	ThiÕu L©m	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1434;2963							1;	1;	2;	2;	2;	2;	2;	2;	2;	2;	2;
+350	T­¬ng D­¬ng	312	Vâ §ang	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1434;2963							2;	2;	1;	3;	3;	3;	3;	3;	3;	3;	3;
+350	T­¬ng D­¬ng	303	Nga My	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1434;2963							3;	3;	3;	1;	4;	4;	4;	4;	4;	4;	4;
+350	T­¬ng D­¬ng	209	C¸i Bang	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1434;2963							4;	4;	4;	4;	1;	5;	5;	5;	5;	5;	5;
+350	T­¬ng D­¬ng	305	§­êng M«n	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1434;2963							5;	5;	5;	5;	5;	1;	6;1;	6;1;	6;1;	6;1;	6;1;
+350	T­¬ng D­¬ng	219	Thiªn Ba D­¬ng phñ	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1434;2963							6;1;	6;1;	6;1;	6;1;	6;1;	6;1;	1;	6;2;	6;2;	6;2;	6;2;
+350	T­¬ng D­¬ng	407	Ngò §éc Gi¸o	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1434;2963							6;2;	6;2;	6;2;	6;2;	6;2;	6;2;	6;2;	1;	6;3;	6;3;	6;3;
+350	T­¬ng D­¬ng	509	C«n L«n	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1434;2963							6;3;	6;3;	6;3;	6;3;	6;3;	6;3;	6;3;	6;3;	1;	6;4;	
+350	T­¬ng D­¬ng	404	Thóy Yªn	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1434;2963							6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	1;	6;5
+350	T­¬ng D­¬ng	152	Minh gi¸o	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1434;2963							6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	1;	6;5;
+400	§¹i Lı phñ	404	Thóy Yªn	3	\script\Î÷ÄÏÇø\´óÀí¸®\trap\´óÀí¸®to´äÑÌÃÅ.lua			1612;3170																	
+400	§¹i Lı phñ	306	Giang T©n Th«n	3	\script\Î÷ÄÏÇø\´óÀí¸®\trap\´óÀí¸®to½­½ò´å.lua			1609;2821																	
+400	§¹i Lı phñ	409	Thiªn TÇm th¸p_1	3	\script\Î÷ÄÏÇø\´óÀí¸®\trap\´óÀí¸®toÇ§Ñ°Ëş.lua			1423;2854																	
+400	§¹i Lı phñ	401	§iÓm Th­¬ng s¬n	3	\script\Î÷ÄÏÇø\´óÀí¸®\trap\´óÀí¸®toµã²ÔÉ½.lua			1381;3170																	
+400	§¹i Lı phñ	200	BiÖn Kinh	2	\script\Î÷ÄÏÇø\´óÀí¸®\npc\´óÀí³µ·ò.lua		Xa phu §¹i Lı	1465;3110	Xa phu §¹i Lı	1574;3110	Xa phu §¹i Lı	1549;2882			3;										
+400	§¹i Lı phñ	300	Thµnh §«	2	\script\Î÷ÄÏÇø\´óÀí¸®\npc\´óÀí³µ·ò.lua		Xa phu §¹i Lı	1465;3110	Xa phu §¹i Lı	1574;3110	Xa phu §¹i Lı	1549;2882			1;										
+400	§¹i Lı phñ	500	Phông T­êng phñ	2	\script\Î÷ÄÏÇø\´óÀí¸®\npc\´óÀí³µ·ò.lua		Xa phu §¹i Lı	1465;3110	Xa phu §¹i Lı	1574;3110	Xa phu §¹i Lı	1549;2882			6;										
+400	§¹i Lı phñ	100	TuyÒn Ch©u	2	\script\Î÷ÄÏÇø\´óÀí¸®\npc\´óÀí³µ·ò.lua		Xa phu §¹i Lı	1465;3110	Xa phu §¹i Lı	1574;3110	Xa phu §¹i Lı	1549;2882			2;										
+400	§¹i Lı phñ	350	T­¬ng D­¬ng	2	\script\Î÷ÄÏÇø\´óÀí¸®\npc\´óÀí³µ·ò.lua		Xa phu §¹i Lı	1465;3110	Xa phu §¹i Lı	1574;3110	Xa phu §¹i Lı	1549;2882			4;										
+400	§¹i Lı phñ	150	D­¬ng Ch©u	2	\script\Î÷ÄÏÇø\´óÀí¸®\npc\´óÀí³µ·ò.lua		Xa phu §¹i Lı	1465;3110	Xa phu §¹i Lı	1574;3110	Xa phu §¹i Lı	1549;2882			5;										
+400	§¹i Lı phñ	204	ThiÕu L©m	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1548;2981							1;	1;	2;	2;	2;	2;	2;	2;	2;	2;	2;
+400	§¹i Lı phñ	312	Vâ §ang	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1548;2981							2;	2;	1;	3;	3;	3;	3;	3;	3;	3;	3;
+400	§¹i Lı phñ	303	Nga My	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1548;2981							3;	3;	3;	1;	4;	4;	4;	4;	4;	4;	4;
+400	§¹i Lı phñ	209	C¸i Bang	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1548;2981							4;	4;	4;	4;	1;	5;	5;	5;	5;	5;	5;
+400	§¹i Lı phñ	305	§­êng M«n	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1548;2981							5;	5;	5;	5;	5;	1;	6;1;	6;1;	6;1;	6;1;	6;1;
+400	§¹i Lı phñ	219	Thiªn Ba D­¬ng phñ	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1548;2981							6;1;	6;1;	6;1;	6;1;	6;1;	6;1;	1;	6;2;	6;2;	6;2;	6;2;
+400	§¹i Lı phñ	407	Ngò §éc Gi¸o	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1548;2981							6;2;	6;2;	6;2;	6;2;	6;2;	6;2;	6;2;	1;	6;3;	6;3;	6;3;
+400	§¹i Lı phñ	509	C«n L«n	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1548;2981							6;3;	6;3;	6;3;	6;3;	6;3;	6;3;	6;3;	6;3;	1;	6;4;	
+400	§¹i Lı phñ	404	Thóy Yªn	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1548;2981							6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	1;	6;5
+400	§¹i Lı phñ	152	Minh gi¸o	1	\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1548;2981							6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	1;	6;5;
+401	§iÓm Th­¬ng s¬n	327	¤ M«ng Bé	3	\script\Î÷ÄÏÇø\µã²ÔÉ½\trap\µã²ÔÉ½to½­½ò´å.lua			1476;2996																	
+401	§iÓm Th­¬ng s¬n	414	Phông Nh·n ®éng	3	\script\Î÷ÄÏÇø\µã²ÔÉ½\trap\µã²ÔÉ½to·ïÑÛ¶´.lua			1654;2766																	
+401	§iÓm Th­¬ng s¬n	412	Long Nh·n ®éng-1	3	\script\Î÷ÄÏÇø\µã²ÔÉ½\trap\µã²ÔÉ½toÁúÑÛ¶´.lua			1471;2885																	
+401	§iÓm Th­¬ng s¬n	402	T©y Song B¶n N¹p b¾c	3	\script\Î÷ÄÏÇø\µã²ÔÉ½\trap\µã²ÔÉ½toÎ÷Ë«°æÄÉ±±²¿.lua			1562;3261																	
+401	§iÓm Th­¬ng s¬n	400	§¹i Lı phñ	3	\script\Î÷ÄÏÇø\µã²ÔÉ½\trap\µã²ÔÉ½to´óÀí¸®.lua			1755;2953																	
+402	T©y Song B¶n N¹p b¾c	401	§iÓm Th­¬ng s¬n	3	\script\Î÷ÄÏÇø\Î÷Ë«°æÄÉ±±²¿\trap\Î÷Ë«°æÄÉ±±²¿toµã²ÔÉ½.lua			1556;2714																	
+402	T©y Song B¶n N¹p b¾c	403	T©y Song B¶n N¹p nam	3	\script\Î÷ÄÏÇø\Î÷Ë«°æÄÉ±±²¿\trap\Î÷Ë«°æÄÉ±±²¿toÎ÷É½°æÄÉÄÏ²¿.lua			1294;3168																	
+403	T©y Song B¶n N¹p nam	402	T©y Song B¶n N¹p b¾c	3	\script\Î÷ÄÏÇø\Î÷Ë«°æÄÉÄÏ²¿\trap\Î÷Ë«°æÄÉÄÏ²¿toÎ÷Ë«°æÄÉ±±²¿.lua			1583;2939																	
+404	Thóy Yªn	400	§¹i Lı phñ	3	\script\Î÷ÄÏÇø\´äÑÌ\trap\´äÑÌto´óÀí¸®.lua			1311;2711																	
+404	Thóy Yªn	405	Ch©n nói Vò L¨ng	3	\script\Î÷ÄÏÇø\´äÑÌ\trap\´äÑÌtoÎäÁêÉ½½Å.lua			1663;3214																	
+405	Ch©n nói Vò L¨ng	404	Thóy Yªn	3	\script\Î÷ÄÏÇø\ÎäÁêÉ½½Å\trap\ÎäÁêÉ½½Åto´äÑÌÃÅ.lua			1277;2808																	
+405	Ch©n nói Vò L¨ng	407	Ngò §éc Gi¸o	3	\script\Î÷ÄÏÇø\ÎäÁêÉ½½Å\trap\ÎäÁêÉ½½ÅtoÎå¶¾½Ì.lua			1583;3051																	
+405	Ch©n nói Vò L¨ng	408	Miªu LÜnh	3	\script\Î÷ÄÏÇø\ÎäÁêÉ½½Å\trap\ÎäÁêÉ½½ÅtoÃçÁë.lua			1277;3197																	
+405	Ch©n nói Vò L¨ng	406	Vò L¨ng s¬n	3	\script\Î÷ÄÏÇø\ÎäÁêÉ½½Å\trap\ÎäÁêÉ½½ÅtoÎäÁêÉ½.lua			1561;2747																	
+406	Vò L¨ng s¬n	350	T­¬ng D­¬ng	3	\script\Î÷ÄÏÇø\ÎäÁêÉ½\trap\ÎäÁêÉ½toÏåÑô¸®.lua			1581;2804																	
+406	Vò L¨ng s¬n	416	B¹ch Thñy ®éng-1	3	\script\Î÷ÄÏÇø\ÎäÁêÉ½\trap\ÎäÁêÉ½to°×Ë®¶´.lua			1306;2734																	
+406	Vò L¨ng s¬n	405	Ch©n nói Vò L¨ng	3	\script\Î÷ÄÏÇø\ÎäÁêÉ½\trap\ÎäÁêÉ½toÎäÁêÉ½½Å.lua			1279;3171																	
+407	Ngò §éc Gi¸o	418	Ngò §éc mª cung tÇng 1	3	\script\Î÷ÄÏÇø\Îå¶¾½Ì\trap\Îå¶¾½ÌtoÈëÃÅÃÔ¹¬.lua			1432;3072																	
+407	Ngò §éc Gi¸o	405	Ch©n nói Vò L¨ng	3	\script\Î÷ÄÏÇø\Îå¶¾½Ì\trap\Îå¶¾½ÌtoÎäÁêÉ½½Å.lua			1545;3067																	
+407	Ngò §éc Gi¸o	105	T©y TuyÒn Ch©u	3	\script\Î÷ÄÏÇø\Îå¶¾½Ì\trap\Îå¶¾½ÌtoÈªÖİ¸®Î÷.lua			1783;3044																	
+407	Ngò §éc Gi¸o	100	TuyÒn Ch©u	2	\script\Î÷ÄÏÇø\Îå¶¾½Ì\npc\ĞÜÁ¢.lua		Hïng LËp	1551;3265							1;										
+408	Miªu LÜnh	420	YÕn Tö ®éng-1	3	\script\Î÷ÄÏÇø\ÃçÁë\trap\ÃçÁëtoÑà×Ó¶´.lua			1295;2701																	
+408	Miªu LÜnh	405	Ch©n nói Vò L¨ng	3	\script\Î÷ÄÏÇø\ÃçÁë\trap\ÃçÁëtoÎäÁêÉ½½Å.lua			1572;2748																	
+409	Thiªn TÇm th¸p_1	410	Thiªn TÇm th¸p_2	3	\script\Î÷ÄÏÇø\Ç§Ñ°ËşÒ»²ã\trap\Ç§Ñ°ËşÒ»²ãtoÇ§Ñ°Ëş¶ş²ã.lua			1796;3533																	
+409	Thiªn TÇm th¸p_1	400	§¹i Lı phñ	3	\script\Î÷ÄÏÇø\Ç§Ñ°ËşÒ»²ã\trap\Ç§Ñ°ËşÒ»²ãto´óÀí.lua			1551;3238																	
+410	Thiªn TÇm th¸p_2	409	Thiªn TÇm th¸p_1	3	\script\Î÷ÄÏÇø\Ç§Ñ°Ëş¶ş²ã\trap\Ç§Ñ°Ëş¶ş²ãtoÇ§Ñ°ËşÒ»²ã.lua			1442;3116																	
+410	Thiªn TÇm th¸p_2	411	Thiªn TÇm th¸p_3	3	\script\Î÷ÄÏÇø\Ç§Ñ°Ëş¶ş²ã\trap\Ç§Ñ°Ëş¶ş²ãtoÇ§Ñ°ËşÈı²ã.lua			1855;3012																	
+411	Thiªn TÇm th¸p_3	410	Thiªn TÇm th¸p_2	3	\script\Î÷ÄÏÇø\Ç§Ñ°ËşÈı²ã\trap\Ç§Ñ°ËşÈı²ãtoÇ§Ñ°Ëş¶ş²ã.lua			1371;3484																	
+412	Long Nh·n ®éng-1	401	§iÓm Th­¬ng s¬n	3	\script\Î÷ÄÏÇø\ÁúÑÛ¶´Ò»²ã\trap\ÁúÑÛ¶´Ò»²ãtoµã²ÔÉ½.lua			1866;3183																	
+412	Long Nh·n ®éng-1	413	Long Nh·n ®éng-2	3	\script\Î÷ÄÏÇø\ÁúÑÛ¶´Ò»²ã\trap\ÁúÑÛ¶´Ò»²ãtoÁúÑÛ¶´¶ş²ã.lua			1541;3104																	
+413	Long Nh·n ®éng-2	412	Long Nh·n ®éng-1	3	\script\Î÷ÄÏÇø\ÁúÑÛ¶´¶ş²ã\trap\ÁúÑÛ¶´¶ş²ãtoÁúÑÛ¶´Ò»²ã.lua			1899;3394																	
+414	Phông Nh·n ®éng	401	§iÓm Th­¬ng s¬n	3	\script\Î÷ÄÏÇø\·ïÑÛ¶´\trap\·ïÑÛ¶´toµã²ÔÉ½.lua			1623;3543																	
+416	B¹ch Thñy ®éng-1	406	Vò L¨ng s¬n	3	\script\Î÷ÄÏÇø\°×Ë®¶´Ò»²ã\trap\°×Ë®¶´Ò»²ãtoÎäÁêÉ½.lua			1558;3144																	
+416	B¹ch Thñy ®éng-1	417	B¹ch Thñy ®éng-2	3	\script\Î÷ÄÏÇø\°×Ë®¶´Ò»²ã\trap\°×Ë®¶´Ò»²ãto°×Ë®¶´¶ş²ã.lua			1889;2803																	
+417	B¹ch Thñy ®éng-2	416	B¹ch Thñy ®éng-1	3	\script\Î÷ÄÏÇø\°×Ë®¶´¶ş²ã\trap\°×Ë®¶´¶ş²ãto°×Ë®¶´Ò»²ã.lua			1598;3616																	
+418	Ngò §éc mª cung tÇng 1	419	Ngò §éc mª cung 2	3	\script\Î÷ÄÏÇø\ÈëÃÅÃÔ¹¬Ò»\trap\ÈëÃÅÃÔ¹¬Ò»toÈëÃÅÃÔ¹¬¶ş.lua			1710;2642																	
+418	Ngò §éc mª cung tÇng 1	407	Ngò §éc Gi¸o	3	\script\Î÷ÄÏÇø\ÈëÃÅÃÔ¹¬Ò»\trap\ÈëÃÅÃÔ¹¬toÎå¶¾½Ì.lua			1551;3212																	
+419	Ngò §éc mª cung 2	418	Ngò §éc mª cung tÇng 1	3	\script\Î÷ÄÏÇø\ÈëÃÅÃÔ¹¬¶ş\trap\ÈëÃÅÃÔ¹¬¶ştoÈëÃÅÃÔ¹¬Ò».lua			1726;3444																	
+420	YÕn Tö ®éng-1	421	YÕn Tö ®éng-2	3	\script\Î÷ÄÏÇø\Ñà×Ó¶´Ò»²ã\trap\Ñà×Ó¶´Ò»²ãtoÑà×Ó¶´¶ş²ã.lua			1633;3448																	
+420	YÕn Tö ®éng-1	408	Miªu LÜnh	3	\script\Î÷ÄÏÇø\Ñà×Ó¶´Ò»²ã\trap\Ñà×Ó¶´Ò»²ãtoÃçÁë.lua			1405;3726																	
+421	YÕn Tö ®éng-2	420	YÕn Tö ®éng-1	3	\script\Î÷ÄÏÇø\Ñà×Ó¶´¶ş²ã\trap\Ñà×Ó¶´¶ş²ãtoÑà×Ó¶´Ò»²ã.lua			1555;3451																	
+500	Phông T­êng phñ	504	B¾c Phông T­êng	3	\script\Î÷±±Çø\·ïÏè¸®\trap\·ïÏè¸®to·ïÏè¸®±±.lua			1886;2993																	
+500	Phông T­êng phñ	501	Nam Phông T­êng	3	\script\Î÷±±Çø\·ïÏè¸®\trap\·ïÏè¸®to·ïÏè¸®ÄÏ.lua			1628;3264																	
+500	Phông T­êng phñ	507	Long M«n trÊn	3	\script\Î÷±±Çø\·ïÏè¸®\trap\·ïÏè¸®toÁúÃÅÕò.lua			1622;3030																	
+500	Phông T­êng phñ	200	BiÖn Kinh	2	\script\Î÷±±Çø\·ïÏè¸®\npc\·ïÏè³µ·ò.lua		Xa phu Phông T­êng	1849;3061	Xa phu Phông T­êng	1803;3220	Xa phu Phông T­êng	1671;3089	Xa phu Phông T­êng	1671;3202	3;										
+500	Phông T­êng phñ	300	Thµnh §«	2	\script\Î÷±±Çø\·ïÏè¸®\npc\·ïÏè³µ·ò.lua		Xa phu Phông T­êng	1849;3061	Xa phu Phông T­êng	1803;3220	Xa phu Phông T­êng	1671;3089	Xa phu Phông T­êng	1671;3202	1;										
+500	Phông T­êng phñ	400	§¹i Lı phñ	2	\script\Î÷±±Çø\·ïÏè¸®\npc\·ïÏè³µ·ò.lua		Xa phu Phông T­êng	1849;3061	Xa phu Phông T­êng	1803;3220	Xa phu Phông T­êng	1671;3089	Xa phu Phông T­êng	1671;3202	6;										
+500	Phông T­êng phñ	100	TuyÒn Ch©u	2	\script\Î÷±±Çø\·ïÏè¸®\npc\·ïÏè³µ·ò.lua		Xa phu Phông T­êng	1849;3061	Xa phu Phông T­êng	1803;3220	Xa phu Phông T­êng	1671;3089	Xa phu Phông T­êng	1671;3202	2;										
+500	Phông T­êng phñ	350	T­¬ng D­¬ng	2	\script\Î÷±±Çø\·ïÏè¸®\npc\·ïÏè³µ·ò.lua		Xa phu Phông T­êng	1849;3061	Xa phu Phông T­êng	1803;3220	Xa phu Phông T­êng	1671;3089	Xa phu Phông T­êng	1671;3202	4;										
+500	Phông T­êng phñ	150	D­¬ng Ch©u	2	\script\Î÷±±Çø\·ïÏè¸®\npc\·ïÏè³µ·ò.lua		Xa phu Phông T­êng	1849;3061	Xa phu Phông T­êng	1803;3220	Xa phu Phông T­êng	1671;3089	Xa phu Phông T­êng	1671;3202	5;										
+500	Phông T­êng phñ	204	ThiÕu L©m	1	\script\Î÷±±Çø\·ïÏè¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1751;3141							1;	1;	2;	2;	2;	2;	2;	2;	2;	2;	2;
+500	Phông T­êng phñ	312	Vâ §ang	1	\script\Î÷±±Çø\·ïÏè¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1751;3141							2;	2;	1;	3;	3;	3;	3;	3;	3;	3;	3;
+500	Phông T­êng phñ	303	Nga My	1	\script\Î÷±±Çø\·ïÏè¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1751;3141							3;	3;	3;	1;	4;	4;	4;	4;	4;	4;	4;
+500	Phông T­êng phñ	209	C¸i Bang	1	\script\Î÷±±Çø\·ïÏè¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1751;3141							4;	4;	4;	4;	1;	5;	5;	5;	5;	5;	5;
+500	Phông T­êng phñ	305	§­êng M«n	1	\script\Î÷±±Çø\·ïÏè¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1751;3141							5;	5;	5;	5;	5;	1;	6;1;	6;1;	6;1;	6;1;	6;1;
+500	Phông T­êng phñ	219	Thiªn Ba D­¬ng phñ	1	\script\Î÷±±Çø\·ïÏè¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1751;3141							6;1;	6;1;	6;1;	6;1;	6;1;	6;1;	1;	6;2;	6;2;	6;2;	6;2;
+500	Phông T­êng phñ	407	Ngò §éc Gi¸o	1	\script\Î÷±±Çø\·ïÏè¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1751;3141							6;2;	6;2;	6;2;	6;2;	6;2;	6;2;	6;2;	1;	6;3;	6;3;	6;3;
+500	Phông T­êng phñ	502	Hoa S¬n	3	\script\Î÷±±Çø\·ïÏè¸®\trap\·ïÏè¸®to»ªÉ½.lua			1835;3270																	
+500	Phông T­êng phñ	509	C«n L«n	1	\script\Î÷±±Çø\·ïÏè¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1751;3141							6;3;	6;3;	6;3;	6;3;	6;3;	6;3;	6;3;	6;3;	1;	6;4;	
+500	Phông T­êng phñ	404	Thóy Yªn	1	\script\Î÷±±Çø\·ïÏè¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1751;3141							6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	1;	6;5
+500	Phông T­êng phñ	152	Minh gi¸o	1	\script\Î÷±±Çø\·ïÏè¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua		Sø gi¶ m«n ph¸i	1751;3141							6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	6;4;	1;	6;5;
+501	Nam Phông T­êng	500	Phông T­êng phñ	3	\script\Î÷±±Çø\·ïÏè¸®ÄÏ\trap\·ïÏè¸®ÄÏto·ïÏè¸®.lua			1555;2831																	
+501	Nam Phông T­êng	309	KiÕm C¸c Thôc ®¹o	3	\script\Î÷±±Çø\·ïÏè¸®ÄÏ\trap\·ïÏè¸®ÄÏto½£¸óÊñµÀ.lua			1310;3196																	
+503	TÇn L¨ng	513	Hoµng L¨ng mé thÊt tÇng 1	3	\script\Î÷±±Çø\ÇØÊ¼»ÊÁê\trap\ÇØÊ¼»ÊÁêto»ÊÁêÄ¹ÊÒÒ»²ã.lua			1583;2753																	
+503	TÇn L¨ng	504	B¾c Phông T­êng	3	\script\Î÷±±Çø\ÇØÊ¼»ÊÁê\trap\ÇØÊ¼»ÊÁêto·ïÏè¸®±±.lua			1273;2857																	
+504	B¾c Phông T­êng	500	Phông T­êng phñ	3	\script\Î÷±±Çø\·ïÏè¸®±±\trap\·ïÏè¸®±±to·ïÏè¸®.lua			1281;3163																	
+504	B¾c Phông T­êng	505	D­îc V­¬ng cèc	3	\script\Î÷±±Çø\·ïÏè¸®±±\trap\·ïÏè¸®±±toÒ©Íõ¹È.lua			1518;2833																	
+504	B¾c Phông T­êng	503	TÇn L¨ng	3	\script\Î÷±±Çø\·ïÏè¸®±±\trap\·ïÏè¸®±±toÇØÊ¼»ÊÁê.lua			1581;3167																	
+504	B¾c Phông T­êng	6015	H¾c Méc Nhai	2	\script\Î÷ÄÏÇø\ºÚÄ¾ÑÂ\ÉñÃØ½ÌÍ½.lua		Gi¸o ®å thÇn bİ	1343;2840							1;										
+505	D­îc V­¬ng cèc	509	C«n L«n	3	\script\Î÷±±Çø\Ò©Íõ¹È\trap\Ò©Íõ¹ÈtoÀ¥ÂØ.lua			1265;2843																	
+505	D­îc V­¬ng cèc	504	B¾c Phông T­êng	3	\script\Î÷±±Çø\Ò©Íõ¹È\trap\Ò©Íõ¹Èto·ïÏè¸®±±.lua			1283;3118																	
+505	D­îc V­¬ng cèc	506	Mª cung sa m¹c	3	\script\Î÷±±Çø\Ò©Íõ¹È\trap\Ò©Íõ¹ÈtoÉ³Ä®ÃÔ¹¬.lua			1583;2791																	
+505	D­îc V­¬ng cèc	510	D­îc V­¬ng ®éng	3	\script\Î÷±±Çø\Ò©Íõ¹È\trap\Ò©Íõ¹ÈtoÒ©Íõ¶´.lua			1304;2878																	
+506	Mª cung sa m¹c	505	D­îc V­¬ng cèc	3	\script\Î÷±±Çø\É³Ä®ÃÔ¹¬\trap\É³Ä®ÃÔ¹¬toÒ©Íõ¹È.lua			1498;3155																	
+507	Long M«n trÊn	500	Phông T­êng phñ	3	\script\Î÷±±Çø\ÁúÃÅÕò\trap\ÁúÃÅÕòto·ïÏè¸®±±.lua			1894;3459																	
+507	Long M«n trÊn	511	Cæ D­¬ng ®éng_1	3	\script\Î÷±±Çø\ÁúÃÅÕò\trap\ÁúÃÅÕòto¹ÅÑô¶´Ò»²ã.lua			1579;3190																	
+507	Long M«n trÊn	500	Phông T­êng phñ	3	\script\Î÷±±Çø\ÁúÃÅÕò\trap\ÁúÃÅÕòto·ïÏè¸®.lua			1871;3472																	
+507	Long M«n trÊn	509	C«n L«n	3	\script\Î÷±±Çø\ÁúÃÅÕò\trap\ÁúÃÅÕòtoÀ¥ÂØ.lua			1849;3141																	
+507	Long M«n trÊn	508	Quang Minh ®Ønh	3	\script\Î÷±±Çø\ÁúÃÅÕò\trap\ÁúÃÅÕòto¹âÃ÷¶¥.lua			1566;3498																	
+508	Quang Minh ®Ønh	507	Long M«n trÊn	3	\script\Î÷±±Çø\¹âÃ÷¶¥\trap\¹âÃ÷¶¥toÁúÃÅÕò.lua			1803;3356																	
+509	C«n L«n	300	Thµnh §«	2	\script\Î÷±±Çø\À¥ÂØ\npc\Íõ²»·².lua		V­¬ng BÊt Phµm	1426;3442								1;									
+509	C«n L«n	507	Long M«n trÊn	3	\script\Î÷±±Çø\À¥ÂØ\trap\À¥ÂØtoÁúÃÅÕò.lua			1341;3432																	
+510	D­îc V­¬ng ®éng	505	D­îc V­¬ng cèc	3	\script\Î÷±±Çø\Ò©Íõ¶´\trap\Ò©Íõ¶´toÒ©Íõ¹È.lua			1274;2933																	
+511	Cæ D­¬ng ®éng_1	507	Long M«n trÊn	3	\script\Î÷±±Çø\¹ÅÑô¶´Ò»²ã\trap\¹ÅÑô¶´Ò»²ãtoÁúÃÅÕò.lua			2079;3377																	
+511	Cæ D­¬ng ®éng_1	512	Cæ D­¬ng ®éng_2	3	\script\Î÷±±Çø\¹ÅÑô¶´Ò»²ã\trap\¹ÅÑô¶´Ò»²ãto¹ÅÑô¶´¶ş²ã.lua			2015;3492																	
+512	Cæ D­¬ng ®éng_2	511	Cæ D­¬ng ®éng_1	3	\script\Î÷±±Çø\¹ÅÑô¶´¶ş²ã\trap\¹ÅÑô¶´¶ş²ãto¹ÅÑô¶´Ò»²ã.lua			1678;3103																	
+513	Hoµng L¨ng mé thÊt tÇng 1	503	TÇn L¨ng	3	\script\Î÷±±Çø\»ÊÁêÄ¹ÊÒÒ»²ã\trap\»ÊÁêÄ¹ÊÒÒ»²ãtoÇØÊ¼»ÊÁê.lua			1741;2842																	
+513	Hoµng L¨ng mé thÊt tÇng 1	514	Hoµng L¨ng mé thÊt tÇng 2	3	\script\Î÷±±Çø\»ÊÁêÄ¹ÊÒÒ»²ã\trap\»ÊÁêÄ¹ÊÒÒ»²ãto»ÊÁêÄ¹ÊÒ¶ş²ã.lua			1580;3164																	
+514	Hoµng L¨ng mé thÊt tÇng 2	513	Hoµng L¨ng mé thÊt tÇng 1	3	\script\Î÷±±Çø\»ÊÁêÄ¹ÊÒ¶ş²ã\trap\»ÊÁêÄ¹ÊÒ¶ş²ãto»ÊÁêÄ¹ÊÒÒ»²ã.lua			1510;3124																	
+600	Bé l¹c V­¬ng Kú	601	§¹i Th¶o Nguyªn 1	3	\script\±±Çø\ÍõÆì²¿Âä\trap\ÍõÆì²¿Âäto´ó²İÔ­Ò».lua			1342;3204																	
+601	§¹i Th¶o Nguyªn 1	602	§¹i Th¶o Nguyªn 2	3	\script\±±Çø\´ó²İÔ­Ò»\trap\´ó²İÔ­Ò»to´ó²İÔ­¶ş1.lua			1596;3198																	
+601	§¹i Th¶o Nguyªn 1	600	Bé l¹c V­¬ng Kú	3	\script\±±Çø\´ó²İÔ­Ò»\trap\´ó²İÔ­Ò»toÍõÆì²¿Âä.lua			1583;2857																	
+602	§¹i Th¶o Nguyªn 2	601	§¹i Th¶o Nguyªn 1	3	\script\±±Çø\´ó²İÔ­¶ş\trap\´ó²İÔ­¶şto´ó²İÔ­Ò».lua			1374;2916																	
+602	§¹i Th¶o Nguyªn 2	604	Nh¹n M«n quan	3	\script\±±Çø\´ó²İÔ­¶ş\trap\´ó²İÔ­¶ştoÑãÃÅ¹Ø.lua			1449;3264																	
+604	Nh¹n M«n quan	205	§«ng BiÖn Kinh	3	\script\±±Çø\ÑãÃÅ¹Ø\trap\ÑãÃÅ¹Øtoãê¾©¸®¶«.lua			1302;3177																	
+604	Nh¹n M«n quan	602	§¹i Th¶o Nguyªn 2	3	\script\±±Çø\ÑãÃÅ¹Ø\trap\ÑãÃÅ¹Øto´ó²İÔ­¶ş.lua			1478;2720																	
+502	Hoa S¬n	500	Phông T­êng phñ	2	\script\Î÷±±Çø\»ªÉ½\npc\ÔÀÁéÉº.lua		Nh¹c Linh San	1829;3260							1;										
+502	Hoa S¬n	6024	ThiÕt Ch­ëng S¬n Trang	2	\script\Î÷±±Çø\»ªÉ½\npc\linqinghai.lua		L©m Thanh H¶i	1652;3093							1;										
+6024	ThiÕt Ch­ëng S¬n Trang	502	Hoa S¬n	2	\script\ÊÀ½çµØÍ¼\ÌúÕÆÉ½×¯\npc\yuebuqun.lua		(Nh¹c BÊt QuÇn)	1580;3219							1;										
+6024	ThiÕt Ch­ëng S¬n Trang	6025	ThÇn ®iÖn	2	\script\ÊÀ½çµØÍ¼\ÌúÕÆÉ½×¯\npc\yuebuqun.lua		(Nh¹c BÊt QuÇn)	1589;3173							2;										
+6025	ThÇn ®iÖn	502	Hoa S¬n	2	\script\ÊÀ½çµØÍ¼\Éñµî\npc\yuelingshan.lua		(Nh¹c Linh San)	1580;3219							1;										
+6016	Mai Trang	106	Long TuyÒn Th«n	2	\script\Î÷ÄÏÇø\Ã·×¯\Ã·×¯ÊéÍ¯2.lua		Mai Trang Th­ §ång	1490;3094							1;										
+6016	Mai Trang	6013	Mai Trang ®¹i lao	2	\script\ÊÀ½çµØÍ¼\Ã·×¯µØÀÎ\¿´ÊØ1.lua		Canh gi÷	1586;3140							1;										
+6013	Mai Trang ®¹i lao	6016	Mai Trang	2	\script\ÊÀ½çµØÍ¼\Ã·×¯µØÀÎ\¿´ÊØ2.lua		Canh gi÷	1606;3206							1;										
+6009	#§µo Hoa TiÓu S¹n	102	§µo Hoa ®¶o	2	\script\ÊÀ½çµØÍ¼\ÌÒ»¨Ğ¡Õ»\Í¯Å®2.lua		M«n §ång	1579;3218							1;										
+6010	#§µo Hoa TiÓu S¹n	102	§µo Hoa ®¶o	2	\script\ÊÀ½çµØÍ¼\ÌÒ»¨Ğ¡Õ»\Í¯Å®2.lua		M«n §ång	1579;3218							1;										
+6011	#§µo Hoa TiÓu S¹n	102	§µo Hoa ®¶o	2	\script\ÊÀ½çµØÍ¼\ÌÒ»¨Ğ¡Õ»\Í¯Å®2.lua		M«n §ång	1579;3218							1;										
+6015	H¾c Méc Nhai	504	B¾c Phông T­êng	2	\script\Î÷ÄÏÇø\ºÚÄ¾ÑÂ\ÉñÃØĞÂ½ÌÍ½.lua		ThÇn gi¸o gi¸o ®å míi	1632;3242							1;										
+6017	H¾c Méc Nhai	504	B¾c Phông T­êng	2	\script\Î÷ÄÏÇø\ºÚÄ¾ÑÂ\ÉñÃØĞÂ½ÌÍ½.lua		ThÇn gi¸o gi¸o ®å míi	1632;3242							1;										
+6018	H¾c Méc Nhai	504	B¾c Phông T­êng	2	\script\Î÷ÄÏÇø\ºÚÄ¾ÑÂ\ÉñÃØĞÂ½ÌÍ½.lua		ThÇn gi¸o gi¸o ®å míi	1632;3242							1;										
+6014	T©y §¶o	104	§«ng H¶i H¶i T©n 2	2	\script\ÊÀ½çµØÍ¼\Î÷µº\´¬·ò.lua		ThuyÒn phu	1536;3291							1;										
+		200	BiÖn Kinh	5		1;5;1																			
+		300	Thµnh §«	5		1;5;2																			
+		100	TuyÒn Ch©u	5		1;5;3																			
+		350	T­¬ng D­¬ng	5		1;5;4																			
+		500	Phông T­êng phñ	5		1;5;5																			
+		400	§¹i Lı phñ	5		1;5;6																			
+		150	D­¬ng Ch©u	5		1;5;7																			
+		312	Vâ §ang	5		1;5;8																			
+		209	C¸i Bang	5		1;5;9																			
+		204	ThiÕu L©m	5		1;5;10																			
+		303	Nga My	5		1;5;11																			
+		305	§­êng M«n	5		1;5;12																			
+		407	Ngò §éc Gi¸o	5		1;5;13																			
+		219	Thiªn Ba D­¬ng phñ	5		1;5;14																			
+		509	C«n L«n	5		1;5;112																			
+		152	Minh gi¸o	5		1;5;113
+		404	Thóy Yªn	5		1;5;114																			
+		207	NhŞ Long s¬n	4				1331;3065							2;1;										
+		310	KiÕm M«n quan	4				1575;3038							2;2;										
+		408	Miªu LÜnh	4				1572;2759							2;3;										
+		202	H¹nh Hoa th«n	4				1580;2727							2;4;										
+		418	Ngò §éc mª cung tÇng 1	4				1552;3205							2;5;										
+		419	Ngò §éc cung tÇng 2	4				1714;3443							2;6;										
+		217	D· Tr­ l©m	4				1606;3233							2;7;										
+		106	Long TuyÒn Th«n	4				1576;3148							2;8;1;										
+		326	Mé TuyÕt s¬n trang	4				1674;3138							2;8;2;										
+		327	¤ M«ng Bé	4				1334;2746							2;8;3;										
+		151	V©n Méng Tr¹ch	4				1574;3100							2;8;4;										
+		218	Linh B¶o s¬n	4				1900;3253							2;8;5;										
+		306	Giang T©n Th«n	4				1332;2843							2;8;6;										
+		406	Vò L¨ng s¬n	4				1284;3166							2;8;7;										
+		405	Ch©n nói Vò L¨ng	4				1285;2822							2;8;9;1;										
+		111	Thanh Khª ®éng	4				1603;3205							2;8;9;2;										
+		213	ThiÕu L©m mËt thÊt-1	4				1639;3191							2;8;9;3;										
+		214	ThiÕu L©m mËt thÊt-2	4				1647;3184							2;8;9;4;										
+		216	T­êng V©n ®éng	4				1588;3214							2;8;9;5;										
+		210	D­¬ng Trung ®éng-1	4				1602;3200							2;8;9;6;										
+		211	D­¬ng Trung ®éng-2	4				1998;3172							2;8;9;7;										
+		212	D­¬ng Trung ®éng-3	4				1607;3200							2;8;9;9;1;										
+		315	B¨ng T©m ®éng_1	4				1594;3167							2;8;9;9;2;										
+		316	B¨ng T©m ®éng_2	4				1577;3446							2;8;9;9;3;										
+		317	Tróc Ty ®éng_1	4				1334;3153							2;8;9;9;4;										
+		318	Tróc Ty ®éng-2	4				1320;3162							2;8;9;9;5;										
+		324	ThÊt Tinh ®éng-1	4				2140;2876							2;8;9;9;6;										
+		325	ThÊt Tinh ®éng-2	4				1606;3196							2;8;9;9;7;										
+		604	Nh¹n M«n quan	4				1308;3170							2;8;9;9;9;1;										
+		309	KiÕm C¸c Thôc ®¹o	4				1095;3290							2;8;9;9;9;2;										
+		401	§iÓm Th­¬ng s¬n	4				1751;2980							2;8;9;9;9;3;										
+		107	Vò Di s¬n	4				1292;3163							2;8;9;9;9;4;										
+		311	Phôc Ng­u s¬n	4				1415;3200							2;8;9;9;9;5;										
+		208	L­¬ng S¬n B¹c	4				1577;3305							2;8;9;9;9;6;										
+		112	L­ìng Thñy ®éng_1	4				1559;2707							2;8;9;9;9;7;										
+		113	L­ìng Thñy ®éng_2	4				1547;3319							2;8;9;9;9;9;1;										
+		321	Kim Quang ®éng	4				1625;3625							2;8;9;9;9;9;2;										
+		302	Thanh Thµnh s¬n	4				1588;3168							2;8;9;9;9;9;3;										
+		319	Phong Ma ®éng-1	4				1602;3212							2;8;9;9;9;9;4;										
+		320	Phong Ma ®éng-2	4				1604;3214							2;8;9;9;9;9;5;										
+		420	YÕn Tö ®éng-1	4				1405;3733							2;8;9;9;9;9;6;										
+		421	YÕn Tö ®éng-2	4				1559;3457							2;8;9;9;9;9;7;										
+		215	H¾c Phong ®éng	4				1743;3322							2;8;9;9;9;9;9;1;										
+		322	Long Hæ ®éng-1	4				1470;3350							2;8;9;9;9;9;9;2;										
+		323	Long Hæ ®éng-2	4				1437;3382							2;8;9;9;9;9;9;3;										
+		414	Phông Nh·n ®éng	4				1627;3535							2;8;9;9;9;9;9;4;										
+		416	B¹ch Thñy ®éng-1	4				1565;3158							2;8;9;9;9;9;9;5;										
+		417	B¹ch Thñy ®éng-2	4				1606;3611							2;8;9;9;9;9;9;6;										
+		103	§«ng H¶i H¶i T©n 1	4				1662;3036							2;8;9;9;9;9;9;7;										
+		104	§«ng H¶i H¶i T©n 2	4				1286;3131							2;8;9;9;9;9;9;9;1;										
+		412	Long Nh·n ®éng-1	4				1859;3179							2;8;9;9;9;9;9;9;2;										
+		413	Long Nh·n ®éng-2	4				1894;3397							2;8;9;9;9;9;9;9;3;										
+		313	Thiªn S­ ®éng-1	4				1410;3484							2;8;9;9;9;9;9;9;4;										
+		314	Thiªn S­ ®éng-2	4				1595;3063							2;8;9;9;9;9;9;9;5;										
+		307	Phong §«	4				1472;3192							2;8;9;9;9;9;9;9;6;										
+		601	§¹i Th¶o Nguyªn 1	4				1588;3200							2;8;9;9;9;9;9;9;7;										
+		602	§¹i Th¶o Nguyªn 2	4				1453;3257							2;8;9;9;9;9;9;9;9;1;										
+		600	Bé l¹c V­¬ng Kú	4				1350;3202							2;8;9;9;9;9;9;9;9;2;										
+		102	§µo Hoa ®¶o	4				1459;3163							2;8;9;9;9;9;9;9;9;3;										
+		328	Quû M«n Håi Lang	4				1623;3995							2;8;9;9;9;9;9;9;9;4;										
+		109	Thanh ¢m ®éng_1	4				1589;2743							2;8;9;9;9;9;9;9;9;5;										
+		110	Thanh ¢m ®éng_2	4				1597;2694							2;8;9;9;9;9;9;9;9;6;										
+		402	T©y Song B¶n N¹p B¾c 	4				1557;2724							2;8;9;9;9;9;9;9;9;7;										
+		403	T©y Song B¶n N¹p Nam 	4				1579;2951							2;8;9;9;9;9;9;9;9;9;1;										
+		409	Thiªn TÇm th¸p_1	4				1550;3247							2;8;9;9;9;9;9;9;9;9;2;										
+		410	Thiªn TÇm th¸p_2	4				1442;3122							2;8;9;9;9;9;9;9;9;9;3;										
+		411	Thiªn TÇm th¸p_3	4				1364;3481							2;8;9;9;9;9;9;9;9;9;4;										
+		114	V­¬ng MÉu ®éng_1	4				1594;3498							2;8;9;9;9;9;9;9;9;9;5;										
+		115	V­¬ng MÉu ®éng_2	4				1672;3224							2;8;9;9;9;9;9;9;9;9;6;										
+		116	V­¬ng MÉu ®éng-3	4				1729;3064							2;8;9;9;9;9;9;9;9;9;7;										
+		329	Thiªn s­ bİ c¶nh	4				1886;3762							2;8;9;9;9;9;9;9;9;9;9;1;										
+		504	B¾c Phông T­êng	4				1302;3169							2;8;9;9;9;9;9;9;9;9;9;2;										
+		501	Nam Phông T­êng	4				1543;2858							2;8;9;9;9;9;9;9;9;9;9;3;										
+		507	Long M«n trÊn	4				1878;3462							2;8;9;9;9;9;9;9;9;9;9;4;										
+		508	Quang Minh ®Ønh	4				1784;3328							2;8;9;9;9;9;9;9;9;9;9;5;										
+		503	TÇn L¨ng	4				1285;2872							2;8;9;9;9;9;9;9;9;9;9;6;										
+		513	Hoµng L¨ng mé thÊt tÇng 1	4				1736;2874							2;8;9;9;9;9;9;9;9;9;9;7;										
+		514	Hoµng L¨ng mé thÊt tÇng 2	4				1520;3106							2;8;9;9;9;9;9;9;9;9;9;9;1;										
+		511	Cæ D­¬ng ®éng_1	4				2062;3356							2;8;9;9;9;9;9;9;9;9;9;9;2;										
+		512	Cæ D­¬ng ®éng_2	4				1681;3115							2;8;9;9;9;9;9;9;9;9;9;9;3;										
+		505	D­îc V­¬ng cèc	4				1317;3114							2;8;9;9;9;9;9;9;9;9;9;9;4;										
+		510	D­îc V­¬ng ®éng	4				1287;2945							2;8;9;9;9;9;9;9;9;9;9;9;5;										
+		506	Mª cung sa m¹c	4				1509;3138							2;8;9;9;9;9;9;9;9;9;9;9;6;										
+		118	Dao Tiªn ®éng	4				1624;3212							2;8;9;9;9;9;9;9;9;9;9;9;7;										
+		204	ThiÕu L©m	4				1599;3182							3;1;										
+		312	Vâ §ang	4				1825;3323							3;2;										
+		209	C¸i Bang	4				1547;3183							3;3;										
+		303	Nga My	4				1645;3159							3;4;										
+		305	§­êng M«n	4				1598;2824							3;5;										
+		219	D­¬ng M«n	4				1538;3151							3;6;										
+		407	Ngò §éc	4				1609;3193							3;7;										
+		509	C«n L«n	4				1424;3444							3;8;1;										
+		404	Thóy Yªn	4				1484;2828							3;8;3;										
+		152	Minh gi¸o	4				1690;3289							3;8;2;
+		200	Thñ khè (§«ng)	4				1488;2953							4;1;1;										
+		200	Thñ khè (Nam)	4				1296;2990							4;1;2;										
+		200	Thñ khè (T©y)	4				1272;2774							4;1;3;										
+		200	D· TÈu	4				1183;2826							4;1;4;										
+		200	Thè TiÓu Nha	4				1169;2845							4;1;5;										
+		200	Chñ th­¬ng héi	4				1360;2925							4;1;6;										
+		200	Th­¬ng nh©n T©y Vùc	4				1439;2956							4;1;7;										
+		200	LÔ quan	4				1482;2764							4;1;8;1;										
+		200	Bé ®Çu	4				1392;2659							4;1;8;2;										
+		200	ThÇn Du Ch©n Nh©n	4				1150;2850							4;1;8;3;										
+		200	Sø gi¶ Tµng KiÕm	4				1228;2761							4;1;8;4;										
+		200	§¹i sø ho¹t ®éng cuèi tuÇn	4				1379;2870							4;1;8;5;										
+		200	TriÖu Phæ	4				1401;2663							4;1;8;6;										
+		200	Ch©n Tö §¬n	4				1392;2817							4;1;8;7;										
+		300	Thñ khè (Nam)	4				1682;3652							4;2;1;										
+		300	Thñ khè (T©y)	4				1693;3460							4;2;2;										
+		300	Thñ khè (B¾c)	4				1925;3473							4;2;3;										
+		300	D· TÈu	4				1634;3549							4;2;4;										
+		300	Thè TiÓu Nha	4				1653;3559							4;2;5;										
+		300	Chñ th­¬ng héi	4				1897;3492							4;2;6;										
+		300	Th­¬ng nh©n T©y Vùc	4				1794;3608							4;2;7;										
+		300	LÔ quan	4				1787;3497							4;2;8;1;										
+		300	Bé ®Çu	4				1779;3473							4;2;8;2;										
+		300	ThÇn Du Ch©n Nh©n	4				1974;3552							4;2;8;3;										
+		300	Sø gi¶ Tµng KiÕm	4				1776;3701							4;2;8;4;										
+		300	§¹i sø c«ng thµnh	4				1742;3549							4;2;8;5;										
+		300	Qu¶n thµnh sø	4				1728;3536							4;2;8;6;										
+		300	Tiªu s­	4				1822;3378							4;2;8;7;										
+		300	Chñ l«i ®µi	4				1840;3570							4;2;8;9;1;										
+		300	Chu ThiÖn Nh©n	4				1959;3545							4;2;8;9;2;										
+		100	Thñ khè (§«ng)	4				1554;3075							4;3;1;										
+		100	Thñ khè (T©y)	4				1387;2902							4;3;2;										
+		100	Thñ khè (B¾c)	4				1518;2869							4;3;3;										
+		100	D· TÈu	4				1447;2800							4;3;4;										
+		100	Thè TiÓu Nha	4				1459;2811							4;3;5;										
+		100	Chñ th­¬ng héi	4				1537;2933							4;3;6;										
+		100	Th­¬ng nh©n T©y Vùc	4				1499;3059							4;3;7;										
+		100	LÔ quan	4				1512;2990							4;3;8;1;										
+		100	Bé ®Çu	4				1519;2988							4;3;8;2;										
+		100	ThÇn Du Ch©n Nh©n	4				1381;2857							4;3;8;3;										
+		100	Sø gi¶ Tµng KiÕm	4				1509;3107							4;3;8;4;										
+		150	Thñ khè (§«ng)	4				1757;3178							4;4;1;										
+		150	Thñ khè (Nam)	4				1614;3173							4;4;2;										
+		150	Thñ khè (T©y)	4				1633;3052							4;4;3;										
+		150	Thñ khè (B¾c)	4				1727;3073							4;4;4;										
+		150	Thè TiÓu Nha	4				1680;3118							4;4;5;										
+		150	Chñ th­¬ng héi	4				1635;3139							4;4;6;										
+		150	Th­¬ng nh©n T©y Vùc	4				1653;3109							4;4;7;										
+		150	Bé ®Çu	4				1738;3158							4;4;8;1;										
+		150	Sø gi¶ Tµng KiÕm	4				1744;3121							4;4;8;2;										
+		150	§¹i sø ho¹t ®éng cuèi tuÇn	4				1713;3137							4;4;8;3;										
+		150	ChØ huy sø	4				1680;3161							4;4;8;4;										
+		150	Tö Quang C¸c L·o Nh©n	4				1650;3174							4;4;8;5;										
+		150	Bµ mai	4				1600;3136							4;4;8;6;										
+		150	X¶o n÷	4				1588;3143							4;4;8;7;										
+		150	Sø gi¶ h«n lÔ	4				1711;3046							4;4;8;9;1;										
+		150	§Æc sø Vâ L©m	4				1701;3170							4;4;8;9;2;										
+		350	Thñ khè (Nam)	4				1387;3065							4;5;1;										
+		350	Thñ khè (T©y)	4				1359;2869							4;5;2;										
+		350	Thñ khè (B¾c)	4				1532;2861							4;5;3;										
+		350	Thè TiÓu Nha	4				1436;2808							4;5;4;										
+		350	Chñ th­¬ng héi	4				1455;2924							4;5;5;										
+		350	Th­¬ng nh©n T©y Vùc	4				1497;2882							4;5;6;										
+		350	Bé ®Çu	4				1506;2997							4;5;7;										
+		350	Sø gi¶ Tµng KiÕm	4				1394;2850							4;5;8;1;										
+		350	§¹i sø ho¹t ®éng cuèi tuÇn	4				1452;2968							4;5;8;2;										
+		350	ChØ huy sø	4				1503;3023							4;5;8;3;										
+		350	Thî rÌn L­u	4				1415;2930							4;5;8;4;										
+		350	M¹c Tam	4				1345;2924							4;5;8;5;										
+		350	Minh Chñ Kim S¬n	4				1433;2769							4;5;8;6;										
+		400	Thñ khè (§«ng)	4				1528;3111							4;6;1;										
+		400	Thñ khè (Nam)	4				1455;3070							4;6;2;										
+		400	Thñ khè (B¾c)	4				1553;2912							4;6;3;										
+		400	Thè TiÓu Nha	4				1485;3018							4;6;4;										
+		400	Chñ th­¬ng héi	4				1486;2924							4;6;5;										
+		400	Th­¬ng nh©n T©y Vùc	4				1428;3005							4;6;6;										
+		400	LÔ quan	4				1506;2847							4;6;7;										
+		500	Thñ khè (§«ng)	4				1795;3216							4;7;1;										
+		500	Thñ khè (Nam)	4				1656;3215							4;7;2;										
+		500	Thñ khè (T©y)	4				1677;3095							4;7;3;										
+		500	Thñ khè (B¾c)	4				1827;3049							4;7;4;										
+		500	Chñ th­¬ng héi	4				1771;3186							4;7;5;										
+		500	Bé ®Çu	4				1893;3113							4;7;6;										
+		500	Thè tæng qu¶n	4				1762;3127							4;7;7;										
+		500	Long Quang Ch©n Nh©n	4				1640;3183							4;7;8;1;										
+		300	Thµnh §« §¹i Kho¸ng C«ng (®µo kho¸ng)	4				1836;3430							5;1;										
+		300	Thµnh §« Hoµng §¹i ThÈm (KĞo t¬)	4				1848;3493							5;2;										
+		200	BiÖn Kinh L­u NhÊt Phñ (§èn gç)	4				1220;2909							5;3;										
+		200	BiÖn Kinh thî s¨n Tr­¬ng (Thuéc da)	4				1347;3029							5;4;										
+		100	TuyÒn Ch©u M¹c Qu©n §¹o tr­ëng (TËp linh)	4				1393;2969							5;5;										
+		100	TuyÒn Ch©u L©m D­îc S­ (H¸i thuèc)	4				1555;2961							5;6;										
+		100	TuyÒn Ch©u Lı Phong Thu (Canh t¸c)	4				1603;2968							5;7;										
+		318	Ph©n ®µ s¸t thñ ®­êng	4				1568;2757							6;1;1;										
+		204	ThiÕu L©m HuyÒn Kh«ng	4				1644;3270							6;2;1;										
+		305	§­êng M«n §­êng T« M¹c	4				1674;2936							6;2;2;										
+		303	Nga My TuÖ V©n S­ Th¸i	4				1715;3059							6;2;3;										
+		209	C¸i Bang Bµng L· Väng	4				1530;3209							6;2;4;										
+		312	Vâ §ang TiÕt V©n Tranh	4				1871;3276							6;2;5;										
+		219	D­¬ng M«n D­¬ng Diªn Chiªu	4				1542;2939							6;2;6;										
+		407	Ngò §éc C©u S¸ch	4				1572;3160							6;2;7;										
+		509	C«n L«n  TrÇn BÊt Vi	4				1539;3230							6;2;8;1;										
+		404	Thóy Yªn  L­u Thanh Mi	4				1539;2698							6;2;8;2;										
+		200	TriÖu Diªn Niªn (b¸o danh Nh¹n M«n quan-Tèng) 	4				1291;2873							6;3;1;										
+		200	Tiªu ViÔn L©u (b¸o danh Nh¹n M«n quan-Liªu)	4				1301;2793							6;3;2;										
+		500	D­¬ng HiÖt (Ngäc M«n quan b¸o danh_Tèng)	4				1830;3144							6;3;3;										
+		500	TÇn Thiªn T«n (b¸o danh Ngäc m«n quan-Liªu)	4				1710;3238							6;3;4;										
+		808	Chiªu mé sø-Liªu	4				1645;3180							6;3;5;										
+		808	Chiªu mé sø-Tèng	4				1735;3074							6;3;6;										
+		806	Chiªu mé sø-Liªu	4				1643;3180							6;3;7;										
+		806	Chiªu mé sø-Tèng	4				1733;3073							6;3;8;1;										
+		500	MËt th¸m §¹i Tèng T©y Vùc (mËt th¸m T©y Vùc)	4				1762;3147							6;4;1;										
+		512	§Ö tö C«n L«n (mËt ®éng Cæ D­¬ng)	4				2052;3416							6;4;2;										
+		513	Thñ Mé Nh©n (mËt ®¹o Hoµng l¨ng)	4				1595;3190							6;4;3;										
+		510	D­îc thÊt thñ vÖ (LuyÖn ®¬n ®éng)	4				1574;2867							6;4;4;										
+		514	Thñ Mé T­íng Qu©n (mËt thÊt Hoµng l¨ng)	4				1725;2873							6;4;5;										
+		506	Ngò Hµnh TrËn Sø (Ngò Hµnh TrËn)	4				1316;2726							6;4;6;										
+		506	B¹ch Thiªn Thµnh (TËn cïng sa m¹c)	4				1544;2668							6;4;7;										
+		507	TiÓu NhŞ (yÕn tiÖc Long M«n)	4				1651;3304							6;4;8;1;										
+		502	Hoa S¬n	4				1637;3237							6;5;1;										
+		6016	Mai Trang	4				1499;3094							6;5;2;										
+		6024	ThiÕt Ch­ëng S¬n Trang	4				1652;3093							6;5;3;										
+		6025	ThÇn ®iÖn	4				1699;3397							6;5;4;										
+100	TuyÒn Ch©u	425	Vâ L©m Minh	2	\script\½­ÄÏÇø\ÈªÖİ\npc\ÈªÖİ³µ·ò.lua		Xa phu TuyÒn Ch©u	1370;2892	Xa phu TuyÒn Ch©u	1508;2881	Xa phu TuyÒn Ch©u	1541;3061			7;										
+200	BiÖn Kinh	425	Vâ L©m Minh	2	\script\ÖĞÔ­Ò»Çø\ãê¾©\npc\ãê¾©³µ·ò.lua		Xa phu	1260;2953	Xa phu	1268;2720	Xa phu	1469;2984			7;										
+300	Thµnh §«	425	Vâ L©m Minh	2	\script\ÖĞÔ­¶şÇø\³É¶¼\npc\³É¶¼³µ·ò.lua		Xa phu	1675;3493	Xa phu	1707;3691	Xa phu	1886;3443	Xa phu	1895;3632	7;										
+425	Vâ L©m Minh	300	Thµnh §«	2	\script\tong\npc_chehu.lua		Xa Phu Vâ L©m Minh	1740;3230							1;										
+425	Vâ L©m Minh	100	TuyÒn Ch©u	2	\script\tong\npc_chehu.lua		Xa Phu Vâ L©m Minh	1740;3230							2;										
+425	Vâ L©m Minh	350	T­¬ng D­¬ng	2	\script\tong\npc_chehu.lua		Xa Phu Vâ L©m Minh	1740;3230							3;										
+425	Vâ L©m Minh	150	D­¬ng Ch©u	2	\script\tong\npc_chehu.lua		Xa Phu Vâ L©m Minh	1740;3230							4;										
+425	Vâ L©m Minh	500	Phông T­êng	2	\script\tong\npc_chehu.lua		Xa Phu Vâ L©m Minh	1740;3230							5;										
+425	Vâ L©m Minh	400	§¹i Lı	2	\script\tong\npc_chehu.lua		Xa Phu Vâ L©m Minh	1740;3230							6;										
+425	Vâ L©m Minh	200	BiÖn Kinh	2	\script\tong\npc_chehu.lua		Xa Phu Vâ L©m Minh	1740;3230							7;										

@@ -1,0 +1,18 @@
+#!/bin/bash
+# -----------------------------------------------------
+# Load Variables
+DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+source "$DIR/config.sh"
+
+echo "===== Begin task: Start CheckSvr ====="
+echo "===== Query players ====="
+${APP_DIR}/bishop/KG_Bishop query-gs-state
+echo "===== Check screen ====="
+tmux ls
+echo "===== Check hard disk ====="
+df -h
+echo "===== Check memory/swap ====="
+free -h
+echo "===== Check ports open ====="
+netstat -plnt
+echo "===== Finish task: Start CheckSvr ====="

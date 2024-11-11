@@ -1,0 +1,1 @@
+Include("\\script\\ksgvn\\npc\\npc_tientrang.lua")

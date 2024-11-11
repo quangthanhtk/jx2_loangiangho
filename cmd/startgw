@@ -1,0 +1,19 @@
+#!/bin/bash
+# -----------------------------------------------------
+# Load Variables
+DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+source "$DIR/config.sh"
+
+echo "===== Begin task: Start GW ====="
+echo "----- Alias IP..."
+ip addr add 10.224.31.20/32 dev ${LAN_DEVICE}
+echo "----- Start Goddess..."
+sudo -u root -H sh -c "tmux new-session -d -s goddess 'cd ${APP_DIR}/goddess && ./start'"
+sleep 2
+echo "----- Start Bishop..."
+sudo -u root -H sh -c "tmux new-session -d -s bishop 'cd ${APP_DIR}/bishop && ./start'"
+sleep 2
+echo "----- Start Relay..."
+sudo -u root -H sh -c "tmux new-session -d -s relay 'cd ${APP_DIR}/relay && ./start'"
+sleep 2
+echo "===== Finish task: Start GW ====="

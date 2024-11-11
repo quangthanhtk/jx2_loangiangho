@@ -1,0 +1,8 @@
+Day	nGenre_0	nDetail_0	nParticular_0	nItemNum_0	bBind_0	nExpireTime_0	nGenre_1	nDetail_1	nParticular_1	nItemNum_1	bBind_1	nExpireTime_1	nGenre_2	nDetail_2	nParticular_2	nItemNum_2	bBind_2	nExpireTime_2	nGenre_3	nDetail_3	nParticular_3	nItemNum_3	bBind_3	nExpireTime_3
+Ngµy tÝch lòy	Lo¹i h×nh chÝnh	Lo¹i h×nh phô	Ph©n lo¹i chi tiÕt	Chän	Khãa	HÕt h¹n (Gi©y)																		
+3	2	1	31034	1	4	604800																		
+5	2	1	30957	1	4																			
+7	2	1	30956	1	4	604800																		
+14	2	1	30958	1	4		2	1	31033	1	4													
+21	2	1	30959	1	4		2	1	31033	2	4													
+28	2	1	30960	1	4		2	1	31033	2	4													

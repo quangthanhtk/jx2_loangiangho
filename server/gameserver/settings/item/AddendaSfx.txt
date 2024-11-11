@@ -1,0 +1,6 @@
+AddendaId	Attr	SfxId	SfxPos
+ID QuyÕt YÕu	Chuçi kı tù thuéc tİnh	ID hiÖu øng	0: Trung t©m d­íi ch©n, 1: Trung t©m th©n thÓ, 2: §Ønh ®Çu, 3: Tay tr¸i, 4: Tay ph¶i, 5: hiÖu øng vŞ trİ thuÉn, 6: Hai tay (NÕu npc lµ NPC th­êng, ®«i tay kh«ng cã r·nh, khi dïng script, 3, 4, 6 ®Òu kh«ng thÓ dïng)
+310	state_burst_enhance_rate_spec_1	962	2
+300	state_interval_ignore	962	2
+1020	state_m_attack_percent_add	962	2
+1040	state_magic_damage_absorb	962	2

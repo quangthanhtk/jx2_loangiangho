@@ -1,0 +1,143 @@
+--»î¶¯µÄÒ»Ð©¹²ÓÃ½±Àøº¯Êý
+Import("\\script\\lib\\globalfunctions.lua")
+
+function Vet_Complete_Revive_OnePartner_FirstStage_check()
+	return 1;
+end
+
+function Vet_Complete_Revive_OnePartner_FirstStage()
+	--complete by veit
+	--finish first stage
+	--
+end
+
+function Vet_Complete_Revive_OnePartner_SecondStage_check()
+	--complete by veit
+	--
+	return 0;
+end
+
+function Vet_Complete_Revive_OnePartner_SecondStage(nTaskId, nBitIdx)	--(nActivityID,nTaskGrouId,nTaskIDSeq)
+	nTaskId = nTaskId or 0
+	nBitIdx = nBitIdx or 0
+	
+	local nCheck = GetBit(GetTask(2765),1)--GetTask(nTaskIdFinalPrize1)
+	if nCheck >= 1 then
+		Talk(1,"","B¹n ®· nhËn phÇn th­ëng cuèi khi sö dông tèi ®a vËt phÈm råi.")
+		return 0
+	end
+	local nIsPS = floor(GetTask(TSK_PET_PS_GIAIDOAN_B)/10)
+	if mod(nIsPS,10) >= 1 then
+		Talk(1,"","B¹n ®ång hµnh ®· phôc sinh råi nªn kh«ng thÓ nhËn phÇn th­ëng nµy.")
+		return 0
+	end
+--	local tbActivity = TB_VN_ACTIVITY_MAIN[nActivityID];
+	
+--	if not tbActivity then return end
+	if gf_Judge_Room_Weight(1,1," ") ~= 1 then
+	 return
+	end
+	local nCurGodPoint = floor(GetTask(TASK_VNG_PET_GODPOINT)/100)
+	if nCurGodPoint < 200 then
+		Talk(1,"","B¹n ®ång hµnh ch­a ®ñ 200 ®iÓm linh lùc")
+		return 0
+	end
+--	if GetItemCount(2,1,30603) < 999 then
+--		Talk(1,"","Tiªu Dao Ngäc trong tói kh«ng ®ñ 999 c¸i")
+--		return
+--	end
+	local checka = VNG_GetTaskPos(TSK_PET_PS_GIAIDOAN_A,10,5)
+	local checkb = VNG_GetTaskPos(TSK_PET_PS_GIAIDOAN_B,10,3)	
+--	if checka < 160160 or checkb < 3303030 then
+--		Talk(1, "", "B¹n ch­a hoµn thµnh giai ®o¹n 1 nhiÖm v?phôc sinh b¹n ®ång hµnh nªn kh«ng th?nhËn phÇn th­ëng !!!!")
+--		return 0
+--	end	
+
+--	gf_WriteLogEx(EVENT_LOG_TITLE, "§æi phÇn th­ëng cuèi cïng", 2500, "Tiªu hao Tiªu Dao Ngäc hoµn thµnh giai ®o¹n 2 cña phôc sinh ®ång hµnh");		
+	--ÉèÖÃÒÑÁìÈ¡±ê¼Ç
+--	Vet_Activity_SetItemUseInfo(nTaskGrouId,nTaskIDSeq,tbActivity.nGetBothFinalPrize,1);
+	local szNpcName = "<color=green>Sù kiÖn Event th¸ng 11<color>: "
+	local tSay = {}
+	local tHeader = szNpcName.." §¹i hiÖp h·y chän h­íng Phôc Sinh cho B¹n §ång Hµnh cña m×nh."
+	tinsert(tSay, format("Hç trî hÖ Néi C«ng/#add_buffEvent2(1,%d,%d)",nTaskId, nBitIdx))		
+	tinsert(tSay, format("Hç trî hÖ Ngo¹i C«ng/#add_buffEvent2(2,%d,%d)",nTaskId, nBitIdx))		
+	--tinsert(tSay, "H?tr?h?Ngo¹i C«ng/#add_buffEvent(2,tbActivity.nActivityID..","..nTaskGrouId..","..nTaskIDSeq..")")	
+
+	--tinsert(tSay, "Ta ch?gh?qua th«i/nothing")
+	Say(tHeader, getn(tSay), tSay)	
+	return 1
+end
+
+function add_buffEvent2(nWay)
+	local nCheck = GetBit(GetTask(2765),1)--GetTask(nTaskIdFinalPrize1)
+	if nCheck >= 1 then
+		Talk(1,"","B¹n ®· nhËn phÇn th­ëng cuèi khi sö dông tèi ®a vËt phÈm råi.")
+		return 0
+	end
+	local tNoiNgoai = {
+			 [1] = {
+						{"Néi C«ng 6%", "state_m_attack_percent_add", 6},
+						{"Sinh Lùc +6000", "state_life_max_point_add", 8000},
+						{"Sinh Lùc 6%", "state_life_max_percent_add", 6},
+						{"Kh¸ng tÊt c?+12", "state_add_allability", 12}, 
+					},
+			[2] = {
+						{"Ngo¹i C«ng 12%", "state_p_attack_percent_add", 12},
+						{"Sinh Lùc +6000", "state_life_max_point_add", 10000},
+						{"Sinh Lùc 6%", "state_life_max_percent_add", 6},
+						{"Néi phßng/Ngo¹i phßng +60", "state_i_defence_point_add", 60},
+						{"Ngo¹i phßng +60", "state_o_defence_point_add", 60},
+					},
+				}
+	local t_pet_type = {
+									[1] = {"Th?tr¾ng",3333,24},
+									[2] = {"Th?x¸m",3333,25},
+									[3] = {"Th?®en",3334,26},		
+								}	
+--	if GetItemCount(2,1,30603) < 999 then
+--		Talk(1,"","Tiªu Dao Ngäc trong tói kh«ng ®ñ 999 c¸i")
+--		return
+--	end								
+--	if DelItem(2,1,30603,999) ~= 1 then
+--		return 0;
+--	end								
+	--Vet_Activity_SetItemUseInfo(nTaskGrouId,nTaskIDSeq,tbActivity.nGetBothFinalPrize,1);		
+	SetTask(2765,SetBit(GetTask(2765),1,1));	--SetTask(2786,1)	--nhËn phÇn th­ëng cuèi 
+	
+--	gf_SetTaskBit(nTaskId, nBitIdx, 1)--Set awawd bit, avoid repeat get award
+	
+--	Vet_Activity_SetItemUseInfo(self.tbTaskGroup[1],self.tbTaskGroup[2],tbPrizeInfo.nTaskIdGetFinalPrize,1)
+--	self:GiveItemPrize(tbPrizeInfo.tbFinalPrize,format(self.tbHintString[10][3],tbPrizeInfo.tbItemInfo[4]))
+	---------------
+	SetTask(TSK_PET_PS_GIAIDOAN_B, GetTask(TSK_PET_PS_GIAIDOAN_B) + 1) --t¨ng b­íc nhiÖm v?lªn gi?tr?3 l?hoµn thµnh xong giai ®o¹n 2
+	gf_WriteLogEx("PHUC SINH PET", "xong giai ®o¹n 2", 1, "Hoµn thµnh Giai §o¹n 2")												
+		local nIsPS = floor(GetTask(TSK_PET_PS_GIAIDOAN_B)/10) --mod 10 l?gi?tr?x¸c ®Þnh c?Phôc Sinh PET 
+		nIsPS = (nIsPS +1) *10 + mod(GetTask(TSK_PET_PS_GIAIDOAN_B),10)
+		SetTask(TSK_PET_PS_GIAIDOAN_B, nIsPS) --set gi?tr?x¸c ®Þnh c?Phôc Sinh PET
+		-------------
+		local nCount_PET_PS = floor(GetTask(TSK_PET_PS_GIAIDOAN_A)/10)
+		nCount_PET_PS = (nCount_PET_PS +1) *10 + mod(GetTask(TSK_PET_PS_GIAIDOAN_A),10) 
+		SetTask(TSK_PET_PS_GIAIDOAN_A, nCount_PET_PS) --set gi?tr?x¸c ®Þnh s?lÇn Phôc Sinh PET
+		-------------
+		local nNewValue =  SetBytePos(GetTask(TSK_PET_PS_GIAIDOAN_A),nWay,4)
+		SetTask(TSK_PET_PS_GIAIDOAN_A, nNewValue ) -- set h­íng Phôc Sinh cña PET
+		-------------Set c¸c ch?s?buff
+		local nAttrId = 2908130 --29/08/13 + x
+		for i = 1, getn(tNoiNgoai[nWay]) do
+			CastState(tNoiNgoai[nWay][i][2], tNoiNgoai[nWay][i][3], -1, 1, nAttrId);
+			nAttrId = nAttrId + 1;
+		end		
+		------------- add PET míi
+		local nRand = gf_GetRandItemByTable(t_pet_type,10000,1)
+		local nNewType = t_pet_type[nRand][3]
+		local nResult = AddPet(nNewType)
+		if nResult >= 0 then
+			Msg2Player("Chóc mõng ®¹i hiÖp ®· chiªu m?PET thµnh c«ng")
+		else
+			gf_WriteLogEx("PHUC SINH PET BK", "add thÊt b¹i", 1, "Add pet thÊt b¹i")			
+		end
+		-------------
+		Msg2Player("Chóc mõng ®¹i hiÖp ®· hoµn thµnh nhiÖm vô Phôc Sinh cho B¹n §ång Hµnh !!!!")		
+		gf_WriteLogEx("PHUC SINH PET BK", "xong giai ®o¹n 2", 1, "Hoµn thµnh Giai §o¹n buff")			
+
+end

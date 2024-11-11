@@ -1,0 +1,21 @@
+#!/bin/bash
+# -----------------------------------------------------
+# Load Variables
+DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+source "$DIR/config.sh"
+
+echo "===== Begin task: Stop GGS ====="
+echo "----- Send GGS stop msg..."
+sudo -u root -H sh -c "cd ${APP_DIR}/grouter && ./stopGS"
+sleep 2
+echo "----- Stop GRelay..."
+sudo -u root -H sh -c "cd ${APP_DIR}/grelay && ./stop"
+sleep 2
+echo "----- Stop GRouter..."
+sudo -u root -H sh -c "cd ${APP_DIR}/grouter && ./stop"
+sleep 2
+echo "----- Kill screen..."
+sudo -u root -H sh -c "tmux kill-session -t grelay"
+sudo -u root -H sh -c "tmux kill-session -t grouter"
+sudo -u root -H sh -c "tmux kill-session -t ggs"
+echo "===== Finish task: Stop GGS ====="

@@ -1,0 +1,107 @@
+Sè thø tù	§é tr­êng thµnh max	STRING
+1	64	ChÕt nÌ!
+2	64	B¹n kh«ng thÓ nhÆt vËt phÈm cña ng­êi kh¸c!
+3	64	B¹n kh«ng thÓ nhÆt tiÒn cña ng­êi kh¸c!
+4	64	<color> B¹n nhËn ®­îc <color=Gold> %s<color>
+5	64	B¹n ®· gÇn ®uèi søc råi!
+6	64	B¹n ®· hoµn toµn ®uèi søc!
+7	64	Giao dŞch thµnh c«ng!
+8	64	%s cña b¹n s¾p bŞ háng!
+9	64	%s cña b¹n ®· h­ háng hoµn toµn!
+10	64	B¹n hñy bá giao dŞch!
+11	64	§èi ph­¬ng hñy bá giao dŞch!
+12	64	Søc lùc cña b¹n kh«ng ®ñ!
+13	64	Søc lùc ®èi ph­¬ng kh«ng ®ñ!
+14	64	Hµnh trang cña b¹n kh«ng ®ñ chç trèng!
+15	64	Hµnh trang cña ®èi ph­¬ng kh«ng ®ñ chç trèng!
+16	64	Tö vong vËt phÈm sÏ mÊt.
+17	64	VËt phÈm kh«ng thÓ nhÆt.
+18	64	VËt phÈm qu¸ xa, b¹n kh«ng thÓ nhÆt ®­îc!
+19	64	Gi¶m bít ng©n l­îng
+20	64	NhËn ®­îc vËt phÈm
+21	64	Kh«ng thÓ nhÆt ®­îc tiÒn.
+22	64	VËt phÈm kh«ng thÓ xÕp chång
+23	64	VËt phÈm nµy kh«ng thÓ xÕp chång
+24	64	B¹n ®· Ğp %s vµo phô lôc cña mËt tŞch
+25	64	Phô lôc cña mËt tŞch nµy ®· ®Çy
+26	64	§· lÜnh ngé %s
+27	64	%s nµy kh«ng thÓ giao dŞch
+28	64	%s nµy kh«ng thÓ vøt bá
+29	64	TiÒn ®· vuît qu¸ søc chøa cña r­¬ng, sè d­ sÏ kh«ng thÓ l­u tr÷!
+30	64	Ng©n l­îng b¹n bá vµo hµnh trang ®· v­ît qu¸ giíi h¹n!
+31	64	B¹n nhËn ®­îc %d ®iÓm Danh väng.
+32	64	H«m nay b¹n ®· nhËn ®ñ ®iÓm danh väng, kh«ng thÓ nhËn thªm!
+33	64	TiÕn ®é nhiÖm vô: §· diÖt %s
+34	64	%s nhËn ®­îc 1 <color=Gold>%s<color>
+35	64	§æi phe PK ph¶i mÊt 3 phót
+36	64	§éi mµ b¹n xin phĞp nh©n sè ®· ®ñ!
+37	64	Mang mang qu¸ nÆng, kh«ng thÓ di chuyÓn!
+38	64	Nguyªn liÖu kh«ng ®ñ. CÇn %s c¸i %s.
+39	64	B¹n kh«ng ®ñ tiÒn!
+40	64	B¹n bŞ trõ %d ®iÓm danh väng
+41	64	Danh väng cña b¹n t¹m thêi ®· ®¹t tèi ®a!
+42	64	%s nµy kh«ng thÓ lµm thøc ¨n!
+43	64	Cæ mÉu cña b¹n ®· sinh %s
+44	64	%s cña b¹n ®· chÕt!
+45	64	Cæ mÉu cña b¹n kh«ng thİch ¨n lo¹i nµy! (Thùc vËt nµy chØ thİch hîp víi Cæ mÉu d­íi %s)
+46	64	Kh«ng tÓ xãa bÉy cña ®¼ng cÊp nµy
+47	64	Xãa c¹m bÉy thÊt b¹i
+48	64	Trïng sinh Thi thÓ ®· ®¹t tèi ®a %s
+49	64	Tµ linh kh«ng ®ñ. CÇn cã %s Tµ linh míi phôc sinh ®­îc thi thÓ nµy!
+50	64	(TrŞ tµ linh hiÖn t¹i/TrŞ tµ linh tèi ®a)(%s)
+51	64	Cæ mÉu b¾t ®Çu sinh s¶n
+52	64	Cæ mÉu ®· dõng sinh s¶n
+53	64	§iÓm tµ linh hiÖn ®ang bŞ ©m; phôc sinh cho thi thÓ cã thÓ sÏ thÊt b¹i!
+54	64	Kh«ng thÓ thu phôc thi thÓ ®¼ng cÊp nµy!
+55	64	Kh«ng thÓ thu phôc lo¹i thi thÓ nµy!
+56	64	Thi thÓ ®· tiªu hñy, kh«ng thÓ thu phôc!
+57	64	buff '%s' ®· huû bá
+58	64	Kü n¨ng th¨ng cÊp
+59	64	%s ®· huû
+60	64	%s ®· cã hiÖu lùc
+61	64	§· ®Ò nghŞ giao dŞch
+62	64	HiÖn t¹i kh«ng cho phĞp thay ®æi tr¹ng th¸i PK
+63	64	Kü n¨ng hiÖn t¹i tèi ®a cã thÓ tån t¹i cïng lóc trong %s trËn, kü n¨ng cuèi do %s thi triÓn sÏ bŞ thay ®æi
+64	64	Tèi ®a cã thÓ tån t¹i cïng lóc trong %s trËn, kü n¨ng cuèi do %s thi triÓn sÏ bŞ thay ®æi
+65	64	Kh«ng thÓ söa vËt phÈm
+66	64	TiÒn giao dŞch ®¹t giíi h¹n
+1000	64	Mét b»ng h÷u ®· bŞ ®¸ ra khái tæ ®éi!
+1001	64	Gi¶i t¸n
+1002	64	Rêi ®éi.
+1003	64	Cù tuyÖt
+1004	64	§· ë trong tæ ®éi
+1005	64	ChØ ®Şnh ®éi tr­ëng thÊt b¹i 1
+1006	64	ChØ ®Şnh ®éi tr­ëng thÊt b¹i 2
+1007	64	Tæ ®éi bŞ lçi 1
+1008	64	Tæ ®éi bŞ lçi 2
+1009	64	Tæ ®éi bŞ lçi 3
+1010	64	Tæ ®éi bŞ lçi 4
+1011	64	Tæ ®éi bŞ lçi 5
+1100	64	Kh«ng ®ñ kh«ng gian ®Ó chøa!
+1101	64	§èi ph­¬ng kh«ng ®ñ chç chøa!
+1102	64	§èi ph­¬ng tõ chèi Giao dŞch
+1103	64	VËt phÈm nµy kh«ng thÓ mua b¸n hoÆc giao dŞch!
+1200	64	B¹n ®ang ë tr¹ng th¸i phi chiÕn ®Êu!
+1201	64	T©n thñ kh«ng thÓ PK!
+1202	64	B¹n ®ang ®ä søc víi ng­êi kh¸c!
+1203	64	B¹n ®ang cõu s¸t ng­êi kh¸c!
+1204	64	B¹n kh«ng thÓ cõu s¸t c¸c T©n Thñ!
+1205	64	§èi ph­¬ng ®ang ë tr¹ng th¸i phi chiÕn ®Êu!
+1206	64	§èi ph­¬ng ®ang ®ä søc víi ng­êi kh¸c!
+1207	64	Tr¹ng th¸i PK phi luyÖn c«ng chuyÓn sang luyÖn c«ng ph¶i mÊt 3 phót!
+1300	64	Bang héi b¹n muèn vµo kh«ng chÊp nhËn b¹n!
+1301	64	B¹n bŞ ®¸ khái bang héi!
+1302	64	Rêi khái bang héi thµnh c«ng!
+1303	64	Rêi khái bang héi thÊt b¹i
+1304	64	B¹n ®· trë thµnh bang chñ!
+1305	64	B¹n trë thµnh bang chóng!
+1306	64	Bang héi cña b¹n ®· gi¶i t¸n!
+1307	64	Ng©n quü bang héi kh«ng ®ñ!
+1400	64	%s
+1500	64	%s
+1600	64	Thó nu«i qu¸ ®ãi, kh«ng thÓ hoµn thµnh chØ lÖnh
+1601	64	Ch­a triÖu håi thó c­ng
+1602	64	Kh«ng ®ñ vËt phÈm huÊn luyÖn
+1603	64	Thø c­ng ®¹t cÊp tèi ®a, kh«ng thÓ huÊn luyÖn
+1604	64	CÊp kh«ng ®ñ, kh«ng thÓ huÊn luyÖn thó c­ng nµy
+1700	64	<color=Gold>%s <color>L­u tr÷ thµnh c«ng

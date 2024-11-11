@@ -1,0 +1,13 @@
+#!/bin/bash
+# -----------------------------------------------------
+# Load Variables
+DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+source "$DIR/config.sh"
+
+echo "===== Begin task: Start Paysys ====="
+echo "----- Alias IP..."
+ip addr add 10.224.31.20/32 dev ${LAN_DEVICE}
+echo "----- Start Paysys..."
+sudo -u root -H sh -c "tmux new-session -d -s pay 'cd ${APP_DIR}/paysys && ./start'"
+sleep 2
+echo "===== Finish task: Start Paysys ====="

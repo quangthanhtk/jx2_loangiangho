@@ -1,0 +1,23 @@
+#!/bin/bash
+# -----------------------------------------------------
+# Load Variables
+DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+source "$DIR/config.sh"
+
+echo "===== Begin task: Stop GW ====="
+echo "----- Send GS stop msg..."
+sudo -u root -H sh -c "cd ${APP_DIR}/bishop && ./stopGS1"
+sleep 2
+echo "----- Stop Relay..."
+sudo -u root -H sh -c "cd ${APP_DIR}/relay && ./stop"
+sleep 2
+echo "----- Stop Bishop..."
+sudo -u root -H sh -c "cd ${APP_DIR}/bishop && ./stop"
+sleep 2
+echo "----- Stop Goddess..."
+sudo -u root -H sh -c "cd ${APP_DIR}/goddess && ./stop"
+echo "----- Kill process & screen..."
+sudo -u root -H sh -c "tmux kill-session -t goddess"
+sudo -u root -H sh -c "tmux kill-session -t bishop"
+sudo -u root -H sh -c "tmux kill-session -t relay"
+echo "===== Finish task: Stop GW ====="

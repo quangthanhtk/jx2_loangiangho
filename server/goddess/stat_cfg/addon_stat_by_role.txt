@@ -1,0 +1,13 @@
+stat_id	export_role_cnt	desc
+	<0 is no limit	stat_id refer to main.stat_id
+	0 is not stat by role	
+	>0 is export less than that player count	
+1	1000	Vµng
+2	1000	Tö Kim Hång Bao
+3	1000	§¹i hång bao hoµng kim
+4	1000	B¹ch Kim Hång Bao
+5	1000	VËt phÈm Xu
+6	1000	§¹i ng©n phiÕu
+7	1000	Hoµng Kim §¹i Ng©n PhiÕu
+17	1000	Phong Bao 10k VND
+37	1000	R­¬ng Ho¹t §éng ®· sö dông

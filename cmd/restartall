@@ -1,0 +1,17 @@
+#!/bin/bash
+# -----------------------------------------------------
+# Load Variables
+DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+source "$DIR/config.sh"
+
+echo "===== Begin task: Start ALL ====="
+sudo -u root -H sh -c "/home/stopggs"
+sudo -u root -H sh -c "/home/stopgw"
+sleep 2
+sudo -u root -H sh -c "/home/startggs"
+sleep 2
+sudo -u root -H sh -c "/home/startgw"
+sleep 2
+sudo -u root -H sh -c "/home/startgs"
+sleep 2
+echo "===== Finish task: Start ALL ====="

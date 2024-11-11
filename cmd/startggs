@@ -1,0 +1,20 @@
+#!/bin/bash
+# -----------------------------------------------------
+# Load Variables
+DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+source "$DIR/config.sh"
+
+echo "===== Begin task: Start GGS ====="
+echo "----- Alias IP..."
+ip addr add 10.224.31.21/32 dev ${LAN_DEVICE}
+ip addr add 10.224.31.6/32 dev ${LAN_DEVICE}
+echo "----- Start GRelay..."
+sudo -u root -H sh -c "tmux new-session -d -s grelay 'cd ${APP_DIR}/grelay && ./start'"
+sleep 2
+echo "----- Start GRouter..."
+sudo -u root -H sh -c "tmux new-session -d -s grouter 'cd ${APP_DIR}/grouter && ./start'"
+sleep 2
+echo "----- Start GGS..."
+sudo -u root -H sh -c "tmux new-session -d -s ggs1 'cd ${APP_DIR}/ggameserver1 && ./start'"
+sleep 2
+echo "===== Finish task: Start GGS ====="

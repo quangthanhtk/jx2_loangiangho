@@ -1,0 +1,11 @@
+ID	Name	ShopLevel	Templete	OffsetX	OffsetY	Scale	CashCostPerWeek
+1	Cù T­îng	1	D· Mao T­îng	0	0	90	350
+2	Th«ng TÝ Viªn	1	H¾c Tinh Tinh	0	0	90	700
+3	Gia KiÒn	1	Tö D¹ Hæ	0	20	120	1100
+4	Linh Tùu	2	B¹ch §Çu §iªu	0	-220	60	1450
+5	Yªu Hå	2	Hå Yªu	0	0	90	1890
+6	Chóc Cöu ¢m	2	Phi Thiªn3	0	0	90	2470
+7	Phông Hoµng	3	Phông Hoµng	0	-80	90	2750
+8	Phong Hi	3	Phong Hi	0	0	73	3500
+9	B¹ch Tr¹ch	3	B¸t Hïng	0	30	250	4500
+10	Vâ Th¸nh	3	Thiªn T­íng 2	0	0	75	6000

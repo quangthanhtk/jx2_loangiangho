@@ -1,0 +1,18 @@
+----铜宝箱1
+--Import("\\script\\lib\\globalfunctions.lua")
+--Include("\\script\\missions\\taiyi\\tyfunctions.lua")
+--Include("\\script\\online_activites\\head\\activity_normal_head.lua")
+--
+--function main()
+--	local tAward = {
+--		{30, {"小传功丹", {2, 1, 30312, 1, 4}}},
+--    {10, {"修真要诀残页", {2, 1, 30315, 1, 4}}},
+--    {45, {"1级铁晶", {2, 1, 30533, 1, 4}}},
+--    {15, {"2级铁晶", {2, 1, 30534, 1, 4}}},
+--	}
+--	local tItem = gf_RandRate(tAward)[2];
+--	gf_ThrowDice(tItem[2], nil, nil, nil, nil, GetTargetNpc());
+--	SetNpcLifeTime(GetTargetNpc(), 0);
+--	SetNpcScript(GetTargetNpc(), "");	
+--	gf_TeamOperateEX(vaf_award_api, "tTYTTongBox")
+--end

@@ -1,0 +1,5 @@
+EnhanceLevel	SuccessProbability	Item_Count	Item_GDP	Stuff_1_Need	Stuff_1_Count	Stuff_1_GDP	Stuff_2_Need	Stuff_2_Count	Stuff_2_GDP	Stuff_3_Need	Stuff_3_Count	Stuff_3_GDP	ProbabilityAdd	AttributeLevelAdd
+0	0	1	0;-1;-1	0	0	0;-1;-1	0	0	0;-1;-1	0	0	0;-1;-1	34	0
+1	0	1	0;-1;-1	2	1	0;-1;-1	2	1	0;-1;-1	2	1	0;-1;-1	34	1
+2	0	1	0;-1;-1	2	1	0;-1;-1	2	1	0;-1;-1	2	1	0;-1;-1	34	2
+3	0	1	0;-1;-1	2	1	0;-1;-1	2	1	0;-1;-1	2	1	0;-1;-1	34	3

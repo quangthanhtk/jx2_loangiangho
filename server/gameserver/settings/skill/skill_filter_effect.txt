@@ -1,0 +1,7 @@
+ID	Skill1	Skill2	Skill3	Skill4	Skill5	Skill6	Skill7	Skill8	Skill9	Skill10	Skill11	Skill12	Skill13	Skill14	Skill15	Skill16	Skill17	Skill18	Skill19	Skill20
+1	2636	2647																		
+2	2643																			
+3	701	643																		
+4	30001	30002	30003	30004	30005	30006	30007	30008	30009	693	694									
+5	2737																			
+6	2738																			

@@ -1,0 +1,4 @@
+ID	Condition	Condition_Param_1	Condition_Param_2	EffectTime	Attribute_1	Attribute_Value_1	Attribute_Passed_1	Attribute_2	Attribute_Value_2	Attribute_Passed_2	Attribute_3	Attribute_Value_3	Attribute_Passed_3
+1	if_target_hp_lower_than_me			36	state_vertigo	1	0	state_slow	50	1			
+2	if_target_hp_percent_lower	50		180	state_reduce_damage_percent	99	1	state_reduce_damage_num	999	1	state_immune	100	1
+3	if_target_hp_percent_lower	20		180	state_p_attack_percent_add	50	1	state_m_attack_percent_add	50	1			

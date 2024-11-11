@@ -1,0 +1,11 @@
+ScriptFiles	TargetMapIds	TargetMapString	Limit_0	Limit_1
+\script\Î÷ÄÏÇø\´óÀí¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua;\script\Î÷±±Çø\·ïÏè¸®\npc\ÃÅÅÉ½ÓÒıÈË.lua;\script\½­ÄÏÇø\ÈªÖİ\npc\ÃÅÅÉ½ÓÒıÈË.lua;\script\ÖĞÔ­¶şÇø\³É¶¼\npc\ÃÅÅÉ½ÓÒıÈË.lua;\script\ÖĞÔ­Ò»Çø\ãê¾©\npc\ÃÅÅÉ½ÓÒıÈË.lua	204;312;303;209;407;305;219;152	§­a ®Õn c¸c m«n ph¸i, miÔn phİ cÊp 30 trë xuèng, cÊp 30 trë lªn thu phİ 5 l­îng/lÇn/ng­êi.	29,0	99;500
+\script\ÖĞÔ­Ò»Çø\ãê¾©\npc\ãê¾©³µ·ò.lua;\script\ÖĞÔ­¶şÇø\³É¶¼\npc\³É¶¼³µ·ò.lua;\script\½­ÄÏÇø\ÈªÖİ\npc\ÈªÖİ³µ·ò.lua	100;200;300	ChuyÓn ®Õn thµnh kh¸c; D­íi cÊp 15 kh«ng thu phİ; CÊp 15 trë lªn thu 3 B¹c	14;0	99;300
+\script\ÖĞÔ­Ò»Çø\ãê¾©\npc\ãê¾©³µ·ò.lua;\script\ÖĞÔ­¶şÇø\³É¶¼\npc\³É¶¼³µ·ò.lua;\script\½­ÄÏÇø\ÈªÖİ\npc\ÈªÖİ³µ·ò.lua	150;350;400;500	ChuyÓn ®Õn thµnh kh¸c; D­íi cÊp 15 kh«ng thu phİ; CÊp 15 trë lªn thu 3 B¹c	14;-1	99;300
+\script\½­ÄÏÇø\ÑïÖİ\npc\ÑïÖİ³µ·ò.lua;\script\ÖĞÔ­¶şÇø\ÏåÑô\npc\ÏåÑô³µ·ò.lua	300;200;100;400;350;150	§Õn Thµnh §«, TuyÒn Ch©u, BiÖn Kinh, T­¬ng D­¬ng (D­¬ng Ch©u), §¹i Lı tr­íc cÊp 15, kh«ng thu phİ	14;0	99;300
+\script\½­ÄÏÇø\ÑïÖİ\npc\ÑïÖİ³µ·ò.lua;\script\ÖĞÔ­¶şÇø\ÏåÑô\npc\ÏåÑô³µ·ò.lua	500;	Sau cÊp 15 ®Õn bÊt kú thµnh kh¸c, thu 3 l­îng b¹c	14;-1	99;300
+\script\Î÷ÄÏÇø\´óÀí¸®\npc\´óÀí³µ·ò.lua;\script\Î÷±±Çø\·ïÏè¸®\npc\·ïÏè³µ·ò.lua	300;200;100	§Õn TuyÒn Ch©u BiÖn Kinh Thµnh §« tr­íc cÊp 15, kh«ng thu phİ	14;0;	99;300
+\script\Î÷ÄÏÇø\´óÀí¸®\npc\´óÀí³µ·ò.lua;\script\Î÷±±Çø\·ïÏè¸®\npc\·ïÏè³µ·ò.lua	400;500;150;350;	Sau cÊp 15 ®Õn bÊt kú thµnh kh¸c, thu 3 b¹c	14;-1	99;300
+\script\½­ÄÏÇø\ÁúÈª´å\npc\linxi_npc.lua	118	ChuyÓn ®Õn Dao Tiªn §éng; Giíi h¹n cÊp 85 trë lªn	84;-1	99;0
+\script\½­ÄÏÇø\ÌÒ»¨µº\npc\ÌÒ»¨µº´¬·ò.lua	104	ChuyÓn ®Õn §«ng H¶i H¶i T©n 2; CÇn tèn 10 B¹c	991;000	
+\script\½­ÄÏÇø\¶«º£º£±õ¶ş\npc\¶«º£º£±õ2´¬·ò.lua	102	ChuyÓn ®Õn §µo Hoa §¶o; CÇn tèn 10 B¹c	991;000	

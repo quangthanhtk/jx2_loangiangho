@@ -1,0 +1,7 @@
+ID	Skill1	Skill2	Skill3	Skill4	Skill5	Skill6	Skill7	Skill8	Skill9	Skill10	Skill11	Skill12	Skill13	Skill14	Skill15	Skill16	Skill17	Skill18	Skill19	Skill20
+1	2641	2642																		
+2	2791	2792	2793	2786																
+3	2787	2761	2756																	
+4	2765	2796	2797	2788																
+5	2768	2800	2801	2789																
+6	2790	2802	2803	2764																

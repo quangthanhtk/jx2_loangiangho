@@ -1,0 +1,344 @@
+Tªn m« pháng	C«ng-Kim	C«ng-Méc	C«ng-Thñy	C«ng-Háa	C«ng-Thæ	Phßng-Kim	Phßng-Méc	Phßng-Thñy	Phßng-Háa	Phßng-Thæ
+Cäc gç						0	0	0	0	0
+Cäc gç 2						0	0	0	0	0
+Nam tiªu chuÈn	0	0	0	0	0	0	0	0	0	0
+Nam kh«i ng«	0	0	0	0	0	0	0	0	0	0
+N÷ gîi c¶m	0	0	0	0	0	0	0	0	0	0
+KiÒu n÷	0	0	0	0	0	0	0	0	0	0
+STR_G_MAN_STD	0	0	0	0	0	0	0	0	0	0
+STR_G_MAN_STRONG	0	0	0	0	0	0	0	0	0	0
+STR_G_WOMAN_SEXY	0	0	0	0	0	0	0	0	0	0
+STR_G_WOMAN_AMORETTO	0	0	0	0	0	0	0	0	0	0
+Ng­êi c©y		50								
+D­îc Nh©n					50					
+Th­¬ng t­îng	50									
+§Þa Ngôc ¸c Quû			50							
+KiÕm t­îng	50									
+Phi Thiªn3				50						
+Cung t­îng		50								
+Yªu Hå3				50						
+§ång t­îng					50					
+TuyÕt Viªn			50							
+KÎ ®µo mé			50							
+¤ L©n Giao				50						
+S¬n Hïng					50					
+Thñy ThÇn TÕ Tù			100							0
+Háa ThÇn TÕ Tù				100				0		
+Bang chóng Thanh Long §­êng	10	10	10	10	10	0	0	0	0	0
+Bang chóng B¹ch Hæ §­êng	10	10	10	10	10	0	0	0	0	0
+Bang chóng Chu T­íc §­êng	10	10	10	10	10	0	0	0	0	0
+Bang chóng HuyÒn Vò §­êng	10	10	10	10	10	0	0	0	0	0
+NhÊt Tr­îng Thanh Hæ Tam N­¬ng			100							0
+TÝch LÞch Háa TÇn Minh				100				0		
+Phanh MÖnh Tam Lang Th¹ch Tó					100		0			
+Song Th­¬ng T­íng §æng B×nh	100								0	
+BÖnh Quan S¸c D­¬ng Hïng		100				0				
+UyÓn Nhu V©n	50	50	50	50	50					
+Giang Hå Hçn Hçn	50	50				0			0	
+S¸t thñ Thiªn ¢m Gi¸o			50	50				0		0
+Thiªn ¢m Gi¸o MËt th¸m		50			50	0	0			
+Thôc S¬n V­în to			50		50		0			0
+Mai Nh­îc §ång	10	10	10	10	10	0	0	0	0	0
+BÝch Hæ	10	10	10	10	10	0	0	0	0	0
+Ninh NguyÖt Tiªn Tö			100							0
+Ninh NguyÖt Sø		100				0				
+Thiªn ¢m ThÝch Kh¸ch	100								0	
+Th¹ch Tinh					100		0			
+Hå Tinh				100				0		
+Thiªn ¢m Vu S­ 1	25			25	25		0	0	0	
+Thiªn ¢m Béi Gi¸o1		25	25		25	0	0			0
+Thiªn ¢m ¸c KhuyÓn 1	25		25		25		0		0	0
+Thiªn ¢m Gi¸o §éc Nh©n 1		25	25	25		0		0		0
+§Þa HuyÒn Cung Cung Chñ 1	25	25	25	25	25					
+Thiªn ¢m Gi¸o Cuån NhiÖt Gi¶ 1	100								0	
+Thiªn ¢m Gi¸o X¹ Thñ 1		100				0				
+Thiªn ¢m Vu S­ 2	50			50	50		0	0	0	
+Thiªn ¢m Ph¶n Gi¸o Gi¶ 2		50	50		50	0	0			0
+Thiªn ¢m ¸c KhuyÓn 2	50		50		50		0		0	0
+Thiªn ¢m Gi¸o §éc Nh©n 2		50	50	50		0		0		0
+§Þa HuyÒn Cung Cung Chñ 2	50	50	50	50	50					
+Thiªn ¢m Vu S­ 3	75			75	75		0	0	0	
+Thiªn ¢m Ph¶n Gi¸o Gi¶ 3		75	75		75	0	0			0
+Thiªn ¢m ¸c KhuyÓn 3	75		75		75		0		0	0
+Thiªn ¢m Gi¸o §éc Nh©n 3		75	75	75		0		0		0
+§Þa HuyÒn Cung Cung Chñ 3	75	75	75	75	75					
+Giang Hå Hçn Hçn §Çu Môc 	100	100				0			0	
+S¸t thñ Thiªn ¢m Gi¸o §Çu Môc			100	100				0		0
+Thiªn ¢m Gi¸o MËt th¸m §Çu Môc		100			100	0	0			
+Thôc S¬n V­în to §Çu Môc			100		100		0			0
+Ninh NguyÖt Tiªn Tö §Çu Môc	15	15	100	15	15					0
+Ninh NguyÖt Sö §Çu Môc	15	100	15	15	15	0				
+Thiªn ¢m ThÝch Kh¸ch §Çu Môc	100	15	15	15	15				0	
+Th¹ch Tinh §Çu Môc	15	15	15	15	100		0			
+Hå Tinh §Çu Môc	15	15	15	100	15			0		
+Lam Kú ThÝch Kh¸ch			120							0
+ThÝch Kh¸ch Hoµng Kú	120								0	
+ThÝch Kh¸ch Hång Kú				120				0		
+ThÝch Kh¸ch B¹ch Kú		120				0				
+ThÝch Kh¸ch H¾c Kú					120		0			
+Thñ lÜnh Lam Kú ThÝch Kh¸ch	25	25	120	25	25					0
+Thñ lÜnh Hoµng Kú ThÝch Kh¸ch	120	25	25	25	25				0	
+Thñ lÜnh Hång Kú ThÝch Kh¸ch	25	25	25	120	25			0		
+Thñ lÜnh B¹ch Kú ThÝch Kh¸ch	25	120	25	25	25	0				
+Thñ lÜnh H¾c Kú ThÝch Kh¸ch	25	25	25	25	120		0			
+Thiªn ¢m Tö VÖ	120								0	
+Thiªn ¢m HuyÕt VÖ					120		0			
+HuyÕt HÇu Tiªu D­¬ng					120		0			
+ThÊt S¸t		120								
+Ph¸ Qu©n				120				0		
+Tham Lang	120								0	
+S¸t Ph¸ Lang					120		0			
+Phôc Méng		120				0				
+Tham Lam Chi Méng			120							0
+PhÉn Né Chi Méng				120				0		
+Si Mª Chi Méng	120								0	
+TÊt YÓn			120							0
+Thiªn ¢m Th¹ch VÖ					120		0			
+Thiªn ¢m ThiÕt VÖ					120		0			
+Bµn Xµ					120		0			
+Tö §iÖn	120								0	
+§o¹n thñy				120						0
+TriÒu D­¬ng kiÕm			120					0		
+Th¹ch DuyÖn kiÕm					120		0			
+§é Hån kiÕm		120				0				
+Hiªn Viªn kiÕm			120							0
+Truy T×nh kiÕm		120				0				
+Tµng S¸t	120								0	
+Tµng S¸t Tö KiÕm						0	0	0	0	0
+H¾c Tr­ëng L·o Tiªu NguyÖt					120		0			
+B¹ch Tr­ëng L·o TÊt Thiªn			120							0
+Tµ Hoa Th¸nh L¹c Phi		120				0				
+TËt §è Chi HuyÕt T­êng Vi				120				0		
+T­ LuyÕn Chi PhÊn Mai Kh«i 			120							0
+Th¸i H­ Bµn Thá	50					120	120	120	120	120
+Th¸i H­ V­în to		55				120	120	120	120	120
+Th¸i H­ M·nh hæ			60			120	120	120	120	120
+Th¸i H­ Qu¹ §en				65		120	120	120	120	120
+Th¸i H­ KiÕm S¸t					70	120	120	120	120	120
+Th¸i H­ Thùc Nh©n hoa	75					120	120	120	120	120
+Th¸i H­ B¹ch Yªu Hå		80				120	120	120	120	120
+Th¸i H­ CÇm Tiªn Tö			85			120	120	120	120	120
+Th¸i H­ TuyÕt Qu¸i				90		120	120	120	120	120
+Th¸i H­ Th¶o KhÊu					95	120	120	120	120	120
+Th¸i H­ Lam TiÓu ®ao quû	100					120	120	120	120	120
+Th¸i H­ TiÓu Hång xoa quû		105				120	120	120	120	120
+Th¸i H­ Lam Phi tr¶o quû			110			120	120	120	120	120
+Th¸i H­ KiÕm t­îng				115		120	120	120	120	120
+Th¸i H­ S¬n TÆc §Çu Môc					120	120	120	120	120	120
+Th¸i H­ MÉu D¹ Xoa	125					120	120	120	120	120
+Th¸i H­ KiÕm Hån		130				120	120	120	120	120
+Th¸i H­ Háa Kú L©n			135			120	120	120	120	120
+Th¸i H­ Phông hoµng				140		120	120	120	120	120
+Th¸i H­ KiÕm tiªn Tö					145	120	120	120	120	120
+Th¸i H­ KiÕm Cuång	150					120	120	120	120	120
+Th¸i H­ Bß T©y T¹ng		155				120	120	120	120	120
+Th¸i H­ Cao Phó So¸i			160			120	120	120	120	120
+Th¸i H­ Hoa Si N÷				165		120	120	120	120	120
+Th¸i H­ Tæng qu¶n					170	120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Bµn Thá	175					120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ V­în to		180				120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ M·nh hæ			185			120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Qu¹ §en				190		120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ KiÕm S¸t					195	120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Thùc Nh©n hoa	200					120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ B¹ch Yªu Hå		205				120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ CÇm Tiªn Tö			210			120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ TuyÕt Qu¸i				215		120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Th¶o KhÊu					220	120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Lam TiÓu ®ao quû	225					120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ TiÓu Hång xoa quû		230				120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Lam Phi tr¶o quû			235			120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ KiÕm t­îng				240		120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ S¬n TÆc §Çu Môc					245	120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ MÉu D¹ Xoa	250					120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ KiÕm Hån		255				120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Háa Kú L©n			260			120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Phông hoµng				265		120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ KiÕm tiªn Tö					270	120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ KiÕm Cuång	275					120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Bß T©y T¹ng		280				120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Cao Phó So¸i			285			120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Hoa Si N÷				290		120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Tæng qu¶n					295	120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Bµn Thá	300					120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ V­în to		305				120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ M·nh hæ			310			120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Qu¹ §en				315		120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ KiÕm S¸t					320	120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Thùc Nh©n hoa	325					120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ B¹ch Yªu Hå		330				120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ CÇm Tiªn Tö			335			120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ TuyÕt Qu¸i				340		120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Th¶o KhÊu					345	120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Lam TiÓu ®ao quû	350					120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ TiÓu Hång xoa quû		355				120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Lam Phi tr¶o quû			360			120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ KiÕm t­îng				365		120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ S¬n TÆc §Çu Môc					370	120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ MÉu D¹ Xoa	375					120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ KiÕm Hån		380				120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Háa Kú L©n			385			120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Phông hoµng				390		120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ KiÕm tiªn Tö					395	120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ KiÕm Cuång	400					120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Bß T©y T¹ng		405				120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Cao Phó So¸i			410			120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Hoa Si N÷				415		120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Tæng qu¶n					420	120	120	120	120	120
+B¶n cuèi-Th¸i H­ Bµn Thá	425					120	120	120	120	120
+B¶n cuèi-Th¸i H­ V­în to		430				120	120	120	120	120
+B¶n cuèi-Th¸i H­ M·nh hæ			435			120	120	120	120	120
+B¶n cuèi-Th¸i H­ Qu¹ §en				440		120	120	120	120	120
+B¶n cuèi-Th¸i H­ KiÕm S¸t					445	120	120	120	120	120
+B¶n cuèi-Th¸i H­ Thùc Nh©n hoa	450					120	120	120	120	120
+B¶n cuèi-Th¸i H­ B¹ch Yªu Hå		455				120	120	120	120	120
+B¶n cuèi-Th¸i H­ CÇm Tiªn Tö			460			120	120	120	120	120
+B¶n cuèi-Th¸i H­ TuyÕt Qu¸i				465		120	120	120	120	120
+B¶n cuèi-Th¸i H­ Th¶o KhÊu					470	120	120	120	120	120
+B¶n cuèi-Th¸i H­ Lam TiÓu ®ao quû	475					120	120	120	120	120
+B¶n cuèi-Th¸i H­ TiÓu Hång xoa quû		480				120	120	120	120	120
+B¶n cuèi-Th¸i H­ Lam Phi tr¶o quû			485			120	120	120	120	120
+B¶n cuèi-Th¸i H­ KiÕm t­îng				490		120	120	120	120	120
+B¶n cuèi-Th¸i H­ S¬n TÆc §Çu Môc					495	120	120	120	120	120
+B¶n cuèi-Th¸i H­ MÉu D¹ Xoa	500					120	120	120	120	120
+B¶n cuèi-Th¸i H­ KiÕm Hån		505				120	120	120	120	120
+B¶n cuèi-Th¸i H­ Háa Kú L©n			515			120	120	120	120	120
+B¶n cuèi-Th¸i H­ Phông hoµng				520		120	120	120	120	120
+B¶n cuèi-Th¸i H­ KiÕm tiªn Tö					525	120	120	120	120	120
+B¶n cuèi-Th¸i H­ KiÕm Cuång	530					120	120	120	120	120
+B¶n cuèi-Th¸i H­ Bß T©y T¹ng		535				120	120	120	120	120
+B¶n cuèi-Th¸i H­ Cao Phó So¸i			540			120	120	120	120	120
+B¶n cuèi-Th¸i H­ Hoa Si N÷				545		120	120	120	120	120
+Th¸i H­ Th©n Nhi tö					550	120	120	120	120	120
+Th¸i H­ NguyÖt L­îng Thè	50					120	120	120	120	120
+Th¸i H­ Viªn Nh©n V­¬ng		55				120	120	120	120	120
+Th¸i H­ Hæ tr¾ng			60			120	120	120	120	120
+Th¸i H­ B¹ch §iªu				65		120	120	120	120	120
+Th¸i H­ H¹o Vò KiÕm					70	120	120	120	120	120
+Th¸i H­ Thô Yªu	75					120	120	120	120	120
+Th¸i H­ HáaYªu Hå		80				120	120	120	120	120
+Th¸i H­ ThÇn N÷			85			120	120	120	120	120
+Th¸i H­ Tr­ V­¬ng				90		120	120	120	120	120
+Th¸i H­Tr× §«ng					95	120	120	120	120	120
+Th¸i H­ Du Hån	100					120	120	120	120	120
+Th¸i H­ Oan Hån		105				120	120	120	120	120
+Th¸i H­ L·nh H­¬ng Ng­ng			110			120	120	120	120	120
+Th¸i H­ HuyÒn Vâ KiÕm				115		120	120	120	120	120
+Th¸i H­ Nguy ChÊn Thiªn					120	120	120	120	120	120
+Th¸i H­ T¨ng ¸c	125					120	120	120	120	120
+Th¸i H­ KiÕm Ma		130				120	120	120	120	120
+Th¸i H­ L­u Quang			135			120	120	120	120	120
+Th¸i H­ HáaPhông hoµng				140		120	120	120	120	120
+Th¸i H­ Phong NhÊt Phµm					145	120	120	120	120	120
+Th¸i H­ L©m Xung	150					120	120	120	120	120
+Th¸i H­ Ng­u §Çu Qu¸i		155				120	120	120	120	120
+Th¸i H­ Hoa Th¸nh			160			120	120	120	120	120
+Th¸i H­ Tè Tiªn				165		120	120	120	120	120
+Th¸i H­ KhØ mËp					170	120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ NguyÖt L­îng Thè	175					120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Viªn Nh©n V­¬ng		180				120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Hæ tr¾ng			185			120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ B¹ch §iªu				190		120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ H¹o Vò KiÕm					195	120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Thô Yªu	200					120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ HáaYªu Hå		205				120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ ThÇn N÷			210			120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Tr­ V­¬ng				215		120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­Tr× §«ng					220	120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Du Hån	225					120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Oan Hån		230				120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ L·nh H­¬ng Ng­ng			235			120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ HuyÒn Vâ KiÕm				240		120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Nguy ChÊn Thiªn					245	120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ T¨ng ¸c	250					120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ KiÕm Ma		255				120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ L­u Quang			260			120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ HáaPhông hoµng				265		120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Phong NhÊt Phµm					270	120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ L©m Xung	275					120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Ng­u §Çu Qu¸i		280				120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Hoa Th¸nh			285			120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ Tè Tiªn				290		120	120	120	120	120
+B¶n n©ng cÊp-Th¸i H­ KhØ mËp					295	120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ NguyÖt L­îng Thè	300					120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Viªn Nh©n V­¬ng		305				120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Hæ tr¾ng			310			120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ B¹ch §iªu				315		120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ H¹o Vò KiÕm					320	120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Thô Yªu	325					120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ HáaYªu Hå		330				120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ ThÇn N÷			335			120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Tr­ V­¬ng				340		120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­Tr× §«ng					345	120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Du Hån	350					120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Oan Hån		355				120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ L·nh H­¬ng Ng­ng			360			120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­HuyÒn Vâ KiÕm				365		120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Nguy ChÊn Thiªn					370	120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ T¨ng ¸c	375					120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ KiÕm Ma		380				120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ L­u Quang			385			120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ HáaPhông hoµng				390		120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Phong NhÊt Phµm					395	120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ L©m Xung	400					120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Ng­u §Çu Qu¸i		405				120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Hoa Th¸nh			410			120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ Tè Tiªn				415		120	120	120	120	120
+B¶n t¨ng c­êng-Th¸i H­ KhØ mËp					420	120	120	120	120	120
+B¶n cuèi-Th¸i H­ NguyÖt L­îng Thè	425					120	120	120	120	120
+B¶n cuèi-Th¸i H­ Viªn Nh©n V­¬ng		430				120	120	120	120	120
+B¶n cuèi-Th¸i H­ Hæ tr¾ng			435			120	120	120	120	120
+B¶n cuèi-Th¸i H­ B¹ch §iªu				440		120	120	120	120	120
+B¶n cuèi-Th¸i H­ H¹o Vò KiÕm					445	120	120	120	120	120
+B¶n cuèi-Th¸i H­ Thô Yªu	450					120	120	120	120	120
+B¶n cuèi-Th¸i H­ HáaYªu Hå		455				120	120	120	120	120
+B¶n cuèi-Th¸i H­ ThÇn N÷			460			120	120	120	120	120
+B¶n cuèi-Th¸i H­ Tr­ V­¬ng				465		120	120	120	120	120
+B¶n cuèi-Th¸i H­Tr× §«ng					470	120	120	120	120	120
+B¶n cuèi-Th¸i H­ Du Hån	475					120	120	120	120	120
+B¶n cuèi-Th¸i H­ Oan Hån		480				120	120	120	120	120
+B¶n cuèi-Th¸i H­ L·nh H­¬ng Ng­ng			485			120	120	120	120	120
+B¶n cuèi-Th¸i H­ HuyÒn Vâ KiÕm				490		120	120	120	120	120
+B¶n cuèi-Th¸i H­ Nguy ChÊn Thiªn					495	120	120	120	120	120
+B¶n cuèi-Th¸i H­ T¨ng ¸c	500					120	120	120	120	120
+B¶n cuèi-Th¸i H­ KiÕm Ma		505				120	120	120	120	120
+B¶n cuèi-Th¸i H­ L­u Quang			515			120	120	120	120	120
+B¶n cuèi-Th¸i H­ HáaPhông hoµng				520		120	120	120	120	120
+B¶n cuèi-Th¸i H­ Phong NhÊt Phµm					525	120	120	120	120	120
+B¶n cuèi-Th¸i H­ L©m Xung	530					120	120	120	120	120
+B¶n cuèi-Th¸i H­ Ng­u §Çu Qu¸i		535				120	120	120	120	120
+B¶n cuèi-Th¸i H­ Hoa Th¸nh			540			120	120	120	120	120
+B¶n cuèi-Th¸i H­ Tè Tiªn				545		120	120	120	120	120
+Thanh Thanh C« N­¬ng					550	120	120	120	120	120
+Hé Tèng H¾c DÇu Thiªn ¢m Gi¸o								10		
+Háa ThÇn Chóc Dung				200				10		
+ThuÊn ThÇn D¹ Oanh			200							10
+NiÕt Bµn T«n Gi¶ T« Y Y					200		10			
+T« TuÖ Nhµn				200				10		
+Ph­¬ng Th¾ng			200							10
+KiÕn §en		200								
+V« L­îng Minh V­¬ng Sa La	200								10	
+Hång Ên Gi¸o Chñ		200				10				
+Háa ThÇn Chóc Dung-Th­êng				200				10		
+Hé Tèng H¾c DÇu Thiªn ¢m Gi¸o-Th­êng								10		
+ThuÊn ThÇn D¹ Oanh-Th­êng			200							10
+NiÕt Bµn T«n Gi¶ T« Y Y-Th­êng					200		10			
+T« TuÖ Nhµn-Th­êng				200				10		
+Ph­¬ng Th¾ng-Th­êng			200							10
+V« L­îng Minh V­¬ng Sa La-Th­êng	200								10	
+Hång Än Gi¸o Chñ-Th­êng		200				10				
+Háa ThÇn Chóc Dung-Sao chÐp				200				10		
+ThuÊn ThÇn D¹ Oanh-Sao chÐp			200							10
+NiÕt Bµn T«n Gi¶ T« Y Y-Sao chÐp					200		10			
+V« L­îng Minh V­¬ng Sa La-Sao chÐp	200								10	
+Hång Än Gi¸o Chñ-Sao chÐp		200				10				
+Hé VÖ Nguyªn So¸i				200		170	170	170	170	170
+Hé VÖ T­íng qu©n		180				160	160	160	160	160
+Hé VÖ B¸ch Phu Tr­ëng			160			150	150	150	150	150
+Hé VÖ C©n Ban 1	200					170	170	170	170	170
+Hé VÖ C©n Ban 2					200	170	170	170	170	170
+Hé VÖ C©n Ban 3			180			160	160	160	160	160
+Hé VÖ C©n Ban 4				180		160	160	160	160	160
+Hé VÖ C©n Ban 5		160				150	150	150	150	150
+Hé VÖ C©n Ban 6					160	150	150	150	150	150
+Xe chë tµi nguyªn						150	150	150	150	150

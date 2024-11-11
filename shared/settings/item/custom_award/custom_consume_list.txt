@@ -1,0 +1,88 @@
+desc	group_id	award_name	award_type	item_g	item_d	item_p	num
+		NOT NULL	1=OtherGroup				if award_type=OtherGroup is refer group_id
+			2=Script
+			3=Item
+			4=Exp
+			5=Money
+			6=ZhenQi
+			7=JunGong
+			8=JingLi
+			9=XiuWei
+			10=huoban
+			11=linglizhi
+			12=ShengWang
+			13=ShiMenGongXianDu
+jingmailv4	13	Kinh M¹ch §ång Nh©n	3	2	1	30730	3
+jingmailv5	14	Kinh M¹ch Ng©n Nh©n	3	2	1	30731	3
+jingmailv6	15	Kinh M¹ch Ng©n Nh©n	3	2	1	30731	6
+csm_1_tianjiaoling	40	Thiªn Kiªu LÖnh	3	2	97	236	1
+csm_2_tianjiaoling	41	Thiªn Kiªu LÖnh	3	2	97	236	2
+csm_fusheng3_89	150	Håi Tiªn §¬n	3	2	1	30847	1
+csm_fusheng3_90	151	Håi Tiªn §¬n	3	2	1	30847	2
+csm_fusheng3_91	152	Håi Tiªn §¬n	3	2	1	30847	3
+csm_fusheng3_92	153	Håi Tiªn §¬n	3	2	1	30847	4
+csm_fusheng3_93	154	Håi Tiªn §¬n	3	2	1	30847	5
+csm_fusheng3_94	155	Håi Tiªn §¬n	3	2	1	30847	10
+csm_fusheng3_95	156	Håi Tiªn §¬n	3	2	1	30847	15
+csm_fusheng3_96	157	Håi Tiªn §¬n	3	2	1	30847	20
+csm_fusheng3_97	158	Håi Tiªn §¬n	3	2	1	30847	25
+csm_fusheng3_98	159	Håi Tiªn §¬n	3	2	1	30847	30
+csm_fusheng3_99	160	Håi Tiªn §¬n	3	2	1	30847	35
+csm_fusheng4_80	264	Håi Tiªn §¬n	3	2	1	30847	3
+csm_fusheng4_81	265	Håi Tiªn §¬n	3	2	1	30847	3
+csm_fusheng4_82	266	Håi Tiªn §¬n	3	2	1	30847	3
+csm_fusheng4_83	267	Håi Tiªn §¬n	3	2	1	30847	5
+csm_fusheng4_84	268	Håi Tiªn §¬n	3	2	1	30847	5
+csm_fusheng4_85	269	Håi Tiªn §¬n	3	2	1	30847	5
+csm_fusheng4_86	270	Håi Tiªn §¬n	3	2	1	30847	7
+csm_fusheng4_87	271	Håi Tiªn §¬n	3	2	1	30847	7
+csm_fusheng4_88	272	Håi Tiªn §¬n	3	2	1	30847	7
+csm_fusheng4_89	273	Håi Tiªn §¬n	3	2	1	30847	9
+csm_fusheng4_90	274	Håi Tiªn §¬n	3	2	1	30847	9
+csm_fusheng4_91	275	Håi Tiªn §¬n	3	2	1	30847	9
+csm_fusheng4_92	276	Håi Tiªn §¬n	3	2	1	30847	11
+csm_fusheng4_93	277	Håi Tiªn §¬n	3	2	1	30847	11
+csm_fusheng4_94	278	Håi Tiªn §¬n	3	2	1	30847	11
+csm_fusheng4_95	279	Håi Tiªn §¬n	3	2	1	30847	13
+csm_fusheng4_96	280	Håi Tiªn §¬n	3	2	1	30847	13
+csm_fusheng4_97	281	Håi Tiªn §¬n	3	2	1	30847	13
+csm_fusheng4_98	282	Håi Tiªn §¬n	3	2	1	30847	21
+csm_fusheng4_99	283	Håi Tiªn §¬n	3	2	1	30847	21
+csm_fusheng5_80	316	Håi Tiªn §¬n	3	2	1	30847	9
+csm_fusheng5_81	317	Håi Tiªn §¬n	3	2	1	30847	9
+csm_fusheng5_82	318	Håi Tiªn §¬n	3	2	1	30847	9
+csm_fusheng5_83	319	Håi Tiªn §¬n	3	2	1	30847	15
+	319	Linh Ph¸ch §¬n	3	2	1	31239	1
+csm_fusheng5_84	320	Håi Tiªn §¬n	3	2	1	30847	15
+	320	Linh Ph¸ch §¬n	3	2	1	31239	1
+csm_fusheng5_85	321	Håi Tiªn §¬n	3	2	1	30847	15
+	321	Linh Ph¸ch §¬n	3	2	1	31239	1
+csm_fusheng5_86	322	Håi Tiªn §¬n	3	2	1	30847	21
+	322	Linh Ph¸ch §¬n	3	2	1	31239	2
+csm_fusheng5_87	323	Håi Tiªn §¬n	3	2	1	30847	21
+	323	Linh Ph¸ch §¬n	3	2	1	31239	2
+csm_fusheng5_88	324	Håi Tiªn §¬n	3	2	1	30847	21
+	324	Linh Ph¸ch §¬n	3	2	1	31239	2
+csm_fusheng5_89	325	Håi Tiªn §¬n	3	2	1	30847	27
+	325	Linh Ph¸ch §¬n	3	2	1	31239	2
+csm_fusheng5_90	326	Håi Tiªn §¬n	3	2	1	30847	27
+	326	Linh Ph¸ch §¬n	3	2	1	31239	3
+csm_fusheng5_91	327	Håi Tiªn §¬n	3	2	1	30847	5
+	327	Linh Ph¸ch §¬n	3	2	1	31239	3
+csm_fusheng5_92	328	Håi Tiªn §¬n	3	2	1	30847	5
+	328	Linh Ph¸ch §¬n	3	2	1	31239	3
+csm_fusheng5_93	329	Håi Tiªn §¬n	3	2	1	30847	7
+	329	Linh Ph¸ch §¬n	3	2	1	31239	5
+csm_fusheng5_94	330	Håi Tiªn §¬n	3	2	1	30847	7
+	330	Linh Ph¸ch §¬n	3	2	1	31239	5
+csm_fusheng5_95	331	Håi Tiªn §¬n	3	2	1	30847	20
+	331	Linh Ph¸ch §¬n	3	2	1	31239	10
+csm_fusheng5_96	332	Håi Tiªn §¬n	3	2	1	30847	25
+	332	Linh Ph¸ch §¬n	3	2	1	31239	15
+csm_fusheng5_97	333	Håi Tiªn §¬n	3	2	1	30847	30
+	333	Linh Ph¸ch §¬n	3	2	1	31239	25
+csm_fusheng5_98	334	Håi Tiªn §¬n	3	2	1	30847	40
+	334	Linh Ph¸ch §¬n	3	2	1	31239	35
+csm_fusheng5_99	335	Håi Tiªn §¬n	3	2	1	30847	50
+	335	Linh Ph¸ch §¬n	3	2	1	31239	49
+csm_100_tianjiaoling	1000	Thiªn Kiªu LÖnh	3	2	97	236	100

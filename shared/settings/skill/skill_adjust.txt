@@ -1,0 +1,133 @@
+ID	SkillID	AttriType	AttriContent	AdjustValue	AdjustPercent	NeedSync
+1	172;173;174	1	skill_effect_persist_time	3		
+2	55;208;209	1	skill_effect_persist_time	2		
+3	42	1	cost_gas_point	-1		1
+4	65;213;214;	2	damage_life		30	
+5	70;215;216	2	damage_life		30	
+6	73;301;303	2	damage_life		30	
+7	82	1	skill_cast_interval	-90		1
+8	82;224	1	skill_effect_persist_time	5		1
+9	96	0	state_add_qin_persist_time		100	
+10	92	0	state_qin_cast_interval_reduce		100	
+11	108;237	0	state_physical_parmor_per_dec_no_ignore	100		
+12	121;245;246	0	state_p_attack_percent_dec	25		
+13	121;245;246	0	state_m_attack_percent_dec	25		
+14	130;136;143	0	state_burst_enhance_rate	30		
+15	147	0	state_dodge_percent_adjust	25		
+16	724;729;731	1	skill_cast_interval		-30	1
+17	744	1	skill_cast_interval	-90		1
+18	744;765;766	2	damage_life		30	
+19	364	0	imme_evil_spirit		40	
+20	351;361	0	state_lost_life_per18		30	
+21	353;378;379	2	damage_life		30	
+22	1029;1044;1050	2	damage_life		30	
+23	1029	1	skill_sub_skill1_probability	20		
+24	1029	1	skill_sub_skill2_probability	20		
+25	1166	0	state_cast_technique_rate	15		
+26	1217	0	state_strength_attack_per_add	50		
+27	67	0	state_poison_damage		100	1
+28	1856	2	damage_life		25	
+29	55	1	skill_cast_interval	-90		1
+30	70	1	skill_cast_interval	-18		1
+31	744	1	skill_cast_interval	-54		1
+32	1061	1	skill_cast_interval	-72		1
+33	1140	1	skill_cast_interval	-72		1
+34	1808	1	skill_effect_persist_time	1		1
+35	21	0	state_life_max_point_add		50	
+36	45	0	state_life_max_point_add		50	
+37	33	0	state_life_max_point_add		50	
+38	58	0	state_life_max_point_add		50	
+39	75	0	state_life_max_point_add		50	
+40	90	0	state_life_max_point_add		50	
+41	103	0	state_life_max_point_add		50	
+42	114	0	state_life_max_point_add		50	
+43	125	0	state_life_max_point_add		50	
+44	147	0	state_life_max_point_add		50	
+45	720	0	state_life_max_point_add		50	
+46	733	0	state_life_max_point_add		50	
+47	364	0	state_life_max_point_add		50	
+48	347	0	state_life_max_point_add		50	
+49	1017	0	state_life_max_point_add		50	
+50	1053	0	state_life_max_point_add		50	
+51	1083	0	state_life_max_point_add		50	
+52	1131	0	state_life_max_point_add		50	
+53	1165	0	state_life_max_point_add		50	
+54	1217	0	state_life_max_point_add		50	
+55	1872	0	state_life_max_point_add		50	
+56	1885	0	state_life_max_point_add		50	
+57	31	1	skill_cast_interval		-25	1
+58	42	1	skill_missle_num	2		
+59	67	0	state_poison_damage		15	
+60	70	1	skill_missle_num	3		
+61	76;219;84;226	0	imme_life_point_add		20	
+62	80	1	cost_mana_point		-50	
+63	80	0	state_o_defence_point_add		50	
+64	80	0	state_i_defence_point_add		50	
+65	305	2	damage_life		20	
+66	95	1	skill_cast_interval		-25	1
+67	97	1	skill_cast_interval		-25	1
+68	112	1	skill_cast_interval		-15	1
+69	243	2	damage_life		20	
+70	123	1	skill_missle_num	1		
+71	133	1	skill_cast_interval		-20	1
+72	139	1	skill_cast_interval		-20	1
+73	152	1	skill_missle_num	2		
+74	155	1	cost_mana_point		-50	
+75	155	0	state_burst_enhance_rate	3		
+76	158	1	skill_missle_num	2		
+77	738	1	skill_cast_interval		-20	1
+78	739	1	skill_cast_interval		-20	1
+79	744	1	skill_missle_num	6		
+80	164;380	0	state_poison_damage		50	
+81	372	1	skill_cast_interval		-50	1
+82	378;379	0	state_bleeding		50	
+83	359	0	state_buff_resist	2		
+84	361	0	state_lost_life_per18		15	
+85	1024;1039	0	state_lost_life_per18		15	
+86	1061	1	cost_gas_point		-100	1
+87	1098;1101;1103	2	damage_life		35	
+88	1088;1090	1	skill_cast_interval		-20	1
+89	1092	1	skill_cast_interval		-25	1
+90	1127;1106	2	damage_life		10	
+91	1140;1153	1	skill_effect_persist_time	1		1
+92	1141	1	skill_cast_interval		-20	1
+93	1157;1158	2	damage_life		20	
+94	1231;1232;1233;1219	2	damage_life		15	
+95	1234;1235	0	state_poison_damage		15	
+96	1223;1238	0	imme_life_point_add		50	
+97	1227	1	skill_cast_interval		-25	1
+98	1245;1246	2	damage_life		10	
+99	1876	1	skill_cast_interval		-20	1
+100	1821;1822	1	skill_missle_num	2		
+101	1886;1891;1833;1834;1846;1847;1845	2	damage_life		40	
+102	1893	1	skill_cast_interval		-25	1
+103	1856;1860;1861	2	damage_life		10	
+104	361	0	state_lost_life_per18_monster		100	
+105	351	0	state_lost_life_per18		100	
+106	361	0	state_lost_life_per18		100	
+107	164;380	0	state_poison_damage		100	
+108	1065;1079	0	state_add_damage_percent	5		
+109	1106	2	damage_life		30	
+110	1095;1110	0	state_add_allability	10		
+111	1029	1	skill_sub_skill1_probability	25		
+112	1029	1	skill_sub_skill2_probability	25		
+113	1061	1	skill_cast_interval	-108		1
+114	1065;1079	0	state_add_damage_percent	10		
+115	157	0	state_interval_ignore	100		
+116	1140	1	skill_cast_interval	-90		1
+117	156;157	1	skill_cast_interval	-90		1
+118	294	1	skill_missle_num	1		1
+119	30153	1	skill_missle_num	1		1
+120	744	1	skill_missle_num	3		1
+121	765	1	skill_missle_num	3		1
+122	766	1	skill_missle_num	3		1
+123	1821;1822	1	skill_missle_num	1		
+124	28;168	2	damage_life		30	
+125	27;166;30211;30212	2	damage_life		30	
+126	31;171;172;173;174	2	damage_life		30	
+127	107;236	2	damage_life		30	
+128	110;239	2	damage_life		30	
+129	112	2	damage_life		30	
+130	367;371;375	0	imme_summon_attack_add		30	
+131	1061	1	skill_cast_interval	-108		1
+132	1061	1	cost_gas_point		-20	1

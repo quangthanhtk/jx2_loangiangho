@@ -1,0 +1,14 @@
+TaskIndex	TaskType(1: ChÊp nhËn,2: Mêi)	Title	Award1	ExpireTime1	Award2	ExpireTime2	Award3	ExpireTime3	Award4	ExpireTime4	Award5	ExpireTime5	Award6	ExpireTime6	Award7	ExpireTime7	Award8	ExpireTime8
+1	1	Kİch ho¹t m· mêi vµ Kİch ho¹t thÎ th¸ng ®­îc nhËn:	2;1;31445;1;1	0														
+2	1	Kİch ho¹t m· mêi vµ ®¹t ®Õn chuyÓn sinh 8 cÊp 90 ®­îc nhËn:	0;105;161;1;4	720
+3	1	Kİch ho¹t m· mêi vµ ®¹t ®Õn chuyÓn sinh 10 cÊp 96 ®­îc nhËn:	0;112;158;1;1	0
+4	1	Kİch ho¹t m· mêi vµ tiªu ph× Ngù C¸c ®¹t 2000 xu ®­îc nhËn:	2;1;30914;7;1	0														
+5	1	Kİch ho¹t m· mêi vµ tiªu phİ Ngù C¸c ®¹t 5000 xu ®­îc nhËn:	2;1;30370;1;1	0														
+1	2	§iÓm tİch lòy ®¹t 1 cã thÓ nhËn:	0;105;30055;1;4	720														
+2	2	§iÓm tİch lòy ®¹t 6 cã thÓ nhËn:	2;1;30499;20;4	0														
+3	2	§iÓm tİch lòy ®¹t 12 cã thÓ nhËn:	2;1;1113;1;4	168														
+4	2	§iÓm tİch lòy ®¹t 24 cã thÓ nhËn:	2;1;1068;1;4	168														
+5	2	§iÓm tİch lòy ®¹t 36 cã thÓ nhËn:	2;1;31483;1;4	0														
+6	2	§iÓm tİch lòy ®¹t 50 cã thÓ nhËn:	2;95;204;1;1	0														
+7	2	§iÓm tİch lòy ®¹t 60 cã thÓ nhËn:	2;1;1001;1;1	360														
+8	2	§iÓm tİch lòy ®¹t 80 cã thÓ nhËn:	2;1;31484;1;4	0														

@@ -1,0 +1,3769 @@
+desc	group_id	rate	award_name	award_type	item_g	item_d	item_p	num	neet_body	need_route	bind	expire_hours	msg_type	runtime_stat_id	script	func
+		groupSum=1000000	NOT NULL	1=OtherGroup	5=Money	9=XiuWei		if award_type=OtherGroup is refer group_id	-1|1~4	-1|0~30	0=Kh«ng khãa, mÆc ®Þnh		0=None(default)	Eg: 2;3		
+				2=Script	6=ZhenQi	10=huoban					4=Khãa, th­êng dïng		1=GlobalMsg			
+				3=Item	7=JunGong	11=linglizhi					1=IDENTIFY §· gi¸m ®Þnh					
+				4=Exp	8=JingLi	12=ShengWang					2=PICKBIND nhÆt khãa					
+				0 = trèng, bæ sung tû lÖ kh«ng ®ñ 100%		13=ShiMenGongXianDu					3=EQUIPBIND khãa					
+				14=ShiLiShegnWang		16=ZhanChangJiFen					5=PRESENT_IB_ITEM TÆng ®¹o cô					
+				15=ShiLiGongXiandu		17=PetChengZhangZhi					99=default					
+				18=FengHuaPoint												
+																
+silian_tong_1	1	200000	Gi¸ng Linh BÝ §iÓn	3	2	1	30725	1			4					
+	1	800000	Linh Lùc Hoµn	3	2	1	30724	1			4					
+silian_tong_2	2	200000	Gi¸ng Linh BÝ §iÓn	3	2	1	30725	1			4					
+	2	700000	Linh Lùc Hoµn	3	2	1	30724	1			4					
+	2	100000	Nhãm S¸ch Kü N¨ng-S¬	1				7			4					
+silian_tong_3	3	200000	Gi¸ng Linh BÝ §iÓn	3	2	1	30725	1			4					
+	3	650000	Linh Lùc Hoµn	3	2	1	30724	1			4					
+	3	100000	Nhãm S¸ch Kü N¨ng-Trung	1				8			4					
+	3	50000	Linh Thó §¶n cÊp 1	3	2	1	30601	1			4					
+silian_yin	4	150000	Gi¸ng Linh BÝ §iÓn	3	2	1	30725	1								
+	4	500000	Linh Lùc Hoµn	3	2	1	30724	1								
+	4	100000	S¸ch Kü N¨ng-Trung	1				8								
+	4	150000	Linh Thó §¶n cÊp 1	3	2	1	30601	1								
+	4	40000	Nhãm S¸ch Kü N¨ng-Cao	1				9								
+	4	40000	Trøng Linh Thó-S¬	3	2	1	30726	1								
+	4	10000	Trøng Linh Thó-Trung	3	2	1	30727	1								
+	4	10000	Trøng Linh Thó-Cao	3	2	1	30728	1					1			
+silian_jin_free	5	150000	Gi¸ng Linh BÝ §iÓn	3	2	1	30725	1			4					
+	5	500000	Linh Lùc Hoµn	3	2	1	30724	1			4					
+	5	100000	S¸ch Kü N¨ng-Trung	1				8			4					
+	5	150000	Linh Thó §¶n cÊp 1	3	2	1	30601	1			4					
+	5	50000	S¸ch Kü N¨ng-Cao	1				9			4					
+	5	40000	Trøng Linh Thó-S¬	3	2	1	30726	1			4					
+	5	10000	Trøng Linh Thó-Trung	3	2	1	30727	1			4					
+silian_jin_IB	6	150000	Gi¸ng Linh BÝ §iÓn	3	2	1	30725	1								
+	6	500000	Linh Lùc Hoµn	3	2	1	30724	1								
+	6	100000	S¸ch Kü N¨ng-Trung	1				8								
+	6	120000	Linh Thó §¶n cÊp 1	3	2	1	30601	1								
+	6	50000	S¸ch Kü N¨ng-Cao	1				9								
+	6	40000	Trøng Linh Thó-S¬	3	2	1	30726	1								
+	6	30000	Trøng Linh Thó-Trung	3	2	1	30727	1								
+	6	10000	Trøng Linh Thó-Cao	3	2	1	30728	1					1			
+diji_huoban_book	7	80000	Ch©n khÝ hé thÓ CÊp 1	3	2	150	1	1								
+	7	80000	Ých Thä Diªn D­¬ng CÊp 1	3	2	150	5	1								
+	7	80000	C­êng Th©n B¸ ThÓ CÊp 1	3	2	150	9	1								
+	7	24000	¢m Phong Thùc Cèt CÊp 1	3	2	150	13	1								
+	7	4000	HuyÒn Vò V« Song CÊp 1	3	2	150	17	1								
+	7	40000	V« Hµnh V« T­¬ng CÊp 1	3	2	150	21	1								
+	7	80000	Kim Linh Phô ThÓ CÊp 1	3	2	150	25	1								
+	7	64000	Méc Linh Phô ThÓ CÊp 1	3	2	150	29	1								
+	7	80000	Thuû Linh Phô ThÓ CÊp 1	3	2	150	33	1								
+	7	32000	Ho¶ Linh Phô ThÓ CÊp 1	3	2	150	37	1								
+	7	80000	Thæ Linh Phô ThÓ CÊp 1	3	2	150	41	1								
+	7	64000	Ph¸ Kh«ng Tr¶m ¶nh CÊp 1	3	2	150	45	1								
+	7	64000	S¸t th­¬ng gia n©ng cÊp 1	3	2	150	49	1								
+	7	4000	Khinh Linh TÊn TËt  CÊp 1	3	2	150	53	1								
+	7	24000	V« H×nh Chi Cæ CÊp 1	3	2	150	57	1								
+	7	20000	Ch©n khÝ hé thÓ CÊp 2	3	2	150	2	1								
+	7	20000	Ých Thä Diªn D­¬ng CÊp 2	3	2	150	6	1								
+	7	20000	C­êng Th©n B¸ ThÓ CÊp 2	3	2	150	10	1								
+	7	6000	¢m Phong Thùc Cèt CÊp 2	3	2	150	14	1								
+	7	1000	HuyÒn Vò V« Song CÊp 2	3	2	150	18	1								
+	7	10000	V« Hµnh V« T­¬ng CÊp 2	3	2	150	22	1								
+	7	20000	Kim Linh Phô ThÓ CÊp 2	3	2	150	26	1								
+	7	16000	Méc Linh Phô ThÓ CÊp 2	3	2	150	30	1								
+	7	20000	Thuû Linh Phô ThÓ CÊp 2	3	2	150	34	1								
+	7	8000	Ho¶ Linh Phô ThÓ CÊp 2	3	2	150	38	1								
+	7	20000	Thæ Linh Phô ThÓ CÊp 2	3	2	150	42	1								
+	7	16000	Ph¸ Kh«ng Tr¶m ¶nh CÊp 2	3	2	150	46	1								
+	7	16000	S¸t th­¬ng gia n©ng cÊp 2	3	2	150	50	1								
+	7	1000	Khinh Linh TÊn TËt  CÊp 2	3	2	150	54	1								
+	7	6000	V« H×nh Chi Cæ CÊp 2	3	2	150	58	1								
+zhongji_huoban_book	8	80000	Ch©n khÝ hé thÓ CÊp 2	3	2	150	2	1								
+	8	80000	Ých Thä Diªn D­¬ng CÊp 2	3	2	150	6	1								
+	8	80000	C­êng Th©n B¸ ThÓ CÊp 2	3	2	150	10	1								
+	8	24000	¢m Phong Thùc Cèt CÊp 2	3	2	150	14	1								
+	8	4000	HuyÒn Vò V« Song CÊp 2	3	2	150	18	1								
+	8	40000	V« Hµnh V« T­¬ng CÊp 2	3	2	150	22	1								
+	8	80000	Kim Linh Phô ThÓ CÊp 2	3	2	150	26	1								
+	8	64000	Méc Linh Phô ThÓ CÊp 2	3	2	150	30	1								
+	8	80000	Thuû Linh Phô ThÓ CÊp 2	3	2	150	34	1								
+	8	32000	Ho¶ Linh Phô ThÓ CÊp 2	3	2	150	38	1								
+	8	80000	Thæ Linh Phô ThÓ CÊp 2	3	2	150	42	1								
+	8	64000	Ph¸ Kh«ng Tr¶m ¶nh CÊp 2	3	2	150	46	1								
+	8	64000	S¸t th­¬ng gia n©ng cÊp 2	3	2	150	50	1								
+	8	4000	Khinh Linh TÊn TËt  CÊp 2	3	2	150	54	1								
+	8	24000	V« H×nh Chi Cæ CÊp 2	3	2	150	58	1								
+	8	20000	Ch©n khÝ hé thÓ CÊp 3	3	2	150	3	1								
+	8	20000	Ých Thä Diªn D­¬ng CÊp 3	3	2	150	7	1								
+	8	20000	C­êng Th©n B¸ ThÓ CÊp 3	3	2	150	11	1								
+	8	6000	¢m Phong Thùc Cèt CÊp 3	3	2	150	15	1								
+	8	1000	HuyÒn Vò V« Song CÊp 3	3	2	150	19	1								
+	8	10000	V« Hµnh V« T­¬ng CÊp 3	3	2	150	23	1								
+	8	20000	Kim Linh Phô ThÓ CÊp 3	3	2	150	27	1								
+	8	16000	Méc Linh Phô ThÓ CÊp 3	3	2	150	31	1								
+	8	20000	Thuû Linh Phô ThÓ CÊp 3	3	2	150	35	1								
+	8	8000	Ho¶ Linh Phô ThÓ CÊp 3	3	2	150	39	1								
+	8	20000	Thæ Linh Phô ThÓ CÊp 3	3	2	150	43	1								
+	8	16000	Ph¸ Kh«ng Tr¶m ¶nh CÊp 3	3	2	150	47	1								
+	8	16000	S¸t th­¬ng gia n©ng cÊp 3	3	2	150	51	1								
+	8	1000	Khinh Linh TÊn TËt  CÊp 3	3	2	150	55	1								
+	8	6000	V« H×nh Chi Cæ CÊp 3	3	2	150	59	1								
+gaoji_huoban_book	9	80000	Ch©n khÝ hé thÓ CÊp 3	3	2	150	3	1								
+	9	80000	Ých Thä Diªn D­¬ng CÊp 3	3	2	150	7	1								
+	9	80000	C­êng Th©n B¸ ThÓ CÊp 3	3	2	150	11	1								
+	9	24000	¢m Phong Thùc Cèt CÊp 3	3	2	150	15	1								
+	9	4000	HuyÒn Vò V« Song CÊp 3	3	2	150	19	1								
+	9	40000	V« Hµnh V« T­¬ng CÊp 3	3	2	150	23	1								
+	9	80000	Kim Linh Phô ThÓ CÊp 3	3	2	150	27	1								
+	9	64000	Méc Linh Phô ThÓ CÊp 3	3	2	150	31	1								
+	9	80000	Thuû Linh Phô ThÓ CÊp 3	3	2	150	35	1								
+	9	32000	Ho¶ Linh Phô ThÓ CÊp 3	3	2	150	39	1								
+	9	80000	Thæ Linh Phô ThÓ CÊp 3	3	2	150	43	1								
+	9	64000	Ph¸ Kh«ng Tr¶m ¶nh CÊp 3	3	2	150	47	1								
+	9	64000	S¸t th­¬ng gia n©ng cÊp 3	3	2	150	51	1								
+	9	4000	Khinh Linh TÊn TËt  CÊp 3	3	2	150	55	1								
+	9	24000	V« H×nh Chi Cæ CÊp 3	3	2	150	59	1								
+	9	20000	Ch©n khÝ hé thÓ CÊp 4	3	2	150	4	1								
+	9	20000	Ých Thä Diªn D­¬ng CÊp 4	3	2	150	8	1								
+	9	20000	C­êng Th©n B¸ ThÓ CÊp 4	3	2	150	12	1								
+	9	6000	¢m Phong Thùc Cèt CÊp 4	3	2	150	16	1								
+	9	1000	HuyÒn Vò V« Song CÊp 4	3	2	150	20	1								
+	9	10000	V« Hµnh V« T­¬ng CÊp 4	3	2	150	24	1								
+	9	20000	Kim Linh Phô ThÓ CÊp 4	3	2	150	28	1								
+	9	16000	Méc Linh Phô ThÓ CÊp 4	3	2	150	32	1								
+	9	20000	Thuû Linh Phô ThÓ CÊp 4	3	2	150	36	1								
+	9	8000	Ho¶ Linh Phô ThÓ CÊp 4	3	2	150	40	1								
+	9	20000	Thæ Linh Phô ThÓ CÊp 4	3	2	150	44	1								
+	9	16000	Ph¸ Kh«ng Tr¶m ¶nh CÊp 4	3	2	150	48	1								
+	9	16000	S¸t th­¬ng gia n©ng cÊp 4	3	2	150	52	1								
+	9	1000	Khinh Linh TÊn TËt  CÊp 4	3	2	150	56	1								
+	9	6000	V« H×nh Chi Cæ CÊp 4	3	2	150	60	1								
+dijidan	10	300000	Pet thá tr¾ng	10	24			1								
+	10	250000	Pet thá x¸m	10	25			1								
+	10	250000	Pet thá ®en	10	26			1								
+	10	100000	§éc Gi¸p Trïng_Pet	10	1			1								
+	10	50000	D¬i_Pet	10	2			1								
+	10	50000	Hå Ly_Pet	10	3			1								
+zhongjidan	11	250000	§éc Gi¸p Trïng_Pet	10	1			1								
+	11	250000	D¬i_Pet	10	2			1								
+	11	200000	Hå Ly_Pet	10	3			1								
+	11	30000	Sãi §iªn_Pet	10	4			1								
+	11	30000	Qu¹ §en_Pet	10	5			1								
+	11	30000	C¸ SÊu1_Pet	10	6			1								
+	11	30000	Cãc 1_Pet	10	7			1								
+	11	30000	D¬i Hót M¸u_Pet	10	8			1								
+	11	30000	Bß C¹p_Pet	10	9			1								
+	11	30000	Ng©n Hå_Pet	10	10			1								
+	11	30000	Th­¬ng Viªn_Pet	10	11			1								
+	11	20000	Thô Qu¸i 1_Pet	10	12			1								
+	11	20000	GÊu X¸m_Pet	10	13			1								
+	11	10000	Ong §éc_Pet	10	14			1								
+	11	10000	Kim Gi¸p_Pet	10	15			1								
+gaojidan	12	70000	Sãi §iªn_Pet	10	4			1								
+	12	70000	Qu¹ §en_Pet	10	5			1								
+	12	70000	C¸ SÊu1_Pet	10	6			1								
+	12	70000	Cãc 1_Pet	10	7			1								
+	12	70000	D¬i Hót M¸u_Pet	10	8			1								
+	12	70000	Bß C¹p_Pet	10	9			1								
+	12	70000	Ng©n Hå_Pet	10	10			1								
+	12	70000	Th­¬ng Viªn_Pet	10	11			1								
+	12	60000	Thô Qu¸i 1_Pet	10	12			1								
+	12	60000	GÊu X¸m_Pet	10	13			1								
+	12	50000	Ong §éc_Pet	10	14			1								
+	12	50000	Kim Gi¸p_Pet	10	15			1								
+	12	40000	Hång Bµo Sø Gi¶_Pet	10	16			1								
+	12	40000	T©y B¾c Tr¸ng SÜ_Pet	10	17			1								
+	12	35000	MËt Sø NhÊt PhÈm §­êng_Pet	10	18			1								
+	12	35000	 XÝ Háa Tr­ëng L·o_Pet	10	19			1								
+	12	25000	Oa KhÊu_Pet	10	20			1								
+	12	25000	Tiªn N÷_Pet	10	21			1								
+	12	10000	N÷ Tiªu Tiªn_Pet	10	22			1								
+	12	10000	Tr× M©u Hé VÖ_Pet	10	23			1								
+YXTY_tong1	16	800000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1								
+	16	200000	§¸ quý cÊp 1	1				24								
+YXTY_tong2	17	650000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1								
+	17	300000	§¸ quý cÊp 1	1				24								
+	17	50000	§¸ quý cÊp 2	1				25								
+YXTY_tong3	18	550000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1								
+	18	400000	§¸ quý cÊp 1	1				24								
+	18	40000	§¸ quý cÊp 2	1				25								
+	18	10000	§¸ quý cÊp 3	1				26								
+YXTY_yin	19	250000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1								
+	19	100000	Hu©n ch­¬ng anh hïng	3	2	1	30499	2								
+	19	50000	Hu©n ch­¬ng anh hïng	3	2	1	30499	3								
+	19	150000	Th¸i NhÊt LÖnh	3	2	1	30687	1					1			
+	19	20000	L­u Li Kim	3	2	1	30684	1								
+	19	329000	§¸ quý cÊp 1	1				24								
+	19	80000	§¸ quý cÊp 2	1				25								
+	19	20000	§¸ quý cÊp 3	1				26								
+	19	1000	§¸ quý cÊp 4	1				27					1			
+YXTY_jin1_free	20	350000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1								
+	20	100000	Hu©n ch­¬ng anh hïng	3	2	1	30499	2								
+	20	40000	Hu©n ch­¬ng anh hïng	3	2	1	30499	3								
+	20	10000	Hu©n ch­¬ng anh hïng	3	2	1	30499	4								
+	20	400000	§¸ quý cÊp 1	1				24								
+	20	100000	§¸ quý cÊp 2	1				25								
+YXTY_jin1_IB	21	230000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1								
+	21	100000	Hu©n ch­¬ng anh hïng	3	2	1	30499	2								
+	21	50000	Hu©n ch­¬ng anh hïng	3	2	1	30499	3								
+	21	150000	Th¸i NhÊt LÖnh	3	2	1	30687	1					1			
+	21	20000	L­u Li Kim	3	2	1	30684	1								
+	21	349000	§¸ quý cÊp 1	1				24								
+	21	80000	§¸ quý cÊp 2	1				25								
+	21	15000	§¸ quý cÊp 3	1				26								
+	21	5000	§¸ quý cÊp 4	1				27					1			
+	21	1000	§¸ quý cÊp 5	1				263					1			
+YXTY_jin2_free	22	350000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1								
+	22	100000	Hu©n ch­¬ng anh hïng	3	2	1	30499	2								
+	22	50000	Hu©n ch­¬ng anh hïng	3	2	1	30499	3								
+	22	400000	§¸ quý cÊp 1	1				24								
+	22	90000	§¸ quý cÊp 2	1				25								
+	22	10000	§¸ quý cÊp 3	1				26								
+YXTY_jin2_IB	23	180000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1								
+	23	100000	Hu©n ch­¬ng anh hïng	3	2	1	30499	2								
+	23	50000	Hu©n ch­¬ng anh hïng	3	2	1	30499	3								
+	23	250000	Th¸i NhÊt LÖnh	3	2	1	30687	1					1			
+	23	20000	L­u Li Kim	3	2	1	30684	1								
+	23	299000	§¸ quý cÊp 1	1				24								
+	23	80000	§¸ quý cÊp 2	1				25								
+	23	15000	§¸ quý cÊp 3	1				26								
+	23	5000	§¸ quý cÊp 4	1				27					1			
+	23	1000	§¸ quý cÊp 5	1				263					1			
+gem_lv1_normal	24	250000	HuyÕtTrÝchTh¹ch Lv1	3	2	22	101	1								
+	24	250000	NguyÖtB¹chTh¹ch Lv1	3	2	22	201	1								
+	24	250000	Hæ Ph¸ch Th¹ch CÊp 1	3	2	22	301	1								
+	24	250000	H¾c DiÖu Th¹ch CÊp 1	3	2	22	401	1								
+gem_lv2_normal	25	250000	HuyÕtTrÝchTh¹ch Lv2	3	2	22	102	1								
+	25	250000	NguyÖtB¹chTh¹ch Lv2	3	2	22	202	1								
+	25	250000	Hæ Ph¸ch Th¹ch CÊp 2	3	2	22	302	1								
+	25	250000	H¾c DiÖu Th¹ch CÊp 2	3	2	22	402	1								
+gem_lv3_normal	26	250000	HuyÕtTrÝchTh¹ch Lv3	3	2	22	103	1								
+	26	250000	NguyÖtB¹chTh¹ch Lv3	3	2	22	203	1								
+	26	250000	Hæ Ph¸ch Th¹ch CÊp 3	3	2	22	303	1								
+	26	250000	H¾c DiÖu Th¹ch CÊp 3	3	2	22	403	1								
+gem_lv4_normal	27	250000	HuyÕtTrÝchTh¹ch Lv4	3	2	22	104	1								
+	27	250000	NguyÖtB¹chTh¹ch Lv4	3	2	22	204	1								
+	27	250000	Hæ Ph¸ch Th¹ch CÊp 4	3	2	22	304	1								
+	27	250000	H¾c DiÖu Th¹ch CÊp 4	3	2	22	404	1								
+yunling_lv4	28	20416	H-LiÖt Nham-Lv4	3	0	148	53	1								
+	28	20408	H-Ph¸ Kh«ng-Lv4	3	0	148	54	1								
+	28	20408	H-Tóy KiÕm-Lv4	3	0	148	55	1								
+	28	20408	H-TËt Phong-Lv4	3	0	148	56	1								
+	28	20408	H-TÊn Vò-Lv4	3	0	148	57	1								
+	28	20408	H-¦ng TËp-Lv4	3	0	148	58	1								
+	28	20408	H-Linh T©m-Lv4	3	0	148	59	1								
+	28	20408	H-ThÇn Lùc-Lv4	3	0	148	60	1								
+	28	20408	H-Ng­ng ThÇn-Lv4	3	0	148	61	1								
+	28	20408	H-V« Gian-Lv4	3	0	148	62	1								
+	28	20408	H-V« Cùc-Lv4	3	0	148	63	1								
+	28	20408	H-Cuång NhÉn-Lv4	3	0	148	64	1								
+	28	20408	H-L¨ng NhuÖ-Lv4	3	0	148	65	1								
+	28	20408	H-Linh Viªn-Lv4	3	0	148	66	1								
+	28	20408	H-H¶i VËn-Lv4	3	0	148	67	1								
+	28	20408	H-H¶i T©m-Lv4	3	0	148	68	1								
+	28	20408	C-LiÖt Nham-Lv4	3	0	149	53	1								
+	28	20408	C-Ph¸ Kh«ng-Lv4	3	0	149	54	1								
+	28	20408	C-Tóy KiÕm-Lv4	3	0	149	55	1								
+	28	20408	C-TËt Phong-Lv4	3	0	149	56	1								
+	28	20408	C-TÊn Vò-Lv4	3	0	149	57	1								
+	28	20408	C-Qu¸n Th¹ch-Lv4	3	0	149	58	1								
+	28	20408	C-Né Ng©m-Lv4	3	0	149	59	1								
+	28	20408	C-Xuyªn V©n-Lv4	3	0	149	60	1								
+	28	20408	C-ThÇn Lùc-Lv4	3	0	149	61	1								
+	28	20408	C-Ng­ng ThÇn-Lv4	3	0	149	62	1								
+	28	20408	C-V« Gian-Lv4	3	0	149	63	1								
+	28	20408	C-V« Cùc-Lv4	3	0	149	64	1								
+	28	20408	C-Cuång NhÉn-Lv4	3	0	149	65	1								
+	28	20408	C-L¨ng NhuÖ-Lv4	3	0	149	66	1								
+	28	20408	C-Linh Viªn-Lv4	3	0	149	67	1								
+	28	20408	C-H¶i VËn-Lv4	3	0	149	68	1								
+	28	20408	C-H¶i T©m-Lv4	3	0	149	69	1								
+	28	20408	T-LiÖt Nham-Lv4	3	0	150	53	1								
+	28	20408	T-Ph¸ Kh«ng-Lv4	3	0	150	54	1								
+	28	20408	T-Tóy KiÕm-Lv4	3	0	150	55	1								
+	28	20408	T-TËt Phong-Lv4	3	0	150	56	1								
+	28	20408	T-TÊn Vò-Lv4	3	0	150	57	1								
+	28	20408	T-V« L­îng-Lv4	3	0	150	58	1								
+	28	20408	T-Môc Minh-Lv4	3	0	150	59	1								
+	28	20408	T-ThÇn Lùc-Lv4	3	0	150	60	1								
+	28	20408	T-Ng­ng ThÇn-Lv4	3	0	150	61	1								
+	28	20408	T-V« Gian-Lv4	3	0	150	62	1								
+	28	20408	T-V« Cùc-Lv4	3	0	150	63	1								
+	28	20408	T-Cuång NhÉn-Lv4	3	0	150	64	1								
+	28	20408	T-L¨ng NhuÖ-Lv4	3	0	150	65	1								
+	28	20408	T-Linh Viªn-Lv4	3	0	150	66	1								
+	28	20408	T-H¶i VËn-Lv4	3	0	150	67	1								
+	28	20408	T-H¶i T©m-Lv4	3	0	150	68	1								
+yunling_lv5	29	20416	H-LiÖt Nham-Lv5	3	0	148	69	1								
+	29	20408	H-Ph¸ Kh«ng-Lv5	3	0	148	70	1								
+	29	20408	H-Tóy KiÕm-Lv5	3	0	148	71	1								
+	29	20408	H-TËt Phong-Lv5	3	0	148	72	1								
+	29	20408	H-TÊn Vò-Lv5	3	0	148	73	1								
+	29	20408	H-¦ng TËp-Lv5	3	0	148	74	1								
+	29	20408	H-Linh T©m-Lv5	3	0	148	75	1								
+	29	20408	H-ThÇn Lùc-Lv5	3	0	148	76	1								
+	29	20408	H-Ng­ng ThÇn-Lv5	3	0	148	77	1								
+	29	20408	H-V« Gian-Lv5	3	0	148	78	1								
+	29	20408	H-V« Cùc-Lv5	3	0	148	79	1								
+	29	20408	H-Cuång NhÉn-Lv5	3	0	148	80	1								
+	29	20408	H-L¨ng NhuÖ-Lv5	3	0	148	81	1								
+	29	20408	H-Linh Viªn-Lv5	3	0	148	82	1								
+	29	20408	H-H¶i VËn-Lv5	3	0	148	83	1								
+	29	20408	H-H¶i T©m-Lv5	3	0	148	84	1								
+	29	20408	C-LiÖt Nham-Lv5	3	0	149	70	1								
+	29	20408	C-Ph¸ Kh«ng-Lv5	3	0	149	71	1								
+	29	20408	C-Tóy KiÕm-Lv5	3	0	149	72	1								
+	29	20408	C-TËt Phong-Lv5	3	0	149	73	1								
+	29	20408	C-TÊn Vò-Lv5	3	0	149	74	1								
+	29	20408	C-Qu¸n Th¹ch-Lv5	3	0	149	75	1								
+	29	20408	C-Né Ng©m-Lv5	3	0	149	76	1								
+	29	20408	C-Xuyªn V©n-Lv5	3	0	149	77	1								
+	29	20408	C-ThÇn Lùc-Lv5	3	0	149	78	1								
+	29	20408	C-Ng­ng ThÇn-Lv5	3	0	149	79	1								
+	29	20408	C-V« Gian-Lv5	3	0	149	80	1								
+	29	20408	C-V« Cùc-Lv5	3	0	149	81	1								
+	29	20408	C-Cuång NhÉn-Lv5	3	0	149	82	1								
+	29	20408	C-L¨ng NhuÖ-Lv5	3	0	149	83	1								
+	29	20408	C-Linh Viªn-Lv5	3	0	149	84	1								
+	29	20408	C-H¶i VËn-Lv5	3	0	149	85	1								
+	29	20408	C-H¶i T©m-Lv5	3	0	149	86	1								
+	29	20408	T-LiÖt Nham-Lv5	3	0	150	69	1								
+	29	20408	T-Ph¸ Kh«ng-Lv5	3	0	150	70	1								
+	29	20408	T-Tóy KiÕm-Lv5	3	0	150	71	1								
+	29	20408	T-TËt Phong-Lv5	3	0	150	72	1								
+	29	20408	T-TÊn Vò-Lv5	3	0	150	73	1								
+	29	20408	T-V« L­îng-Lv5	3	0	150	74	1								
+	29	20408	T-Môc Minh-Lv5	3	0	150	75	1								
+	29	20408	T-ThÇn Lùc-Lv5	3	0	150	76	1								
+	29	20408	T-Ng­ng ThÇn-Lv5	3	0	150	77	1								
+	29	20408	T-V« Gian-Lv5	3	0	150	78	1								
+	29	20408	T-V« Cùc-Lv5	3	0	150	79	1								
+	29	20408	T-Cuång NhÉn-Lv5	3	0	150	80	1								
+	29	20408	T-L¨ng NhuÖ-Lv5	3	0	150	81	1								
+	29	20408	T-Linh Viªn-Lv5	3	0	150	82	1								
+	29	20408	T-H¶i VËn-Lv5	3	0	150	83	1								
+	29	20408	T-H¶i T©m-Lv5	3	0	150	84	1								
+yunling_lv6	30	20416	H-LiÖt Nham-Lv6	3	0	148	85	1								
+	30	20408	H-Ph¸ Kh«ng-Lv6	3	0	148	86	1								
+	30	20408	H-Tóy KiÕm-Lv6	3	0	148	87	1								
+	30	20408	H-TËt Phong-Lv6	3	0	148	88	1								
+	30	20408	H-TÊn Vò-Lv6	3	0	148	89	1								
+	30	20408	H-¦ng TËp-Lv6	3	0	148	90	1								
+	30	20408	H-Linh T©m-Lv6	3	0	148	91	1								
+	30	20408	H-ThÇn Lùc-Lv6	3	0	148	92	1								
+	30	20408	H-Ng­ng ThÇn-Lv6	3	0	148	93	1								
+	30	20408	H-V« Gian-Lv6	3	0	148	94	1								
+	30	20408	H-V« Cùc-Lv6	3	0	148	95	1								
+	30	20408	H-Cuång NhÉn-Lv6	3	0	148	96	1								
+	30	20408	H-L¨ng NhuÖ-Lv6	3	0	148	97	1								
+	30	20408	H-Linh Viªn-Lv6	3	0	148	98	1								
+	30	20408	H-H¶i VËn-Lv6	3	0	148	99	1								
+	30	20408	H-H¶i T©m-Lv6	3	0	148	100	1								
+	30	20408	C-LiÖt Nham-Lv6	3	0	149	87	1								
+	30	20408	C-Ph¸ Kh«ng-Lv6	3	0	149	88	1								
+	30	20408	C-Tóy KiÕm-Lv6	3	0	149	89	1								
+	30	20408	C-TËt Phong-Lv6	3	0	149	90	1								
+	30	20408	C-TÊn Vò-Lv6	3	0	149	91	1								
+	30	20408	C-Qu¸n Th¹ch-Lv6	3	0	149	92	1								
+	30	20408	C-Né Ng©m-Lv6	3	0	149	93	1								
+	30	20408	C-Xuyªn V©n-Lv6	3	0	149	94	1								
+	30	20408	C-ThÇn Lùc-Lv6	3	0	149	95	1								
+	30	20408	C-Ng­ng ThÇn-Lv6	3	0	149	96	1								
+	30	20408	C-V« Gian-Lv6	3	0	149	97	1								
+	30	20408	C-V« Cùc-Lv6	3	0	149	98	1								
+	30	20408	C-Cuång NhÉn-Lv6	3	0	149	99	1								
+	30	20408	C-L¨ng NhuÖ-Lv6	3	0	149	100	1								
+	30	20408	C-Linh Viªn-Lv6	3	0	149	101	1								
+	30	20408	C-H¶i VËn-Lv6	3	0	149	102	1								
+	30	20408	C-H¶i T©m-Lv6	3	0	149	103	1								
+	30	20408	T-LiÖt Nham-Lv6	3	0	150	85	1								
+	30	20408	T-Ph¸ Kh«ng-Lv6	3	0	150	86	1								
+	30	20408	T-Tóy KiÕm-Lv6	3	0	150	87	1								
+	30	20408	T-TËt Phong-Lv6	3	0	150	88	1								
+	30	20408	T-TÊn Vò-Lv6	3	0	150	89	1								
+	30	20408	T-V« L­îng-Lv6	3	0	150	90	1								
+	30	20408	T-Môc Minh-Lv6	3	0	150	91	1								
+	30	20408	T-ThÇn Lùc-Lv6	3	0	150	92	1								
+	30	20408	T-Ng­ng ThÇn-Lv6	3	0	150	93	1								
+	30	20408	T-V« Gian-Lv6	3	0	150	94	1								
+	30	20408	T-V« Cùc-Lv6	3	0	150	95	1								
+	30	20408	T-Cuång NhÉn-Lv6	3	0	150	96	1								
+	30	20408	T-L¨ng NhuÖ-Lv6	3	0	150	97	1								
+	30	20408	T-Linh Viªn-Lv6	3	0	150	98	1								
+	30	20408	T-H¶i VËn-Lv6	3	0	150	99	1								
+	30	20408	T-H¶i T©m-Lv6	3	0	150	100	1								
+3v3_free_WLlibao_1	31		exp	4				10000000								
+	31		PhiÕu §iÓm Liªn §Êu	3	2	1	31174	1			4					
+3v3_IB_WLlibao_1	33		exp	4				20000000								
+	33		PhiÕu §iÓm Liªn §Êu	3	2	1	31174	2			4					
+3v3_free_HXlibao_1	35		exp	4				20000000								
+	35		PhiÕu §iÓm Liªn §Êu	3	2	1	31174	2			4					
+3v3_IB_HXlibao_1	37		exp	4				40000000								
+	37		Bét Tr©n Ch©u	3	2	102	215	500			4					
+	37		PhiÕu §iÓm Liªn §Êu	3	2	1	31174	4			4					
+3v3_free_WLlibao_2	32	150000	C©y b¸t nh· nhá	3	2	0	504	1			4	168				
+	32	100000	C©y B¸t Nh·	3	2	0	398	1			4	168				
+	32	200000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1			4					
+	32	80000	VÐ TiÕu Y B¹c	3	2	1	30492	1			4					
+	32	120000	VÐ TiÕu Y §ång	3	2	1	30493	1			4					
+	32	20000	Linh §å Giíi ChØ	1				39			4					
+	32	20000	Th¶o Ph¹t Lªnh 	3	2	1	30915	1			4					
+	32	60000	Thiªn th¹ch	3	2	2	8	1			4					
+	32	50000	§ång TÕ Chi NguyÖn	3	2	1	30913	1			4					
+	32	70000	M¶nh Thiªn th¹ch	3	2	2	7	1			4					
+	32	60000	TÈy T©m Th¹ch cÊp 4	3	2	1	30524	1			4					
+	32	10000	Tô Linh QuyÕt	3	2	1	31248	1								
+	32	60000	LuyÖn L« ThiÕt cÊp 4	3	2	1	30530	1			4					
+3v3_IB_WLlibao_2	34	55000	S¸ch Kü N¨ng Thó C­ng CÊp 5	1				287								
+	34	100000	C©y b¸t nh· nhá	3	2	0	504	1				168				
+	34	80000	C©y B¸t Nh·	3	2	0	398	1				168				
+	34	130000	Hu©n ch­¬ng anh hïng	3	2	1	30499	2								
+	34	50000	VÐ TiÕu Y B¹c	3	2	1	30492	1								
+	34	90000	VÐ TiÕu Y §ång	3	2	1	30493	1								
+	34	40000	Cöu chuyÓn håi hån ®¬n	3	1	0	32	1								
+	34	5000	Nhãm giíi chØ Hµo HiÖp	1				340			4					
+	34	50000	L«i Viªm Th¹ch	3	2	1	30683	1								
+	34	50000	Tô Linh QuyÕt	3	2	1	31248	1								
+	34	200000	Vµng	5				10000								
+	34	100000	Vµng	5				50000								
+	34	50000	Vµng	5				100000								
+3v3_free_HXlibao_2	36	150000	C©y b¸t nh· nhá	3	2	0	504	1			4	168				
+	36	90000	C©y B¸t Nh·	3	2	0	398	1			4	168				
+	36	200000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1			4					
+	36	50000	VÐ TiÕu Y B¹c	3	2	1	30492	1			4					
+	36	100000	VÐ TiÕu Y §ång	3	2	1	30493	1			4					
+	36	20000	Nhãm Linh §å Giíi ChØ	1				39			4					
+	36	20000	Th¶o Ph¹t Lªnh 	3	2	1	30915	1			4					
+	36	70000	Thiªn th¹ch	3	2	2	8	1			4					
+	36	10000	Tô Linh QuyÕt	3	2	1	31248	1								
+	36	50000	M¶nh Thiªn th¹ch	3	2	2	7	1			4					
+	36	70000	§ång TÕ Chi NguyÖn	3	2	1	30913	1			4					
+	36	60000	TÈy T©m Th¹ch cÊp 4	3	2	1	30524	1			4					
+	36	60000	LuyÖn L« ThiÕt cÊp 4	3	2	1	30530	1			4					
+	36	50000	Vµng	5				50000			4					
+3v3_IB_HXlibao_2	38	50000	C©y b¸t nh· nhá	3	2	0	504	1				168				
+	38	50000	C©y B¸t Nh·	3	2	0	398	1				168				
+	38	50000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1								
+	38	104000	VÐ TiÕu Y B¹c	3	2	1	30492	1								
+	38	120000	VÐ TiÕu Y §ång	3	2	1	30493	1								
+	38	10000	Nhãm giíi chØ Hµo HiÖp	1				340								
+	38	20000	Th¶o Ph¹t Lªnh 	3	2	1	30915	1								
+	38	60000	Thiªn th¹ch	3	2	2	8	1								
+	38	60000	M¶nh Thiªn th¹ch	3	2	2	7	1								
+	38	100000	Tô Linh QuyÕt	3	2	1	31248	1								
+	38	5000	Trøng ThÇn BÝ T©y Vùc	3	2	1	30821	1								
+	38	1000	Trøng Thó C­ng-Siªu	3	2	1	31169	1								
+	38	180000	Vµng	5				50000								
+	38	130000	Vµng	5				100000								
+	38	60000	Vµng	5				200000					1			
+lingtu_ring	39	500000	Linh §å Giíi (tr¸i)	3	0	102	30221	1								
+	39	500000	Linh §å Giíi (ph¶i)	3	0	102	30222	1								
+EY_jinbaoxiang_2_free	42	100000	Tø Linh Quy Nguyªn §¬n	3	2	1	30352	1			4	168				
+	42	100000	Båi Nguyªn §¬n	3	2	1	30351	1			4	168				
+	42	100000	TÈy TrÇn §an	3	2	1	30613	1								
+	42	500000	Kinh M¹ch §ång Nh©n	3	2	1	30730	3			4					
+	42	100000	Ch©n khÝ	6				200								
+	42	30000	Ch©n khÝ	6				400								
+	42	20000	Ch©n khÝ	6				800								
+	42	50000	Tô Linh Hoµn	3	2	1	30458	1			4	168				
+EY_jinbaoxiang_2_IB	43	100000	Tø Linh Quy Nguyªn §¬n	3	2	1	30352	1				168				
+	43	50000	Båi Nguyªn §¬n	3	2	1	30351	1				168				
+	43	100000	TÈy TrÇn §an	3	2	1	30613	1								
+	43	450000	Kinh M¹ch §ång Nh©n	3	2	1	30730	6								
+	43	100000	Ch©n khÝ	6				200								
+	43	40000	Ch©n khÝ	6				400								
+	43	20000	Ch©n khÝ	6				800								
+	43	10000	Ch©n khÝ	6				1000								
+	43	50000	Tô Linh Hoµn	3	2	1	30458	1				168				
+	43	20000	§¹i Tô Linh Hoµn	3	2	1	30459	1				168				
+	43	10000	Tô Linh Tiªn §¬n	3	2	1	30460	1				168				
+	43	50000	Xu	5				300000								
+EY_baoxiang_2	44	500000	Tø Linh Quy Nguyªn §¬n	3	2	1	30352	1			4	168				
+	44	200000	Båi Nguyªn §¬n	3	2	1	30351	1			4	168				
+	44	250000	Kinh M¹ch §ång Nh©n	3	2	1	30730	1			4					
+	44	50000	Tô Linh Hoµn	3	2	1	30458	1			4	168				
+EY_baoxiang_2_IB	45	150000	Tø Linh Quy Nguyªn §¬n	3	2	1	30352	1				168				
+	45	100000	Båi Nguyªn §¬n	3	2	1	30351	1				168				
+	45	200000	TÈy TrÇn §an	3	2	1	30613	1								
+	45	300000	Kinh M¹ch §ång Nh©n	3	2	1	30730	3								
+	45	100000	Ch©n khÝ	6				100								
+	45	30000	Ch©n khÝ	6				200								
+	45	20000	Ch©n khÝ	6				400								
+	45	50000	Tô Linh Hoµn	3	2	1	30458	1				168				
+	45	50000	Xu	5				100000								
+Fire_Killjinying	46	100000	Ngän Löa Ngò S¾c	3	2	1	30899	1			4					
+	46	275000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1			4					
+	46	275000	§¸ quý cÊp 1-3	1				51								
+	46	20000	Thiªn Kiªu LÖnh	3	2	97	236	1			4					
+	46	120000	Ch©n khÝ	6				100								
+	46	40000	Ch©n khÝ	6				200								
+	46	20000	Ch©n khÝ	6				400								
+	46	100000	Båi Nguyªn §¬n	3	2	1	30351	1				168				
+	46	50000	Tô Linh Hoµn	3	2	1	30458	1				168				
+Fire_Single	47	70000	M¶nh BÝ §iÓn 27	3	2	1	40048	5			4					
+	47	70000	M¶nh BÝ §iÓn 30	3	2	1	40049	5			4					
+	47	5000	Th­¬ng H¶i Ch©u CÊp 7 (Ch­a gi¸m ®Þnh)	3	2	102	214	1			4					
+	47	40000	Hoµ ThÞ BÝch	3	2	1	1001	1			4					
+	47	40000	M¶nh Thiªn Cang	3	2	1	30390	50			4					
+	47	40000	M¶nh Thiªn M«n	3	2	1	30410	10			4					
+	47	5000	Håi Tiªn §¬n	3	2	1	30847	1			4					
+	47	5000	Linh Ph¸ch §¬n	3	2	1	31239	1			4					
+	47	1000	Håi Tiªn §¬n	3	2	1	30847	2			4					
+	47	1000	Linh Ph¸ch §¬n	3	2	1	31239	2			4					
+	47	20000	Thiªn V¨n Th¹ch	3	2	201	13	1			4					
+	47	100000	C©y B¸t Nh·	3	2	0	398	1			4					
+	47	100000	C©y Tø Linh	3	2	1	30269	1			4					
+	47	40000	MËt TÞch Tiªu Dao	3	0	112	224	1			4					
+	47	40000	Ch©n Vâ Hån Th¹ch	3	2	114	143	2			4					
+	47	30000	X· Qu©n Táa Linh Th¹ch 1	3	2	1	31391	1			4					
+	47	30000	X· Qu©n Táa Linh Th¹ch 2	3	2	1	31392	1			4					
+	47	30000	X· Qu©n Táa Linh Th¹ch 3	3	2	1	31393	1			4					
+	47	30000	X· Qu©n Táa Linh Th¹ch 4	3	2	1	31394	1			4					
+	47	30000	X· Qu©n Táa Linh Th¹ch 5	3	2	1	31395	1			4					
+	47	30000	X· Qu©n Táa Linh Th¹ch 6	3	2	1	31396	1			4					
+	47	100000	LuyÖn L« ThiÕt Lv7	3	2	1	31401	10			4					
+	47	100000	TÈy T©m Th¹ch Lv7	3	2	1	31402	10			4					
+	47	40000	§Þnh Hån Thiªn Th¹ch Linh Th¹ch	3	2	1	1067	1			4					
+	47	1000	Thiªn M«n Kim LÖnh	3	2	1	30370	1			4					
+	47	2000	Thiªn Cang LÖnh	3	2	95	204	1			4					
+Fire_Five	48	70000	M¶nh BÝ §iÓn 27	3	2	1	40048	5								
+	48	70000	M¶nh BÝ §iÓn 30	3	2	1	40049	5								
+	48	5000	Th­¬ng H¶i Ch©u CÊp 7 (Ch­a gi¸m ®Þnh)	3	2	102	214	1								
+	48	40000	Hoµ ThÞ BÝch	3	2	1	1001	1								
+	48	40000	M¶nh Thiªn Cang	3	2	1	30390	50								
+	48	40000	M¶nh Thiªn M«n	3	2	1	30410	10								
+	48	5000	Håi Tiªn §¬n	3	2	1	30847	1								
+	48	5000	Linh Ph¸ch §¬n	3	2	1	31239	1								
+	48	1000	Håi Tiªn §¬n	3	2	1	30847	2								
+	48	1000	Linh Ph¸ch §¬n	3	2	1	31239	2								
+	48	20000	Thiªn V¨n Th¹ch	3	2	201	13	1								
+	48	100000	C©y B¸t Nh·	3	2	0	398	1								
+	48	100000	C©y Tø Linh	3	2	1	30269	1								
+	48	40000	MËt TÞch Tiªu Dao	3	0	112	224	1								
+	48	40000	Ch©n Vâ Hån Th¹ch	3	2	114	143	2								
+	48	30000	X· Qu©n Táa Linh Th¹ch 1	3	2	1	31391	1								
+	48	30000	X· Qu©n Táa Linh Th¹ch 2	3	2	1	31392	1								
+	48	30000	X· Qu©n Táa Linh Th¹ch 3	3	2	1	31393	1								
+	48	30000	X· Qu©n Táa Linh Th¹ch 4	3	2	1	31394	1								
+	48	30000	X· Qu©n Táa Linh Th¹ch 5	3	2	1	31395	1								
+	48	30000	X· Qu©n Táa Linh Th¹ch 6	3	2	1	31396	1								
+	48	100000	LuyÖn L« ThiÕt Lv7	3	2	1	31401	10								
+	48	100000	TÈy T©m Th¹ch Lv7	3	2	1	31402	10								
+	48	40000	§Þnh Hån Thiªn Th¹ch Linh Th¹ch	3	2	1	1067	1								
+	48	1000	Thiªn M«n Kim LÖnh	3	2	1	30370	1								
+	48	2000	Thiªn Cang LÖnh	3	2	95	204	1								
+WinterBoss_Box	49	280000	Kinh nghiÖm	4				1000000000								
+	49	110000	Kinh nghiÖm	4				2000000000								
+	49	80000	Kinh nghiÖm	4				3000000000								
+	49	30000	Thiªn V¨n Th¹ch	3	2	201	13	1								
+	49	50000	Thiªn Kiªu LÖnh	3	2	97	236	10								
+	49	50000	Qu©n C«ng Vinh Dù	3	2	1	30642	1								
+	49	50000	Håi Tiªn §¬n	3	2	1	30847	1								
+	49	50000	Linh Ph¸ch §¬n	3	2	1	31239	1								
+	49	30000	Tói Kü N¨ng B§H Lv6	3	2	1	40037	1								
+	49	30000	M¶nh BÝ §iÓn 30	3	2	1	40049	10								
+	49	30000	C©y B¸t Nh·	3	2	0	398	1								
+	49	80000	C©y Tø Linh	3	2	1	30269	1								
+	49	20000	Ch©n Vâ Hån Th¹ch	3	2	114	143	1								
+	49	98000	Ngän Löa Ngò S¾c	3	2	1	30899	1								
+	49	3000	ChiÕn Xe TÇn	3	0	105	183	1				168	1			
+	49	3000	ChiÕn Lang	3	0	105	205	1				168	1			
+	49	3000	B¹ch Lang	3	0	105	206	1				168	1			
+	49	3000	Thá ®en	3	0	105	30039	1				168	1			
+WinterBoss_Heart	50	100000	BÝ Ng©n Chïy	3	2	1	30539	1								
+	50	100000	BÝ Ng©n To¶n	3	2	1	30538	1								
+	50	90000	Ngän Löa Ngò S¾c	3	2	1	30899	1								
+	50	150000	Qu©n C«ng Ch­¬ng	3	2	1	9999	1								
+	50	100000	Qu©n C«ng §¹i	3	2	1	9998	1								
+	50	50000	Qu©n C«ng Huy Hoµng	3	2	1	9977	1								
+	50	75000	HuyÒn Viªm ThiÕt	3	2	1	30670	50								
+	50	75000	Viªm Linh Ti	3	2	1	30671	50								
+	50	75000	Da Ma Lang	3	2	1	30672	50								
+	50	75000	Da §Þa Long	3	2	1	30673	50								
+	50	50000	Hµo HiÖp LÖnh	3	2	95	2084	5								
+	50	59000	Giµy Thªu B¨ng Gi¸	3	2	1	30754	1				720	1			
+	50	1000	Cæ Kim Th¹ch	3	2	201	14	1					1			
+gem_Lv1-3_Rd	51	200000	HuyÕtTrÝchTh¹ch Lv1	3	2	22	101	1								
+	51	200000	NguyÖtB¹chTh¹ch Lv1	3	2	22	201	1								
+	51	200000	Hæ Ph¸ch Th¹ch CÊp 1	3	2	22	301	1								
+	51	200000	H¾c DiÖu Th¹ch CÊp 1	3	2	22	401	1								
+	51	40000	HuyÕtTrÝchTh¹ch Lv2	3	2	22	102	1								
+	51	40000	NguyÖtB¹chTh¹ch Lv2	3	2	22	202	1								
+	51	40000	Hæ Ph¸ch Th¹ch CÊp 2	3	2	22	302	1								
+	51	40000	H¾c DiÖu Th¹ch CÊp 2	3	2	22	402	1								
+	51	10000	HuyÕtTrÝchTh¹ch Lv3	3	2	22	103	1								
+	51	10000	NguyÖtB¹chTh¹ch Lv3	3	2	22	203	1								
+	51	10000	Hæ Ph¸ch Th¹ch CÊp 3	3	2	22	303	1								
+	51	10000	H¾c DiÖu Th¹ch CÊp 3	3	2	22	403	1								
+Fire_Num_800	52	14286	H-LiÖt Nham-Lv4	3	0	148	53	1								
+	52	14286	H-Ph¸ Kh«ng-Lv4	3	0	148	54	1								
+	52	14286	H-Tóy KiÕm-Lv4	3	0	148	55	1								
+	52	14286	H-TËt Phong-Lv4	3	0	148	56	1								
+	52	14286	H-TÊn Vò-Lv4	3	0	148	57	1								
+	52	14286	H-¦ng TËp-Lv4	3	0	148	58	1								
+	52	14286	H-Linh T©m-Lv4	3	0	148	59	1								
+	52	14286	H-ThÇn Lùc-Lv4	3	0	148	60	1								
+	52	14286	H-Ng­ng ThÇn-Lv4	3	0	148	61	1								
+	52	14286	H-V« Gian-Lv4	3	0	148	62	1								
+	52	14286	H-V« Cùc-Lv4	3	0	148	63	1								
+	52	14286	H-Cuång NhÉn-Lv4	3	0	148	64	1								
+	52	14286	H-L¨ng NhuÖ-Lv4	3	0	148	65	1								
+	52	14286	H-Linh Viªn-Lv4	3	0	148	66	1								
+	52	14286	H-H¶i VËn-Lv4	3	0	148	67	1								
+	52	14286	H-H¶i T©m-Lv4	3	0	148	68	1								
+	52	14286	C-LiÖt Nham-Lv4	3	0	149	53	1								
+	52	14286	C-Ph¸ Kh«ng-Lv4	3	0	149	54	1								
+	52	14286	C-Tóy KiÕm-Lv4	3	0	149	55	1								
+	52	14286	C-TËt Phong-Lv4	3	0	149	56	1								
+	52	14286	C-TÊn Vò-Lv4	3	0	149	57	1								
+	52	14286	C-Qu¸n Th¹ch-Lv4	3	0	149	58	1								
+	52	14286	C-Né Ng©m-Lv4	3	0	149	59	1								
+	52	14286	C-Xuyªn V©n-Lv4	3	0	149	60	1								
+	52	14286	C-ThÇn Lùc-Lv4	3	0	149	61	1								
+	52	14286	C-Ng­ng ThÇn-Lv4	3	0	149	62	1								
+	52	14286	C-V« Gian-Lv4	3	0	149	63	1								
+	52	14286	C-V« Cùc-Lv4	3	0	149	64	1								
+	52	14286	C-Cuång NhÉn-Lv4	3	0	149	65	1								
+	52	14286	C-L¨ng NhuÖ-Lv4	3	0	149	66	1								
+	52	14286	C-Linh Viªn-Lv4	3	0	149	67	1								
+	52	14286	C-H¶i VËn-Lv4	3	0	149	68	1								
+	52	14286	C-H¶i T©m-Lv4	3	0	149	69	1								
+	52	14286	T-LiÖt Nham-Lv4	3	0	150	53	1								
+	52	14286	T-Ph¸ Kh«ng-Lv4	3	0	150	54	1								
+	52	14285	T-Tóy KiÕm-Lv4	3	0	150	55	1								
+	52	14285	T-TËt Phong-Lv4	3	0	150	56	1								
+	52	14285	T-TÊn Vò-Lv4	3	0	150	57	1								
+	52	14285	T-V« L­îng-Lv4	3	0	150	58	1								
+	52	14285	T-Môc Minh-Lv4	3	0	150	59	1								
+	52	14285	T-ThÇn Lùc-Lv4	3	0	150	60	1								
+	52	14285	T-Ng­ng ThÇn-Lv4	3	0	150	61	1								
+	52	14285	T-V« Gian-Lv4	3	0	150	62	1								
+	52	14285	T-V« Cùc-Lv4	3	0	150	63	1								
+	52	14285	T-Cuång NhÉn-Lv4	3	0	150	64	1								
+	52	14285	T-L¨ng NhuÖ-Lv4	3	0	150	65	1								
+	52	14285	T-Linh Viªn-Lv4	3	0	150	66	1								
+	52	14285	T-H¶i VËn-Lv4	3	0	150	67	1								
+	52	14285	T-H¶i T©m-Lv4	3	0	150	68	1								
+	52	4082	H-LiÖt Nham-Lv5	3	0	148	69	1								
+	52	4082	H-Ph¸ Kh«ng-Lv5	3	0	148	70	1								
+	52	4082	H-Tóy KiÕm-Lv5	3	0	148	71	1								
+	52	4082	H-TËt Phong-Lv5	3	0	148	72	1								
+	52	4082	H-TÊn Vò-Lv5	3	0	148	73	1								
+	52	4082	H-¦ng TËp-Lv5	3	0	148	74	1								
+	52	4082	H-Linh T©m-Lv5	3	0	148	75	1								
+	52	4082	H-ThÇn Lùc-Lv5	3	0	148	76	1								
+	52	4082	H-Ng­ng ThÇn-Lv5	3	0	148	77	1								
+	52	4082	H-V« Gian-Lv5	3	0	148	78	1								
+	52	4082	H-V« Cùc-Lv5	3	0	148	79	1								
+	52	4082	H-Cuång NhÉn-Lv5	3	0	148	80	1								
+	52	4082	H-L¨ng NhuÖ-Lv5	3	0	148	81	1								
+	52	4082	H-Linh Viªn-Lv5	3	0	148	82	1								
+	52	4082	H-H¶i VËn-Lv5	3	0	148	83	1								
+	52	4082	H-H¶i T©m-Lv5	3	0	148	84	1								
+	52	4082	C-LiÖt Nham-Lv5	3	0	149	70	1								
+	52	4082	C-Ph¸ Kh«ng-Lv5	3	0	149	71	1								
+	52	4082	C-Tóy KiÕm-Lv5	3	0	149	72	1								
+	52	4082	C-TËt Phong-Lv5	3	0	149	73	1								
+	52	4082	C-TÊn Vò-Lv5	3	0	149	74	1								
+	52	4082	C-Qu¸n Th¹ch-Lv5	3	0	149	75	1								
+	52	4082	C-Né Ng©m-Lv5	3	0	149	76	1								
+	52	4082	C-Xuyªn V©n-Lv5	3	0	149	77	1								
+	52	4082	C-ThÇn Lùc-Lv5	3	0	149	78	1								
+	52	4082	C-Ng­ng ThÇn-Lv5	3	0	149	79	1								
+	52	4082	C-V« Gian-Lv5	3	0	149	80	1								
+	52	4082	C-V« Cùc-Lv5	3	0	149	81	1								
+	52	4082	C-Cuång NhÉn-Lv5	3	0	149	82	1								
+	52	4082	C-L¨ng NhuÖ-Lv5	3	0	149	83	1								
+	52	4082	C-Linh Viªn-Lv5	3	0	149	84	1								
+	52	4081	C-H¶i VËn-Lv5	3	0	149	85	1								
+	52	4081	C-H¶i T©m-Lv5	3	0	149	86	1								
+	52	4081	T-LiÖt Nham-Lv5	3	0	150	69	1								
+	52	4081	T-Ph¸ Kh«ng-Lv5	3	0	150	70	1								
+	52	4081	T-Tóy KiÕm-Lv5	3	0	150	71	1								
+	52	4081	T-TËt Phong-Lv5	3	0	150	72	1								
+	52	4081	T-TÊn Vò-Lv5	3	0	150	73	1								
+	52	4081	T-V« L­îng-Lv5	3	0	150	74	1								
+	52	4081	T-Môc Minh-Lv5	3	0	150	75	1								
+	52	4081	T-ThÇn Lùc-Lv5	3	0	150	76	1								
+	52	4081	T-Ng­ng ThÇn-Lv5	3	0	150	77	1								
+	52	4081	T-V« Gian-Lv5	3	0	150	78	1								
+	52	4081	T-V« Cùc-Lv5	3	0	150	79	1								
+	52	4081	T-Cuång NhÉn-Lv5	3	0	150	80	1								
+	52	4081	T-L¨ng NhuÖ-Lv5	3	0	150	81	1								
+	52	4081	T-Linh Viªn-Lv5	3	0	150	82	1								
+	52	4081	T-H¶i VËn-Lv5	3	0	150	83	1								
+	52	4081	T-H¶i T©m-Lv5	3	0	150	84	1								
+	52	2041	H-LiÖt Nham-Lv6	3	0	148	85	1					1			
+	52	2041	H-Ph¸ Kh«ng-Lv6	3	0	148	86	1					1			
+	52	2041	H-Tóy KiÕm-Lv6	3	0	148	87	1					1			
+	52	2041	H-TËt Phong-Lv6	3	0	148	88	1					1			
+	52	2041	H-TÊn Vò-Lv6	3	0	148	89	1					1			
+	52	2041	H-¦ng TËp-Lv6	3	0	148	90	1					1			
+	52	2041	H-Linh T©m-Lv6	3	0	148	91	1					1			
+	52	2041	H-ThÇn Lùc-Lv6	3	0	148	92	1					1			
+	52	2041	H-Ng­ng ThÇn-Lv6	3	0	148	93	1					1			
+	52	2041	H-V« Gian-Lv6	3	0	148	94	1					1			
+	52	2041	H-V« Cùc-Lv6	3	0	148	95	1					1			
+	52	2041	H-Cuång NhÉn-Lv6	3	0	148	96	1					1			
+	52	2041	H-L¨ng NhuÖ-Lv6	3	0	148	97	1					1			
+	52	2041	H-Linh Viªn-Lv6	3	0	148	98	1					1			
+	52	2041	H-H¶i VËn-Lv6	3	0	148	99	1					1			
+	52	2041	H-H¶i T©m-Lv6	3	0	148	100	1					1			
+	52	2041	C-LiÖt Nham-Lv6	3	0	149	87	1					1			
+	52	2041	C-Ph¸ Kh«ng-Lv6	3	0	149	88	1					1			
+	52	2041	C-Tóy KiÕm-Lv6	3	0	149	89	1					1			
+	52	2041	C-TËt Phong-Lv6	3	0	149	90	1					1			
+	52	2041	C-TÊn Vò-Lv6	3	0	149	91	1					1			
+	52	2041	C-Qu¸n Th¹ch-Lv6	3	0	149	92	1					1			
+	52	2041	C-Né Ng©m-Lv6	3	0	149	93	1					1			
+	52	2041	C-Xuyªn V©n-Lv6	3	0	149	94	1					1			
+	52	2041	C-ThÇn Lùc-Lv6	3	0	149	95	1					1			
+	52	2041	C-Ng­ng ThÇn-Lv6	3	0	149	96	1					1			
+	52	2041	C-V« Gian-Lv6	3	0	149	97	1					1			
+	52	2041	C-V« Cùc-Lv6	3	0	149	98	1					1			
+	52	2041	C-Cuång NhÉn-Lv6	3	0	149	99	1					1			
+	52	2041	C-L¨ng NhuÖ-Lv6	3	0	149	100	1					1			
+	52	2041	C-Linh Viªn-Lv6	3	0	149	101	1					1			
+	52	2041	C-H¶i VËn-Lv6	3	0	149	102	1					1			
+	52	2041	C-H¶i T©m-Lv6	3	0	149	103	1					1			
+	52	2041	T-LiÖt Nham-Lv6	3	0	150	85	1					1			
+	52	2041	T-Ph¸ Kh«ng-Lv6	3	0	150	86	1					1			
+	52	2041	T-Tóy KiÕm-Lv6	3	0	150	87	1					1			
+	52	2041	T-TËt Phong-Lv6	3	0	150	88	1					1			
+	52	2041	T-TÊn Vò-Lv6	3	0	150	89	1					1			
+	52	2041	T-V« L­îng-Lv6	3	0	150	90	1					1			
+	52	2041	T-Môc Minh-Lv6	3	0	150	91	1					1			
+	52	2040	T-ThÇn Lùc-Lv6	3	0	150	92	1					1			
+	52	2040	T-Ng­ng ThÇn-Lv6	3	0	150	93	1					1			
+	52	2040	T-V« Gian-Lv6	3	0	150	94	1					1			
+	52	2040	T-V« Cùc-Lv6	3	0	150	95	1					1			
+	52	2040	T-Cuång NhÉn-Lv6	3	0	150	96	1					1			
+	52	2040	T-L¨ng NhuÖ-Lv6	3	0	150	97	1					1			
+	52	2040	T-Linh Viªn-Lv6	3	0	150	98	1					1			
+	52	2040	T-H¶i VËn-Lv6	3	0	150	99	1					1			
+	52	2040	T-H¶i T©m-Lv6	3	0	150	100	1					1			
+Fire_Num_1000	53	237500	HuyÕtTrÝchTh¹ch Lv4	3	2	22	104	1								
+	53	237500	NguyÖtB¹chTh¹ch Lv4	3	2	22	204	1								
+	53	237500	Hæ Ph¸ch Th¹ch CÊp 4	3	2	22	304	1								
+	53	237500	H¾c DiÖu Th¹ch CÊp 4	3	2	22	404	1								
+	53	10000	HuyÕtTrÝchTh¹ch Lv5	3	2	22	105	1					1			
+	53	10000	NguyÖtB¹chTh¹ch Lv5	3	2	22	205	1					1			
+	53	10000	Hæ Ph¸ch Th¹ch CÊp 5	3	2	22	305	1					1			
+	53	10000	H¾c DiÖu Th¹ch CÊp 5	3	2	22	405	1					1			
+	53	2500	HuyÕtTrÝchTh¹ch Lv6	3	2	22	106	1					1			
+	53	2500	NguyÖtB¹chTh¹ch Lv6	3	2	22	206	1					1			
+	53	2500	Hæ Ph¸ch Th¹ch CÊp 6	3	2	22	306	1					1			
+	53	2500	H¾c DiÖu Th¹ch CÊp 6	3	2	22	406	1					1			
+Xmas_orna	54		exp	4				10000								
+Xmas_tree1	55		exp	4				1000000								
+	55		Ch©n khÝ	6				200								
+	55		C«ng tr¹ng	7				100								
+Xmas_tree2	56		exp	4				2000000								
+	56		Ch©n khÝ	6				400								
+	56		C«ng tr¹ng	7				200								
+Xmas_tree3	57		exp	4				4000000								
+	57		Ch©n khÝ	6				600								
+	57		C«ng tr¹ng	7				300								
+Xmas_tree4	58		exp	4				8000000								
+	58		Ch©n khÝ	6				800								
+	58		C«ng tr¹ng	7				400								
+Xmas_tree5	59		exp	4				16000000								
+	59		Ch©n khÝ	6				1000								
+	59		C«ng tr¹ng	7				500								
+LS_tong1	60	200000	ThiÕt Tinh cÊp 1	3	2	1	30533	1								
+	60	200000	ThiÕt Tinh cÊp 2	3	2	1	30534	1								
+	60	100000	ThiÕt Tinh cÊp 3	3	2	1	30535	1								
+	60	380000	Nh©n S©m V¹n N¨m	3	2	1	30071	1								
+	60	70000	Tói §¸ Quý CÊp 1	3	2	1	30998	1								
+	60	50000	Kinh M¹ch §ång Nh©n	3	2	1	30730	1								
+LS_tong2	61	100000	ThiÕt Tinh cÊp 1	3	2	1	30533	1								
+	61	100000	ThiÕt Tinh cÊp 2	3	2	1	30534	1								
+	61	50000	ThiÕt Tinh cÊp 3	3	2	1	30535	1								
+	61	150000	Huy Ch­¬ng §ång ChÕ	3	0	153	1	1								
+	61	150000	Huy Ch­¬ng ThiÕt ChÕ	3	0	153	2	1								
+	61	330000	Nh©n S©m V¹n N¨m	3	2	1	30071	1								
+	61	70000	Tói §¸ Quý CÊp 1	3	2	1	30998	1								
+	61	50000	Kinh M¹ch §ång Nh©n	3	2	1	30730	1								
+LS_tong3	62	50000	Tø Linh Quy Nguyªn §¬n	3	2	1	30352	1								
+	62	50000	Båi Nguyªn §¬n	3	2	1	30351	1								
+	62	400000	Nh©n S©m V¹n N¨m	3	2	1	30071	1								
+	62	120000	Tói §¸ Quý CÊp 1	3	2	1	30998	1								
+	62	30000	Tói §¸ Quý CÊp 2	3	2	1	30999	1								
+	62	150000	Huy Ch­¬ng §ång ChÕ	3	0	153	1	1								
+	62	100000	Huy Ch­¬ng ThiÕt ChÕ	3	0	153	2	1								
+	62	50000	Huy Ch­¬ng Ngäc ChÕ	3	0	153	3	1								
+	62	50000	Kinh M¹ch §ång Nh©n	3	2	1	30730	1								
+LS_tong4	63	50000	Tø Linh Quy Nguyªn §¬n	3	2	1	30352	1								
+	63	50000	Båi Nguyªn §¬n	3	2	1	30351	1								
+	63	60000	Huy Ch­¬ng Kim ChÕ ngò hµnh	3	0	153	4	1								
+	63	60000	Huy Ch­¬ng Méc ChÕ ngò hµnh	3	0	153	5	1								
+	63	60000	Huy Ch­¬ng Thñy ChÕ ngò hµnh	3	0	153	6	1								
+	63	60000	Huy Ch­¬ng Háa ChÕ ngò hµnh	3	0	153	7	1								
+	63	60000	Huy Ch­¬ng Thæ ChÕ ngò hµnh	3	0	153	8	1								
+	63	60000	Huy Ch­¬ng ¢m ChÕ ngò hµnh	3	0	153	9	1								
+	63	5000	Huy Ch­¬ng Du HiÖp	3	0	153	26	1								
+	63	5000	Huy Ch­¬ng ThiÕt HuyÕt	3	0	153	27	1								
+	63	5000	Huy Ch­¬ng V©n Du	3	0	153	28	1								
+	63	350000	Nh©n S©m V¹n N¨m	3	2	1	30071	1								
+	63	100000	Tói §¸ Quý CÊp 1	3	2	1	30998	1								
+	63	25000	Tói §¸ Quý CÊp 2	3	2	1	30999	1								
+	63	50000	Kinh M¹ch §ång Nh©n	3	2	1	30730	1								
+LS_tong5	64	150000	Huy Ch­¬ng §ång ChÕ	3	0	153	1	1								
+	64	160000	Huy Ch­¬ng ThiÕt ChÕ	3	0	153	2	1								
+	64	150000	Huy Ch­¬ng Ngäc ChÕ	3	0	153	3	1								
+	64	5000	Huy Ch­¬ng Du HiÖp	3	0	153	26	1								
+	64	5000	Huy Ch­¬ng ThiÕt HuyÕt	3	0	153	27	1								
+	64	5000	Huy Ch­¬ng V©n Du	3	0	153	28	1								
+	64	350000	Nh©n S©m V¹n N¨m	3	2	1	30071	1								
+	64	100000	Tói §¸ Quý CÊp 1	3	2	1	30998	1								
+	64	25000	Tói §¸ Quý CÊp 2	3	2	1	30999	1								
+	64	50000	Kinh M¹ch §ång Nh©n	3	2	1	30730	1								
+LS_tong6	65	120000	Huy Ch­¬ng §ång ChÕ	3	0	153	1	1								
+	65	131000	Huy Ch­¬ng ThiÕt ChÕ	3	0	153	2	1								
+	65	100000	Huy Ch­¬ng Ngäc ChÕ	3	0	153	3	1								
+	65	5000	Huy Ch­¬ng Du HiÖp	3	0	153	26	1					1			
+	65	5000	Huy Ch­¬ng ThiÕt HuyÕt	3	0	153	27	1					1			
+	65	5000	Huy Ch­¬ng V©n Du	3	0	153	28	1					1			
+	65	400000	Nh©n S©m V¹n N¨m	3	2	1	30071	1								
+	65	150000	Tói §¸ Quý CÊp 1	3	2	1	30998	1								
+	65	24000	Tói §¸ Quý CÊp 2	3	2	1	30999	1								
+	65	10000	TuÝ ®¸ quý cÊp 3	3	2	1	31000	1								
+	65	50000	Kinh M¹ch §ång Nh©n	3	2	1	30730	1								
+LS_yin	66	50000	C©y B¸t Nh· nhá	3	2	0	504	1				168				
+	66	10000	C©y B¸t Nh·	3	2	0	398	1				168				
+	66	50000	H¹t gièng Tø Linh	3	2	1	30269	1				168				
+	66	43300	B¹ch C©u Hoµn	3	2	1	270	1				168				
+	66	50000	§¹i B¹ch C©u hoµn	3	2	1	1007	1				168				
+	66	30000	B¹ch C©u Tiªn ®¬n	3	2	1	1008	1				168				
+	66	50000	§¹i Nh©n s©m	3	2	0	553	1				168				
+	66	40000	Hu©n ch­¬ng anh hïng	3	2	1	30499	2								
+	66	20000	Hu©n ch­¬ng anh hïng	3	2	1	30499	4								
+	66	5000	Hu©n ch­¬ng anh hïng	3	2	1	30499	10								
+	66	40000	M¶nh Thiªn Cang	3	2	1	30390	10								
+	66	10000	M¶nh Thiªn Cang	3	2	1	30390	20					1			
+	66	2000	M¶nh Thiªn Cang	3	2	1	30390	100					1			
+	66	100	Thiªn Cang LÖnh	3	2	95	204	1					1			
+	66	1000	Thiªn Th¹ch Tinh Th¹ch	3	2	1	1009	1								
+	66	5000	Hép M¶nh Thiªn Th¹ch (Nhá)	3	2	1	30788	1				720				
+	66	100	Bao Thiªn Th¹ch Tinh Th¹ch (Nhá)	3	2	1	3356	1				720	1			
+	66	5000	§Þnh Hån Thiªn Th¹ch Linh Th¹ch	3	2	1	1067	1				720	1			
+	66	5000	Thiªn Th¹ch linh th¹ch	3	2	1	1068	1				720	1			
+	66	3000	§¹i §Þnh Hån Thiªn Th¹ch Linh Th¹ch	3	2	1	1113	1				720	1			
+	66	10000	Phiªu Vò	3	0	105	15	1				720				
+	66	10000	Siªu Quang	3	0	105	19	1				720				
+	66	10000	B«n Tiªu	3	0	105	16	1				720				
+	66	10000	§»ng Vô	3	0	105	20	1				720				
+	66	10000	B¹ch M·	3	0	105	34	1				720				
+	66	1000	V« NgÊn Thñy	3	2	1	503	1				720				
+	66	5000	§Êu hån	3	2	1	1157	1				720				
+	66	20000	b¸nh Ýt B¸c B¶o	3	2	1	1125	1								
+	66	50000	Hoµng Kim §¹i Hång Bao (kh«ng)	3	2	1	538	1				720				
+	66	10000	Bµn Long BÝch	3	2	1	1000	1				720				
+	66	3000	Huy ch­¬ng HiÖp Cèt	3	0	153	29	1					1			
+	66	3000	Huy ch­¬ng Qñy Phï	3	0	153	30	1					1			
+	66	3000	Huy ch­¬ng §»ng V©n	3	0	153	31	1					1			
+	66	50000	PhiÕu §æi Ngo¹i Trang	3	2	1	31233	1								
+	66	30000	Nh©n S©m V¹n N¨m	3	2	1	30071	5								
+	66	30000	Tói §¸ Quý CÊp 1	3	2	1	30998	1								
+	66	30000	TuÝ ®¸ quý cÊp 2	3	2	1	30999	1								
+	66	20000	TuÝ ®¸ quý cÊp 3	3	2	1	31000	1								
+	66	10000	Tói §¸ Quý CÊp 4	3	2	1	31001	1					1			
+	66	50000	Kinh M¹ch Ng©n Nh©n	3	2	1	30731	1								
+	66	50000	M¶nh Thó C­ìi	3	2	1	31386	1								
+	66	100	Linh Nghª	3	0	105	201	1					1			
+	66	100	Phong S­¬ng KiÕm	3	0	105	209	1					1			
+	66	43800	M¶nh Huy Ch­¬ng Kim Xµ Lv6	3	2	1	31384	5								
+	66	50000	M¶nh Huy Ch­¬ng Lv7	3	2	1	31398	1								
+	66	500	Hoan L¨ng Ch­¬ng	3	0	153	32	1					1			
+	66	500	§»ng Giao Ch­¬ng	3	0	153	33	1					1			
+	66	500	Khëi Ph­îng Ch­¬ng	3	0	153	34	1					1			
+	66	30000	Qu©n C«ng Ch­¬ng	3	2	1	9999	1				168				
+	66	20000	Qu©n C«ng §¹i	3	2	1	9998	1				168				
+	66	20000	Qu©n C«ng Huy Hoµng	3	2	1	9977	1				168	1			
+LS_haohanE	67	50000	Huy Ch­¬ng §ång ChÕ	3	0	153	1	1								
+	67	60000	b¸nh Ýt B¸c B¶o	3	2	1	1125	1								
+	67	3000	Huy ch­¬ng HiÖp Cèt	3	0	153	29	1					1			
+	67	3000	Huy ch­¬ng Qñy Phï	3	0	153	30	1					1			
+	67	3000	Huy ch­¬ng §»ng V©n	3	0	153	31	1					1			
+	67	50000	PhiÕu §æi Ngo¹i Trang	3	2	1	31233	1								
+	67	400000	Nh©n S©m V¹n N¨m	3	2	1	30071	5								
+	67	100000	Tói §¸ Quý CÊp 1	3	2	1	30998	1								
+	67	60000	TuÝ ®¸ quý cÊp 2	3	2	1	30999	1								
+	67	40800	TuÝ ®¸ quý cÊp 3	3	2	1	31000	1								
+	67	50000	Kinh M¹ch Ng©n Nh©n	3	2	1	30731	1								
+	67	50000	M¶nh Thó C­ìi	3	2	1	31386	1								
+	67	100	Linh Nghª	3	0	105	201	1					1			
+	67	100	Phong S­¬ng KiÕm	3	0	105	209	1					1			
+	67	80000	M¶nh Huy Ch­¬ng Kim Xµ Lv6	3	2	1	31384	5								
+	67	50000	M¶nh Huy Ch­¬ng Lv7	3	2	1	31398	1								
+LS_haohanD	68	100000	Tiªu KiÕp t¸n	3	2	0	141	1								
+	68	100000	b¸nh Ýt B¸c B¶o	3	2	1	1125	1								
+	68	44000	Hoµng Kim §¹i Hång Bao (kh«ng)	3	2	1	538	1				720				
+	68	3000	Huy ch­¬ng HiÖp Cèt	3	0	153	29	1					1			
+	68	3000	Huy ch­¬ng Qñy Phï	3	0	153	30	1					1			
+	68	3000	Huy ch­¬ng §»ng V©n	3	0	153	31	1					1			
+	68	50000	PhiÕu §æi Ngo¹i Trang	3	2	1	31233	1								
+	68	240000	Nh©n S©m V¹n N¨m	3	2	1	30071	5					1			
+	68	100000	Tói §¸ Quý CÊp 1	3	2	1	30998	1								
+	68	60000	TuÝ ®¸ quý cÊp 2	3	2	1	30999	1								
+	68	56800	TuÝ ®¸ quý cÊp 3	3	2	1	31000	1					1			
+	68	10000	Tói §¸ Quý CÊp 4	3	2	1	31001	1					1			
+	68	50000	Kinh M¹ch Ng©n Nh©n	3	2	1	30731	1								
+	68	50000	M¶nh Thó C­ìi	3	2	1	31386	1								
+	68	100	Linh Nghª	3	0	105	201	1					1			
+	68	100	Phong S­¬ng KiÕm	3	0	105	209	1					1			
+	68	80000	M¶nh Huy Ch­¬ng Kim Xµ Lv6	3	2	1	31384	5								
+	68	50000	M¶nh Huy Ch­¬ng Lv7	3	2	1	31398	1								
+LS_haohanC	69	20000	Bµn Long bÝch	3	2	1	1000	1				168				
+	69	50000	§¹i Nh©n s©m	3	2	0	553	1				168				
+	69	39000	Hép M¶nh Thiªn Th¹ch (Nhá)	3	2	1	30788	1				168				
+	69	40000	Phiªu Vò	3	0	105	15	1				720				
+	69	40000	Siªu Quang	3	0	105	19	1				720				
+	69	50000	B«n Tiªu	3	0	105	16	1				720				
+	69	60000	§»ng Vô	3	0	105	20	1				720				
+	69	60000	B¹ch M·	3	0	105	34	1				720				
+	69	10000	V« NgÊn Thñy	3	2	1	503	1				720				
+	69	10000	TÈy Tñy ®¬n	3	2	0	136	1				720				
+	69	10000	TÈy Tñy linh ®¬n	3	2	0	137	1				720				
+	69	20000	H¹t gièng B¸t Nh· Lín	3	2	0	398	1				168				
+	69	30000	H¹t gièng B¸t Nh· nhá	3	2	0	504	1				168				
+	69	35000	Hoµng Kim §¹i Hång Bao (kh«ng)	3	2	1	538	1				720				
+	69	1000	Huy ch­¬ng HiÖp Cèt	3	0	153	29	1					1			
+	69	1000	Huy ch­¬ng Qñy Phï	3	0	153	30	1					1			
+	69	1000	Huy ch­¬ng §»ng V©n	3	0	153	31	1					1			
+	69	49500	PhiÕu §æi Ngo¹i Trang	3	2	1	31233	1								
+	69	70000	Nh©n S©m V¹n N¨m	3	2	1	30071	10					1			
+	69	30000	Tói §¸ Quý CÊp 1	3	2	1	30998	1								
+	69	40000	TuÝ ®¸ quý cÊp 2	3	2	1	30999	1								
+	69	53000	TuÝ ®¸ quý cÊp 3	3	2	1	31000	1					1			
+	69	10000	Tói §¸ Quý CÊp 4	3	2	1	31001	1					1			
+	69	50000	Kinh M¹ch Ng©n Nh©n	3	2	1	30731	1								
+	69	50000	M¶nh Thó C­ìi	3	2	1	31386	1								
+	69	100	Linh Nghª	3	0	105	201	1					1			
+	69	100	Phong S­¬ng KiÕm	3	0	105	209	1					1			
+	69	48800	M¶nh Huy Ch­¬ng Kim Xµ Lv6	3	2	1	31384	5								
+	69	50000	M¶nh Huy Ch­¬ng Lv7	3	2	1	31398	1								
+	69	500	Hoan L¨ng Ch­¬ng	3	0	153	32	1					1			
+	69	500	§»ng Giao Ch­¬ng	3	0	153	33	1					1			
+	69	500	Khëi Ph­îng Ch­¬ng	3	0	153	34	1					1			
+	69	30000	Qu©n C«ng Ch­¬ng	3	2	1	9999	1				168				
+	69	20000	Qu©n C«ng §¹i	3	2	1	9998	1				168				
+	69	20000	Qu©n C«ng Huy Hoµng	3	2	1	9977	1				168	1			
+LS_haohanB	70	76900	Tói Thiªn Th¹ch Tinh Th¹ch	3	2	1	3356	1				168	1			
+	70	70000	Bao Thiªn Th¹ch	3	2	1	1050	1				168				
+	70	10000	Thiªn Cang LÖnh	3	2	95	204	1					1			
+	70	1000	Thiªn Cang LÖnh	3	2	95	204	2					1			
+	70	50000	Hép M¶nh Thiªn Th¹ch (Nhá)	3	2	1	30788	1				168				
+	70	100000	Hoµng Kim §¹i Hång Bao (trèng)	3	2	1	538	1				720				
+	70	30000	§Þnh Hån Thiªn Th¹ch ThÇn Th¹ch	3	2	1	1067	1				168	1			
+	70	5000	Hßa ThÞ BÝch	3	2	1	1001	1								
+	70	100000	Thiªn Th¹ch Tinh Th¹ch	3	2	1	1009	1								
+	70	20000	Huy Ch­¬ng Du HiÖp	3	0	153	26	1					1			
+	70	20000	Huy Ch­¬ng ThiÕt HuyÕt	3	0	153	27	1					1			
+	70	20000	Huy Ch­¬ng V©n Du	3	0	153	28	1					1			
+	70	2000	Huy ch­¬ng HiÖp Cèt	3	0	153	29	1					1			
+	70	2000	Huy ch­¬ng Qñy Phï	3	0	153	30	1					1			
+	70	2000	Huy ch­¬ng §»ng V©n	3	0	153	31	1					1			
+	70	50000	PhiÕu §æi Ngo¹i Trang	3	2	1	31233	1								
+	70	90000	Nh©n S©m V¹n N¨m	3	2	1	30071	10					1			
+	70	10000	Tói §¸ Quý CÊp 1	3	2	1	30998	1								
+	70	20000	TuÝ ®¸ quý cÊp 2	3	2	1	30999	1								
+	70	110000	TuÝ ®¸ quý cÊp 3	3	2	1	31000	1								
+	70	10000	Tói §¸ Quý CÊp 4	3	2	1	31001	1					1			
+	70	50000	M¶nh Thó C­ìi	3	2	1	31386	10					1			
+	70	100	Linh Nghª	3	0	105	201	1					1			
+	70	100	Phong S­¬ng KiÕm	3	0	105	209	1					1			
+	70	47900	M¶nh Huy Ch­¬ng Kim Xµ Lv6	3	2	1	31384	10					1			
+	70	50000	M¶nh Huy Ch­¬ng Lv7	3	2	1	31398	5								
+	70	1000	Hoan L¨ng Ch­¬ng	3	0	153	32	1					1			
+	70	1000	§»ng Giao Ch­¬ng	3	0	153	33	1					1			
+	70	1000	Khëi Ph­îng Ch­¬ng	3	0	153	34	1					1			
+	70	50000	Qu©n C«ng Huy Hoµng	3	2	1	9977	1				168	1			
+LS_haohanA	71	586500	Thiªn Cang LÖnh	3	2	95	204	1					1			
+	71	60000	Thiªn Cang LÖnh	3	2	95	204	2					1			
+	71	20000	Thiªn Cang LÖnh	3	2	95	204	3					1			
+	71	50000	M¶nh Thó C­ìi	3	2	1	31386	50					1			
+	71	1000	Linh Nghª	3	0	105	201	1					1			
+	71	1000	Phong S­¬ng KiÕm	3	0	105	209	1					1			
+	71	150000	M¶nh Huy Ch­¬ng Kim Xµ Lv6	3	2	1	31384	100					1			
+	71	100000	M¶nh Huy Ch­¬ng Lv7	3	2	1	31398	10								
+	71	10000	Hoan L¨ng Ch­¬ng	3	0	153	32	1					1			
+	71	10000	§»ng Giao Ch­¬ng	3	0	153	33	1					1			
+	71	10000	Khëi Ph­îng Ch­¬ng	3	0	153	34	1					1			
+	71	500	Huy Ch­¬ng S¸t Lang	3	0	153	35	1					1			
+	71	500	Huy Ch­¬ng NhuÖ Nha	3	0	153	36	1					1			
+	71	500	Huy Ch­¬ng Méng S¸t	3	0	153	37	1					1			
+LS_jin_free1	72	30000	C©y B¸t Nh· nhá	3	2	0	504	1			4	168				
+	72	10000	C©y B¸t Nh·	3	2	0	398	1			4	168				
+	72	20000	C©y Tø Linh	3	2	1	30269	1			4	168				
+	72	30000	Tu Ch©n YÕu QuyÕt	3	2	0	554	1			4	168				
+	72	50000	Tø Linh Quy Nguyªn §¬n	3	2	1	30352	1				168				
+	72	60000	Båi Nguyªn §¬n	3	2	1	30351	1				168				
+	72	50000	B¨ng Tinh Th¹ch	3	2	1	30554	1								
+	72	50000	B¹ch C©u Hoµn	3	2	1	270	1				168				
+	72	30000	TÈy T©m Th¹ch Kho¸ng	3	2	1	30536	1								
+	72	30000	LuyÖn L« ThiÕt Kho¸ng	3	2	1	30537	1								
+	72	20000	Huy Ch­¬ng Kim ChÕ ngò hµnh	3	0	153	4	1								
+	72	20000	Huy Ch­¬ng Méc ChÕ ngò hµnh	3	0	153	5	1								
+	72	20000	Huy Ch­¬ng Thñy ChÕ ngò hµnh	3	0	153	6	1								
+	72	20000	Huy Ch­¬ng Háa ChÕ ngò hµnh	3	0	153	7	1								
+	72	20000	Huy Ch­¬ng Thæ ChÕ ngò hµnh	3	0	153	8	1								
+	72	20000	Huy Ch­¬ng ¢m ChÕ ngò hµnh	3	0	153	9	1								
+	72	5000	Huy Ch­¬ng Du HiÖp	3	0	153	26	1								
+	72	5000	Huy Ch­¬ng ThiÕt HuyÕt	3	0	153	27	1								
+	72	5000	Huy Ch­¬ng V©n Du	3	0	153	28	1								
+	72	500	Huy ch­¬ng HiÖp Cèt	3	0	153	29	1					1			
+	72	500	Huy ch­¬ng Qñy Phï	3	0	153	30	1					1			
+	72	500	Huy ch­¬ng §»ng V©n	3	0	153	31	1					1			
+	72	150000	Nh©n S©m V¹n N¨m	3	2	1	30071	1								
+	72	150000	Tói §¸ Quý CÊp 1	3	2	1	30998	1								
+	72	30000	TuÝ ®¸ quý cÊp 2	3	2	1	30999	1								
+	72	87500	TuÝ ®¸ quý cÊp 3	3	2	1	31000	1								
+	72	2000	Tói §¸ Quý CÊp 4	3	2	1	31001	1					1			
+	72	10000	Kinh M¹ch Ng©n Nh©n	3	2	1	30731	1								
+	72	20000	M¶nh Thó C­ìi	3	2	1	31386	1								
+	72	20000	M¶nh Huy Ch­¬ng Kim Xµ Lv6	3	2	1	31384	1								
+	72	1000	M¶nh Huy Ch­¬ng Lv7	3	2	1	31398	1								
+	72	20000	Qu©n C«ng Ch­¬ng	3	2	1	9999	1			4	168				
+	72	10000	Qu©n C«ng §¹i	3	2	1	9998	1			4	168				
+	72	3000	Qu©n C«ng Huy Hoµng	3	2	1	9977	1			4	168	1			
+LS_jin_IB1	73	50000	C©y B¸t Nh· nhá	3	2	0	504	1				168				
+	73	10000	C©y B¸t Nh·	3	2	0	398	1				168				
+	73	50000	H¹t gièng Tø Linh	3	2	1	30269	1				168				
+	73	43300	B¹ch C©u Hoµn	3	2	1	270	1				168				
+	73	50000	§¹i B¹ch C©u hoµn	3	2	1	1007	1				168				
+	73	30000	B¹ch C©u Tiªn ®¬n	3	2	1	1008	1				168				
+	73	50000	§¹i Nh©n s©m	3	2	0	553	1				168				
+	73	40000	Hu©n ch­¬ng anh hïng	3	2	1	30499	2								
+	73	20000	Hu©n ch­¬ng anh hïng	3	2	1	30499	4								
+	73	5000	Hu©n ch­¬ng anh hïng	3	2	1	30499	10								
+	73	40000	M¶nh Thiªn Cang	3	2	1	30390	10								
+	73	10000	M¶nh Thiªn Cang	3	2	1	30390	20					1			
+	73	2000	M¶nh Thiªn Cang	3	2	1	30390	100					1			
+	73	100	Thiªn Cang LÖnh	3	2	95	204	1					1			
+	73	1000	Thiªn Th¹ch Tinh Th¹ch	3	2	1	1009	1								
+	73	5000	Hép M¶nh Thiªn Th¹ch (Nhá)	3	2	1	30788	1				720				
+	73	100	Bao Thiªn Th¹ch Tinh Th¹ch (Nhá)	3	2	1	3356	1				720	1			
+	73	5000	§Þnh Hån Thiªn Th¹ch Linh Th¹ch	3	2	1	1067	1				720	1			
+	73	5000	Thiªn Th¹ch linh th¹ch	3	2	1	1068	1				720	1			
+	73	3000	§¹i §Þnh Hån Thiªn Th¹ch Linh Th¹ch	3	2	1	1113	1				720	1			
+	73	10000	Phiªu Vò	3	0	105	15	1				720				
+	73	10000	Siªu Quang	3	0	105	19	1				720				
+	73	10000	B«n Tiªu	3	0	105	16	1				720				
+	73	10000	§»ng Vô	3	0	105	20	1				720				
+	73	10000	B¹ch M·	3	0	105	34	1				720				
+	73	1000	V« NgÊn Thñy	3	2	1	503	1				720				
+	73	5000	§Êu hån	3	2	1	1157	1				720				
+	73	20000	b¸nh Ýt B¸c B¶o	3	2	1	1125	1								
+	73	50000	Hoµng Kim §¹i Hång Bao (kh«ng)	3	2	1	538	1				720				
+	73	10000	Bµn Long BÝch	3	2	1	1000	1				720				
+	73	3000	Huy ch­¬ng HiÖp Cèt	3	0	153	29	1					1			
+	73	3000	Huy ch­¬ng Qñy Phï	3	0	153	30	1					1			
+	73	3000	Huy ch­¬ng §»ng V©n	3	0	153	31	1					1			
+	73	50000	PhiÕu §æi Ngo¹i Trang	3	2	1	31233	1								
+	73	30000	Nh©n S©m V¹n N¨m	3	2	1	30071	5								
+	73	30000	Tói §¸ Quý CÊp 1	3	2	1	30998	1								
+	73	30000	TuÝ ®¸ quý cÊp 2	3	2	1	30999	1								
+	73	20000	TuÝ ®¸ quý cÊp 3	3	2	1	31000	1								
+	73	10000	Tói §¸ Quý CÊp 4	3	2	1	31001	1					1			
+	73	50000	Kinh M¹ch Ng©n Nh©n	3	2	1	30731	1								
+	73	50000	M¶nh Thó C­ìi	3	2	1	31386	1								
+	73	100	Linh Nghª	3	0	105	201	1					1			
+	73	100	Phong S­¬ng KiÕm	3	0	105	209	1					1			
+	73	43800	M¶nh Huy Ch­¬ng Kim Xµ Lv6	3	2	1	31384	5								
+	73	50000	M¶nh Huy Ch­¬ng Lv7	3	2	1	31398	1								
+	73	500	Hoan L¨ng Ch­¬ng	3	0	153	32	1					1			
+	73	500	§»ng Giao Ch­¬ng	3	0	153	33	1					1			
+	73	500	Khëi Ph­îng Ch­¬ng	3	0	153	34	1					1			
+	73	30000	Qu©n C«ng Ch­¬ng	3	2	1	9999	1				168				
+	73	20000	Qu©n C«ng §¹i	3	2	1	9998	1				168				
+	73	20000	Qu©n C«ng Huy Hoµng	3	2	1	9977	1				168	1			
+LS_jin_free2	74	30000	C©y B¸t Nh· nhá	3	2	0	504	1			4	168				
+	74	10000	C©y B¸t Nh·	3	2	0	398	1			4	168				
+	74	20000	C©y Tø Linh	3	2	1	30269	1			4	168				
+	74	30000	Tu Ch©n YÕu QuyÕt	3	2	0	554	1			4	168				
+	74	50000	Tø Linh Quy Nguyªn §¬n	3	2	1	30352	1				168				
+	74	60000	Båi Nguyªn §¬n	3	2	1	30351	1				168				
+	74	50000	B¨ng Tinh Th¹ch	3	2	1	30554	1								
+	74	50000	B¹ch C©u Hoµn	3	2	1	270	1				168				
+	74	30000	TÈy T©m Th¹ch Kho¸ng	3	2	1	30536	1								
+	74	30000	LuyÖn L« ThiÕt Kho¸ng	3	2	1	30537	1								
+	74	20000	Huy Ch­¬ng Kim ChÕ ngò hµnh	3	0	153	4	1								
+	74	20000	Huy Ch­¬ng Méc ChÕ ngò hµnh	3	0	153	5	1								
+	74	20000	Huy Ch­¬ng Thñy ChÕ ngò hµnh	3	0	153	6	1								
+	74	20000	Huy Ch­¬ng Háa ChÕ ngò hµnh	3	0	153	7	1								
+	74	20000	Huy Ch­¬ng Thæ ChÕ ngò hµnh	3	0	153	8	1								
+	74	20000	Huy Ch­¬ng ¢m ChÕ ngò hµnh	3	0	153	9	1								
+	74	5000	Huy Ch­¬ng Du HiÖp	3	0	153	26	1								
+	74	5000	Huy Ch­¬ng ThiÕt HuyÕt	3	0	153	27	1								
+	74	5000	Huy Ch­¬ng V©n Du	3	0	153	28	1								
+	74	500	Huy ch­¬ng HiÖp Cèt	3	0	153	29	1					1			
+	74	500	Huy ch­¬ng Qñy Phï	3	0	153	30	1					1			
+	74	500	Huy ch­¬ng §»ng V©n	3	0	153	31	1					1			
+	74	150000	Nh©n S©m V¹n N¨m	3	2	1	30071	1								
+	74	150000	Tói §¸ Quý CÊp 1	3	2	1	30998	1								
+	74	30000	TuÝ ®¸ quý cÊp 2	3	2	1	30999	1								
+	74	87500	TuÝ ®¸ quý cÊp 3	3	2	1	31000	1								
+	74	2000	Tói §¸ Quý CÊp 4	3	2	1	31001	1					1			
+	74	10000	Kinh M¹ch Ng©n Nh©n	3	2	1	30731	1								
+	74	20000	M¶nh Thó C­ìi	3	2	1	31386	1								
+	74	20000	M¶nh Huy Ch­¬ng Kim Xµ Lv6	3	2	1	31384	1								
+	74	1000	M¶nh Huy Ch­¬ng Lv7	3	2	1	31398	1								
+	74	20000	Qu©n C«ng Ch­¬ng	3	2	1	9999	1			4	168				
+	74	10000	Qu©n C«ng §¹i	3	2	1	9998	1			4	168				
+	74	3000	Qu©n C«ng Huy Hoµng	3	2	1	9977	1			4	168	1			
+LS_jin_IB2	75	50000	C©y B¸t Nh· nhá	3	2	0	504	1				168				
+	75	10000	C©y B¸t Nh·	3	2	0	398	1				168				
+	75	50000	H¹t gièng Tø Linh	3	2	1	30269	1				168				
+	75	43300	B¹ch C©u Hoµn	3	2	1	270	1				168				
+	75	50000	§¹i B¹ch C©u hoµn	3	2	1	1007	1				168				
+	75	30000	B¹ch C©u Tiªn ®¬n	3	2	1	1008	1				168				
+	75	50000	§¹i Nh©n s©m	3	2	0	553	1				168				
+	75	40000	Hu©n ch­¬ng anh hïng	3	2	1	30499	2								
+	75	20000	Hu©n ch­¬ng anh hïng	3	2	1	30499	4								
+	75	5000	Hu©n ch­¬ng anh hïng	3	2	1	30499	10								
+	75	40000	M¶nh Thiªn Cang	3	2	1	30390	10								
+	75	10000	M¶nh Thiªn Cang	3	2	1	30390	20					1			
+	75	2000	M¶nh Thiªn Cang	3	2	1	30390	100					1			
+	75	100	Thiªn Cang LÖnh	3	2	95	204	1					1			
+	75	1000	Thiªn Th¹ch Tinh Th¹ch	3	2	1	1009	1								
+	75	5000	Hép M¶nh Thiªn Th¹ch (Nhá)	3	2	1	30788	1				720				
+	75	100	Bao Thiªn Th¹ch Tinh Th¹ch (Nhá)	3	2	1	3356	1				720	1			
+	75	5000	§Þnh Hån Thiªn Th¹ch Linh Th¹ch	3	2	1	1067	1				720	1			
+	75	5000	Thiªn Th¹ch linh th¹ch	3	2	1	1068	1				720	1			
+	75	3000	§¹i §Þnh Hån Thiªn Th¹ch Linh Th¹ch	3	2	1	1113	1				720	1			
+	75	10000	Phiªu Vò	3	0	105	15	1				720				
+	75	10000	Siªu Quang	3	0	105	19	1				720				
+	75	10000	B«n Tiªu	3	0	105	16	1				720				
+	75	10000	§»ng Vô	3	0	105	20	1				720				
+	75	10000	B¹ch M·	3	0	105	34	1				720				
+	75	1000	V« NgÊn Thñy	3	2	1	503	1				720				
+	75	5000	§Êu hån	3	2	1	1157	1				720				
+	75	20000	b¸nh Ýt B¸c B¶o	3	2	1	1125	1								
+	75	50000	Hoµng Kim §¹i Hång Bao (kh«ng)	3	2	1	538	1				720				
+	75	10000	Bµn Long BÝch	3	2	1	1000	1				720				
+	75	3000	Huy ch­¬ng HiÖp Cèt	3	0	153	29	1					1			
+	75	3000	Huy ch­¬ng Qñy Phï	3	0	153	30	1					1			
+	75	3000	Huy ch­¬ng §»ng V©n	3	0	153	31	1					1			
+	75	50000	PhiÕu §æi Ngo¹i Trang	3	2	1	31233	1								
+	75	30000	Nh©n S©m V¹n N¨m	3	2	1	30071	5								
+	75	30000	Tói §¸ Quý CÊp 1	3	2	1	30998	1								
+	75	30000	TuÝ ®¸ quý cÊp 2	3	2	1	30999	1								
+	75	20000	TuÝ ®¸ quý cÊp 3	3	2	1	31000	1								
+	75	10000	Tói §¸ Quý CÊp 4	3	2	1	31001	1					1			
+	75	50000	Kinh M¹ch Ng©n Nh©n	3	2	1	30731	1								
+	75	50000	M¶nh Thó C­ìi	3	2	1	31386	1								
+	75	100	Linh Nghª	3	0	105	201	1					1			
+	75	100	Phong S­¬ng KiÕm	3	0	105	209	1					1			
+	75	43800	M¶nh Huy Ch­¬ng Kim Xµ Lv6	3	2	1	31384	5								
+	75	50000	M¶nh Huy Ch­¬ng Lv7	3	2	1	31398	1								
+	75	500	Hoan L¨ng Ch­¬ng	3	0	153	32	1					1			
+	75	500	§»ng Giao Ch­¬ng	3	0	153	33	1					1			
+	75	500	Khëi Ph­îng Ch­¬ng	3	0	153	34	1					1			
+	75	30000	Qu©n C«ng Ch­¬ng	3	2	1	9999	1				168				
+	75	20000	Qu©n C«ng §¹i	3	2	1	9998	1				168				
+	75	20000	Qu©n C«ng Huy Hoµng	3	2	1	9977	1				168	1			
+TY_tong1	76	300000	M¶nh Tu Ch©n YÕu QuyÕt	3	2	1	30315	1			4					
+	76	300000	ThiÕt Tinh cÊp 1	3	2	1	30533	1			4					
+	76	150000	ThiÕt Tinh cÊp 2	3	2	1	30534	1			4					
+	76	100000	ThiÕt Tinh cÊp 3	3	2	1	30535	1			4					
+	76	150000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1								
+TY_tong2	77	50000	Tø Linh Quy Nguyªn §¬n	3	2	1	30352	1			4					
+	77	50000	Båi Nguyªn §¬n	3	2	1	30351	1			4					
+	77	100000	M¶nh Tu Ch©n YÕu QuyÕt	3	2	1	30315	1			4					
+	77	200000	ThiÕt Tinh cÊp 1	3	2	1	30533	1			4					
+	77	150000	ThiÕt Tinh cÊp 2	3	2	1	30534	1			4					
+	77	140000	ThiÕt Tinh cÊp 3	3	2	1	30535	1			4					
+	77	40000	Viªm Linh Ti	3	2	1	30671	5								
+	77	30000	Da Ma Lang	3	2	1	30672	5								
+	77	30000	Da §Þa Long	3	2	1	30673	5								
+	77	10000	HuyÒn Viªm ThiÕt	3	2	1	30670	5								
+	77	200000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1								
+TY_tong3	78	50000	Tø Linh Quy Nguyªn §¬n	3	2	1	30352	1			4					
+	78	50000	Båi Nguyªn §¬n	3	2	1	30351	1			4					
+	78	100000	M¶nh Tu Ch©n YÕu QuyÕt	3	2	1	30315	1			4					
+	78	200000	ThiÕt Tinh cÊp 1	3	2	1	30533	1			4					
+	78	150000	ThiÕt Tinh cÊp 2	3	2	1	30534	1			4					
+	78	140000	ThiÕt Tinh cÊp 3	3	2	1	30535	1			4					
+	78	50000	Viªm Linh Ti	3	2	1	30671	5								
+	78	20000	Da Ma Lang	3	2	1	30672	5								
+	78	20000	Da §Þa Long	3	2	1	30673	5								
+	78	10000	HuyÒn Viªm ThiÕt	3	2	1	30670	5								
+	78	210000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1								
+TY_yin	79	50000	B¹ch C©u Hoµn	3	2	1	270	1				168				
+	79	50000	§¹i B¹ch C©u hoµn	3	2	1	1007	1				168				
+	79	60000	B¹ch C©u Tiªn ®¬n	3	2	1	1008	1				168				
+	79	50000	§¹i Nh©n s©m	3	2	0	553	1				168				
+	79	200000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1								
+	79	70000	Hu©n ch­¬ng anh hïng	3	2	1	30499	2								
+	79	8000	Hu©n ch­¬ng anh hïng	3	2	1	30499	4								
+	79	2000	Hu©n ch­¬ng anh hïng	3	2	1	30499	10								
+	79	50000	Th¸i NhÊt LÖnh	3	2	1	30687	1					1			
+	79	50000	Th¸i NhÊt LÖnh	3	2	1	30687	2					1			
+	79	100000	Viªm Linh Ti	3	2	1	30671	50								
+	79	100000	Da Ma Lang	3	2	1	30672	50								
+	79	100000	Da §Þa Long	3	2	1	30673	50								
+	79	70000	HuyÒn Viªm ThiÕt	3	2	1	30670	30								
+	79	10000	Nãn Linh §å (ThÓ h×nh ngÉu nhiªn)	1				84								
+	79	10000	¸o Linh §å (ThÓ h×nh ngÉu nhiªn)	1				85								
+	79	10000	QuÇn Linh §å (ThÓ h×nh ngÉu nhiªn)	1				86								
+	79	5000	Linh §å Giíi (ngÉu nhiªn)	3	0	102	30221	1					1			
+	79	5000	Linh §å Giíi (ngÉu nhiªn)	3	0	102	30222	1					1			
+TY_free1	80	50000	Tu Ch©n YÕu QuyÕt	3	2	0	554	1			4	168				
+	80	30000	Thiªn Lý TruyÒn ¢m Phï ChØ	3	2	1	3508	1			4					
+	80	40000	Tø Linh Quy Nguyªn §¬n	3	2	1	30352	1			4	168				
+	80	40000	Båi Nguyªn §¬n	3	2	1	30351	1			4	168				
+	80	40000	B¨ng Tinh Th¹ch	3	2	1	30554	1			4					
+	80	40000	B¹ch C©u Hoµn	3	2	1	270	1			4	168				
+	80	50000	TÈy T©m Th¹ch Kho¸ng	3	2	1	30536	1								
+	80	60000	LuyÖn L« ThiÕt Kho¸ng	3	2	1	30537	1								
+	80	40000	HuyÒn Viªm ThiÕt	3	2	1	30670	5								
+	80	80000	ThiÕt Tinh cÊp 1	3	2	1	30533	1			4					
+	80	80000	ThiÕt Tinh cÊp 2	3	2	1	30534	1			4					
+	80	100000	ThiÕt Tinh cÊp 3	3	2	1	30535	1			4					
+	80	130000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1								
+	80	20000	Hu©n ch­¬ng anh hïng	3	2	1	30499	2								
+	80	8000	Hu©n ch­¬ng anh hïng	3	2	1	30499	4								
+	80	2000	Hu©n ch­¬ng anh hïng	3	2	1	30499	10								
+	80	60000	Viªm Linh Ti	3	2	1	30671	5								
+	80	50000	Da Ma Lang	3	2	1	30672	5								
+	80	50000	Da §Þa Long	3	2	1	30673	5								
+	80	10000	Nhãm ®Çu Linh §å (NgÉu nhiªn)	1				84								
+	80	10000	Nhãm ¸o Linh §å (NgÉu nhiªn)	1				85								
+	80	10000	Nhãm QuÇn Linh §å (t­¬ng øng)	1				86								
+TY_IB1	81	50000	B¹ch C©u Hoµn	3	2	1	270	1				168				
+	81	50000	§¹i B¹ch C©u hoµn	3	2	1	1007	1				168				
+	81	60000	B¹ch C©u Tiªn ®¬n	3	2	1	1008	1				168				
+	81	50000	§¹i Nh©n s©m	3	2	0	553	1				168				
+	81	200000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1								
+	81	70000	Hu©n ch­¬ng anh hïng	3	2	1	30499	2								
+	81	8000	Hu©n ch­¬ng anh hïng	3	2	1	30499	4								
+	81	2000	Hu©n ch­¬ng anh hïng	3	2	1	30499	10								
+	81	50000	Th¸i NhÊt LÖnh	3	2	1	30687	1					1			
+	81	50000	Th¸i NhÊt LÖnh	3	2	1	30687	2					1			
+	81	100000	Viªm Linh Ti	3	2	1	30671	50								
+	81	100000	Da Ma Lang	3	2	1	30672	50								
+	81	100000	Da §Þa Long	3	2	1	30673	50								
+	81	70000	HuyÒn Viªm ThiÕt	3	2	1	30670	30								
+	81	10000	Nãn Linh §å (ThÓ h×nh ngÉu nhiªn)	1				84								
+	81	10000	¸o Linh §å (ThÓ h×nh ngÉu nhiªn)	1				85								
+	81	10000	QuÇn Linh §å (ThÓ h×nh ngÉu nhiªn)	1				86								
+	81	5000	Linh §å Giíi (ngÉu nhiªn)	3	0	102	30221	1					1			
+	81	5000	Linh §å Giíi (ngÉu nhiªn)	3	0	102	30222	1					1			
+TY_free2	82	50000	Tu Ch©n YÕu QuyÕt	3	2	0	554	1			4	168				
+	82	30000	Thiªn Lý TruyÒn ¢m Phï ChØ	3	2	1	3508	1			4					
+	82	40000	Tø Linh Quy Nguyªn §¬n	3	2	1	30352	1			4	168				
+	82	40000	Båi Nguyªn §¬n	3	2	1	30351	1			4	168				
+	82	40000	B¨ng Tinh Th¹ch	3	2	1	30554	1			4					
+	82	40000	B¹ch C©u Hoµn	3	2	1	270	1			4	168				
+	82	50000	TÈy T©m Th¹ch Kho¸ng	3	2	1	30536	1								
+	82	60000	LuyÖn L« ThiÕt Kho¸ng	3	2	1	30537	1								
+	82	40000	HuyÒn Viªm ThiÕt	3	2	1	30670	10								
+	82	80000	ThiÕt Tinh cÊp 1	3	2	1	30533	1			4					
+	82	80000	ThiÕt Tinh cÊp 2	3	2	1	30534	1			4					
+	82	100000	ThiÕt Tinh cÊp 3	3	2	1	30535	1			4					
+	82	130000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1								
+	82	20000	Hu©n ch­¬ng anh hïng	3	2	1	30499	2								
+	82	8000	Hu©n ch­¬ng anh hïng	3	2	1	30499	4								
+	82	2000	Hu©n ch­¬ng anh hïng	3	2	1	30499	10								
+	82	60000	Viªm Linh Ti	3	2	1	30671	5								
+	82	50000	Da Ma Lang	3	2	1	30672	5								
+	82	50000	Da §Þa Long	3	2	1	30673	5								
+	82	10000	Nhãm Nãn Linh §å (t­¬ng øng)	1				84								
+	82	10000	Nhãm ¸o Linh §å (t­¬ng øng)	1				85								
+	82	10000	Nhãm QuÇn Linh §å (t­¬ng øng)	1				86								
+TY_IB2	83	50000	B¹ch C©u Hoµn	3	2	1	270	1				168				
+	83	50000	§¹i B¹ch C©u hoµn	3	2	1	1007	1				168				
+	83	60000	B¹ch C©u Tiªn ®¬n	3	2	1	1008	1				168				
+	83	50000	§¹i Nh©n s©m	3	2	0	553	1				168				
+	83	200000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1								
+	83	70000	Hu©n ch­¬ng anh hïng	3	2	1	30499	2								
+	83	8000	Hu©n ch­¬ng anh hïng	3	2	1	30499	4								
+	83	2000	Hu©n ch­¬ng anh hïng	3	2	1	30499	10								
+	83	50000	Th¸i NhÊt LÖnh	3	2	1	30687	1					1			
+	83	50000	Th¸i NhÊt LÖnh	3	2	1	30687	2					1			
+	83	100000	Viªm Linh Ti	3	2	1	30671	50								
+	83	100000	Da Ma Lang	3	2	1	30672	50								
+	83	100000	Da §Þa Long	3	2	1	30673	50								
+	83	70000	HuyÒn Viªm ThiÕt	3	2	1	30670	30								
+	83	10000	Nãn Linh §å (ThÓ h×nh ngÉu nhiªn)	1				84								
+	83	10000	¸o Linh §å (ThÓ h×nh ngÉu nhiªn)	1				85								
+	83	10000	QuÇn Linh §å (ThÓ h×nh ngÉu nhiªn)	1				86								
+	83	5000	Linh §å Giíi (ngÉu nhiªn)	3	0	102	30221	1					1			
+	83	5000	Linh §å Giíi (ngÉu nhiªn)	3	0	102	30222	1					1			
+lingtu_tou	84	250000	Linh §å M·o	3	0	103	30235	1								
+	84	250000	Linh §å M·o	3	0	103	30236	1								
+	84	250000	Linh §å M·o	3	0	103	30237	1								
+	84	250000	Linh §å M·o	3	0	103	30238	1								
+lingtu_yi	85	250000	Linh §å Y	3	0	100	30235	1								
+	85	250000	Linh §å Y	3	0	100	30236	1								
+	85	250000	Linh §å Y	3	0	100	30237	1								
+	85	250000	Linh §å Y	3	0	100	30238	1								
+lingtu_ku	86	83333	Linh §å Trang (th­¬ng)	3	0	101	30235	1								
+	86	83333	Linh §å Trang (th­¬ng)	3	0	101	30236	1								
+	86	83333	Linh §å Trang (th­¬ng)	3	0	101	30237	1								
+	86	83333	Linh §å Trang (th­¬ng)	3	0	101	30238	1								
+	86	83333	Linh §å Trang (ngo¹i)	3	0	101	30239	1								
+	86	83333	Linh §å Trang (ngo¹i)	3	0	101	30240	1								
+	86	83333	Linh §å Trang (ngo¹i)	3	0	101	30241	1								
+	86	83333	Linh §å Trang (ngo¹i)	3	0	101	30242	1								
+	86	83334	Linh §å Trang (néi)	3	0	101	30243	1								
+	86	83334	Linh §å Trang (néi)	3	0	101	30244	1								
+	86	83334	Linh §å Trang (néi)	3	0	101	30245	1								
+	86	83334	Linh §å Trang (néi)	3	0	101	30246	1								
+tree_cherry3	87		exp	4				500000								
+tree_peach3	88		exp	4				500000								
+tree_pepper3	89		exp	4				500000								
+tree_metasequoia3	90		exp	4				500000								
+tree_PurpleSandalwood2	91		exp	4				1000000								
+	91		L«i Viªm Th¹ch	3	2	1	30683	1								
+	91		§é cèng hiÕn thÕ lùc	15				10								
+tree_YellowSandalwood2	92		exp	4				1000000								
+	92		§é cèng hiÕn thÕ lùc	15				10								
+	92		L«i Viªm Th¹ch	3	2	1	30683	1								
+tree_wisteria2	93		exp	4				1000000								
+	93		L«i Viªm Th¹ch	3	2	1	30683	1								
+	93		§é cèng hiÕn thÕ lùc	15				10								
+tree_ginkgo2	94		exp	4				1000000								
+	94		L«i Viªm Th¹ch	3	2	1	30683	1								
+	94		§é cèng hiÕn thÕ lùc	15				10								
+tree_fig1	95		exp	4				2000000								
+	95		Hµo HiÖp LÖnh	3	2	95	2084	1								
+	95		§é cèng hiÕn thÕ lùc	15				20								
+tree_bodhi1	96		exp	4				2000000								
+	96		Hµo HiÖp LÖnh	3	2	95	2084	1								
+	96		§é cèng hiÕn thÕ lùc	15				20								
+tree_mature3	97	850000	B¨ng T©m Ngäc Ph¸ch_Tam phÈm	3	2	95	910	1								
+	97	150000	Tó Tr¹ch Ngäc Ph¸ch_NhÞ phÈm	3	2	95	911	1								
+tree_mature2	98	850000	Tó Tr¹ch Ngäc Ph¸ch_NhÞ phÈm	3	2	95	911	1								
+	98	150000	MÆc Tµ Ngäc Ph¸ch_NhÊt phÈm	3	2	95	912	1								
+tree_mature1	99	850000	MÆc Tµ Ngäc Ph¸ch_NhÊt phÈm	3	2	95	912	1								
+	99	150000	H­ Kh«ng Ngäc Ph¸ch_§Æc biÖt	3	2	95	913	1								
+JadeSoul3	100		exp	4				2000000								
+	100		L«i Viªm Th¹ch	3	2	1	30683	1								
+JadeSoul2	101		exp	4				3000000								
+	101		L«i Viªm Th¹ch	3	2	1	30683	1								
+JadeSoul1	102		exp	4				4000000								
+	102		L«i Viªm Th¹ch	3	2	1	30683	2								
+JadeSoul0	103		exp	4				8000000								
+	103		Hµo HiÖp LÖnh	3	2	95	2084	1								
+	103		L«i Viªm Th¹ch	3	2	1	30683	2								
+tree_mission	104		exp	4				3000000								
+	104		Danh väng thÕ lùc 	14				10								
+	104		L«i Viªm Th¹ch	3	2	1	30683	2								
+	104		Hµo HiÖp LÖnh	3	2	95	2084	1								
+tree_steal	105		exp	4				3000000								
+	105		Danh väng thÕ lùc 	14				10								
+	105		Hµo HiÖp LÖnh	3	2	95	2084	1								
+	105		L«i Viªm Th¹ch	3	2	1	30683	2								
+hunter_a	106		exp	4				2000000								
+	106		Danh väng thÕ lùc 	14				10								
+	106		L«i Viªm Th¹ch	3	2	1	30683	1								
+hunter_b	107		exp	4				3500000								
+	107		Danh väng thÕ lùc 	14				10								
+	107		L«i Viªm Th¹ch	3	2	1	30683	2								
+	107		L«i Viªm Th¹ch	3	2	1	30683	1								
+hunter_c	108		exp	4				5000000								
+	108		Danh väng thÕ lùc 	14				20								
+	108		L«i Viªm Th¹ch	3	2	1	30683	2								
+	108		L«i Viªm Th¹ch	3	2	1	30683	3								
+	108		XÎng Kho B¸u	3	2	95	927	1								
+hunter_d	109		exp	4				10000000								
+	109		Danh väng thÕ lùc 	14				20								
+	109		Hµo HiÖp LÖnh	3	2	95	2084	2								
+	109		L«i Viªm Th¹ch	3	2	1	30683	1								
+	109		L«i Viªm Th¹ch	3	2	1	30683	4								
+	109		XÎng Kho B¸u	3	2	95	927	1								
+StealingBooks_a	110		exp	4				10000000								
+	110		Danh väng thÕ lùc 	14				20								
+	110		L«i Viªm Th¹ch	3	2	1	30683	4								
+	110		Hµo HiÖp LÖnh	3	2	95	2084	4								
+	110		§é cèng hiÕn thÕ lùc	15				40								
+StealingBooks_b	111		exp	4				5000000								
+	111		Danh väng thÕ lùc 	14				20								
+	111		L«i Viªm Th¹ch	3	2	1	30683	4								
+	111		Hµo HiÖp LÖnh	3	2	95	2084	3								
+	111		§é cèng hiÕn thÕ lùc	15				40								
+StealingBooks_c	112		exp	4				4000000								
+	112		Danh väng thÕ lùc 	14				20								
+	112		L«i Viªm Th¹ch	3	2	1	30683	3								
+	112		Hµo HiÖp LÖnh	3	2	95	2084	2								
+	112		§é cèng hiÕn thÕ lùc	15				30								
+StealingBooks_d	113		exp	4				3000000								
+	113		Danh väng thÕ lùc 	14				20								
+	113		L«i Viªm Th¹ch	3	2	1	30683	3								
+	113		Hµo HiÖp LÖnh	3	2	95	2084	1								
+	113		§é cèng hiÕn thÕ lùc	15				30								
+StealingBooks_e	114		exp	4				2000000								
+	114		Danh väng thÕ lùc 	14				10								
+	114		L«i Viªm Th¹ch	3	2	1	30683	2								
+	114		§é cèng hiÕn thÕ lùc	15				20								
+StealingBooks_f	115		exp	4				1000000								
+	115		Danh väng thÕ lùc 	14				10								
+	115		L«i Viªm Th¹ch	3	2	1	30683	2								
+StealingBooks_g	116		exp	4				500000								
+	116		Danh väng thÕ lùc 	14				10								
+	116		L«i Viªm Th¹ch	3	2	1	30683	1								
+StealingBooks_h	117	500000	T©m Kinh MËt TruyÒn Tµng KiÕm cÊp 99	3	2	95	823	1								
+	117	500000	B¸ch HiÓu Sinh BÝ Ph¸p cÊp 99	3	2	95	824	1								
+treasure_a	118		exp	4				500000								
+	118		L«i Viªm Th¹ch	3	2	1	30683	1								
+treasure_b	119		exp	4				1000000								
+	119		L«i Viªm Th¹ch	3	2	1	30683	2								
+	119		§æi Tiªu LÖnh	3	2	95	918	1								
+treasure_c	120		§æi Tiªu LÖnh	3	2	95	918	1								
+	120		L«i Viªm Th¹ch	3	2	1	30683	4								
+	120		exp	4				1500000								
+	120		Hµo HiÖp LÖnh	3	2	95	2084	1								
+treasure_d	121		exp	4				3000000								
+	121		L«i Viªm Th¹ch	3	2	1	30683	3								
+	121		§æi Tiªu LÖnh	3	2	95	918	2								
+	121		Hµo HiÖp LÖnh	3	2	95	2084	1								
+treasure_e	122		exp	4				3000000								
+	122		L«i Viªm Th¹ch	3	2	1	30683	3								
+	122		§æi Tiªu LÖnh	3	2	95	918	2								
+	122		Hµo HiÖp LÖnh	3	2	95	2084	1								
+treasure_f	123		exp	4				3000000								
+	123		§æi Tiªu LÖnh	3	2	95	918	2								
+	123		Hµo HiÖp LÖnh	3	2	95	2084	1								
+	123		L«i Viªm Th¹ch	3	2	1	30683	3								
+treasure_g	124		PhiÕu §æi Ngo¹i Trang	3	2	1	31233	2			4					
+	124		exp	4				8000000								
+	124		Håi Tiªn §¬n	3	2	1	30847	1								
+	124		§æi Tiªu LÖnh	3	2	95	918	3								
+	124		Hµo HiÖp LÖnh	3	2	95	2084	3								
+treasure_mission1	125		exp	4				1000000								
+	125		Danh väng thÕ lùc 	14				10								
+treasure_mission2a	126		§é cèng hiÕn thÕ lùc	15				20								
+treasure_mission2b	145	500000	L«i Viªm Th¹ch	3	2	1	30683	2								
+	145	500000	Kh«ng	0				1								
+treasure_mission2c	146	500000	Hµo HiÖp LÖnh	3	2	95	2084	1								
+	146	500000	Kh«ng	0				1								
+treasure_mission2d	147	500000	L«i Viªm Th¹ch	3	2	1	30683	2								
+	147	500000	Kh«ng	0				1								
+preach_roast	127		exp	4				100000								
+preach_relic	128	600000	exp	4				1000000								
+	128	50000	Kim L¨ng Töu	3	2	95	822	1								
+	128	50000	Hµo HiÖp LÖnh	3	2	95	2084	1								
+	128	40000	T©m Kinh MËt TruyÒn Tµng KiÕm cÊp 99	3	2	95	823	1								
+	128	10000	B¸ch HiÓu Sinh BÝ Ph¸p cÊp 99	3	2	95	824	1								
+	128	30000	L«i Viªm Th¹ch	3	2	1	30683	1								
+	128	40000	Ch©u B¸u T©y H¹	3	2	95	928	1								
+	128	40000	T¬ Lôa §¹i Lý	3	2	95	929	1								
+	128	40000	Da L«ng Thæ Phån	3	2	95	930	1								
+	128	100000	Ng­ng Tinh Lé	3	2	1	30804	1								
+preach_HeartSutra99	129		exp	4				4000000								
+	129		T©m Kinh Tµng KiÕm CÊp 99-PhÇn th­ëng 2	1				161								
+	129		T©m Kinh Tµng KiÕm CÊp 99-PhÇn th­ëng 3	1				162								
+preach_arcane99	130		exp	4				8000000								
+	130		B¸ch HiÓu Sinh BÝ Ph¸p CÊp 99-PhÇn th­ëng 2	1				163								
+	130		B¸ch HiÓu Sinh BÝ Ph¸p CÊp 99-PhÇn th­ëng 3	1				164								
+npc_legion_disappear	131		exp	4				8000000								
+	131		Hµo HiÖp LÖnh	3	2	95	2084	1								
+	131		§é cèng hiÕn thÕ lùc	15				20								
+npc_legion_package	132		Thiªn Kiªu LÖnh	3	2	97	236	3								
+	132		Hµo HiÖp LÖnh	3	2	95	2084	5								
+	132		Vâ L©m Minh TÝn VËt	3	2	95	935	10								
+npc_legion_bosskill	133		exp	4				8000000								
+	133		Hµo HiÖp LÖnh	3	2	95	2084	1								
+	133		§é cèng hiÕn thÕ lùc	15				20								
+npc_legion_bosspackage	134		Thiªn Kiªu LÖnh	3	2	97	236	3								
+	134		Vâ L©m Minh TÝn VËt	3	2	95	935	10								
+	134		Hµo HiÖp LÖnh	3	2	95	2084	5								
+ChargeDart_a	135		exp	4				40000000								
+	135		TiÒn vâ l©m	5				40000								
+	135		Danh väng thÕ lùc 	14				20								
+	135		§æi Tiªu LÖnh	3	2	95	918	1								
+ChargeDart_b	136		exp	4				80000000								
+	136		TiÒn vâ l©m	5				80000								
+	136		Danh väng thÕ lùc 	14				30								
+	136		§æi Tiªu LÖnh	3	2	95	918	2								
+	136		Hµo HiÖp LÖnh	3	2	95	2084	1								
+ChargeDart_c	137		exp	4				120000000								
+	137		TiÒn vâ l©m	5				120000								
+	137		Danh väng thÕ lùc 	14				40								
+	137		L«i Viªm Th¹ch	3	2	1	30683	2								
+	137		§æi Tiªu LÖnh	3	2	95	918	3								
+	137		Hµo HiÖp LÖnh	3	2	95	2084	2								
+ChargeDart_d	138		exp	4				160000000								
+	138		TiÒn vâ l©m	5				240000								
+	138		Danh väng thÕ lùc 	14				50								
+	138		L«i Viªm Th¹ch	3	2	1	30683	4								
+	138		Hµo HiÖp LÖnh	3	2	95	2084	3								
+	138		§æi Tiªu LÖnh	3	2	95	918	4								
+ChargeDart_e	139		exp	4				360000000								
+	139		TiÒn vâ l©m	5				480000								
+	139		Danh väng thÕ lùc 	14				60								
+	139		L«i Viªm Th¹ch	3	2	1	30683	6								
+	139		Hµo HiÖp LÖnh	3	2	95	2084	4								
+	139		Thiªn Kiªu LÖnh	3	2	97	236	1			4					
+	139		§æi Tiªu LÖnh	3	2	95	918	5								
+robbery_a	140		exp	4				40000000								
+	140		TiÒn vâ l©m	5				40000								
+	140		Danh väng thÕ lùc 	14				20								
+	140		§æi Tiªu LÖnh	3	2	95	918	1								
+robbery_b	141		exp	4				80000000								
+	141		TiÒn vâ l©m	5				80000								
+	141		Danh väng thÕ lùc 	14				30								
+	141		§æi Tiªu LÖnh	3	2	95	918	2								
+	141		Hµo HiÖp LÖnh	3	2	95	2084	1								
+robbery_c	142		exp	4				120000000								
+	142		TiÒn vâ l©m	5				120000								
+	142		Danh väng thÕ lùc 	14				40								
+	142		§æi Tiªu LÖnh	3	2	95	918	3								
+	142		L«i Viªm Th¹ch	3	2	1	30683	2								
+	142		Hµo HiÖp LÖnh	3	2	95	2084	2								
+robbery_d	143		exp	4				160000000								
+	143		TiÒn vâ l©m	5				240000								
+	143		Danh väng thÕ lùc 	14				50								
+	143		§æi Tiªu LÖnh	3	2	95	918	4								
+	143		L«i Viªm Th¹ch	3	2	1	30683	4								
+	143		Hµo HiÖp LÖnh	3	2	95	2084	3								
+robbery_e	144		exp	4				360000000								
+	144		TiÒn vâ l©m	5				480000								
+	144		Danh väng thÕ lùc 	14				60								
+	144		§æi Tiªu LÖnh	3	2	95	918	5								
+	144		L«i Viªm Th¹ch	3	2	1	30683	6								
+	144		Thiªn Kiªu LÖnh	3	2	97	236	1			4					
+	144		Hµo HiÖp LÖnh	3	2	95	2084	4								
+TreePlanting	148		Kinh nghiÖm	4				3000000								
+	148		Danh väng thÕ lùc 	14				10								
+	148		Hµo HiÖp LÖnh	3	2	95	2084	1								
+	148		L«i Viªm Th¹ch	3	2	1	30683	2								
+TreePlanting_share	149	400000	Kinh nghiÖm	4				3000000								
+	149	350000	L«i Viªm Th¹ch	3	2	1	30683	1								
+	149	100000	Hµo HiÖp LÖnh	3	2	95	2084	1								
+	149	50000	Ch©u B¸u T©y H¹	3	2	95	928	1								
+	149	50000	T¬ Lôa §¹i Lý	3	2	95	929	1								
+	149	50000	Da L«ng Thæ Phån	3	2	95	930	1								
+preach_HeartSutra99_2	161	200000	Kim L¨ng Töu	3	2	95	822	1								
+	161	200000	§æi Tiªu LÖnh	3	2	95	918	1								
+	161	200000	L«i Viªm Th¹ch	3	2	1	30683	1								
+	161	200000	L«i Viªm Th¹ch	3	2	1	30683	2								
+	161	200000	Vâ L©m Minh TÝn VËt	3	2	95	935	1								
+preach_HeartSutra99_3	162	330000	Ch©u B¸u T©y H¹	3	2	95	928	2								
+	162	330000	T¬ Lôa §¹i Lý	3	2	95	929	2								
+	162	330000	Da L«ng Thæ Phån	3	2	95	930	2								
+	162	10000	Vâ L©m Minh TÝn VËt	3	2	95	935	1								
+preach_arcane99_2	163	200000	Kim L¨ng Töu	3	2	95	822	2								
+	163	200000	§æi Tiªu LÖnh	3	2	95	918	2								
+	163	200000	Hµo HiÖp LÖnh	3	2	95	2084	1								
+	163	200000	L«i Viªm Th¹ch	3	2	1	30683	2								
+	163	200000	Vâ L©m Minh Th­ BiÓu D­¬ng	3	2	95	936	1								
+preach_arcane99_3	164	330000	Ch©u B¸u T©y H¹	3	2	95	928	3								
+	164	330000	T¬ Lôa §¹i Lý	3	2	95	929	3								
+	164	330000	Da L«ng Thæ Phån	3	2	95	930	3								
+	164	10000	Vâ L©m Minh Th­ BiÓu D­¬ng	3	2	95	936	1								
+Faction_Reputation_2000	165		Kim L¨ng Töu	3	2	95	822	1			4					
+	165		Sinh Sinh Hãa T¸n	3	1	0	16	99			4					
+	165		H¾c Ngäc §o¹n Tôc Cao	3	1	0	6	99			4					
+	165		V¹n VËt Quy Nguyªn §¬n	3	1	0	11	99			4					
+Faction_Reputation_6000	166		V« Hoa Tö_Lo¹i 1	3	2	95	908	1								
+	166		Tiªu KiÕp t¸n	3	2	0	141	3			4					
+Faction_Reputation_12000	167		Bå §Ò Tö_Lo¹i 1	3	2	95	909	1								
+	167		XÎng Kho B¸u	3	2	95	927	3								
+	167		Hµo HiÖp LÖnh	3	2	95	2084	10								
+Faction_Reputation_20000	168		Linh ThiÕt	3	2	1	30681	10			4					
+	168		Th¸i H­ Hãa H×nh §¬n	3	2	95	914	2								
+	168		Hµo HiÖp LÖnh	3	2	95	2084	20								
+Faction_Reputation_40000	169		Th¸i NhÊt LÖnh	3	2	1	30687	10			4					
+	169		Hµo HiÖp LÖnh	3	2	95	2084	30								
+	169		PhiÕu §æi MËt TÞch Siªu CÊp	3	2	1	30879	1								
+Contribute_Point_900	170		exp	4				10000000								
+	170		§æi Tiªu LÖnh	3	2	95	918	10								
+Contribute_Point_1200	171		exp	4				20000000								
+	171		L«i Viªm Th¹ch	3	2	1	30683	10								
+Contribute_Point_1500	172		exp	4				30000000								
+	172		Hoµng §µn Tiªn Chñng_Lo¹i 2	3	2	95	905	1								
+	172		Kim L¨ng Töu	3	2	95	822	1								
+Contribute_Point_2100	173		exp	4				50000000								
+	173		Hµo HiÖp LÖnh	3	2	95	2084	5								
+	173		L«i Viªm Th¹ch	3	2	1	30683	20								
+Contribute_Point_5000	174		exp	4				80000000								
+	174		Hµo HiÖp LÖnh	3	2	95	2084	10								
+	174		L«i Viªm Th¹ch	3	2	1	30683	50								
+JadeSoul2_0	175	500000	Hµo HiÖp LÖnh	3	2	95	2084	1								
+	175	500000	Kh«ng	0				1								
+JadeSoul1_0	176	750000	Hµo HiÖp LÖnh	3	2	95	2084	1								
+	176	250000	Kh«ng	0				1								
+JadeSoul0_0	177	500000	Vâ L©m Minh Th­ BiÓu D­¬ng	3	2	95	936	1								
+	177	500000	Kh«ng	0				1								
+Dart_Insurance_a	178		exp	4				800000								
+	178		Danh väng thÕ lùc 	14				5								
+Dart_Insurance_b	179		exp	4				1600000								
+	179		Danh väng thÕ lùc 	14				10								
+Dart_Insurance_c	180		exp	4				2800000								
+	180		Danh väng thÕ lùc 	14				15								
+	180		L«i Viªm Th¹ch	3	2	1	30683	1								
+	180		Hµo HiÖp LÖnh	3	2	95	2084	1								
+Dart_Insurance_d	181		exp	4				4800000								
+	181		Danh väng thÕ lùc 	14				20								
+	181		L«i Viªm Th¹ch	3	2	1	30683	1								
+	181		Hµo HiÖp LÖnh	3	2	95	2084	1								
+	181		§æi Tiªu LÖnh	3	2	95	918	1								
+Dart_Insurance_e	182		exp	4				8000000								
+	182		Danh väng thÕ lùc 	14				25								
+	182		L«i Viªm Th¹ch	3	2	1	30683	3								
+	182		Hµo HiÖp LÖnh	3	2	95	2084	1								
+	182		§æi Tiªu LÖnh	3	2	95	918	2								
+gem_Lv1	183	250000	HuyÕtTrÝchTh¹ch Lv1	3	2	22	101	1								
+	183	250000	NguyÖtB¹chTh¹ch Lv1	3	2	22	201	1								
+	183	250000	Hæ Ph¸ch Th¹ch CÊp 1	3	2	22	301	1								
+	183	250000	H¾c DiÖu Th¹ch CÊp 1	3	2	22	401	1								
+gem_Lv2	184	250000	HuyÕtTrÝchTh¹ch Lv2	3	2	22	102	1								
+	184	250000	NguyÖtB¹chTh¹ch Lv2	3	2	22	202	1								
+	184	250000	Hæ Ph¸ch Th¹ch CÊp 2	3	2	22	302	1								
+	184	250000	H¾c DiÖu Th¹ch CÊp 2	3	2	22	402	1								
+gem_Lv3	185	250000	HuyÕtTrÝchTh¹ch Lv3	3	2	22	103	1								
+	185	250000	NguyÖtB¹chTh¹ch Lv3	3	2	22	203	1								
+	185	250000	Hæ Ph¸ch Th¹ch CÊp 3	3	2	22	303	1								
+	185	250000	H¾c DiÖu Th¹ch CÊp 3	3	2	22	403	1								
+Bht_Charge	186	100000	BÝch Tóy	3	2	1	30922	1			4					
+	186	150000	LÖnh bµi ®iÓm tÝch lòy Long Hæ §­êng	3	2	1	30924	1			4					
+	186	100000	LÖnh bµi ®iÓm tÝch lòy Long Hæ §­êng	3	2	1	30924	3			4					
+	186	60000	LÖnh bµi ®iÓm tÝch lòy Long Hæ §­êng	3	2	1	30924	5			4					
+	186	20000	LÖnh bµi ®iÓm tÝch lòy Long Hæ §­êng	3	2	1	30924	10			4					
+	186	200000	ThiÕt Tinh cÊp 1	3	2	1	30533	1			4					
+	186	150000	ThiÕt Tinh cÊp 2	3	2	1	30534	1			4					
+	186	100000	ThiÕt Tinh cÊp 3	3	2	1	30535	1			4					
+	186	60000	TÈy T©m Th¹ch Kho¸ng	3	2	1	30536	1			4					
+	186	60000	LuyÖn L« ThiÕt Kho¸ng	3	2	1	30537	1			4					
+Bht_Free	187		exp	4				10000000								
+	187		PhÇn th­ëng Thiªn D­¬ng b¶o r­¬ng 	1				188								
+Bht_Free_a	188	250000	ThiÕt Tinh cÊp 1	3	2	1	30533	1			4					
+	188	140000	ThiÕt Tinh cÊp 2	3	2	1	30534	1			4					
+	188	10000	Danh s¸ch kh«ng ®Çy ®ñ	3	2	1	30910	1			4					
+	188	150000	Viªm Linh Ti	3	2	1	30671	10			4					
+	188	150000	Da Ma Lang	3	2	1	30672	10			4					
+	188	150000	Da §Þa Long	3	2	1	30673	10			4					
+	188	150000	HuyÒn Viªm ThiÕt	3	2	1	30670	10			4					
+worldboss_sly	189		exp	4				10000								
+	189		Sôt gi¶m vËt phÈm	1				190								
+worldboss_sly_a	190	100000	Danh s¸ch kh«ng ®Çy ®ñ	3	2	1	30910	1			0					
+	190	500000	HiÖp NghÜa Chi Chøng	3	2	1	30912	1			0					
+	190	400000	Kh«ng	0				1								
+worldboss_sly1	191		Danh s¸ch kh«ng ®Çy ®ñ	3	2	1	30910	2			0					
+	191		HiÖp NghÜa Chi Chøng	3	2	1	30912	20			0					
+	191		exp	4				5000000								
+worldboss_sly2	192		Danh s¸ch kh«ng ®Çy ®ñ	3	2	1	30910	3			0					
+	192		HiÖp NghÜa Chi Chøng	3	2	1	30912	30			0					
+	192		exp	4				8000000								
+worldboss_sly3	193		Danh s¸ch kh«ng ®Çy ®ñ	3	2	1	30910	10			0					
+	193		HiÖp NghÜa Chi Chøng	3	2	1	30912	50			0					
+	193		Thiªn Kiªu LÖnh	3	2	97	236	5			0					
+	193		exp	4				10000000								
+worldboss_sly4	194		exp	4				2000000								
+	194		Danh väng thÕ lùc 	14				20								
+	194		PhÇn th­ëng vËt phÈm	1				195								
+worldboss_sly4_a	195	50000	Ch©u B¸u T©y H¹	3	2	95	928	1			0					
+	195	50000	T¬ Lôa §¹i Lý	3	2	95	929	1			0					
+	195	50000	Da L«ng Thæ Phån	3	2	95	930	1			0					
+	195	50000	Hµo HiÖp LÖnh	3	2	95	2084	1			4					
+	195	400000	L«i Viªm Th¹ch	3	2	1	30683	1			0					
+	195	50000	Ng­ng Tinh Lé	3	2	1	30804	1			0					
+	195	50000	§æi Tiªu LÖnh	3	2	95	918	1			0					
+	195	20000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1			0					
+	195	70000	Viªm Linh Ti	3	2	1	30671	10			0					
+	195	70000	HuyÒn Viªm ThiÕt	3	2	1	30670	10			0					
+	195	70000	Da Ma Lang	3	2	1	30672	10			0					
+	195	70000	Da §Þa Long	3	2	1	30673	10			0					
+adventureboss_sly	196		exp	4				1000000								
+	196		PhÇn th­ëng vËt phÈm	1				197								
+adventureboss_sly_a	197	250000	Da Ma Lang	3	2	1	30672	50			0					
+	197	250000	Viªm Linh Ti	3	2	1	30671	50			0					
+	197	250000	HuyÒn Viªm ThiÕt	3	2	1	30670	50			0					
+	197	250000	Da §Þa Long	3	2	1	30673	50			0					
+act_11_normal	207	20000	§æi Tiªu LÖnh	3	2	95	918	1								
+	207	20000	Ng­ng Tinh Lé	3	2	1	30804	1								
+	207	20000	ThiÕt Tinh cÊp 1	3	2	1	30533	1								
+	207	20000	Tiªu KiÕp t¸n	3	2	0	141	1								
+	207	40000	Huy Ch­¬ng §ång ChÕ	3	0	153	1	1								
+	207	40000	Giµy V¶i Th«	3	0	154	1	1								
+	207	40000	¸o Choµng T¹o Bè	3	0	152	1	1								
+	207	10000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1								
+	207	20000	LuyÖn L« ThiÕt Kho¸ng	3	2	1	30537	1								
+	207	20000	TÈy T©m Th¹ch Kho¸ng	3	2	1	30536	1								
+	207	70000	Da Ma Lang	3	2	1	30672	10								
+	207	70000	Da §Þa Long	3	2	1	30673	10								
+	207	70000	Viªm Linh Ti	3	2	1	30671	10								
+	207	70000	HuyÒn Viªm ThiÕt	3	2	1	30670	10								
+	207	70000	Tiªn ¢m Th¹ch	3	2	1	30674	10								
+	207	40000	Huy Ch­¬ng ThiÕt ChÕ	3	0	153	2	1								
+	207	40000	¸o Choµng CÈm §o¹n	3	0	152	2	1								
+	207	20000	Kim L¨ng Töu	3	2	95	822	1								
+	207	20000	§¸ quý cÊp 1	1				24								
+	207	20000	§¸ quý cÊp 1	1				24								
+	207	20000	§¸ quý cÊp 1	1				24								
+	207	20000	§¸ quý cÊp 1	1				24								
+	207	5000	Th¶o Ph¹t Lªnh 	3	2	1	30915	1								
+	207	100000	®iÓm kinh nghiÖm	4				1000000								
+	207	80000	®iÓm kinh nghiÖm	4				2000000								
+	207	35000	®iÓm kinh nghiÖm	4				5000000								
+act_11_ib	208	20000	Th¸i NhÊt LÖnh	3	2	1	30687	1								
+	208	50000	Hµo HiÖp LÖnh	3	2	95	2084	2								
+	208	50000	L«i Viªm Th¹ch	3	2	1	30683	2								
+	208	70000	H¾c Ngäc §o¹n Tôc Cao	3	1	0	6	1								
+	208	70000	Sinh Sinh Hãa T¸n	3	1	0	16	1								
+	208	70000	V¹n VËt Quy Nguyªn §¬n	3	1	0	11	1								
+	208	34200	Cöu chuyÓn håi hån ®¬n	3	1	0	32	1								
+	208	10000	Linh Ngäc	3	2	1	30682	1								
+	208	10000	Linh ThiÕt	3	2	1	30681	1								
+	208	40000	B¹ch C©u Hoµn	3	2	1	270	1				168				
+	208	20000	§¹i B¹ch C©u hoµn	3	2	1	1007	1				168				
+	208	10000	B¹ch C©u Tiªn ®¬n	3	2	1	1008	1				168				
+	208	30000	Qu©n C«ng Ch­¬ng	3	2	1	9999	1				168				
+	208	20000	Qu©n C«ng §¹i	3	2	1	9998	1				168				
+	208	5000	Qu©n C«ng Huy Hoµng	3	2	1	9977	1				168				
+	208	10000	Bµn Long bÝch	3	2	1	1000	1				168				
+	208	100	Hßa ThÞ BÝch	3	2	1	1001	1				168				
+	208	30000	Tu Ch©n YÕu QuyÕt	3	2	0	554	1				168				
+	208	200	Thiªn Th¹ch linh th¹ch	3	2	1	1068	1				168				
+	208	300	§Þnh Hån Thiªn Th¹ch Linh Th¹ch	3	2	1	1067	1				168				
+	208	100	§¹i §Þnh Hån Thiªn Th¹ch Linh Th¹ch	3	2	1	1113	1				168				
+	208	40000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1								
+	208	100	Thiªn Th¹ch Tinh Th¹ch	3	2	1	1009	1								
+	208	50000	§¸ quý cÊp 1	1				24								
+	208	50000	§¸ quý cÊp 1	1				24								
+	208	50000	§¸ quý cÊp 1	1				24								
+	208	50000	§¸ quý cÊp 1	1				24								
+	208	50000	®iÓm kinh nghiÖm	4				2000000								
+	208	10000	BÝ Ng©n To¶n	3	2	1	30538	1								
+	208	10000	BÝ Ng©n Chïy	3	2	1	30539	1								
+	208	20000	§ång TÕ Chi NguyÖn	3	2	1	30913	1								
+	208	40000	Thiªn th¹ch	3	2	2	8	1								
+	208	40000	M¶nh Thiªn th¹ch	3	2	2	7	1								
+	208	30000	VÐ TiÕu Y B¹c	3	2	1	30492	1								
+	208	10000	VÐ TiÕu Y Vµng	3	2	1	30491	1								
+TZWJ_free	209	850000	§iÓm tÝch lòy khiªu chiÕn	3	2	1	30961	1			4					
+	209	100000	§iÓm tÝch lòy khiªu chiÕn	3	2	1	30961	2			4					
+	209	50000	§iÓm tÝch lòy khiªu chiÕn	3	2	1	30961	5			4					
+TZWJ_charge	210	320000	§iÓm tÝch lòy khiªu chiÕn	3	2	1	30961	2			4					
+	210	270000	§iÓm tÝch lòy khiªu chiÕn	3	2	1	30961	3			4					
+	210	220000	§iÓm tÝch lòy khiªu chiÕn	3	2	1	30961	4			4					
+	210	190000	§iÓm tÝch lòy khiªu chiÕn	3	2	1	30961	5			4					
+everydayaward	211	150000	H¾c Ngäc §o¹n Tôc Cao	3	1	0	6	1			4					
+	211	150000	V¹n VËt Quy Nguyªn §¬n	3	1	0	11	1			4					
+	211	150000	Sinh Sinh Hãa T¸n	3	1	0	16	1			4					
+	211	110000	Kim L¨ng Töu	3	2	95	822	1			4					
+	211	80000	LuyÖn L« ThiÕt Kho¸ng	3	2	1	30537	1			4					
+	211	80000	TÈy T©m Th¹ch Kho¸ng	3	2	1	30536	1			4					
+	211	50000	Tiªu KiÕp t¸n	3	2	0	141	1			4					
+	211	50000	Ng­ng Tinh Lé	3	2	1	30804	1			4					
+	211	50000	ThiÕt Tinh cÊp 1	3	2	1	30533	1			4					
+	211	50000	ThiÕt Tinh cÊp 2	3	2	1	30534	1			4					
+	211	50000	§æi Tiªu LÖnh	3	2	95	918	1			4					
+	211	20000	M¶nh Thiªn th¹ch	3	2	2	7	1			4					
+	211	2500	HuyÕtTrÝchTh¹ch Lv1	3	2	22	101	1			4					
+	211	2500	NguyÖtB¹chTh¹ch Lv1	3	2	22	201	1			4					
+	211	2500	Hæ Ph¸ch Th¹ch CÊp 1	3	2	22	301	1			4					
+	211	2500	H¾c DiÖu Th¹ch CÊp 1	3	2	22	401	1			4					
+QiandaoGift1	212	300000	Qu©n C«ng Ch­¬ng	3	2	1	9999	1			4					
+	212	150000	CÊp 3 TÈy T©m Th¹ch	3	2	1	30523	1			4					
+	212	150000	CÊp 3 LuyÖn L« ThiÕt	3	2	1	30529	1			4					
+	212	100000	M¶nh Thiªn th¹ch	3	2	2	7	5			4					
+	212	100000	Thiªn th¹ch	3	2	2	8	5			4					
+	212	50000	HuyÕtTrÝchTh¹ch Lv2	3	2	22	102	1			4					
+	212	50000	NguyÖtB¹chTh¹ch Lv2	3	2	22	202	1			4					
+	212	50000	Hæ Ph¸ch Th¹ch CÊp 2	3	2	22	302	1			4					
+	212	50000	H¾c DiÖu Th¹ch CÊp 2	3	2	22	402	1			4					
+QiandaoGift2	213	200000	®iÓm kinh nghiÖm	4				10000000								
+	213	200000	CÊp 3 TÈy T©m Th¹ch	3	2	1	30523	1			4					
+	213	200000	CÊp 3 LuyÖn L« ThiÕt	3	2	1	30529	1			4					
+	213	100000	HuyÕtTrÝchTh¹ch Lv3	3	2	22	103	1			4					
+	213	100000	NguyÖtB¹chTh¹ch Lv3	3	2	22	203	1			4					
+	213	100000	Hæ Ph¸ch Th¹ch CÊp 3	3	2	22	303	1			4					
+	213	100000	H¾c DiÖu Th¹ch CÊp 3	3	2	22	403	1			4					
+QiandaoGift3	214	350000	®iÓm kinh nghiÖm	4				30000000								
+	214	100000	LuyÖn L« ThiÕt cÊp 5	3	2	1	30531	1			4					
+	214	100000	TÈy T©m Th¹ch cÊp 5	3	2	1	30525	1			4					
+	214	50000	HuyÕtTrÝchTh¹ch Lv3	3	2	22	103	1			4					
+	214	50000	NguyÖtB¹chTh¹ch Lv3	3	2	22	203	1			4					
+	214	50000	Hæ Ph¸ch Th¹ch CÊp 3	3	2	22	303	1			4					
+	214	50000	H¾c DiÖu Th¹ch CÊp 3	3	2	22	403	1			4					
+	214	50000	HuyÕtTrÝchTh¹ch Lv4	3	2	22	104	1			4					
+	214	50000	NguyÖtB¹chTh¹ch Lv4	3	2	22	204	1			4					
+	214	50000	Hæ Ph¸ch Th¹ch CÊp 4	3	2	22	304	1			4					
+	214	50000	H¾c DiÖu Th¹ch CÊp 4	3	2	22	404	1			4					
+	214	50000	§¸ quý cÊp 5	1				263			4		1			
+QiandaoGift4	215	380000	®iÓm kinh nghiÖm	4				100000000								
+	215	100000	LuyÖn L« ThiÕt cÊp 5	3	2	1	30531	1			4					
+	215	100000	TÈy T©m Th¹ch cÊp 5	3	2	1	30525	1			4					
+	215	300000	§¸ quý cÊp 4	1				291			4					
+	215	100000	§¸ quý cÊp 5	1				263			4		1			
+	215	5000	HuyÕtTrÝchTh¹ch Lv6	3	2	22	106	1			4		1			
+	215	5000	NguyÖtB¹chTh¹ch Lv6	3	2	22	206	1			4		1			
+	215	5000	Hæ Ph¸ch Th¹ch CÊp 6	3	2	22	306	1			4		1			
+	215	5000	H¾c DiÖu Th¹ch CÊp 6	3	2	22	406	1			4		1			
+SLYWZ_SLJSBX	216	500000	TiÓu To¸i Ng©n	3	2	1	31012	1								
+	216	30000	Ng©n §Ünh	3	2	1	31013	1								
+	216	190000	Kinh nghiÖm	4				1000000								
+	216	10000	CÊp 3 TÈy T©m Th¹ch	3	2	1	30523	1								
+	216	10000	CÊp 3 LuyÖn L« ThiÕt	3	2	1	30529	1								
+	216	40000	M¶nh Tu Ch©n YÕu QuyÕt	3	2	1	30315	1								
+	216	54000	VÐ TiÕu Y §ång	3	2	1	30493	1								
+	216	80000	VÐ TiÕu Y B¹c	3	2	1	30492	1								
+	216	10000	VÐ TiÕu Y Vµng	3	2	1	30491	1								
+	216	60000	Qu©n C«ng Ch­¬ng	3	2	1	9999	1				168				
+	216	5000	Qu©n C«ng §¹i	3	2	1	9998	1				168				
+	216	1000	Qu©n C«ng Huy Hoµng	3	2	1	9977	1				168	1			
+	216	5000	TÈy T©m Th¹ch cÊp 4	3	2	1	30524	1					1			
+	216	5000	LuyÖn L« ThiÕt cÊp 4	3	2	1	30530	1					1			
+act_12_normal	217	40000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1			4					
+	217	80000	Da Ma Lang	3	2	1	30672	10			4					
+	217	80000	Da §Þa Long	3	2	1	30673	10			4					
+	217	80000	Viªm Linh Ti	3	2	1	30671	10			4					
+	217	80000	HuyÒn Viªm ThiÕt	3	2	1	30670	10			4					
+	217	80000	Tiªn ¢m Th¹ch	3	2	1	30674	10								
+	217	40000	§¸ quý cÊp 1	3	2	22	101	1								
+	217	40000	§¸ quý cÊp 1	3	2	22	201	1								
+	217	40000	§¸ quý cÊp 1	3	2	22	301	1								
+	217	40000	§¸ quý cÊp 1	3	2	22	401	1								
+	217	80000	L«i Viªm Th¹ch	3	2	1	30683	10								
+	217	50000	Ma §ao Th¹ch cÊp 1	3	2	1	30428	1			4					
+	217	80000	M¶nh Thiªn th¹ch	3	2	2	7	1			4					
+	217	30000	M¶nh Tu Ch©n YÕu QuyÕt	3	2	1	30315	1			4					
+	217	60000	§ång TÕ Chi NguyÖn	3	2	1	30913	1			4					
+	217	40000	Thiªn th¹ch	3	2	2	8	1			4					
+	217	10000	BÝ Ng©n To¶n	3	2	1	30538	1			4					
+	217	10000	BÝ Ng©n Chïy	3	2	1	30539	1			4					
+	217	40000	Tinh Hoa UÈn Linh CÊp 4	3	2	1	30666	2			4					
+act_12_ib	218	40000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1				¡¡				
+	218	40000	C©y B¸t Nh·	3	2	0	398	1				720				
+	218	50000	B¹ch C©u Hoµn	3	2	1	270	1				720				
+	218	30000	§¹i B¹ch C©u hoµn	3	2	1	1007	1				720				
+	218	15000	B¹ch C©u Tiªn ®¬n	3	2	1	1008	1				720				
+	218	50000	Qu©n C«ng Ch­¬ng	3	2	1	9999	1				720				
+	218	30000	Qu©n C«ng §¹i	3	2	1	9998	1				720				
+	218	10000	Qu©n C«ng Huy Hoµng	3	2	1	9977	1				720				
+	218	80000	ThiÕt Tinh cÊp 1	3	2	1	30533	1				¡¡				
+	218	40000	ThiÕt Tinh cÊp 2	3	2	1	30534	1				¡¡				
+	218	20000	ThiÕt Tinh cÊp 3	3	2	1	30535	1				¡¡				
+	218	20000	Tu Ch©n YÕu QuyÕt	3	2	0	554	1				720				
+	218	20000	B¨ng Tinh Th¹ch	3	2	1	30554	1				¡¡				
+	218	20000	L«i Viªm Th¹ch	3	2	1	30683	2				¡¡				
+	218	3000	Thiªn Cang LÖnh	3	2	95	204	1				¡¡				
+	218	6000	Thiªn M«n Kim LÖnh	3	2	1	30370	1				¡¡				
+	218	96000	M¶nh Thiªn Cang	3	2	1	30390	2				¡¡				
+	218	20000	M¶nh Thiªn M«n	3	2	1	30410	2				¡¡				
+	218	40000	VÐ TiÕu Y §ång	3	2	1	30493	1				720				
+	218	20000	VÐ TiÕu Y B¹c	3	2	1	30492	1				720				
+	218	30000	Hµo HiÖp LÖnh	3	2	95	2084	2				¡¡				
+	218	70000	H¾c Ngäc §o¹n Tôc Cao	3	1	0	6	1				¡¡				
+	218	70000	Sinh Sinh Hãa T¸n	3	1	0	11	1				¡¡				
+	218	70000	V¹n VËt Quy Nguyªn §¬n	3	1	0	16	1				¡¡				
+	218	40000	Cöu chuyÓn håi hån ®¬n	3	1	0	32	1				¡¡				
+	218	50000	Tinh Hoa UÈn Linh CÊp 5	3	2	1	30667	2				¡¡				
+	218	20000	Tinh Hoa UÈn Linh CÊp 6	3	2	1	30668	2				¡¡				
+hd_1y_putong	219	60000	Huy Ch­¬ng §ång ChÕ	3	0	153	1	1			4					
+	219	60000	Giµy V¶i Th«	3	0	154	1	1			4					
+	219	60000	¸o Choµng T¹o Bè	3	0	152	1	1			4					
+	219	40000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1			4					
+	219	60000	ThiÕt Tinh cÊp 1	3	2	1	30533	1			4					
+	219	30000	Tiªu KiÕp t¸n	3	2	0	141	1			4					
+	219	60000	Ng­ng Tinh Lé	3	2	1	30804	1			4					
+	219	80000	§æi Tiªu LÖnh	3	2	95	918	1			4					
+	219	10000	§¸ quý cÊp 1	3	2	22	101	1			4					
+	219	10000	§¸ quý cÊp 1	3	2	22	201	1			4					
+	219	10000	§¸ quý cÊp 1	3	2	22	301	1			4					
+	219	10000	§¸ quý cÊp 1	3	2	22	401	1			4					
+	219	270000	®iÓm kinh nghiÖm	4				200000								
+	219	110000	®iÓm kinh nghiÖm	4				1000000								
+	219	90000	®iÓm kinh nghiÖm	4				2000000								
+	219	40000	®iÓm kinh nghiÖm	4				5000000								
+hd_1y_jipin	220	10000	Th¶o Ph¹t Lªnh 	3	2	1	30915	1								
+	220	5000	¸o Choµng Háa V©n	3	0	152	3	1								
+	220	5000	¸o Choµng Ngò Hµnh Kim ChÕ	3	0	152	4	1								
+	220	5000	¸o Choµng Ngò Hµnh Méc ChÕ	3	0	152	5	1								
+	220	5000	¸o Choµng Ngò Hµnh Thñy ChÕ	3	0	152	6	1								
+	220	5000	¸o Choµng Ngò Hµnh Háa ChÕ	3	0	152	7	1								
+	220	5000	¸o Choµng Ngò Hµnh Thæ ChÕ	3	0	152	8	1								
+	220	5000	¸o Choµng Ngò Hµnh ¢m ChÕ	3	0	152	9	1								
+	220	30000	Tinh Hoa UÈn Linh CÊp 5	3	2	1	30667	1								
+	220	10000	Tinh Hoa UÈn Linh CÊp 6	3	2	1	30668	1								
+	220	50000	ThiÕt Tinh cÊp 2	3	2	1	30534	1								
+	220	10000	Linh Ngäc	3	2	1	30682	1								
+	220	10000	Linh ThiÕt	3	2	1	30681	1								
+	220	40000	B¹ch C©u Hoµn	3	2	1	270	1				168				
+	220	20000	§¹i B¹ch C©u hoµn	3	2	1	1007	1				168				
+	220	10000	B¹ch C©u Tiªn ®¬n	3	2	1	1008	1				168				
+	220	30000	Qu©n C«ng Ch­¬ng	3	2	1	9999	1				168				
+	220	20000	Qu©n C«ng §¹i	3	2	1	9998	1				168				
+	220	5000	Qu©n C«ng Huy Hoµng	3	2	1	9977	1				168				
+	220	30000	Tu Ch©n YÕu QuyÕt	3	2	0	554	1				168				
+	220	70000	H¾c Ngäc §o¹n Tôc Cao	3	1	0	6	1								
+	220	70000	Sinh Sinh Hãa T¸n	3	1	0	16	1								
+	220	70000	V¹n VËt Quy Nguyªn §¬n	3	1	0	11	1								
+	220	50000	Cöu chuyÓn håi hån ®¬n	3	1	0	32	1								
+	220	180000	®iÓm kinh nghiÖm	4				200000								
+	220	120000	®iÓm kinh nghiÖm	4				1000000								
+	220	80000	®iÓm kinh nghiÖm	4				2000000								
+	220	50000	®iÓm kinh nghiÖm	4				5000000								
+jubaoex	221	533800	Kinh nghiÖm	4				888888								
+	221	50000	HuyÒn Viªm ThiÕt	3	2	1	30670	1								
+	221	50000	Viªm Linh Ti	3	2	1	30671	1								
+	221	50000	Da Ma Lang	3	2	1	30672	1								
+	221	50000	Da §Þa Long	3	2	1	30673	1								
+	221	50000	Tiªn ¢m Th¹ch	3	2	1	30674	1								
+	221	10000	§ång TÕ Chi NguyÖn	3	0	0	999	1			4					
+	221	10000	Qu©n C«ng Ch­¬ng	3	2	1	9999	1			4					
+	221	100	Qu©n C«ng §¹i	3	2	1	9998	1			4					
+	221	3000	C­êng Tam Thanh hoµn	3	2	1	1098	1			4					
+	221	3000	§¹i B¹ch C©u hoµn	3	2	1	1007	1			4					
+	221	3000	C­êng Lôc ThÇn hoµn	3	2	1	1065	1			4					
+	221	10000	TiÓu Nh©n s©m qu¶	3	2	0	552	1			4					
+	221	50000	H¾c Ngäc §o¹n Tôc Cao	3	1	0	6	1			4					
+	221	50000	V¹n VËt Quy Nguyªn §¬n	3	1	0	11	1			4					
+	221	50000	Sinh Sinh Hãa T¸n	3	1	0	16	1			4					
+	221	3000	Tiªu KiÕp t¸n	3	2	0	141	1			4					
+	221	2000	Huy Ch­¬ng ThiÕt ChÕ	3	0	153	2	1			4					
+	221	2000	Huy Ch­¬ng §ång ChÕ	3	0	153	1	1			4					
+	221	10000	¸o Choµng CÈm §o¹n	3	0	152	2	1			4					
+	221	10000	¸o Choµng T¹o Bè	3	0	152	1	1			4					
+	221	100	Tinh Hoa UÈn Linh CÊp 6	3	2	1	30668	1			4					
+cailu	222	640000	Kinh nghiÖm	4				1,000,000								
+	222	20000	VÐ TiÕu Y Vµng	3	2	1	30491	1			4					
+	222	50000	VÐ TiÕu Y B¹c	3	2	1	30492	1			4					
+	222	100000	VÐ TiÕu Y §ång	3	2	1	30493	1			4					
+	222	100000	M¶nh §ång TiÒn	3	2	1	31010	1			4					
+	222	50000	§iÓm Phong Hoa	18				1								
+	222	20000	§iÓm Phong Hoa	18				2								
+	222	10000	§iÓm Phong Hoa	18				5								
+	222	5000	§ång TiÒn C¸t T­êng	3	2	1	31007	1			4					
+	222	5000	Hép Trang Søc Nh¸nh §µo	3	2	1	31011	1			4					
+newyearlishi	223	300000	Kinh nghiÖm	4				50000000								
+	223	200000	Kinh nghiÖm	4				80000000								
+	223	20000	Kinh nghiÖm	4				100000000								
+	223	200000	§iÓm Phong Hoa	18				10								
+	223	100000	§iÓm Phong Hoa	18				20								
+	223	50000	§iÓm Phong Hoa	18				50								
+	223	70000	§ång TiÒn C¸t T­êng	3	2	1	31007	1			4					
+	223	50000	§ång TiÒn C¸t T­êng	3	2	1	31007	2			4					
+	223	10000	§ång TiÒn C¸t T­êng	3	2	1	31007	3			4					
+caishenbox	224	200000	Kinh nghiÖm	4				50000000								
+	224	110000	Kinh nghiÖm	4				80000000								
+	224	100000	Kinh nghiÖm	4				100000000								
+	224	104900	Xu	5				1000000								
+	224	10000	Xu	5				5000000								
+	224	10000	Xu	5				10000000								
+	224	50000	§ång TiÒn C¸t T­êng	3	2	1	31007	1			4					
+	224	10000	§ång TiÒn C¸t T­êng	3	2	1	31007	5			4					
+	224	100000	Thiªn Kiªu LÖnh	3	2	97	236	5			4					
+	224	50000	Thiªn Kiªu LÖnh	3	2	97	236	10			4					
+	224	50000	Thiªn Kiªu LÖnh	3	2	97	236	20			4					
+	224	50000	HuyÕtTrÝchTh¹ch Lv3	3	2	22	103	1			4					
+	224	50000	NguyÖtB¹chTh¹ch Lv3	3	2	22	203	1			4					
+	224	50000	Hæ Ph¸ch Th¹ch CÊp 3	3	2	22	303	1			4					
+	224	50000	H¾c DiÖu Th¹ch CÊp 3	3	2	22	403	1			4					
+	224	5000	Quµ Ngo¹i Trang-Th­êng	3	2	1	31008	1			4		1			
+	224	100	Quµ Ngo¹i Trang-Hµo Hoa	3	2	1	31009	1			4		1			
+hd_1y_msqdlb	225	250000	M¶nh Thiªn Cang	3	2	1	30390	4				¡¡				
+	225	100000	M¶nh Thiªn M«n	3	2	1	30410	1				¡¡				
+	225	90000	H¾c Ngäc §o¹n Tôc Cao	3	1	0	6	1				¡¡				
+	225	90000	Sinh Sinh Hãa T¸n	3	1	0	16	1				¡¡				
+	225	90000	V¹n VËt Quy Nguyªn §¬n	3	1	0	11	1				¡¡				
+	225	50000	Cöu chuyÓn håi hån ®¬n	3	1	0	32	1				¡¡				
+	225	40000	B¹ch C©u Hoµn	3	2	1	270	1				168				
+	225	20000	§¹i B¹ch C©u hoµn	3	2	1	1007	1				168				
+	225	10000	B¹ch C©u Tiªn ®¬n	3	2	1	1008	1				168				
+	225	15000	Qu©n C«ng §¹i	3	2	1	9998	1				168				
+	225	3000	Qu©n C«ng Huy Hoµng	3	2	1	9977	1				168				
+	225	30000	Tu Ch©n YÕu QuyÕt	3	2	0	554	1				¡¡				
+	225	10000	BÝ Ng©n To¶n	3	2	1	30538	1				¡¡				
+	225	10000	BÝ Ng©n Chïy	3	2	1	30539	1				¡¡				
+	225	20000	VÐ TiÕu Y Vµng	3	2	1	30491	1				¡¡				
+	225	40000	VÐ TiÕu Y B¹c	3	2	1	30492	1				¡¡				
+	225	20000	§ång TÕ Chi NguyÖn	3	2	1	30913	1				¡¡				
+	225	20000	Tô Linh Hoµn	3	2	1	30458	1				168				
+	225	6000	§¹i Tô Linh Hoµn	3	2	1	30459	1				168				
+	225	2000	Tô Linh Tiªn §¬n	3	2	1	30460	1				168				
+	225	84000	®iÓm kinh nghiÖm	4				2000000								
+SLYWZ_YJSLPMJ_a	226		LuyÖn	9				550								
+	226		®iÓm kinh nghiÖm	4				10000000								
+	226		Kinh M¹ch §ång Nh©n	3	2	1	30730	3			4					
+	226		M¶nh MËt TÞch	3	2	1	30669	10			4					
+SLYWZ_YJSLPMJ_b	227		LuyÖn	9				400								
+	227		®iÓm kinh nghiÖm	4				7000000								
+	227		Kinh M¹ch §ång Nh©n	3	2	1	30730	2			4					
+	227		M¶nh MËt TÞch	3	2	1	30669	8			4					
+SLYWZ_YJSLPMJ_c	228		LuyÖn	9				300								
+	228		®iÓm kinh nghiÖm	4				3000000								
+	228		Kinh M¹ch §ång Nh©n	3	2	1	30730	1			4					
+	228		M¶nh MËt TÞch	3	2	1	30669	7			4					
+SLYWZ_YJJSHYJ	229		LuyÖn	9				300								
+	229		Ng©n §Ünh	3	2	1	31013	1			4					
+SLYWZ_YJGRPMJ_a	230		Thiªn M«n Kim LÖnh	3	2	1	30370	1			0					
+	230		Ng©n §Ünh	3	2	1	31013	3			4					
+SLYWZ_YJGRPMJ_b	231		Thiªn Cang LÖnh	3	2	95	204	1			0					
+	231		Ng©n §Ünh	3	2	1	31013	2			4					
+SLYWZ_EJSLPMJ_a	232		LuyÖn	9				3500								
+	232		R­¬ng xÕp h¹ng thÕ lùc	3	2	1	31035	3			4					
+SLYWZ_EJSLPMJ_b	233		LuyÖn	9				1700								
+	233		R­¬ng xÕp h¹ng thÕ lùc	3	2	1	31035	2			4					
+SLYWZ_EJSLPMJ_c	234		LuyÖn	9				1000								
+	234		R­¬ng xÕp h¹ng thÕ lùc	3	2	1	31035	1			4					
+SLYWZ_EJGRPMJ_a	235		Vâ T­¬ng Kim Lu©n	3	0	120	121	1			4	168				
+	235		Vâ T­¬ng Kim Lu©n-Ch©n	3	0	121	85	1			4	168				
+	235		Vâ T­¬ng Kim Lu©n-Vai	3	0	119	97	1			4	168				
+SLYWZ_EJGRPMJ_b	236		Phong Háa Liªn Thµnh	3	0	120	122	1			4	168				
+	236		VÕt ch©n Phong Háa Liªn Thµnh	3	0	121	86	1			4	168				
+	236		Phong Háa Liªn Thµnh-Vai	3	0	119	98	1			4	168				
+SLYWZ_EJGRPMJ_c	237		BÝch H¶i Lam Phong	3	0	120	120	1			4	168				
+	237		BÝch H¶i Lam Phong-Ch©n	3	0	121	84	1			4	168				
+	237		BÝch H¶i Lam Phong-Vai	3	0	119	96	1			4	168				
+SLYWZ_EJGRPMJ_d	238		§ång KiÕm Thu Thñy	3	0	120	158	1	1			168				
+	238		§ång KiÕm Thu Thñy	3	0	120	159	1	2			168				
+	238		§ång KiÕm Thu Thñy	3	0	120	160	1	3			168				
+	238		§ång KiÕm Thu Thñy	3	0	120	161	1	4			168				
+SLYWZ_YWHYJ_a	239		exp	4				10000000								
+	239		R­¬ng DiÔn Vâ	3	2	1	31025	10								
+SLYWZ_YWHYJ_b	240		exp	4				5000000								
+	240		R­¬ng DiÔn Vâ	3	2	1	31025	5								
+SLYWZ_YWHYJ_c	241		exp	4				3000000								
+	241		R­¬ng DiÔn Vâ	3	2	1	31025	3								
+SLYWZ_YWHYJ_d	242		exp	4				2000000								
+	242		R­¬ng DiÔn Vâ	3	2	1	31025	2								
+SLYWZ_YWHYJ_e	243		exp	4				1000000								
+	243		R­¬ng DiÔn Vâ	3	2	1	31025	1								
+SLYWZ_YWHYBX_FREE	244	200000	exp	4				500000								
+	244	30000	C©y b¸t nh· nhá	3	2	0	504	1			4					
+	244	25000	C©y B¸t Nh·	3	2	0	398	1			4					
+	244	100000	H¾c Ngäc §o¹n Tôc Cao	3	1	0	6	1			4					
+	244	100000	Sinh Sinh Hãa T¸n	3	1	0	16	1			4					
+	244	100000	V¹n VËt Quy Nguyªn §¬n	3	1	0	11	1			4					
+	244	60000	§¹i Nh©n s©m	3	2	0	553	1			4	168				
+	244	60000	Båi Nguyªn §¬n	3	2	1	30351	1			4	168				
+	244	60000	M¶nh Tu Ch©n YÕu QuyÕt	3	2	1	30315	1			4	168				
+	244	60000	VÐ TiÕu Y §ång	3	2	1	30493	1			4					
+	244	80000	VÐ TiÕu Y B¹c	3	2	1	30492	1			4					
+	244	10000	VÐ TiÕu Y Vµng	3	2	1	30491	1			4					
+	244	80000	Tô Linh Hoµn	3	2	1	30458	1			4	168				
+	244	10000	§¹i Tô Linh Hoµn	3	2	1	30459	1			4	168				
+	244	5000	Tô Linh Tiªn §¬n	3	2	1	30460	1			4	168	1			
+	244	20000	Th¶o Ph¹t Lªnh 	3	2	1	30915	1			4		1			
+SLYWZ_YWHYBX_IB	245	100000	exp	4				1000000								
+	245	50000	C©y b¸t nh· nhá	3	2	0	504	1								
+	245	50000	C©y B¸t Nh·	3	2	0	398	1								
+	245	150000	H¾c Ngäc §o¹n Tôc Cao (tiÓu)	3	2	1	489	1								
+	245	150000	Sinh Sinh Hãa T¸n (tiÓu)	3	2	1	483	1								
+	245	150000	V¹n VËt Quy Nguyªn §¬n (tiÓu)	3	2	1	495	1								
+	245	20000	CÊp 3 TÈy T©m Th¹ch	3	2	1	30523	1								
+	245	20000	CÊp 3 LuyÖn L« ThiÕt	3	2	1	30529	1								
+	245	60000	M¶nh Tu Ch©n YÕu QuyÕt	3	2	1	30315	1								
+	245	54000	VÐ TiÕu Y §ång	3	2	1	30493	1								
+	245	80000	VÐ TiÕu Y B¹c	3	2	1	30492	1								
+	245	10000	VÐ TiÕu Y Vµng	3	2	1	30491	1								
+	245	60000	Qu©n C«ng Ch­¬ng	3	2	1	9999	1				168				
+	245	5000	Qu©n C«ng §¹i	3	2	1	9998	1				168				
+	245	1000	Qu©n C«ng Huy Hoµng	3	2	1	9977	1				168	1			
+	245	20000	BÝch Tóy	3	2	1	30922	1					1			
+	245	10000	TÈy T©m Th¹ch cÊp 4	3	2	1	30524	1					1			
+	245	10000	LuyÖn L« ThiÕt cÊp 4	3	2	1	30530	1					1			
+SLYWZ_SLPMBX	246	500000	TiÓu To¸i Ng©n	3	2	1	31012	1			4					
+	246	100000	H¾c Ngäc §o¹n Tôc Cao	3	1	0	6	1			4					
+	246	100000	Sinh Sinh Hãa T¸n	3	1	0	16	1			4					
+	246	100000	V¹n VËt Quy Nguyªn §¬n	3	1	0	11	1			4					
+	246	50000	§¹i Nh©n s©m	3	2	0	553	1			4	168				
+	246	50000	Båi Nguyªn §¬n	3	2	1	30351	1			4	168				
+	246	100000	Kinh nghiÖm	4				1000000								
+JD_free1	251	20000	Tu Ch©n YÕu QuyÕt	3	2	0	554	1			4	168				
+	251	20000	Tø Linh Quy Nguyªn §¬n	3	2	1	30352	1			4	168				
+	251	20000	Båi Nguyªn §¬n	3	2	1	30351	1			4	168				
+	251	80000	Thiªn M«n Hång D­îc	3	1	0	30003	5			4					
+	251	80000	Thiªn M«n Lam D­îc	3	1	0	30004	5			4					
+	251	30000	B¹ch C©u Hoµn	3	2	1	270	1			4	168				
+	251	40000	TÈy T©m Th¹ch Kho¸ng	3	2	1	30536	1								
+	251	40000	LuyÖn L« ThiÕt Kho¸ng	3	2	1	30537	1								
+	251	40000	ThiÕt Tinh CÊp 1	3	2	1	30533	1			4					
+	251	20000	ThiÕt Tinh CÊp 2	3	2	1	30534	1			4					
+	251	60000	ThiÕt Tinh CÊp 3	3	2	1	30535	1			4			44;16		
+	251	120000	Huy ch­¬ng anh hïng	3	2	1	30499	1								
+	251	60000	Huy ch­¬ng anh hïng	3	2	1	30499	2								
+	251	110000	Th¸i NhÊt §ång QuyÓn	3	2	1	31066	1			4			44;15		
+	251	40000	§ång TÕ Chi NguyÖn	3	2	1	30913	1			4			44;17		
+	251	100000	Th­¬ng H¶i Ch©u Lv1 (Ch­a gi¸m ®Þnh)	3	2	102	208	1			4					
+	251	80000	Th­¬ng H¶i Ch©u Lv2 (Ch­a gi¸m ®Þnh)	3	2	102	209	1			4					
+	251	40000	Th­¬ng H¶i Ch©u Lv3 (Ch­a gi¸m ®Þnh)	3	2	102	210	1			4		1			
+JD_IB1	252	60000	§¹i B¹ch C©u hoµn	3	2	1	1007	1				168				
+	252	20000	B¹ch C©u Tiªn ®¬n	3	2	1	1008	1				168				
+	252	30000	§¹i Nh©n s©m	3	2	0	553	1				168				
+	252	50000	Huy ch­¬ng anh hïng	3	2	1	30499	1								
+	252	20000	Huy ch­¬ng anh hïng	3	2	1	30499	2								
+	252	20000	Th¸i NhÊt ThiÕt QuyÓn	3	2	1	31067	1						44;18		
+	252	20000	Tói §¸ Quý CÊp 3	3	2	1	31000	1								
+	252	50000	L­u Kim	3	2	1	31096	1						44;19		
+	252	40000	Thiªn V¨n Th¹ch	3	2	201	13	1								
+	252	300	Cæ Kim Th¹ch	3	2	201	14	1					1			
+	252	10	§iÓm Tinh Ngäc-Nhá	3	2	201	16	1					1			
+	252	150000	Th­¬ng H¶i Ch©u Lv1 (Ch­a gi¸m ®Þnh)	3	2	102	219	1								
+	252	150000	Th­¬ng H¶i Ch©u Lv2 (Ch­a gi¸m ®Þnh)	3	2	102	220	1								
+	252	314890	Th­¬ng H¶i Ch©u Lv3 (Ch­a gi¸m ®Þnh)	3	2	102	221	1								
+	252	50000	Th­¬ng H¶i Ch©u Lv4 (Ch­a gi¸m ®Þnh)	3	2	102	222	1					1			
+	252	22000	Th­¬ng H¶i Ch©u Lv5 (Ch­a gi¸m ®Þnh)	3	2	102	223	1					1			
+	252	2000	Th­¬ng H¶i Ch©u Lv6 (Ch­a gi¸m ®Þnh)	3	2	102	224	1					1			
+	252	800	Th­¬ng H¶i Ch©u Lv7 (Ch­a gi¸m ®Þnh)	3	2	102	225	1					1			
+YXJD_free1	259	40000	Tu Ch©n YÕu QuyÕt	3	2	0	554	1			4	168				
+	259	40000	 Tø Linh Quy Nguyªn §¬n	3	2	1	30352	1			4	168				
+	259	40000	Båi Nguyªn §¬n	3	2	1	30351	1			4	168				
+	259	1000	L­u Kim	3	2	1	31096	1			4			44;19		
+	259	40000	B¹ch C©u Hoµn	3	2	1	270	1			4	168				
+	259	40000	Th¶o Ph¹t Lªnh 	3	2	1	30915	1				168				
+	259	40000	HuyÒn Th¹ch	3	2	1	30997	1				168				
+	259	50000	ThiÕt Tinh CÊp 1	3	2	1	30533	1			4					
+	259	20000	ThiÕt Tinh CÊp 2	3	2	1	30534	1			4					
+	259	54000	ThiÕt Tinh CÊp 3	3	2	1	30535	1			4			44;16		
+	259	110000	Huy ch­¬ng anh hïng	3	2	1	30499	1								
+	259	50000	Huy ch­¬ng anh hïng	3	2	1	30499	2								
+	259	80000	Th¸i NhÊt §ång QuyÓn	3	2	1	31066	1			4			44;15		
+	259	20000	§ång TÕ Chi NguyÖn	3	2	1	30913	2			4			44;17		
+	259	220000	Th­¬ng H¶i Ch©u Lv1 (Ch­a gi¸m ®Þnh)	3	2	102	208	1			4					
+	259	100000	Th­¬ng H¶i Ch©u Lv2 (Ch­a gi¸m ®Þnh)	3	2	102	209	1			4					
+	259	50000	Th­¬ng H¶i Ch©u Lv3 (Ch­a gi¸m ®Þnh)	3	2	102	210	1			4					
+	259	5000	Th­¬ng H¶i Ch©u Lv4 (Ch­a gi¸m ®Þnh)	3	2	102	211	1			4		1			
+YXJD_IB1	260	60000	§¹i B¹ch C©u hoµn	3	2	1	1007	1				168				
+	260	20000	B¹ch C©u Tiªn ®¬n	3	2	1	1008	1				168				
+	260	30000	§¹i Nh©n s©m	3	2	0	553	1				168				
+	260	50000	Huy ch­¬ng anh hïng	3	2	1	30499	1								
+	260	20000	Huy ch­¬ng anh hïng	3	2	1	30499	2								
+	260	20000	Th¸i NhÊt ThiÕt QuyÓn	3	2	1	31067	1								
+	260	20000	§¸ quý cÊp 4	3	2	1	31001	1								
+	260	50000	L­u Kim	3	2	1	31096	1						44;19		
+	260	40000	Thiªn V¨n Th¹ch	3	2	201	13	1								
+	260	300	Cæ Kim Th¹ch	3	2	201	14	1					1			
+	260	10	§iÓm Tinh Ngäc-Nhá	3	2	201	16	1					1			
+	260	150000	Th­¬ng H¶i Ch©u Lv1 (Ch­a gi¸m ®Þnh)	3	2	102	219	1								
+	260	150000	Th­¬ng H¶i Ch©u Lv2 (Ch­a gi¸m ®Þnh)	3	2	102	220	1								
+	260	314890	Th­¬ng H¶i Ch©u Lv3 (Ch­a gi¸m ®Þnh)	3	2	102	221	1								
+	260	50000	Th­¬ng H¶i Ch©u Lv4 (Ch­a gi¸m ®Þnh)	3	2	102	222	1					1			
+	260	22000	Th­¬ng H¶i Ch©u Lv5 (Ch­a gi¸m ®Þnh)	3	2	102	223	1					1			
+	260	2000	Th­¬ng H¶i Ch©u Lv6 (Ch­a gi¸m ®Þnh)	3	2	102	224	1					1			
+	260	800	Th­¬ng H¶i Ch©u Lv7 (Ch­a gi¸m ®Þnh)	3	2	102	225	1					1			
+gem_lv5_normal	263	250000	HuyÕtTrÝchTh¹ch Lv5	3	2	22	105	1								
+	263	250000	NguyÖtB¹chTh¹ch Lv5	3	2	22	205	1								
+	263	250000	Hæ Ph¸ch Th¹ch CÊp 5	3	2	22	305	1								
+	263	250000	H¾c DiÖu Th¹ch CÊp 5	3	2	22	405	1								
+9y_jrptbx	284	90000	Tiªu KiÕp t¸n	3	2	0	141	1			4					
+	284	90000	Giµy V¶i Th«	3	0	154	1	1								
+	284	90000	Huy Ch­¬ng §ång ChÕ	3	0	153	1	1								
+	284	90000	¸o Choµng T¹o Bè	3	0	152	1	1								
+	284	90000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1			4					
+	284	90000	§æi Tiªu LÖnh	3	2	95	918	1			4					
+	284	90000	Ng­ng Tinh Lé	3	2	1	30804	1			4					
+	284	90000	ThiÕt Tinh CÊp 1	3	2	1	30533	1			4					
+	284	90000	Th¶o Ph¹t Lªnh 	3	2	1	30915	1			4					
+	284	90000	§ång TÕ Chi NguyÖn	3	2	1	30913	1			4					
+	284	40000	Th¸i NhÊt §ång QuyÓn	3	2	1	31066	1								
+	284	60000	§«n Hoµng HuyÒn ThiÕt	3	2	1	31118	1					1			
+9y_jrgjbx	285	130000	Viªm Linh Ti	3	2	1	30671	30								
+	285	130000	HuyÒn Viªm ThiÕt	3	2	1	30670	30								
+	285	130000	Da §Þa Long	3	2	1	30672	30								
+	285	130000	Da Ma Lang	3	2	1	30673	30								
+	285	130000	Tiªn ¢m Th¹ch	3	2	1	30674	30								
+	285	40000	Th¸i NhÊt LÖnh	3	2	1	30687	1					1			
+	285	50000	§«n Hoµng HuyÒn ThiÕt	3	2	1	31118	1								
+	285	50000	Hu©n ch­¬ng anh hïng	3	2	1	30499	2								
+	285	60000	M¶nh Bé Ngo¹i Trang Hång Phong	3	2	1	31164	1					1			
+	285	5000	PhiÕu Khiªu ChiÕn	3	2	1	31058	1					1			
+	285	50000	Th¸i NhÊt ThiÕt QuyÓn	3	2	1	31067	1								
+	285	5000	Kh¾c B¶n Vì CÊp 1 (§Çu)	3	2	1	31068	1								
+	285	5000	Kh¾c B¶n Vì CÊp 2 (§Çu)	3	2	1	31078	1								
+	285	70000	Hµo HiÖp LÖnh	3	2	95	2084	1								
+	285	15000	VÈy Kú L©n	3	2	1	31064	1					1			
+9y_jrhhbx	286	150000	Kinh M¹ch §ång Nh©n	3	2	1	30730	1								
+	286	30000	Kinh M¹ch Ng©n Nh©n	3	2	1	30731	1								
+	286	50000	Th¸i NhÊt ThiÕt QuyÓn	3	2	1	31067	1								
+	286	5000	Kh¾c B¶n Vì CÊp 2 (ƒo)	3	2	1	31079	1					1			
+	286	5000	Kh¾c B¶n Vì CÊp 2 (§Çu)	3	2	1	31078	1					1			
+	286	60000	Cöu chuyÓn håi hån ®¬n	3	1	0	32	1								
+	286	70000	Hµo HiÖp LÖnh	3	2	95	2084	5								
+	286	50000	L­u Kim	3	2	1	31096	1								
+	286	100000	§«n Hoµng HuyÒn ThiÕt	3	2	1	31118	1								
+	286	50000	§¸ quý cÊp 1	3	2	22	101	1								
+	286	50000	§¸ quý cÊp 1	3	2	22	201	1								
+	286	50000	§¸ quý cÊp 1	3	2	22	301	1								
+	286	50000	§¸ quý cÊp 1	3	2	22	401	1								
+	286	30000	Linh Th¹ch khãa (1)	3	2	1	30904	1								
+	286	30000	Linh Th¹ch khãa (2)	3	2	1	30905	1								
+	286	30000	Linh Th¹ch khãa (3)	3	2	1	30906	1								
+	286	20000	Linh Th¹ch khãa (4)	3	2	1	30907	1								
+	286	20000	Linh Th¹ch khãa (5)	3	2	1	30908	1								
+	286	20000	Linh Th¹ch khãa (6)	3	2	1	30909	1								
+	286	130000	M¶nh Bé Ngo¹i Trang Hång Phong	3	2	1	31164	1					1			
+5ji_huoban_book	287	80000	Ch©n KhÝ Hé ThÓ CÊp 5	3	2	150	67	1								
+	287	80000	Ých Thä Diªn D­¬ng CÊp 5	3	2	150	68	1								
+	287	80000	C­êng Th©n B¸ ThÓ CÊp 5	3	2	150	69	1								
+	287	80000	¢m Phong Thùc Cèt CÊp 5	3	2	150	70	1								
+	287	20000	HuyÒn Vò V« Song CÊp 5	3	2	150	71	1								
+	287	50000	V« Hµnh V« T­¬ng CÊp 5	3	2	150	72	1								
+	287	80000	Kim Linh Phô ThÓ CÊp 5	3	2	150	73	1								
+	287	80000	Méc Linh Phô ThÓ CÊp 5	3	2	150	74	1								
+	287	80000	Thuû Linh Phô ThÓ CÊp 5	3	2	150	75	1								
+	287	80000	Ho¶ Linh Phô ThÓ CÊp 5	3	2	150	76	1								
+	287	80000	Thæ Linh Phô ThÓ CÊp 5	3	2	150	77	1								
+	287	50000	Ph¸ Kh«ng Tr¶m ¶nh CÊp 5	3	2	150	78	1								
+	287	50000	S¸t Th­¬ng Gia N©ng CÊp 5	3	2	150	79	1								
+	287	20000	Khinh Linh TÊn TËt CÊp 5	3	2	150	80	1								
+	287	50000	V« H×nh Chi Cæ CÊp 5	3	2	150	81	1								
+	287	20000	Linh Quang NhÊt ThiÓm CÊp 1	3	2	150	82	1						47;4		
+	287	5000	Ng­ng ThÇn QuyÕt CÊp 1	3	2	150	83	1						47;5		
+	287	5000	Kinh §µo QuyÕt CÊp 1	3	2	150	84	1						47;6		
+	287	5000	Nguyªn Thñy B¹o Né CÊp 1	3	2	150	85	1						47;7		
+	287	5000	ThiÕt Bè Sam CÊp 1	3	2	150	86	1						47;8		
+chaojidan	288	50000	Sãi ®iªn	10	4			1								
+	288	50000	Qu¹ §en	10	5			1								
+	288	50000	C¸ sÊu	10	6			1								
+	288	50000	C¸p M«	10	7			1								
+	288	50000	D¬i hót m¸u	10	8			1								
+	288	50000	Bß c¹p	10	9			1								
+	288	40000	Ng©n Hå	10	10			1								
+	288	40000	Th­¬ng Viªn	10	11			1								
+	288	40000	Thô Qu¸i	10	12			1								
+	288	40000	GÊu x¸m	10	13			1								
+	288	40000	Ong ®éc	10	14			1								
+	288	40000	Kim Gi¸p	10	15			1								
+	288	40000	Hång Bµo Sø Gi¶	10	16			1								
+	288	40000	T©y B¾c Tr¸ng H¸n	10	17			1								
+	288	30000	NhÊt PhÈm §­êng MËt Sø	10	18			1								
+	288	30000	Xi Háa tr­ëng l·o	10	19			1								
+	288	30000	Oa KhÊu	10	20			1								
+	288	30000	Tiªn N÷	10	21			1								
+	288	30000	N÷ Tiªu tiªn	10	22			1								
+	288	30000	Tr× M©u Hé VÖ	10	23			1								
+	288	10000	TiÓu Hång xoa quû	10	27			1								
+	288	10000	HuyÕt L©n §éc M·ng	10	28			1								
+	288	10000	Ng­ Qu¸i	10	29			1								
+	288	10000	Háa Th¹ch Nh©n	10	30			1								
+	288	10000	§éc TÝch	10	31			1								
+	288	10000	D¹ Xoa	10	32			1								
+	288	10000	C¬ quan nh©n	10	33			1								
+	288	10000	B¨ng N÷	10	34			1								
+	288	10000	Yªu Hå	10	35			1								
+	288	10000	KiÕm t­îng	10	36			1								
+	288	20000	TriÕt BiÖt	10	46			1								
+	288	20000	B¹ch §Çu §iªu	10	47			1								
+	288	20000	Mao Ng­u	10	48			1								
+	288	10000	O¸n Quû	10	49			1								
+	288	10000	Töu Nhôc Hßa Th­îng	10	50			1								
+	288	10000	Bé kho¸i	10	51			1								
+	288	10000	KiÕm hiÖp	10	52			1								
+heibaiqi	289	330000	Long V©n	10	53			1					1			
+	289	330000	TrÇn Lçi	10	54			1					1			
+	289	340000	GÊu L­ng §á	10	55			1					1			
+Fire_Num_1200	290	125000	HuyÕtTrÝchTh¹ch Lv4	3	2	22	104	1								
+	290	125000	NguyÖtB¹chTh¹ch Lv4	3	2	22	204	1								
+	290	125000	Hæ Ph¸ch Th¹ch CÊp 4	3	2	22	304	1								
+	290	125000	H¾c DiÖu Th¹ch CÊp 4	3	2	22	404	1								
+	290	75000	HuyÕtTrÝchTh¹ch Lv5	3	2	22	105	1								
+	290	75000	NguyÖtB¹chTh¹ch Lv5	3	2	22	205	1								
+	290	75000	Hæ Ph¸ch Th¹ch CÊp 5	3	2	22	305	1								
+	290	75000	H¾c DiÖu Th¹ch CÊp 5	3	2	22	405	1								
+	290	50000	HuyÕtTrÝchTh¹ch Lv6	3	2	22	106	1								
+	290	50000	NguyÖtB¹chTh¹ch Lv6	3	2	22	206	1								
+	290	50000	Hæ Ph¸ch Th¹ch CÊp 6	3	2	22	306	1								
+	290	50000	H¾c DiÖu Th¹ch CÊp 6	3	2	22	406	1								
+gem_Lv4	291	250000	HuyÕtTrÝchTh¹ch Lv4	3	2	22	104	1								
+	291	250000	NguyÖtB¹chTh¹ch Lv4	3	2	22	204	1								
+	291	250000	Hæ Ph¸ch Th¹ch CÊp 4	3	2	22	304	1								
+	291	250000	H¾c DiÖu Th¹ch CÊp 4	3	2	22	404	1								
+sb_monster	292	20000	§ång TÕ Chi NguyÖn	3	2	1	30913	1			4					
+	292	161000	HiÖp NghÜa Chi Chøng	3	2	1	30912	5			4					
+	292	50000	Kinh M¹ch §ång Nh©n	3	2	1	30730	1								
+	292	21000	Kinh M¹ch Ng©n Nh©n	3	2	1	30731	1								
+	292	15000	Håi Tiªn §¬n	3	2	1	30847	1					1			
+	292	300	Hoan L¨ng Phi Phong	3	0	152	32	1					1			
+	292	300	§»ng Giao Phi Phong	3	0	152	33	1					1			
+	292	300	Khëi Ph­îng Phi Phong	3	0	152	34	1					1			
+	292	300	Hoan L¨ng Ch­¬ng	3	0	153	32	1					1			
+	292	300	§»ng Giao Ch­¬ng	3	0	153	33	1					1			
+	292	300	Khëi Ph­îng Ch­¬ng	3	0	153	34	1					1			
+	292	300	Hoan L¨ng Ngoa	3	0	154	32	1					1			
+	292	300	§»ng Giao Ngoa	3	0	154	33	1					1			
+	292	300	Khëi Ph­îng Ngoa	3	0	154	34	1					1			
+	292	50000	ThiÕt Tinh cÊp 1	3	2	1	30533	1								
+	292	50000	ThiÕt Tinh cÊp 2	3	2	1	30534	1								
+	292	40000	ThiÕt Tinh cÊp 3	3	2	1	30535	1								
+	292	70000	ThiÕt tinh cÊp 4	3	2	1	30612	1								
+	292	60000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1			4					
+	292	20000	§«n Hoµng HuyÒn ThiÕt	3	2	1	31118	1								
+	292	20000	§«n Hoµng Hæ Ph¸ch	3	2	1	31119	1								
+	292	20000	§« Hoµng HuyÒn Tinh	3	2	1	31120	1								
+	292	20000	§«n Hoµng M· N·o	3	2	1	31121	1								
+	292	20000	Tu Ch©n YÕu QuyÕt	3	2	0	554	1			4					
+	292	2000	Ch©n KhÝ Hé ThÓ Lv6	3	2	150	87	1								
+	292	2000	?ch Thä Diªn D­¬ng Lv6	3	2	150	88	1								
+	292	2000	C­êng Th©n B¸ ThÓ Lv6	3	2	150	89	1								
+	292	2000	¢m Phong Thùc Cèt Lv6	3	2	150	90	1								
+	292	2000	HuyÒn Vò V« Song Lv6	3	2	150	91	1								
+	292	2000	Ngò Hµnh V« T­íng Lv6	3	2	150	92	1								
+	292	2000	Kim Linh Phô ThÓ Lv6	3	2	150	93	1								
+	292	2000	Méc Linh Phô ThÓ Lv6	3	2	150	94	1								
+	292	2000	Thñy Linh Phô ThÓ Lv6	3	2	150	95	1								
+	292	2000	Háa Linh Phô ThÓ Lv6	3	2	150	96	1								
+	292	2000	Thæ Linh Phô ThÓ Lv6	3	2	150	97	1								
+	292	2000	Ph¸ Kh«ng Tr¶m ?nh Lv6	3	2	150	98	1								
+	292	2000	S¸t Th­¬ng Gia T¨ng Lv6	3	2	150	99	1								
+	292	2000	Khinh Linh TÊn TËt Lv6	3	2	150	100	1								
+	292	2000	V« H×nh Chi Cæ Lv6	3	2	150	101	1								
+	292	2000	Linh Quang ThiÓm Lv2	3	2	150	102	1								
+	292	2000	Ng­ng ThÇn QuyÕt Lv2	3	2	150	103	1								
+	292	2000	Kinh §µo QuyÕt Lv2	3	2	150	104	1								
+	292	300	C¬n GiËn Nguyªn Thñy Lv2	3	2	150	105	1					1			
+	292	300	ThiÕt Bè Sam Lv2	3	2	150	106	1					1			
+	292	50000	TuÝ ®¸ quý cÊp 2	1				25			4					
+	292	20000	TuÝ ®¸ quý cÊp 3	1				26			4					
+	292	5000	Tói B¶o Th¹ch CÊp 4	1				27			4		1			
+	292	55700	PhiÕu §æi Ngo¹i Trang	3	2	1	31233	1			4					
+	292	20000	VÐ §æi Trang Søc Ngo¹i Trang	3	2	1	31320	1			4					
+	292	50000	Qu©n C«ng Ch­¬ng	3	2	1	9999	1				168				
+	292	30000	Qu©n C«ng §¹i	3	2	1	9998	1				168				
+	292	10000	Qu©n C«ng Huy Hoµng	3	2	1	9977	1				168	1			
+	292	20000	Linh KiÖn §¹p Sa Hµnh	1				344				168				
+	292	30000	Ngo¹i Trang Xóc X¾c Ma ThÇn	1				346				168				
+	292	10000	Th­¬ng H¶i Ch©u Lv1 (Ch­a gi¸m ®Þnh)	3	2	102	208	1			4					
+	292	5000	Th­¬ng H¶i Ch©u Lv2 (Ch­a gi¸m ®Þnh)	3	2	102	209	1			4					
+	292	2000	Th­¬ng H¶i Ch©u Lv3 (Ch­a gi¸m ®Þnh)	3	2	102	210	1			4					
+	292	5000	Th­¬ng H¶i Ch©u Lv4 (Ch­a gi¸m ®Þnh)	3	2	102	211	1			4		1			
+	292	10000	Long M·	3	0	105	30056	1			3	168	1			
+	292	1000	H¾c B¹ch Kú	3	2	1	31168	1					1			
+sb_boss	293	200000	C¬n GiËn Nguyªn Thñy Lv2	3	2	150	105	1					1			
+	293	200000	ThiÕt Bè Sam Lv2	3	2	150	106	1					1			
+	293	150000	Th­¬ng H¶i Ch©u Lv6 (Ch­a gi¸m ®Þnh)	3	2	102	213	1			4		1			
+	293	150000	Th­¬ng H¶i Ch©u Lv7 (Ch­a gi¸m ®Þnh)	3	2	102	214	1			4		1			
+	293	100000	Tö Ngäc Tr­êng Phong	3	0	105	10112	1			3		1			
+	293	95000	Qu©n C«ng Huy Hoµng	3	2	1	9977	1				168	1			
+	293	100000	Chiªu Yªu Kú	3	2	1	31307	1					1			
+	293	5000	Tói Trang BÞ Dµnh Riªng	3	2	1	31400	1					1			
+lshdzy_7d	294		DiÒu GiÊy B­ím-Lam (7 ngµy)	3	0	120	100	1	1		3	168				
+	294		DiÒu GiÊy B­ím-Lam (7 ngµy)	3	0	120	101	1	2		3	168				
+	294		DiÒu GiÊy B­ím-Lam (7 ngµy)	3	0	120	102	1	3		3	168				
+	294		DiÒu GiÊy B­ím-Lam (7 ngµy)	3	0	120	103	1	4		3	168				
+bn_7d	295		B¨ng §iÓu (7 ngµy)	3	0	120	255	1	1		3	168				
+	295		B¨ng §iÓu (7 ngµy)	3	0	120	256	1	2		3	168				
+	295		B¨ng §iÓu (7 ngµy)	3	0	120	257	1	3		3	168				
+	295		B¨ng §iÓu (7 ngµy)	3	0	120	258	1	4		3	168				
+sdhd_sdsjl	296	300000	®iÓm kinh nghiÖm	4				100000								
+	296	200000	®iÓm kinh nghiÖm	4				300000								
+	296	100000	®iÓm kinh nghiÖm	4				1000000								
+	296	45000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1			4					
+	296	10000	Hu©n ch­¬ng anh hïng	3	2	1	30499	2			4					
+	296	30000	Ng­ng Tinh Lé	3	2	1	30804	1			4					
+	296	30000	ThiÕt Tinh cÊp 1	3	2	1	30533	1			4					
+	296	30000	Huy Ch­¬ng ThiÕt ChÕ	3	0	153	2	1			1					
+	296	30000	Tiªu KiÕp t¸n	3	2	0	141	1			4					
+	296	30000	TÈy T©m Th¹ch Kho¸ng	3	2	1	30536	1			4					
+	296	30000	LuyÖn L« ThiÕt Kho¸ng	3	2	1	30537	1			4					
+	296	20000	Huy Ch­¬ng §ång ChÕ	3	0	153	1	1			1					
+	296	5000	M¶nh §én KiÕm Tiªu S­	3	2	1	31175	1			4					
+	296	5000	M¶nh MËt Th­ Lôc PhiÕn M«n	3	2	1	31176	1			4					
+	296	5000	§ång TiÒn Tô B¶o Trai	3	2	1	31177	1			4					
+	296	5000	§ång TÕ Chi NguyÖn	3	2	1	30913	1			4					
+	296	100000	HiÖp NghÜa Chi Chøng	3	2	1	30912	20			4					
+	296	10000	Th¸i NhÊt §ång QuyÓn	3	2	1	31066	1			4					
+	296	5000	Ví Gi¸ng sinh	3	2	1	31181	1					1			
+	296	10000	§¸ quý cÊp 3	1				185			4					
+sdhd_kp	297	290000	ThÎ "Nguyªn"	3	2	1	31183	1			4					
+	297	300000	ThÎ "§¸n"	3	2	1	31184	1			4					
+	297	300000	ThÎ "Vui"	3	2	1	31185	1			4					
+	297	100000	ThÎ "VÎ"	3	2	1	31186	1			4					
+	297	10000	ThÎ "Nguyªn §¸n Vui VÎ"	3	2	1	31187	1			4					
+sdhd_ydklk	298	195000	®iÓm kinh nghiÖm	4				1000000								
+	298	50000	§«n Hoµng HuyÒn ThiÕt	3	2	1	31118	1								
+	298	50000	§«n Hoµng Hæ Ph¸ch	3	2	1	31119	1								
+	298	50000	§« Hoµng HuyÒn Tinh	3	2	1	31120	1								
+	298	50000	§«n Hoµng M· N·o	3	2	1	31121	1								
+	298	40000	Ch©n khÝ hé thÓ CÊp 4	3	2	150	4	1			4					
+	298	40000	Ých Thä Diªn D­¬ng CÊp 4	3	2	150	8	1			4					
+	298	40000	C­êng Th©n B¸ ThÓ CÊp 4	3	2	150	12	1			4					
+	298	40000	¢m Phong Thùc Cèt CÊp 4	3	2	150	16	1			4					
+	298	40000	HuyÒn Vò V« Song CÊp 4	3	2	150	20	1			4					
+	298	40000	V« Hµnh V« T­¬ng CÊp 4	3	2	150	24	1			4					
+	298	40000	Kim Linh Phô ThÓ CÊp 4	3	2	150	28	1			4					
+	298	40000	Méc Linh Phô ThÓ CÊp 4	3	2	150	32	1			4					
+	298	40000	Thuû Linh Phô ThÓ CÊp 4	3	2	150	36	1			4					
+	298	40000	Ho¶ Linh Phô ThÓ CÊp 4	3	2	150	40	1			4					
+	298	40000	Thæ Linh Phô ThÓ CÊp 4	3	2	150	44	1			4					
+	298	40000	Ph¸ Kh«ng Tr¶m ¶nh CÊp 4	3	2	150	48	1			4					
+	298	40000	S¸t th­¬ng gia n©ng cÊp 4	3	2	150	52	1			4					
+	298	40000	Khinh Linh TÊn TËt  CÊp 4	3	2	150	56	1			4					
+	298	40000	V« H×nh Chi Cæ CÊp 4	3	2	150	60	1			4					
+	298	5000	Trøng B¸ Ng¹c	3	2	1	30970	1					1			
+xnhd_cth	299	640000	Kinh nghiÖm	4				1000000								
+	299	120000	M¶nh Tu Ch©n YÕu QuyÕt	3	2	1	30315	1			4					
+	299	95000	ThiÕt Tinh cÊp 1	3	2	1	30533	1			4					
+	299	55000	ThiÕt Tinh cÊp 2	3	2	1	30534	1			4					
+	299	10000	ThiÕt Tinh cÊp 3	3	2	1	30535	1			4					
+	299	50000	ThiÖp B¹c Xu©n Míi	3	2	200	61	1								
+	299	20000	ThiÖp B¹c Xu©n Míi	3	2	200	61	2								
+	299	10000	ThiÖp B¹c Xu©n Míi	3	2	200	61	5								
+xnhd_fsjl	300	150000	Kinh nghiÖm	4				1000000								
+	300	75000	Kinh nghiÖm	4				3000000								
+	300	150000	 §ång 	5				50000								
+	300	60000	 §ång 	5				150000								
+	300	350000	ThÇn bÝ Yªn Hoa	3	2	1	194	1			4					
+	300	100000	Ma §ao Th¹ch cÊp 1	3	2	1	30428	1			4					
+	300	30000	Ma §¹o Th¹ch cÊp 2	3	2	1	30429	1			4					
+	300	5000	Ma §ao Th¹ch cÊp 3	3	2	1	30430	1			4					
+	300	50000	ThiÖp B¹c Xu©n Míi	3	2	200	61	1			4					
+	300	20000	ThiÖp B¹c Xu©n Míi	3	2	200	61	2			4					
+	300	10000	ThiÖp B¹c Xu©n Míi	3	2	200	61	5			4					
+xnhd_xcbx	301	280000	Kinh nghiÖm	4				2000000								
+	301	20000	Th¸i NhÊt §ång QuyÓn	3	2	1	31066	1			4					
+	301	10000	Th¸i NhÊt ThiÕt QuyÓn	3	2	1	31067	1			4					
+	301	60000	§¸ quý cÊp 1-3	1				51			4					
+	301	180000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1			4					
+	301	50000	HuyÒn Viªm ThiÕt	3	2	1	30670	20								
+	301	50000	Viªm Linh Ti	3	2	1	30671	20								
+	301	50000	Da Ma Lang	3	2	1	30672	20								
+	301	50000	Da §Þa Long	3	2	1	30673	20								
+	301	50000	Hµo HiÖp LÖnh	3	2	95	2084	1			4					
+	301	40000	Cöu chuyÓn håi hån ®¬n	3	1	0	32	1			4					
+	301	72000	B¹ch C©u Hoµn	3	2	1	270	1			4	168				
+	301	40000	§¹i B¹ch C©u hoµn	3	2	1	1007	1			4	168				
+	301	18000	B¹ch C©u Tiªn ®¬n	3	2	1	1008	1			4	168				
+	301	30000	L©n S­	3	0	105	30044	1				168				
+3v3_dx_pmjl_1	302		Kim Ngäc T­êng NhuÖ Tiªn H¹c	3	0	105	195	1			4	720				
+	302		Thiªn Kiªu LÖnh	3	2	97	236	30			4					
+3v3_dx_pmjl_2	303		TuyÕt Ng©n T­êng NhuÖ Tiªn H¹c	3	0	105	194	1			4	720				
+	303		Thiªn Kiªu LÖnh	3	2	97	236	20			4					
+3v3_dx_pmjl_3	304		T­êng NhuÖ Tiªn H¹c	3	0	105	193	1			4	720				
+	304		Thiªn Kiªu LÖnh	3	2	97	236	10			4					
+3v3_dx_pmjl_4	305		C¸t T­êng Tiªn H¹c	3	0	105	192	1			4	720				
+	305		Thiªn Kiªu LÖnh	3	2	97	236	5			4					
+3v3_xx_pmjl_1	306		Kim Ngäc T­êng NhuÖ Tiªn H¹c	3	0	105	195	1			4	720				
+	306		Thiªn Kiªu LÖnh	3	2	97	236	20			4					
+3v3_xx_pmjl_2	307		TuyÕt Ng©n T­êng NhuÖ Tiªn H¹c	3	0	105	194	1			4	720				
+	307		Thiªn Kiªu LÖnh	3	2	97	236	10			4					
+3v3_xx_pmjl_3	308		T­êng NhuÖ Tiªn H¹c	3	0	105	193	1			4	720				
+	308		Thiªn Kiªu LÖnh	3	2	97	236	5			4					
+3v3_xx_pmjl_4	309		C¸t T­êng Tiªn H¹c	3	0	105	192	1			4	720				
+	309		Thiªn Kiªu LÖnh	3	2	97	236	2			4					
+tong_free1	310	100000	Tói §¸ Quý CÊp 1	3	2	1	30998	1			4					
+	310	80000	Tói Trang BÞ Kim Xµ Cuång Vò	3	2	1	30544	1			4					
+	310	80000	CÊp 3 TÈy T©m Th¹ch	3	2	1	30523	1			4					
+	310	80000	CÊp 3 LuyÖn L« ThiÕt	3	2	1	30529	1			4					
+	310	100000	ThiÕt Tinh cÊp 3	3	2	1	30535	1			4					
+	310	50000	§Êu hån	3	2	1	1157	1			4					
+	310	50000	Tói Cöu chuyÓn håi hån ®¬n	3	2	1	3380	1			4					
+	310	70000	VÐ TiÕu Y Vµng	3	2	1	30491	1			4					
+	310	50000	Hép M¶nh Thiªn Th¹ch (Nhá)	3	2	1	30788	1			4					
+	310	100000	Th¶o Ph¹t Lªnh 	3	2	1	30915	1			4					
+	310	80000	HuyÒn Th¹ch	3	2	1	30997	1			4					
+	310	10000	Thiªn Tinh Th¹ch	3	2	1	31191	1			4		1			
+	310	100000	MËt TÝn Tr­ëng M«n	3	2	1	31060	1			4					
+	310	50000	Huy NguyÖt Th¹ch	3	2	1	31240	1			4					
+tong_free2	311	100000	Tói §¸ Quý CÊp 2	3	2	1	30999	1			4					
+	311	30000	Tói Trang BÞ Kim Xµ cÊp 4	3	2	1	31231	1			4					
+	311	100000	TÈy T©m Th¹ch cÊp 4	3	2	1	30524	1			4					
+	311	100000	LuyÖn L« ThiÕt cÊp 4	3	2	1	30530	1			4					
+	311	150000	§Êu hån	3	2	1	1157	1			4					
+	311	10000	Bao Thiªn Th¹ch	3	2	1	1050	1			4					
+	311	100000	Th¶o Ph¹t Lªnh 	3	2	1	30915	1			4					
+	311	130000	HuyÒn Th¹ch	3	2	1	30997	1			4					
+	311	10000	Thiªn Tinh Th¹ch	3	2	1	31191	1			4		1			
+	311	120000	MËt TÝn Tr­ëng M«n	3	2	1	31060	1			4					
+	311	100000	LÖnh bµi ®é cèng hiÕn	3	2	1	30914	1			4					
+	311	50000	Huy NguyÖt Th¹ch	3	2	1	31240	1			4					
+tong_free3	312	150000	Tói §¸ Quý CÊp 3	3	2	1	31000	1			4					
+	312	100	Tói Tam D­¬ng Khai Th¸i	3	2	1	30911	1			4		1			
+	312	65000	LuyÖn L« ThiÕt cÊp 5	3	2	1	30531	1			4					
+	312	65000	TÈy T©m Th¹ch cÊp 5	3	2	1	30525	1			4					
+	312	170000	§Êu hån	3	2	1	1157	1			4					
+	312	10000	Bao Thiªn Th¹ch	3	2	1	1050	1			4					
+	312	179900	Th¶o Ph¹t Lªnh 	3	2	1	30915	1			4					
+	312	30000	Thiªn Tinh Th¹ch	3	2	1	31191	1			4		1			
+	312	30000	LÖnh bµi ®é cèng hiÕn	3	2	1	30914	1			4					
+	312	150000	HuyÒn Th¹ch	3	2	1	30997	1			4					
+	312	100000	MËt TÝn Tr­ëng M«n	3	2	1	31060	1			4					
+	312	50000	Huy NguyÖt Th¹ch	3	2	1	31240	1			4					
+4xingjinshe	313	110000	Tr­êng Hµi Du HiÖp	3	0	154	26	1			4					
+	313	110000	ChiÕn Hµi ThiÕt HuyÕt	3	0	154	27	1			4					
+	313	110000	§¹o Hµi V©n Du	3	0	154	28	1			4					
+	313	110000	¸o Choµng Du HiÖp	3	0	152	26	1			4					
+	313	110000	¸o Choµng ThiÕt HuyÕt	3	0	152	27	1			4					
+	313	110000	¸o Choµng V©n Du	3	0	152	28	1			4					
+	313	110000	Huy Ch­¬ng Du HiÖp	3	0	153	26	1			4					
+	313	110000	Huy Ch­¬ng ThiÕt HuyÕt	3	0	153	27	1			4					
+	313	120000	Huy Ch­¬ng V©n Du	3	0	153	28	1			4					
+tong_xiaojiangquan	314	60000	§iÓm Phong Hoa	18				5								
+	314	60000	Tói §¸ Quý CÊp 1	3	2	1	30998	1			4					
+	314	60000	Tói Trang BÞ Kim Xµ cÊp 3	3	2	1	30544	1			4					
+	314	60000	CÊp 3 TÈy T©m Th¹ch	3	2	1	30523	1			4					
+	314	60000	CÊp 3 LuyÖn L« ThiÕt	3	2	1	30529	1			4					
+	314	60000	ThiÕt Tinh cÊp 3	3	2	1	30535	1			4					
+	314	60000	§Êu hån	3	2	1	1157	1			4					
+	314	69000	Tói Cöu chuyÓn håi hån ®¬n	3	2	1	3380	1			4					
+	314	60000	VÐ TiÕu Y Vµng	3	2	1	30491	1			4					
+	314	60000	Hép M¶nh Thiªn Th¹ch (Nhá)	3	2	1	30788	1			4					
+	314	60000	Th¶o Ph¹t Lªnh 	3	2	1	30915	1			4					
+	314	60000	HuyÒn Th¹ch	3	2	1	30997	1			4					
+	314	1000	Thiªn Tinh Th¹ch	3	2	1	31191	1			4					
+	314	50000	MËt TÝn Tr­ëng M«n	3	2	1	31060	1			4					
+	314	195000	PhiÕu §æi Ngo¹i Trang	3	2	1	31233	1			4					
+	314	10000	Thiªn Kiªu LÖnh	3	2	97	236	1			4					
+	314	5000	Ma Lang Gi¸p	3	2	1	30677	1			4					
+	314	5000	§Þa Long Gi¸p	3	2	1	30678	1			4					
+	314	5000	Viªm Linh Bè	3	2	1	30676	1			4					
+tong_dajiangquan	315	244000	Tói §¸ Quý CÊp 3	3	2	1	31000	1			4					
+	315	100	Tói Tam D­¬ng Khai Th¸i	3	2	1	30911	1			4					
+	315	80000	LuyÖn L« ThiÕt cÊp 5	3	2	1	30531	1			4					
+	315	80000	TÈy T©m Th¹ch cÊp 5	3	2	1	30525	1			4					
+	315	100000	§Êu hån	3	2	1	1157	1			4					
+	315	39900	Bao Thiªn Th¹ch	3	2	1	1050	1			4					
+	315	140000	Th¶o Ph¹t Lªnh 	3	2	1	30915	1			4					
+	315	30000	Thiªn Tinh Th¹ch	3	2	1	31191	1			4					
+	315	70000	LÖnh bµi ®é cèng hiÕn	3	2	1	30914	1			4					
+	315	90000	§iÓm Phong Hoa	18				35								
+	315	100000	PhiÕu §æi Ngo¹i Trang	3	2	1	31233	1			4					
+	315	5000	Thiªn Cang LÖnh	3	2	95	204	1			4					
+	315	5000	Thiªn M«n Kim LÖnh	3	2	1	30370	1			4					
+	315	1000	HuyÕt Bå §Ò	3	2	1	31241	6			4					
+	315	5000	HuyÕt Bå §Ò	3	2	1	31241	4			4					
+	315	10000	HuyÕt Bå §Ò	3	2	1	31241	2			4					
+haoxiacailiaobao	336	250000	HuyÒn Viªm ThiÕt	3	2	1	30670	50			0					
+	336	250000	Viªm Linh Ti	3	2	1	30671	50			0					
+	336	250000	Da Ma Lang	3	2	1	30672	50			0					
+	336	250000	Da §Þa Long	3	2	1	30673	50			0					
+meishaoxue_7d	337		Mai Tiªu TuyÕt	3	0	120	219	1	1		3	168				
+	337		Mai Tiªu TuyÕt	3	0	120	220	1	2		3	168				
+	337		Mai Tiªu TuyÕt	3	0	120	221	1	3		3	168				
+	337		Mai Tiªu TuyÕt	3	0	120	222	1	4		3	168				
+xiezhu_7d	338		Héc Ch©u	3	0	119	215	1	1		3	168				
+	338		Héc Ch©u	3	0	119	216	1	2		3	168				
+	338		Héc Ch©u	3	0	119	217	1	3		3	168				
+	338		Héc Ch©u	3	0	119	218	1	4		3	168				
+zuipo_7d	339		Tóy Ph¸ch	3	0	121	215	1	1		3	168				
+	339		Tóy Ph¸ch	3	0	121	216	1	2		3	168				
+	339		Tóy Ph¸ch	3	0	121	217	1	3		3	168				
+	339		Tóy Ph¸ch	3	0	121	218	1	4		3	168				
+haoxia_ring	340	500000	Hµo HiÖp Giíi	3	0	102	31126	1			4					
+	340	500000	Hµo HiÖp Béi	3	0	102	31127	1			4					
+xialuxiangfeng_1	341	50000	PhiÕu §æi Ngo¹i Trang	3	2	1	31233	1			4		1			
+	341	100000	®iÓm kinh nghiÖm	4				2000000								
+	341	50000	®iÓm kinh nghiÖm	4				5000000								
+	341	40000	®iÓm kinh nghiÖm	4				10000000								
+	341	30000	®iÓm kinh nghiÖm	4				15000000								
+	341	20000	®iÓm kinh nghiÖm	4				20000000								
+	341	50000	Tói §¸ Quý CÊp 3	3	2	1	31000	1			4					
+	341	50000	Tói §¸ Quý CÊp 4	3	2	1	31001	1			4		1			
+	341	100000	LuyÖn	9				500								
+	341	50000	LuyÖn	9				1000								
+	341	10000	LuyÖn	9				2000								
+	341	150000	Bét Tr©n Ch©u	3	2	102	215	10			4					
+	341	100000	Bét Tr©n Ch©u	3	2	102	215	20			4					
+	341	80000	Bét Tr©n Ch©u	3	2	102	215	30			4					
+	341	60000	Bét Tr©n Ch©u	3	2	102	215	40			4					
+	341	60000	Bét Tr©n Ch©u	3	2	102	215	50			4					
+xialuxiangfeng_2	342	50000	PhiÕu §æi Ngo¹i Trang	3	2	1	31233	4			4		1			
+	342	100000	®iÓm kinh nghiÖm	4				4000000								
+	342	50000	®iÓm kinh nghiÖm	4				10000000								
+	342	40000	®iÓm kinh nghiÖm	4				20000000								
+	342	30000	®iÓm kinh nghiÖm	4				30000000								
+	342	20000	®iÓm kinh nghiÖm	4				40000000					1			
+	342	50000	Tói §¸ Quý CÊp 3	3	2	1	31000	2			4					
+	342	50000	Tói §¸ Quý CÊp 4	3	2	1	31001	2			4		1			
+	342	100000	LuyÖn	9				1000								
+	342	50000	LuyÖn	9				2000								
+	342	10000	LuyÖn	9				4000					1			
+	342	150000	Bét Tr©n Ch©u	3	2	102	215	20			4					
+	342	100000	Bét Tr©n Ch©u	3	2	102	215	40			4					
+	342	80000	Bét Tr©n Ch©u	3	2	102	215	60			4					
+	342	60000	Bét Tr©n Ch©u	3	2	102	215	80			4					
+	342	60000	Bét Tr©n Ch©u	3	2	102	215	100			4		1			
+haoxiafangju	343	330000	Hµo HiÖp §Çu	3	0	103	30568	1			1		1			
+	343	330000	Hµo HiÖp y	3	0	100	30568	1			1		1			
+	343	340000	Hµo HiÖp Trang	3	0	101	30568	1			1		1			
+tashaxing_7d	344	83333	§¹p	3	0	119	275	1	1		3	168	1			
+	344	83333	§¹p	3	0	119	276	1	2		3	168	1			
+	344	83333	§¹p	3	0	119	277	1	3		3	168	1			
+	344	83334	§¹p	3	0	119	278	1	4		3	168	1			
+	344	83333	Sa	3	0	120	275	1	1		3	168	1			
+	344	83333	Sa	3	0	120	276	1	2		3	168	1			
+	344	83333	Sa	3	0	120	277	1	3		3	168	1			
+	344	83334	Sa	3	0	120	278	1	4		3	168	1			
+	344	83333	Hµnh	3	0	121	275	1	1		3	168	1			
+	344	83333	Hµnh	3	0	121	276	1	2		3	168	1			
+	344	83334	Hµnh	3	0	121	277	1	3		3	168	1			
+	344	83334	Hµnh	3	0	121	278	1	4		3	168	1			
+hantangyan_7d	345	83333	Hµn	3	0	120	299	1	1		3	168	1			
+	345	83333	Hµn	3	0	120	300	1	2		3	168	1			
+	345	83333	Hµn	3	0	120	301	1	3		3	168	1			
+	345	83334	Hµn	3	0	120	302	1	4		3	168	1			
+	345	83333	§­êng	3	0	119	299	1	1		3	168	1			
+	345	83333	§­êng	3	0	119	300	1	2		3	168	1			
+	345	83333	§­êng	3	0	119	301	1	3		3	168	1			
+	345	83334	§­êng	3	0	119	302	1	4		3	168	1			
+	345	83333	Nh¹n	3	0	121	299	1	1		3	168	1			
+	345	83333	Nh¹n	3	0	121	300	1	2		3	168	1			
+	345	83334	Nh¹n	3	0	121	301	1	3		3	168	1			
+	345	83334	Nh¹n	3	0	121	302	1	4		3	168	1			
+mashentouzhong_7d	346	125000	Ma ThÇn §Çu Chung-Nhá	3	0	120	112	1	1		3	168				
+	346	125000	Ma ThÇn §Çu Chung-Nhá	3	0	120	113	1	2		3	168				
+	346	125000	Ma ThÇn §Çu Chung-Nhá	3	0	120	114	1	3		3	168				
+	346	125000	Ma ThÇn §Çu Chung-Nhá	3	0	120	115	1	4		3	168				
+	346	125000	Ma ThÇn §Çu Chung-Lín	3	0	120	116	1	1		3	168				
+	346	125000	Ma ThÇn §Çu Chung-Lín	3	0	120	117	1	2		3	168				
+	346	125000	Ma ThÇn §Çu Chung-Lín	3	0	120	118	1	3		3	168				
+	346	125000	Ma ThÇn §Çu Chung-Lín	3	0	120	119	1	4		3	168				
+chunjie_zongzi	347	60000	Xu©n L«i	3	2	3	31272	1								
+	347	60000	M·n Hång	3	2	3	31287	1								
+	347	100000	VÐ Sè N¨m Míi	3	2	1	31288	1			4		1			
+	347	20000	PhiÕu §æi Ngo¹i Trang	3	2	1	31233	1			4		1			
+	347	20000	VÐ §æi Trang Søc Ngo¹i Trang	3	2	1	31320	1			4		1			
+	347	50000	Bét Tr©n Ch©u	3	2	102	215	20			4		1			
+	347	50000	M¶nh Thó C­ìi	3	2	1	31386	10			4		1			
+	347	50000	§¸ quý cÊp 4	1				27			4		1			
+	347	50000	§ång TÕ Chi NguyÖn	3	2	1	30913	1			4					
+	347	50000	Th¶o Ph¹t Lªnh 	3	2	1	30915	1			4		1			
+	347	20000	Kinh M¹ch §ång Nh©n	3	2	1	30730	1			4					
+	347	20000	Kinh M¹ch Ng©n Nh©n	3	2	1	30731	1			4		1			
+	347	50000	LuyÖn	9				1000			4					
+	347	20000	M¶nh Thiªn Cang LÖnh	3	2	1	30390	5			4		1			
+	347	20000	M¶nh Thiªn M«n Kim LÖnh	3	2	1	30410	1			4		1			
+	347	320000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1								
+	347	40000	Hép ChiÕu Yªn (¸o)	3	2	1	31602	1					1			
+chunjie_xiaonianshou	348	200000	Xu©n L«i	3	2	3	31272	1			0					
+	348	100000	M·n Hång	3	2	3	31287	1			0					
+	348	100000	VÐ Sè N¨m Míi	3	2	1	31288	1			4					
+	348	180000	ChÝ D­¬ng Hoµn	3	2	1	31255	10			4					
+	348	120000	ChÝ D­¬ng Hoµn	3	2	1	31255	50			4		1			
+	348	50000	ChÝ D­¬ng Hoµn	3	2	1	31255	100			4		1			
+	348	30000	PhiÕu §æi Ngo¹i Trang	3	2	1	31233	1			4		1			
+	348	20000	§¸ quý cÊp 4	1				27			4					
+	348	30000	VÐ §æi Trang Søc Ngo¹i Trang	3	2	1	31320	1			4		1			
+	348	50000	§ång TÕ Chi NguyÖn	3	2	1	30913	1			4					
+	348	50000	Th¶o Ph¹t Lªnh 	3	2	1	30915	1			4					
+	348	5000	§æi Linh Th¹ch-Cao 1	3	2	1	31249	1			4		1			
+	348	5000	§æi Linh Th¹ch-Cao 2	3	2	1	31250	1			4		1			
+	348	5000	§æi Linh Th¹ch-Cao 3	3	2	1	31251	1			4		1			
+	348	5000	§æi Linh Th¹ch-Cao 4	3	2	1	31252	1			4		1			
+	348	5000	§æi Linh Th¹ch-Cao 5	3	2	1	31253	1			4		1			
+	348	5000	§æi Linh Th¹ch-Cao 6	3	2	1	31254	1			4		1			
+	348	40000	Hép ChiÕu Yªn (QuÇn)	3	2	1	31603	1			0		1			
+chunjie_danianshou	349	100000	VÐ Sè TÕt ¢m LÞch	3	2	1	31288	1			4					
+	349	50000	Tô Tµi Th¹ch	3	2	1	31170	1			4		1			
+	349	50000	PhiÕu §æi Ngo¹i Trang	3	2	1	31233	1			4		1			
+	349	50000	VÐ §æi Trang Søc Ngo¹i Trang	3	2	1	31320	1			4		1			
+	349	10000	B¶o Th¹ch CÊp 6	1				352			4		1			
+	349	70000	§¸ quý cÊp 5	1				263			4		1			
+	349	100000	Kinh M¹ch §ång Nh©n	3	2	1	30730	1			4					
+	349	50000	Kinh M¹ch Ng©n Nh©n	3	2	1	30731	1			4		1			
+	349	100000	M¶nh Thiªn Cang LÖnh	3	2	1	30390	5			4					
+	349	100000	M¶nh Thiªn M«n Kim LÖnh	3	2	1	30410	1			4					
+	349	170000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1								
+	349	100000	Hu©n ch­¬ng anh hïng	3	2	1	30499	2								
+	349	50000	Hu©n ch­¬ng anh hïng	3	2	1	30499	4								
+chunjie_kainianfan	350	50000	Tô Tµi Th¹ch	3	2	1	31170	1			4		1			
+	350	150000	§¸ quý cÊp 4	1				27			4					
+	350	50000	§¸ quý cÊp 5	1				263			4		1			
+	350	50000	LÖnh bµi ®é cèng hiÕn	3	2	1	30914	1			4	168	1			
+	350	100000	Th­¬ng H¶i Ch©u Lv2 (Ch­a gi¸m ®Þnh)	3	2	102	209	1			4					
+	350	50000	Th­¬ng H¶i Ch©u Lv3 (Ch­a gi¸m ®Þnh)	3	2	102	210	1			4					
+	350	30000	Th­¬ng H¶i Ch©u Lv4 (Ch­a gi¸m ®Þnh)	3	2	102	211	1			4		1			
+	350	10000	Th­¬ng H¶i Ch©u Lv5 (Ch­a gi¸m ®Þnh)	3	2	102	212	1			4		1			
+	350	50000	M¶nh Thiªn Cang LÖnh	3	2	1	30390	5			4					
+	350	50000	M¶nh Thiªn M«n Kim LÖnh	3	2	1	30410	1			4					
+	350	40000	PhiÕu §æi Ngo¹i Trang	3	2	1	31233	1			4		1			
+	350	40000	VÐ §æi Trang Søc Ngo¹i Trang	3	2	1	31320	1			4		1			
+	350	30000	§ång TÕ Chi NguyÖn	3	2	1	30913	1			4					
+	350	150000	Thiªn th¹ch	3	2	2	8	5			4					
+	350	150000	M¶nh Thiªn th¹ch	3	2	2	7	5			4					
+xinchunchoujiangquan	351	10000	Tô Tµi Th¹ch	3	2	1	31170	1			4		1			
+	351	80000	PhiÕu §æi Ngo¹i Trang	3	2	1	31233	1			4		1			
+	351	3000	B¶o Th¹ch CÊp 6	1				352			4		1			
+	351	10000	§¸ quý cÊp 5	1				263			4		1			
+	351	31000	§¸ quý cÊp 4	1				27			4					
+	351	60000	Kinh M¹ch §ång Nh©n	3	2	1	30730	1			4					
+	351	69000	Kinh M¹ch Ng©n Nh©n	3	2	1	30731	1			4		1			
+	351	10000	M¶nh Thiªn Cang LÖnh	3	2	1	30390	5			4					
+	351	10000	M¶nh Thiªn M«n Kim LÖnh	3	2	1	30410	1			4					
+	351	2000	L¹c §µ (X¸m)	3	0	105	149	1			4		1			
+	351	10000	Tói Ngo¹i Trang Mé Hµn	3	2	1	31370	1					1			
+	351	80000	Qu©n C«ng Ch­¬ng	3	2	1	9999	1			4	720				
+	351	30000	Qu©n C«ng §¹i	3	2	1	9998	1			4	720				
+	351	10000	Qu©n C«ng Huy Hoµng	3	2	1	9977	1			4	720	1			
+	351	90000	Thiªn th¹ch	3	2	2	8	5			4					
+	351	90000	M¶nh Thiªn th¹ch	3	2	2	7	5			4					
+	351	50000	§ång TÕ Chi NguyÖn	3	2	1	30913	1			4					
+	351	50000	Th¶o Ph¹t Lªnh 	3	2	1	30915	1			4	720				
+	351	5000	§æi Linh Th¹ch-Cao 1	3	2	1	31249	1			4		1			
+	351	5000	§æi Linh Th¹ch-Cao 2	3	2	1	31250	1			4		1			
+	351	5000	§æi Linh Th¹ch-Cao 3	3	2	1	31251	1			4		1			
+	351	5000	§æi Linh Th¹ch-Cao 4	3	2	1	31252	1			4		1			
+	351	5000	§æi Linh Th¹ch-Cao 5	3	2	1	31253	1			4		1			
+	351	5000	§æi Linh Th¹ch-Cao 6	3	2	1	31254	1			4		1			
+	351	50000	Th­¬ng H¶i Ch©u Lv4 (Ch­a gi¸m ®Þnh)	3	2	102	211	1			4		1			
+	351	10000	Th­¬ng H¶i Ch©u Lv5 (Ch­a gi¸m ®Þnh)	3	2	102	212	1			4		1			
+	351	5000	Th­¬ng H¶i Ch©u Lv6 (Ch­a gi¸m ®Þnh)	3	2	102	213	1			4		1			
+	351	80000	VÐ §æi Trang Søc Ngo¹i Trang	3	2	1	31320	1			4		1			
+	351	70000	Hu©n ch­¬ng anh hïng	3	2	1	30499	1			4					
+	351	40000	Hu©n ch­¬ng anh hïng	3	2	1	30499	2			4					
+	351	20000	Hu©n ch­¬ng anh hïng	3	2	1	30499	4			4					
+gem_lv6_normal	352	250000	HuyÕtTrÝchTh¹ch Lv6	3	2	22	106	1			4					
+	352	250000	NguyÖtB¹chTh¹ch Lv6	3	2	22	206	1			4					
+	352	250000	Hæ Ph¸ch Th¹ch CÊp 6	3	2	22	306	1			4					
+	352	250000	H¾c DiÖu Th¹ch CÊp 6	3	2	22	406	1			4					
+zhaoyaoqi	353	250000	C¸o Xinh	10	63			1			4		1			
+	353	250000	GÊu L­ng Xanh	10	64			1			4		1			
+	353	500000	Gµ Vâ HiÖp	10	65			1			4		1			
+baiyaoyuanshen	354	10000	TuyÕt Qu¸i	10	56			1					1			
+	354	10000	§ao Tµ	10	57			1					1			
+	354	10000	TiÓu Hång ®ao quû	10	58			1					1			
+	354	5000	N÷ Tú Bµ tiªn	10	59			1					1			
+	354	5000	N÷ §Þch tiªn	10	60			1					1			
+	354	5000	Kim ®ao binh	10	61			1					1			
+	354	5000	Tèng ®ao binh	10	62			1					1			
+	354	50000	Sãi ®iªn	10	4			1								
+	354	50000	Qu¹ §en	10	5			1								
+	354	50000	C¸ sÊu	10	6			1								
+	354	50000	C¸p M«	10	7			1								
+	354	50000	D¬i hót m¸u	10	8			1								
+	354	50000	Bß c¹p	10	9			1								
+	354	40000	Ng©n Hå	10	10			1								
+	354	40000	Th­¬ng Viªn	10	11			1								
+	354	40000	Thô Qu¸i	10	12			1								
+	354	40000	GÊu x¸m	10	13			1								
+	354	40000	Ong ®éc	10	14			1								
+	354	40000	Kim Gi¸p	10	15			1								
+	354	40000	Hång Bµo Sø Gi¶	10	16			1								
+	354	40000	T©y B¾c Tr¸ng H¸n	10	17			1								
+	354	30000	NhÊt PhÈm §­êng MËt Sø	10	18			1								
+	354	30000	Xi Háa tr­ëng l·o	10	19			1								
+	354	30000	Oa KhÊu	10	20			1								
+	354	30000	Tiªn N÷	10	21			1								
+	354	30000	N÷ Tiªu tiªn	10	22			1								
+	354	30000	Tr× M©u Hé VÖ	10	23			1								
+	354	10000	TiÓu Hång xoa quû	10	27			1								
+	354	10000	HuyÕt L©n §éc M·ng	10	28			1								
+	354	10000	Ng­ Qu¸i	10	29			1								
+	354	10000	Háa Th¹ch Nh©n	10	30			1								
+	354	10000	§éc TÝch	10	31			1								
+	354	10000	D¹ Xoa	10	32			1								
+	354	10000	C¬ quan nh©n	10	33			1								
+	354	10000	B¨ng N÷	10	34			1								
+	354	10000	Yªu Hå	10	35			1								
+	354	10000	KiÕm t­îng	10	36			1								
+	354	10000	TriÕt BiÖt	10	46			1								
+	354	10000	B¹ch §Çu §iªu	10	47			1								
+	354	10000	Mao Ng­u	10	48			1								
+	354	5000	O¸n Quû	10	49			1								
+	354	5000	Töu Nhôc Hßa Th­îng	10	50			1								
+	354	5000	Bé kho¸i	10	51			1								
+	354	5000	KiÕm hiÖp	10	52			1								
+xiaofudai_1	355	400000	TuÝ ®¸ quý cÊp 1	3	2	1	30998	1								
+	355	250000	TuÝ ®¸ quý cÊp 2	3	2	1	30999	1								
+	355	50000	TuÝ ®¸ quý cÊp 3	3	2	1	31000	1					1			
+	355	20000	Kinh M¹ch Ng©n Nh©n	3	2	1	30731	1				168				
+	355	10000	Håi Tiªn §¬n	3	2	1	30847	1								
+	355	20000	Tu Ch©n YÕu QuyÕt	3	2	0	554	1				168				
+	355	50000	Qu©n C«ng Ch­¬ng	3	2	1	9999	1				168				
+	355	20000	Qu©n C«ng §¹i	3	2	1	9998	1				168				
+	355	2000	Qu©n C«ng Huy Hoµng	3	2	1	9977	1				168				
+	355	100	H¾c B¹ch Kú	3	2	1	31168	1					1			
+	355	3000	M¶nh Giµy Kim Xµ Lv6	3	2	1	31383	1					1			
+	355	3000	M¶nh Huy Ch­¬ng Kim Xµ Lv6	3	2	1	31384	1					1			
+	355	3000	M¶nh Phi Phong Kim Xµ Lv6	3	2	1	31385	1					1			
+	355	168900	B¹ch Lang	3	0	105	206	1			3	24				
+dafudai_1	356	200000	TuÝ ®¸ quý cÊp 1	3	2	1	30998	1								
+	356	200000	TuÝ ®¸ quý cÊp 2	3	2	1	30999	1								
+	356	150000	TuÝ ®¸ quý cÊp 3	3	2	1	31000	1					1			
+	356	10000	§¸ quý cÊp 4	3	2	1	31001	1					1			
+	356	30000	Kinh M¹ch Ng©n Nh©n	3	2	1	30731	1				168				
+	356	20000	Håi Tiªn §¬n	3	2	1	30847	1								
+	356	50000	Tu Ch©n YÕu QuyÕt	3	2	0	554	1				168				
+	356	30000	Qu©n C«ng Ch­¬ng	3	2	1	9999	1				168				
+	356	30000	Qu©n C«ng §¹i	3	2	1	9998	1				168				
+	356	20000	Qu©n C«ng Huy Hoµng	3	2	1	9977	1				168	1			
+	356	1000	H¾c B¹ch Kú	3	2	1	31168	1					1			
+	356	30000	M¶nh Giµy Kim Xµ Lv6	3	2	1	31383	1					1			
+	356	30000	M¶nh Huy Ch­¬ng Kim Xµ Lv6	3	2	1	31384	1					1			
+	356	30000	M¶nh Phi Phong Kim Xµ Lv6	3	2	1	31385	1					1			
+	356	168980	B¹ch Lang	3	0	105	206	1			3	24				
+	356	10	B¹ch Lang	3	0	105	206	1			3		1			
+	356	10	Th«n NguyÖt LÖnh	3	2	1	31256	1					1			
+xiaofudai	357		Thiªn Kiªu LÖnh	3	2	97	236	1								
+	357		Th­ëng Tói Phóc Nhá-NgÉu Nhiªn	1				355								
+dafudai	358		Thiªn Kiªu LÖnh	3	2	97	236	10								
+	358		Th­ëng Tói Phóc Lín-NgÉu Nhiªn	1				356								
+6ji_huoban_book	359	50000	Ch©n KhÝ Hé ThÓ Lv6	3	2	150	87	1			4					
+	359	60000	?ch Thä Diªn D­¬ng Lv6	3	2	150	88	1			4					
+	359	60000	C­êng Th©n B¸ ThÓ Lv6	3	2	150	89	1			4					
+	359	60000	¢m Phong Thùc Cèt Lv6	3	2	150	90	1			4					
+	359	60000	HuyÒn Vò V« Song Lv6	3	2	150	91	1			4					
+	359	60000	Ngò Hµnh V« T­íng Lv6	3	2	150	92	1			4					
+	359	60000	Kim Linh Phô ThÓ Lv6	3	2	150	93	1			4					
+	359	60000	Méc Linh Phô ThÓ Lv6	3	2	150	94	1			4					
+	359	60000	Thñy Linh Phô ThÓ Lv6	3	2	150	95	1			4					
+	359	50000	Háa Linh Phô ThÓ Lv6	3	2	150	96	1			4					
+	359	50000	Thæ Linh Phô ThÓ Lv6	3	2	150	97	1			4					
+	359	50000	Ph¸ Kh«ng Tr¶m ?nh Lv6	3	2	150	98	1			4					
+	359	50000	S¸t Th­¬ng Gia T¨ng Lv6	3	2	150	99	1			4					
+	359	50000	Khinh Linh TÊn TËt Lv6	3	2	150	100	1			4					
+	359	50000	V« H×nh Chi Cæ Lv6	3	2	150	101	1			4					
+	359	50000	Linh Quang ThiÓm Lv2	3	2	150	102	1			4					
+	359	50000	Ng­ng ThÇn QuyÕt Lv2	3	2	150	103	1			4					
+	359	50000	Kinh §µo QuyÕt Lv2	3	2	150	104	1			4					
+	359	10000	C¬n GiËn Nguyªn Thñy Lv2	3	2	150	105	1			4		1			
+	359	10000	ThiÕt Bè Sam Lv2	3	2	150	106	1			4		1			
+KFboss_libao1	360		Kinh nghiÖm	4				100000000								
+KFboss_libao2	361	267900	Kinh nghiÖm	4				100000000								
+	361	150000	Qu©n C«ng Ch­¬ng	3	2	1	9999	1								
+	361	200000	Qu©n C«ng §¹i	3	2	1	9998	1								
+	361	150000	Qu©n C«ng Huy Hoµng	3	2	1	9977	1								
+	361	100000	Thiªn Th¹ch Tinh Th¹ch	3	2	1	1009	1								
+	361	100000	Tµng R­¬ng	3	2	1	30341	1								
+	361	5000	ThÇn Tµi B¶o R­¬ng	3	2	1	30344	1					1			
+	361	5000	Thiªn Cang LÖnh	3	2	95	204	1					1			
+	361	5000	Thiªn M«n Kim LÖnh	3	2	1	30370	1					1			
+	361	15000	Th«n NguyÖt LÖnh	3	2	1	31256	1					1			
+	361	100	Tói Trang BÞ Dµnh Riªng	3	2	1	31400	1					1			
+	361	1000	ChiÕn Nghª	3	0	105	202	1					1			
+	361	1000	B¹ch Tª	3	0	105	207	1					1			
+KFboss_libaojihe	362		®iÓm kinh nghiÖm	1				360								
+	362		Th­ëng §¹o Cô	1				361								
+suolingshixiang	366	167000	§æi Linh Th¹ch-Cao 1	3	2	1	31249	1			4					
+	366	167000	§æi Linh Th¹ch-Cao 2	3	2	1	31250	1			4					
+	366	167000	§æi Linh Th¹ch-Cao 3	3	2	1	31251	1			4					
+	366	167000	§æi Linh Th¹ch-Cao 4	3	2	1	31252	1			4					
+	366	166000	§æi Linh Th¹ch-Cao 5	3	2	1	31253	1			4					
+	366	166000	§æi Linh Th¹ch-Cao 6	3	2	1	31254	1			4					
+yizhu5_7	367	700000	Th­¬ng H¶i Ch©u Lv5 (Ch­a gi¸m ®Þnh)	3	2	102	212	1			4					
+	367	280000	Th­¬ng H¶i Ch©u Lv6 (Ch­a gi¸m ®Þnh)	3	2	102	213	1			4					
+	367	20000	Th­¬ng H¶i Ch©u Lv7 (Ch­a gi¸m ®Þnh)	3	2	102	214	1			4					
+fenghua1	368	3056	Nh­ ý (Lam)	3	0	119	1	1				168				
+	368	3056	Nh­ ý (Lam)	3	0	119	2	1				168				
+	368	3056	Nh­ ý (Lam)	3	0	119	3	1				168				
+	368	3056	Nh­ ý (Lam)	3	0	119	4	1				168				
+	368	3056	L­u Quang (Kim)	3	0	119	5	1				168				
+	368	3056	L­u Quang (Kim)	3	0	119	6	1				168				
+	368	3056	L­u Quang (Kim)	3	0	119	7	1				168				
+	368	3056	L­u Quang (Kim)	3	0	119	8	1				168				
+	368	3056	Nh­ ý(®á)	3	0	119	9	1				168				
+	368	3056	Nh­ ý(®á)	3	0	119	10	1				168				
+	368	3056	Nh­ ý(®á)	3	0	119	11	1				168				
+	368	3056	Nh­ ý(®á)	3	0	119	12	1				168				
+	368	3056	L­u Quang (§á)	3	0	119	13	1				168				
+	368	3056	L­u Quang (§á)	3	0	119	14	1				168				
+	368	3056	L­u Quang (§á)	3	0	119	15	1				168				
+	368	3056	L­u Quang (§á)	3	0	119	16	1				168				
+	368	3056	Nh­ ý (Kim)	3	0	119	17	1				168				
+	368	3056	Nh­ ý (Kim)	3	0	119	18	1				168				
+	368	3056	Nh­ ý (Kim)	3	0	119	19	1				168				
+	368	3056	Nh­ ý (Kim)	3	0	119	20	1				168				
+	368	3056	L­u Quang (Lam)	3	0	119	21	1				168				
+	368	3056	L­u Quang (Lam)	3	0	119	22	1				168				
+	368	3056	L­u Quang (Lam)	3	0	119	23	1				168				
+	368	3056	L­u Quang (Lam)	3	0	119	24	1				168				
+	368	3056	Siªu Phong (Lam)	3	0	121	1	1				168				
+	368	3056	Siªu Phong (Lam)	3	0	121	2	1				168				
+	368	3056	Siªu Phong (Lam)	3	0	121	3	1				168				
+	368	3056	Siªu Phong (Lam)	3	0	121	4	1				168				
+	368	3056	Tinh Th¸i (Kim)	3	0	121	5	1				168				
+	368	3056	Tinh Th¸i (Kim)	3	0	121	6	1				168				
+	368	3056	Tinh Th¸i (Kim)	3	0	121	7	1				168				
+	368	3056	Tinh Th¸i (Kim)	3	0	121	8	1				168				
+	368	3056	Siªu Phong(®á)	3	0	121	9	1				168				
+	368	3056	Siªu Phong(®á)	3	0	121	10	1				168				
+	368	3056	Siªu Phong(®á)	3	0	121	11	1				168				
+	368	3056	Siªu Phong(®á)	3	0	121	12	1				168				
+	368	3056	Tinh Th¸i (§á)	3	0	121	13	1				168				
+	368	3056	Tinh Th¸i (§á)	3	0	121	14	1				168				
+	368	3056	Tinh Th¸i (§á)	3	0	121	15	1				168				
+	368	3056	Tinh Th¸i (§á)	3	0	121	16	1				168				
+	368	3056	Siªu Phong (Kim)	3	0	121	17	1				168				
+	368	3056	Siªu Phong (Kim)	3	0	121	18	1				168				
+	368	3056	Siªu Phong (Kim)	3	0	121	19	1				168				
+	368	3056	Siªu Phong (Kim)	3	0	121	20	1				168				
+	368	3056	Tinh Th¸i (Lam)	3	0	121	21	1				168				
+	368	3056	Tinh Th¸i (Lam)	3	0	121	22	1				168				
+	368	3056	Tinh Th¸i (Lam)	3	0	121	23	1				168				
+	368	3056	Tinh Th¸i (Lam)	3	0	121	24	1				168				
+	368	3056	Oanh TrÇn Vò (Lam)	3	0	120	1	1				168				
+	368	3056	Oanh TrÇn Vò (Lam)	3	0	120	2	1				168				
+	368	3056	Oanh TrÇn Vò (Lam)	3	0	120	3	1				168				
+	368	3056	Oanh TrÇn Vò (Lam)	3	0	120	4	1				168				
+	368	3056	Chø Phông T­êng Loan (Kim)	3	0	120	5	1				168				
+	368	3056	Chø Phông T­êng Loan (Kim)	3	0	120	6	1				168				
+	368	3056	Chø Phông T­êng Loan (Kim)	3	0	120	7	1				168				
+	368	3056	Chø Phông T­êng Loan (Kim)	3	0	120	8	1				168				
+	368	3056	Oanh TrÇn Vò(®á)	3	0	120	9	1				168				
+	368	3056	Oanh TrÇn Vò(®á)	3	0	120	10	1				168				
+	368	3056	Oanh TrÇn Vò(®á)	3	0	120	11	1				168				
+	368	3056	Oanh TrÇn Vò(®á)	3	0	120	12	1				168				
+	368	3056	Trî Phông T­êng Loan (§á)	3	0	120	13	1				168				
+	368	3056	Trî Phông T­êng Loan (§á)	3	0	120	14	1				168				
+	368	3056	Trî Phông T­êng Loan (§á)	3	0	120	15	1				168				
+	368	3056	Trî Phông T­êng Loan (§á)	3	0	120	16	1				168				
+	368	3056	Oanh TrÇn Vò (Kim)	3	0	120	17	1				168				
+	368	3056	Oanh TrÇn Vò (Kim)	3	0	120	18	1				168				
+	368	3056	Oanh TrÇn Vò (Kim)	3	0	120	19	1				168				
+	368	3056	Oanh TrÇn Vò (Kim)	3	0	120	20	1				168				
+	368	3056	Trî Ph­îng T­êng Loan (Lam)	3	0	120	21	1				168				
+	368	3056	Trî Ph­îng T­êng Loan (Lam)	3	0	120	22	1				168				
+	368	3056	Trî Ph­îng T­êng Loan (Lam)	3	0	120	23	1				168				
+	368	3056	Trî Ph­îng T­êng Loan (Lam)	3	0	120	24	1				168				
+	368	3056	Chu«ng Gi¸ng Sinh (§á)	3	0	120	25	1				168				
+	368	3056	Chu«ng Gi¸ng Sinh (§á)	3	0	120	26	1				168				
+	368	3056	Chu«ng Gi¸ng Sinh (§á)	3	0	120	27	1				168				
+	368	3056	Chu«ng Gi¸ng Sinh (§á)	3	0	120	28	1				168				
+	368	3056	Chu«ng Gi¸ng Sinh (Lam)	3	0	120	29	1				168				
+	368	3056	Chu«ng Gi¸ng Sinh (Lam)	3	0	120	30	1				168				
+	368	3056	Chu«ng Gi¸ng Sinh (Lam)	3	0	120	31	1				168				
+	368	3056	Chu«ng Gi¸ng Sinh (Lam)	3	0	120	32	1				168				
+	368	3056	Chu«ng Gi¸ng Sinh (TÝm)	3	0	120	33	1				168				
+	368	3056	Chu«ng Gi¸ng Sinh (TÝm)	3	0	120	34	1				168				
+	368	3056	Chu«ng Gi¸ng Sinh (TÝm)	3	0	120	35	1				168				
+	368	3056	Chu«ng Gi¸ng Sinh (TÝm)	3	0	120	36	1				168				
+	368	2556	Tói Gi¸ng Sinh §ùng §Çy	3	0	120	37	1				168				
+	368	2556	Tói Gi¸ng Sinh §Çy §ñ	3	0	120	38	1				168				
+	368	2556	Tói Gi¸ng Sinh Ch­a §Çy	3	0	120	39	1				168				
+	368	2556	Tói Gi¸ng Sinh Trèng	3	0	120	40	1				168				
+	368	2556	Tói Gi¸ng Sinh H¹nh Phóc	3	0	120	41	1				168				
+	368	3056	Hoa Hång §á-Vai	3	0	119	72	1				168				
+	368	3056	Hoa Hång §á-Vai	3	0	119	73	1				168				
+	368	3056	Hoa Hång §á-Vai	3	0	119	74	1				168				
+	368	3056	Hoa Hång §á-Vai	3	0	119	75	1				168				
+	368	3056	Hoa Hång PhÊn-Vai	3	0	119	76	1				168				
+	368	3056	Hoa Hång PhÊn-Vai	3	0	119	77	1				168				
+	368	3056	Hoa Hång PhÊn-Vai	3	0	119	78	1				168				
+	368	3056	Hoa Hång PhÊn-Vai	3	0	119	79	1				168				
+	368	3056	Hoa Hång Xanh-Vai	3	0	119	80	1				168				
+	368	3056	Hoa Hång Xanh-Vai	3	0	119	81	1				168				
+	368	3056	Hoa Hång Xanh-Vai	3	0	119	82	1				168				
+	368	3056	Hoa Hång Xanh-Vai	3	0	119	83	1				168				
+	368	3056	Hoa Hång §á-Trôy	3	0	120	72	1				168				
+	368	3056	Hoa Hång §á-Trôy	3	0	120	73	1				168				
+	368	3056	Hoa Hång §á-Trôy	3	0	120	74	1				168				
+	368	3056	Hoa Hång §á-Trôy	3	0	120	75	1				168				
+	368	3056	Hoa Hång PhÊn-Trôy	3	0	120	76	1				168				
+	368	3056	Hoa Hång PhÊn-Trôy	3	0	120	77	1				168				
+	368	3056	Hoa Hång PhÊn-Trôy	3	0	120	78	1				168				
+	368	3056	Hoa Hång PhÊn-Trôy	3	0	120	79	1				168				
+	368	3056	Hoa Hång Xanh-Trôy	3	0	120	80	1				168				
+	368	3056	Hoa Hång Xanh-Trôy	3	0	120	81	1				168				
+	368	3056	Hoa Hång Xanh-Trôy	3	0	120	82	1				168				
+	368	3056	Hoa Hång Xanh-Trôy	3	0	120	83	1				168				
+	368	2556	Hoa Hång §á Tinh X¶o-Vai	3	0	119	84	1				168				
+	368	2556	Hoa Hång §á Tinh X¶o-Vai	3	0	119	85	1				168				
+	368	2556	Hoa Hång §á Tinh X¶o-Vai	3	0	119	86	1				168				
+	368	2556	Hoa Hång §á Tinh X¶o-Vai	3	0	119	87	1				168				
+	368	2556	Hoa Hång PhÊn Tinh X¶o-Vai	3	0	119	88	1				168				
+	368	2556	Hoa Hång PhÊn Tinh X¶o-Vai	3	0	119	89	1				168				
+	368	2556	Hoa Hång PhÊn Tinh X¶o-Vai	3	0	119	90	1				168				
+	368	2556	Hoa Hång PhÊn Tinh X¶o-Vai	3	0	119	91	1				168				
+	368	2556	Hoa Hång Xanh Tinh X¶o-Vai	3	0	119	92	1				168				
+	368	2556	Hoa Hång Xanh Tinh X¶o-Vai	3	0	119	93	1				168				
+	368	2556	Hoa Hång Xanh Tinh X¶o-Vai	3	0	119	94	1				168				
+	368	2556	Hoa Hång Xanh Tinh X¶o-Vai	3	0	119	95	1				168				
+	368	2556	Hoa Hång §á Tinh X¶o-Trôy	3	0	120	84	1				168				
+	368	2556	Hoa Hång §á Tinh X¶o-Trôy	3	0	120	85	1				168				
+	368	2556	Hoa Hång §á Tinh X¶o-Trôy	3	0	120	86	1				168				
+	368	2556	Hoa Hång §á Tinh X¶o-Trôy	3	0	120	87	1				168				
+	368	2556	Hoa Hång PhÊn Tinh X¶o-Trôy	3	0	120	88	1				168				
+	368	2556	Hoa Hång PhÊn Tinh X¶o-Trôy	3	0	120	89	1				168				
+	368	2556	Hoa Hång PhÊn Tinh X¶o-Trôy	3	0	120	90	1				168				
+	368	2556	Hoa Hång PhÊn Tinh X¶o-Trôy	3	0	120	91	1				168				
+	368	2556	Hoa Hång Xanh Tinh X¶o-Trôy	3	0	120	92	1				168				
+	368	2556	Hoa Hång Xanh Tinh X¶o-Trôy	3	0	120	93	1				168				
+	368	2556	Hoa Hång Xanh Tinh X¶o-Trôy	3	0	120	94	1				168				
+	368	2556	Hoa Hång Xanh Tinh X¶o-Trôy	3	0	120	95	1				168				
+	368	2556	Hoa Hång §á Tinh X¶o-Ch©n	3	0	121	72	1				168				
+	368	2556	Hoa Hång §á Tinh X¶o-Ch©n	3	0	121	73	1				168				
+	368	2556	Hoa Hång §á Tinh X¶o-Ch©n	3	0	121	74	1				168				
+	368	2556	Hoa Hång §á Tinh X¶o-Ch©n	3	0	121	75	1				168				
+	368	2556	Hoa Hång PhÊn Tinh X¶o-Ch©n	3	0	121	76	1				168				
+	368	2556	Hoa Hång PhÊn Tinh X¶o-Ch©n	3	0	121	77	1				168				
+	368	2556	Hoa Hång PhÊn Tinh X¶o-Ch©n	3	0	121	78	1				168				
+	368	2556	Hoa Hång PhÊn Tinh X¶o-Ch©n	3	0	121	79	1				168				
+	368	2556	Hoa Hång Xanh Tinh X¶o-Ch©n	3	0	121	80	1				168				
+	368	2556	Hoa Hång Xanh Tinh X¶o-Ch©n	3	0	121	81	1				168				
+	368	2556	Hoa Hång Xanh Tinh X¶o-Ch©n	3	0	121	82	1				168				
+	368	2556	Hoa Hång Xanh Tinh X¶o-Ch©n	3	0	121	83	1				168				
+	368	3056	Chong Chãng Tuæi Th¬	3	0	120	96	1				168				
+	368	3056	Chong Chãng Tuæi Th¬	3	0	120	97	1				168				
+	368	3056	Chong Chãng Tuæi Th¬	3	0	120	98	1				168				
+	368	3056	Chong Chãng Tuæi Th¬	3	0	120	99	1				168				
+	368	3056	DiÒu GiÊy B­ím Lam	3	0	120	100	1				168				
+	368	3056	DiÒu GiÊy B­ím Lam	3	0	120	101	1				168				
+	368	3056	DiÒu GiÊy B­ím Lam	3	0	120	102	1				168				
+	368	3056	DiÒu GiÊy B­ím Lam	3	0	120	103	1				168				
+	368	3056	Hå L« KhØ MËp-Nhá	3	0	120	104	1				168				
+	368	3056	Hå L« KhØ MËp-Nhá	3	0	120	105	1				168				
+	368	3056	Hå L« KhØ MËp-Nhá	3	0	120	106	1				168				
+	368	3056	Hå L« KhØ MËp-Nhá	3	0	120	107	1				168				
+	368	3056	Hå L« KhØ MËp-Lín	3	0	120	108	1				168				
+	368	3056	Hå L« KhØ MËp-Lín	3	0	120	109	1				168				
+	368	3056	Hå L« KhØ MËp-Lín	3	0	120	110	1				168				
+	368	3056	Hå L« KhØ MËp-Lín	3	0	120	111	1				168				
+	368	2414	Ma ThÇn §Çu Chung-Nhá	3	0	120	112	1				168				
+	368	2414	Ma ThÇn §Çu Chung-Nhá	3	0	120	113	1				168				
+	368	2414	Ma ThÇn §Çu Chung-Nhá	3	0	120	114	1				168				
+	368	2414	Ma ThÇn §Çu Chung-Nhá	3	0	120	115	1				168				
+	368	2414	Ma ThÇn §Çu Chung-Lín	3	0	120	116	1				168				
+	368	2414	Ma ThÇn §Çu Chung-Lín	3	0	120	117	1				168				
+	368	2414	Ma ThÇn §Çu Chung-Lín	3	0	120	118	1				168				
+	368	2414	Ma ThÇn §Çu Chung-Lín	3	0	120	119	1				168				
+	368	2556	Con C¸-Eo (§á)	3	0	120	126	1				168				
+	368	2556	Con C¸-Eo (§á)	3	0	120	127	1				168				
+	368	2556	Con C¸-Eo (§á)	3	0	120	128	1				168				
+	368	2556	Con C¸-Eo (§á)	3	0	120	129	1				168				
+	368	2556	Con C¸-L­ng (§á)	3	0	120	130	1				168				
+	368	2556	Con C¸-L­ng (§á)	3	0	120	131	1				168				
+	368	2556	Con C¸-L­ng (§á)	3	0	120	132	1				168				
+	368	2556	Con C¸-L­ng (§á)	3	0	120	133	1				168				
+	368	2556	Nh¸nh §µo T­¬i	3	0	120	134	1				168				
+	368	2556	Nh¸nh §µo T­¬i	3	0	120	135	1				168				
+	368	2556	Nh¸nh §µo T­¬i	3	0	120	136	1				168				
+	368	2556	Nh¸nh §µo T­¬i	3	0	120	137	1				168				
+	368	2556	HuyÕt NhiÔm S¬n Hµ	3	0	120	138	1				168				
+	368	2556	HuyÕt NhiÔm S¬n Hµ	3	0	120	139	1				168				
+	368	2556	HuyÕt NhiÔm S¬n Hµ	3	0	120	140	1				168				
+	368	2556	HuyÕt NhiÔm S¬n Hµ	3	0	120	141	1				168				
+	368	2556	X¹ Thiªn Lang	3	0	120	142	1				168				
+	368	2556	X¹ Thiªn Lang	3	0	120	143	1				168				
+	368	2556	X¹ Thiªn Lang	3	0	120	144	1				168				
+	368	2556	X¹ Thiªn Lang	3	0	120	145	1				168				
+	368	2556	ChiÕn Phong Yªn	3	0	120	146	1				168				
+	368	2556	ChiÕn Phong Yªn	3	0	120	147	1				168				
+	368	2556	ChiÕn Phong Yªn	3	0	120	148	1				168				
+	368	2556	ChiÕn Phong Yªn	3	0	120	149	1				168				
+	368	2556	H¶i NguyÖt Thanh Huy	3	0	120	150	1				168				
+	368	2556	H¶i NguyÖt Thanh Huy	3	0	120	151	1				168				
+	368	2556	H¶i NguyÖt Thanh Huy	3	0	120	152	1				168				
+	368	2556	H¶i NguyÖt Thanh Huy	3	0	120	153	1				168				
+	368	2556	Ch©u L¹c Ngäc Bµn	3	0	120	154	1				168				
+	368	2556	Ch©u L¹c Ngäc Bµn	3	0	120	155	1				168				
+	368	2556	Ch©u L¹c Ngäc Bµn	3	0	120	156	1				168				
+	368	2556	Ch©u L¹c Ngäc Bµn	3	0	120	157	1				168				
+	368	2556	§ång KiÕm Thu Thñy	3	0	120	158	1				168				
+	368	2556	§ång KiÕm Thu Thñy	3	0	120	159	1				168				
+	368	2556	§ång KiÕm Thu Thñy	3	0	120	160	1				168				
+	368	2556	§ång KiÕm Thu Thñy	3	0	120	161	1				168				
+	368	2556	Phï Sinh Cöu Th¸n	3	0	120	162	1				168				
+	368	2556	Phï Sinh Cöu Th¸n	3	0	120	163	1				168				
+	368	2556	Phï Sinh Cöu Th¸n	3	0	120	164	1				168				
+	368	2556	Phï Sinh Cöu Th¸n	3	0	120	165	1				168				
+	368	2556	Hµn Phong TuyÕt	3	0	120	166	1				168				
+	368	2556	Hµn Phong TuyÕt	3	0	120	167	1				168				
+	368	2556	Hµn Phong TuyÕt	3	0	120	168	1				168				
+	368	2556	Hµn Phong TuyÕt	3	0	120	169	1				168				
+	368	2556	Bóp Bª H¹nh Phóc (§á)	3	0	120	170	1				168				
+	368	2556	Bóp Bª H¹nh Phóc (§á)	3	0	120	171	1				168				
+	368	2556	Bóp Bª H¹nh Phóc (§á)	3	0	120	172	1				168				
+	368	2556	Bóp Bª H¹nh Phóc (§á)	3	0	120	173	1				168				
+	368	2556	Bóp Bª H¹nh Phóc (Lam)	3	0	120	174	1				168				
+	368	2556	Bóp Bª H¹nh Phóc (Lam)	3	0	120	175	1				168				
+	368	2556	Bóp Bª H¹nh Phóc (Lam)	3	0	120	176	1				168				
+	368	2556	Bóp Bª H¹nh Phóc (Lam)	3	0	120	177	1				168				
+	368	2556	Tú Bµ	3	0	120	178	1				168				
+	368	2556	Tú Bµ	3	0	120	179	1				168				
+	368	2556	Tú Bµ	3	0	120	180	1				168				
+	368	2556	Tú Bµ	3	0	120	181	1				168				
+	368	2506	Tr¸p TÇm B¶o	3	0	120	195	1				168				
+	368	2506	Tr¸p TÇm B¶o	3	0	120	196	1				168				
+	368	2506	Tr¸p TÇm B¶o	3	0	120	197	1				168				
+	368	2506	Tr¸p TÇm B¶o	3	0	120	198	1				168				
+	368	2556	Khuynh	3	0	120	207	1				168				
+	368	2556	Khuynh	3	0	120	208	1				168				
+	368	2556	Khuynh	3	0	120	209	1				168				
+	368	2556	Khuynh	3	0	120	210	1				168				
+	368	2556	Tóy	3	0	119	207	1				168				
+	368	2556	Tóy	3	0	119	208	1				168				
+	368	2556	Tóy	3	0	119	209	1				168				
+	368	2556	Tóy	3	0	119	210	1				168				
+	368	2556	Thµnh	3	0	121	207	1				168				
+	368	2556	Thµnh	3	0	121	208	1				168				
+	368	2556	Thµnh	3	0	121	209	1				168				
+	368	2556	Thµnh	3	0	121	210	1				168				
+	368	2556	Qu¶ Chuèi To	3	0	120	211	1				168				
+	368	2556	Qu¶ Chuèi To	3	0	120	212	1				168				
+	368	3056	Qu¶ Chuèi To	3	0	120	213	1				168				
+	368	3056	Qu¶ Chuèi To	3	0	120	214	1				168				
+	368	2056	c Giang Nam	3	0	120	215	1				168				
+	368	2056	c Giang Nam	3	0	120	216	1				168				
+	368	2056	c Giang Nam	3	0	120	217	1				168				
+	368	2056	c Giang Nam	3	0	120	218	1				168				
+	368	2056	Giang Hoa	3	0	119	211	1				168				
+	368	2056	Giang Hoa	3	0	119	212	1				168				
+	368	2056	Giang Hoa	3	0	119	213	1				168				
+	368	2056	Giang Hoa	3	0	119	214	1				168				
+	368	2056	Xu©n Lai Thñy	3	0	121	211	1				168				
+	368	2056	Xu©n Lai Thñy	3	0	121	212	1				168				
+	368	2056	Xu©n Lai Thñy	3	0	121	213	1				168				
+	368	2056	Xu©n Lai Thñy	3	0	121	214	1				168				
+	368	2056	Mai Tiªu TuyÕt	3	0	120	219	1				168				
+	368	2056	Mai Tiªu TuyÕt	3	0	120	220	1				168				
+	368	2056	Mai Tiªu TuyÕt	3	0	120	221	1				168				
+	368	2056	Mai Tiªu TuyÕt	3	0	120	222	1				168				
+	368	2056	Héc Ch©u	3	0	119	215	1				168				
+	368	2056	Héc Ch©u	3	0	119	216	1				168				
+	368	2056	Héc Ch©u	3	0	119	217	1				168				
+	368	2056	Héc Ch©u	3	0	119	218	1				168				
+	368	2056	Tóy Ph¸ch	3	0	121	215	1				168				
+	368	2056	Tóy Ph¸ch	3	0	121	216	1				168				
+	368	2056	Tóy Ph¸ch	3	0	121	217	1				168				
+	368	2056	Tóy Ph¸ch	3	0	121	218	1				168				
+	368	2056	§µo Chi	3	0	120	223	1				168				
+	368	2056	§µo Chi	3	0	120	224	1				168				
+	368	2056	§µo Chi	3	0	120	225	1				168				
+	368	2056	§µo Chi	3	0	120	226	1				168				
+	368	2056	§µo DiÖp	3	0	119	223	1				168				
+	368	2056	§µo DiÖp	3	0	119	224	1				168				
+	368	2056	§µo DiÖp	3	0	119	225	1				168				
+	368	2056	§µo DiÖp	3	0	119	226	1				168				
+	368	2056	§µo C¨n	3	0	121	223	1				168				
+	368	2056	§µo C¨n	3	0	121	224	1				168				
+	368	2056	§µo C¨n	3	0	121	225	1				168				
+	368	2056	§µo C¨n	3	0	121	226	1				168				
+	368	2056	Thanh	3	0	119	227	1				168				
+	368	2056	Thanh	3	0	119	228	1				168				
+	368	2056	Thanh	3	0	119	229	1				168				
+	368	2056	Thanh	3	0	119	230	1				168				
+	368	2056	Ngäc	3	0	120	227	1				168				
+	368	2056	Ngäc	3	0	120	228	1				168				
+	368	2056	Ngäc	3	0	120	229	1				168				
+	368	2056	Ngäc	3	0	120	230	1				168				
+	368	2056	ƒn	3	0	121	227	1				168				
+	368	2056	ƒn	3	0	121	228	1				168				
+	368	2056	ƒn	3	0	121	229	1				168				
+	368	2056	ƒn	3	0	121	230	1				168				
+	368	2056	Soa Y	3	0	120	231	1				168				
+	368	2056	Soa Y	3	0	120	232	1				168				
+	368	2056	Soa Y	3	0	120	233	1				168				
+	368	2056	Soa Y	3	0	120	234	1				168				
+	368	2056	¤ GiÊy DÇu	3	0	120	247	1				168				
+	368	2056	¤ GiÊy DÇu	3	0	120	248	1				168				
+	368	2056	¤ GiÊy DÇu	3	0	120	249	1				168				
+	368	2056	¤ GiÊy DÇu	3	0	120	250	1				168				
+	368	2056	Chim B¨ng	3	0	120	255	1				168				
+	368	2056	Chim B¨ng	3	0	120	256	1				168				
+	368	2056	Chim B¨ng	3	0	120	257	1				168				
+	368	2056	Chim B¨ng	3	0	120	258	1				168				
+	368	2056	Song Phi YÕn	3	0	120	259	1				168				
+	368	2056	Song Phi YÕn	3	0	120	260	1				168				
+	368	2056	Song Phi YÕn	3	0	120	261	1				168				
+	368	2056	Song Phi YÕn	3	0	120	262	1				168				
+	368	2056	KhØ Trém Chuèi	3	0	120	279	1				168				
+	368	2056	KhØ Trém Chuèi	3	0	120	280	1				168				
+	368	2056	KhØ Trém Chuèi	3	0	120	281	1				168				
+	368	2056	KhØ Trém Chuèi	3	0	120	282	1				168				
+	368	2056	§¹p	3	0	119	275	1				168				
+	368	2056	§¹p	3	0	119	276	1				168				
+	368	2056	§¹p	3	0	119	277	1				168				
+	368	2056	§¹p	3	0	119	278	1				168				
+	368	2056	Sa	3	0	120	275	1				168				
+	368	2056	Sa	3	0	120	276	1				168				
+	368	2056	Sa	3	0	120	277	1				168				
+	368	2056	Sa	3	0	120	278	1				168				
+	368	2056	Hµnh	3	0	121	275	1				168				
+	368	2056	Hµnh	3	0	121	276	1				168				
+	368	2056	Hµnh	3	0	121	277	1				168				
+	368	2056	Hµnh	3	0	121	278	1				168				
+	368	1041	Quý	3	0	119	279	1				168				
+	368	1041	Quý	3	0	119	280	1				168				
+	368	1041	Quý	3	0	119	281	1				168				
+	368	1041	Quý	3	0	119	282	1				168				
+	368	1041	Cµnh	3	0	120	283	1				168				
+	368	1041	Cµnh	3	0	120	284	1				168				
+	368	1041	Cµnh	3	0	120	285	1				168				
+	368	1041	Cµnh	3	0	120	286	1				168				
+	368	1041	H­¬ng	3	0	121	279	1				168				
+	368	1041	H­¬ng	3	0	121	280	1				168				
+	368	1041	H­¬ng	3	0	121	281	1				168				
+	368	1041	H­¬ng	3	0	121	282	1				168				
+	368	1041	T©y 	3	0	120	291	1				168				
+	368	1041	T©y 	3	0	120	292	1				168				
+	368	1041	T©y 	3	0	120	293	1				168				
+	368	1041	T©y 	3	0	120	294	1				168				
+	368	1041	Giang	3	0	119	291	1				168				
+	368	1041	Giang	3	0	119	292	1				168				
+	368	1041	Giang	3	0	119	293	1				168				
+	368	1041	Giang	3	0	119	294	1				168				
+	368	1041	NguyÖt	3	0	121	291	1				168				
+	368	1041	NguyÖt	3	0	121	292	1				168				
+	368	1041	NguyÖt	3	0	121	293	1				168				
+	368	1041	NguyÖt	3	0	121	294	1				168				
+	368	1041	Ngäc	3	0	120	295	1				168				
+	368	1041	Ngäc	3	0	120	296	1				168				
+	368	1041	Ngäc	3	0	120	297	1				168				
+	368	1041	Ngäc	3	0	120	298	1				168				
+	368	1041	L©u	3	0	119	295	1				168				
+	368	1041	L©u	3	0	119	296	1				168				
+	368	1041	L©u	3	0	119	297	1				168				
+	368	1041	L©u	3	0	119	298	1				168				
+	368	1041	Xu©n	3	0	121	295	1				168				
+	368	1041	Xu©n	3	0	121	296	1				168				
+	368	1041	Xu©n	3	0	121	297	1				168				
+	368	1041	Xu©n	3	0	121	298	1				168				
+	368	1041	Hµn	3	0	120	299	1				168				
+	368	1041	Hµn	3	0	120	300	1				168				
+	368	1041	Hµn	3	0	120	301	1				168				
+	368	1041	Hµn	3	0	120	302	1				168				
+	368	1041	§­êng	3	0	119	299	1				168				
+	368	1041	§­êng	3	0	119	300	1				168				
+	368	1041	§­êng	3	0	119	301	1				168				
+	368	1041	§­êng	3	0	119	302	1				168				
+	368	1041	Nh¹n	3	0	121	299	1				168				
+	368	1041	Nh¹n	3	0	121	300	1				168				
+	368	1041	Nh¹n	3	0	121	301	1				168				
+	368	1041	Nh¹n	3	0	121	302	1				168				
+	368	1041	Thanh	3	0	119	307	1				168				
+	368	1041	Thanh	3	0	119	308	1				168				
+	368	1041	Thanh	3	0	119	309	1				168				
+	368	1041	Thanh	3	0	119	310	1				168				
+	368	1041	B»ng	3	0	120	311	1				168				
+	368	1041	B»ng	3	0	120	312	1				168				
+	368	1041	B»ng	3	0	120	313	1				168				
+	368	1041	B»ng	3	0	120	314	1				168				
+	368	1041	Nh¹c	3	0	121	307	1				168				
+	368	1041	Nh¹c	3	0	121	308	1				168				
+	368	1041	Nh¹c	3	0	121	309	1				168				
+	368	1041	Nh¹c	3	0	121	310	1				168				
+	368	1041	L©m	3	0	119	311	1				168				
+	368	1041	L©m	3	0	119	312	1				168				
+	368	1041	L©m	3	0	119	313	1				168				
+	368	1041	L©m	3	0	119	314	1				168				
+	368	1041	Giang	3	0	120	315	1				168				
+	368	1041	Giang	3	0	120	316	1				168				
+	368	1041	Giang	3	0	120	317	1				168				
+	368	1041	Giang	3	0	120	318	1				168				
+	368	1041	Tiªn	3	0	121	311	1				168				
+	368	1041	Tiªn	3	0	121	312	1				168				
+	368	1041	Tiªn	3	0	121	313	1				168				
+	368	1041	Tiªn	3	0	121	314	1				168				
+	368	1041	Ng­	3	0	119	323	1				168				
+	368	1041	Ng­	3	0	119	324	1				168				
+	368	1041	Ng­	3	0	119	325	1				168				
+	368	1041	Ng­	3	0	119	326	1				168				
+	368	1041	Gia	3	0	120	323	1				168				
+	368	1041	Gia	3	0	120	324	1				168				
+	368	1041	Gia	3	0	120	325	1				168				
+	368	1041	Gia	3	0	120	326	1				168				
+	368	1041	Ng¹o	3	0	121	323	1				168				
+	368	1041	Ng¹o	3	0	121	324	1				168				
+	368	1041	Ng¹o	3	0	121	325	1				168				
+	368	1041	Ng¹o	3	0	121	326	1				168				
+	368	1041	Thanh	3	0	119	327	1				168				
+	368	1041	Thanh	3	0	119	328	1				168				
+	368	1041	Thanh	3	0	119	329	1				168				
+	368	1041	Thanh	3	0	119	330	1				168				
+	368	1041	Linh	3	0	120	327	1				168				
+	368	1041	Linh	3	0	120	328	1				168				
+	368	1041	Linh	3	0	120	329	1				168				
+	368	1041	Linh	3	0	120	330	1				168				
+	368	1041	Tr¶o	3	0	121	327	1				168				
+	368	1041	Tr¶o	3	0	121	328	1				168				
+	368	1041	Tr¶o	3	0	121	329	1				168				
+	368	1041	Tr¶o	3	0	121	330	1				168				
+	368	1041	Táa	3	0	119	331	1				168				
+	368	1041	Táa	3	0	119	332	1				168				
+	368	1041	Táa	3	0	119	333	1				168				
+	368	1041	Táa	3	0	119	334	1				168				
+	368	1041	Song	3	0	120	331	1				168				
+	368	1041	Song	3	0	120	332	1				168				
+	368	1041	Song	3	0	120	333	1				168				
+	368	1041	Song	3	0	120	334	1				168				
+	368	1041	Hµn	3	0	121	331	1				168				
+	368	1041	Hµn	3	0	121	332	1				168				
+	368	1041	Hµn	3	0	121	333	1				168				
+	368	1041	Hµn	3	0	121	334	1				168				
+	368	1041	V©n Chö	3	0	119	351	1				168				
+	368	1041	V©n Chö	3	0	119	352	1				168				
+	368	1041	V©n Chö	3	0	119	353	1				168				
+	368	1041	V©n Chö	3	0	119	354	1				168				
+	368	1041	BÇu Trêi Trong Xanh	3	0	120	351	1				168				
+	368	1041	BÇu Trêi Trong Xanh	3	0	120	352	1				168				
+	368	1041	BÇu Trêi Trong Xanh	3	0	120	353	1				168				
+	368	1041	BÇu Trêi Trong Xanh	3	0	120	354	1				168				
+	368	1041	B¾c §Èu §an Xen	3	0	121	351	1				168				
+	368	1041	B¾c §Èu §an Xen	3	0	121	352	1				168				
+	368	1041	B¾c §Èu §an Xen	3	0	121	353	1				168				
+	368	1041	B¾c §Èu §an Xen	3	0	121	354	1				168				
+	368	1041	CÇu Son Rõng BiÕc	3	0	119	359	1				168				
+	368	1041	CÇu Son Rõng BiÕc	3	0	119	360	1				168				
+	368	1041	CÇu Son Rõng BiÕc	3	0	119	361	1				168				
+	368	1041	CÇu Son Rõng BiÕc	3	0	119	362	1				168				
+	368	1041	ThiÒu Hoa	3	0	120	359	1				168				
+	368	1041	ThiÒu Hoa	3	0	120	360	1				168				
+	368	1041	ThiÒu Hoa	3	0	120	361	1				168				
+	368	1041	ThiÒu Hoa	3	0	120	362	1				168				
+	368	1041	Hoa Bay La §µ	3	0	121	359	1				168				
+	368	1041	Hoa Bay La §µ	3	0	121	360	1				168				
+	368	1041	Hoa Bay La §µ	3	0	121	361	1				168				
+	368	1041	Hoa Bay La §µ	3	0	121	362	1				168				
+fenghua2	369	3056	Nh­ ý (Lam)	3	0	119	1	1								
+	369	3056	Nh­ ý (Lam)	3	0	119	2	1								
+	369	3056	Nh­ ý (Lam)	3	0	119	3	1								
+	369	3056	Nh­ ý (Lam)	3	0	119	4	1								
+	369	3056	L­u Quang (Kim)	3	0	119	5	1								
+	369	3056	L­u Quang (Kim)	3	0	119	6	1								
+	369	3056	L­u Quang (Kim)	3	0	119	7	1								
+	369	3056	L­u Quang (Kim)	3	0	119	8	1								
+	369	3056	Nh­ ý(®á)	3	0	119	9	1								
+	369	3056	Nh­ ý(®á)	3	0	119	10	1								
+	369	3056	Nh­ ý(®á)	3	0	119	11	1								
+	369	3056	Nh­ ý(®á)	3	0	119	12	1								
+	369	3056	L­u Quang (§á)	3	0	119	13	1								
+	369	3056	L­u Quang (§á)	3	0	119	14	1								
+	369	3056	L­u Quang (§á)	3	0	119	15	1								
+	369	3056	L­u Quang (§á)	3	0	119	16	1								
+	369	3056	Nh­ ý (Kim)	3	0	119	17	1								
+	369	3056	Nh­ ý (Kim)	3	0	119	18	1								
+	369	3056	Nh­ ý (Kim)	3	0	119	19	1								
+	369	3056	Nh­ ý (Kim)	3	0	119	20	1								
+	369	3056	L­u Quang (Lam)	3	0	119	21	1								
+	369	3056	L­u Quang (Lam)	3	0	119	22	1								
+	369	3056	L­u Quang (Lam)	3	0	119	23	1								
+	369	3056	L­u Quang (Lam)	3	0	119	24	1								
+	369	3056	Siªu Phong (Lam)	3	0	121	1	1								
+	369	3056	Siªu Phong (Lam)	3	0	121	2	1								
+	369	3056	Siªu Phong (Lam)	3	0	121	3	1								
+	369	3056	Siªu Phong (Lam)	3	0	121	4	1								
+	369	3056	Tinh Th¸i (Kim)	3	0	121	5	1								
+	369	3056	Tinh Th¸i (Kim)	3	0	121	6	1								
+	369	3056	Tinh Th¸i (Kim)	3	0	121	7	1								
+	369	3056	Tinh Th¸i (Kim)	3	0	121	8	1								
+	369	3056	Siªu Phong(®á)	3	0	121	9	1								
+	369	3056	Siªu Phong(®á)	3	0	121	10	1								
+	369	3056	Siªu Phong(®á)	3	0	121	11	1								
+	369	3056	Siªu Phong(®á)	3	0	121	12	1								
+	369	3056	Tinh Th¸i (§á)	3	0	121	13	1								
+	369	3056	Tinh Th¸i (§á)	3	0	121	14	1								
+	369	3056	Tinh Th¸i (§á)	3	0	121	15	1								
+	369	3056	Tinh Th¸i (§á)	3	0	121	16	1								
+	369	3056	Siªu Phong (Kim)	3	0	121	17	1								
+	369	3056	Siªu Phong (Kim)	3	0	121	18	1								
+	369	3056	Siªu Phong (Kim)	3	0	121	19	1								
+	369	3056	Siªu Phong (Kim)	3	0	121	20	1								
+	369	3056	Tinh Th¸i (Lam)	3	0	121	21	1								
+	369	3056	Tinh Th¸i (Lam)	3	0	121	22	1								
+	369	3056	Tinh Th¸i (Lam)	3	0	121	23	1								
+	369	3056	Tinh Th¸i (Lam)	3	0	121	24	1								
+	369	3056	Oanh TrÇn Vò (Lam)	3	0	120	1	1								
+	369	3056	Oanh TrÇn Vò (Lam)	3	0	120	2	1								
+	369	3056	Oanh TrÇn Vò (Lam)	3	0	120	3	1								
+	369	3056	Oanh TrÇn Vò (Lam)	3	0	120	4	1								
+	369	3056	Chø Phông T­êng Loan (Kim)	3	0	120	5	1								
+	369	3056	Chø Phông T­êng Loan (Kim)	3	0	120	6	1								
+	369	3056	Chø Phông T­êng Loan (Kim)	3	0	120	7	1								
+	369	3056	Chø Phông T­êng Loan (Kim)	3	0	120	8	1								
+	369	3056	Oanh TrÇn Vò(®á)	3	0	120	9	1								
+	369	3056	Oanh TrÇn Vò(®á)	3	0	120	10	1								
+	369	3056	Oanh TrÇn Vò(®á)	3	0	120	11	1								
+	369	3056	Oanh TrÇn Vò(®á)	3	0	120	12	1								
+	369	3056	Trî Phông T­êng Loan (§á)	3	0	120	13	1								
+	369	3056	Trî Phông T­êng Loan (§á)	3	0	120	14	1								
+	369	3056	Trî Phông T­êng Loan (§á)	3	0	120	15	1								
+	369	3056	Trî Phông T­êng Loan (§á)	3	0	120	16	1								
+	369	3056	Oanh TrÇn Vò (Kim)	3	0	120	17	1								
+	369	3056	Oanh TrÇn Vò (Kim)	3	0	120	18	1								
+	369	3056	Oanh TrÇn Vò (Kim)	3	0	120	19	1								
+	369	3056	Oanh TrÇn Vò (Kim)	3	0	120	20	1								
+	369	3056	Trî Ph­îng T­êng Loan (Lam)	3	0	120	21	1								
+	369	3056	Trî Ph­îng T­êng Loan (Lam)	3	0	120	22	1								
+	369	3056	Trî Ph­îng T­êng Loan (Lam)	3	0	120	23	1								
+	369	3056	Trî Ph­îng T­êng Loan (Lam)	3	0	120	24	1								
+	369	3056	Chu«ng Gi¸ng Sinh (§á)	3	0	120	25	1								
+	369	3056	Chu«ng Gi¸ng Sinh (§á)	3	0	120	26	1								
+	369	3056	Chu«ng Gi¸ng Sinh (§á)	3	0	120	27	1								
+	369	3056	Chu«ng Gi¸ng Sinh (§á)	3	0	120	28	1								
+	369	3056	Chu«ng Gi¸ng Sinh (Lam)	3	0	120	29	1								
+	369	3056	Chu«ng Gi¸ng Sinh (Lam)	3	0	120	30	1								
+	369	3056	Chu«ng Gi¸ng Sinh (Lam)	3	0	120	31	1								
+	369	3056	Chu«ng Gi¸ng Sinh (Lam)	3	0	120	32	1								
+	369	3056	Chu«ng Gi¸ng Sinh (TÝm)	3	0	120	33	1								
+	369	3056	Chu«ng Gi¸ng Sinh (TÝm)	3	0	120	34	1								
+	369	3056	Chu«ng Gi¸ng Sinh (TÝm)	3	0	120	35	1								
+	369	3056	Chu«ng Gi¸ng Sinh (TÝm)	3	0	120	36	1								
+	369	2556	Tói Gi¸ng Sinh §ùng §Çy	3	0	120	37	1								
+	369	2556	Tói Gi¸ng Sinh §Çy §ñ	3	0	120	38	1								
+	369	2556	Tói Gi¸ng Sinh Ch­a §Çy	3	0	120	39	1								
+	369	2556	Tói Gi¸ng Sinh Trèng	3	0	120	40	1								
+	369	2556	Tói Gi¸ng Sinh H¹nh Phóc	3	0	120	41	1								
+	369	3056	Hoa Hång §á-Vai	3	0	119	72	1								
+	369	3056	Hoa Hång §á-Vai	3	0	119	73	1								
+	369	3056	Hoa Hång §á-Vai	3	0	119	74	1								
+	369	3056	Hoa Hång §á-Vai	3	0	119	75	1								
+	369	3056	Hoa Hång PhÊn-Vai	3	0	119	76	1								
+	369	3056	Hoa Hång PhÊn-Vai	3	0	119	77	1								
+	369	3056	Hoa Hång PhÊn-Vai	3	0	119	78	1								
+	369	3056	Hoa Hång PhÊn-Vai	3	0	119	79	1								
+	369	3056	Hoa Hång Xanh-Vai	3	0	119	80	1								
+	369	3056	Hoa Hång Xanh-Vai	3	0	119	81	1								
+	369	3056	Hoa Hång Xanh-Vai	3	0	119	82	1								
+	369	3056	Hoa Hång Xanh-Vai	3	0	119	83	1								
+	369	3056	Hoa Hång §á-Trôy	3	0	120	72	1								
+	369	3056	Hoa Hång §á-Trôy	3	0	120	73	1								
+	369	3056	Hoa Hång §á-Trôy	3	0	120	74	1								
+	369	3056	Hoa Hång §á-Trôy	3	0	120	75	1								
+	369	3056	Hoa Hång PhÊn-Trôy	3	0	120	76	1								
+	369	3056	Hoa Hång PhÊn-Trôy	3	0	120	77	1								
+	369	3056	Hoa Hång PhÊn-Trôy	3	0	120	78	1								
+	369	3056	Hoa Hång PhÊn-Trôy	3	0	120	79	1								
+	369	3056	Hoa Hång Xanh-Trôy	3	0	120	80	1								
+	369	3056	Hoa Hång Xanh-Trôy	3	0	120	81	1								
+	369	3056	Hoa Hång Xanh-Trôy	3	0	120	82	1								
+	369	3056	Hoa Hång Xanh-Trôy	3	0	120	83	1								
+	369	2556	Hoa Hång §á Tinh X¶o-Vai	3	0	119	84	1								
+	369	2556	Hoa Hång §á Tinh X¶o-Vai	3	0	119	85	1								
+	369	2556	Hoa Hång §á Tinh X¶o-Vai	3	0	119	86	1								
+	369	2556	Hoa Hång §á Tinh X¶o-Vai	3	0	119	87	1								
+	369	2556	Hoa Hång PhÊn Tinh X¶o-Vai	3	0	119	88	1								
+	369	2556	Hoa Hång PhÊn Tinh X¶o-Vai	3	0	119	89	1								
+	369	2556	Hoa Hång PhÊn Tinh X¶o-Vai	3	0	119	90	1								
+	369	2556	Hoa Hång PhÊn Tinh X¶o-Vai	3	0	119	91	1								
+	369	2556	Hoa Hång Xanh Tinh X¶o-Vai	3	0	119	92	1								
+	369	2556	Hoa Hång Xanh Tinh X¶o-Vai	3	0	119	93	1								
+	369	2556	Hoa Hång Xanh Tinh X¶o-Vai	3	0	119	94	1								
+	369	2556	Hoa Hång Xanh Tinh X¶o-Vai	3	0	119	95	1								
+	369	2556	Hoa Hång §á Tinh X¶o-Trôy	3	0	120	84	1								
+	369	2556	Hoa Hång §á Tinh X¶o-Trôy	3	0	120	85	1								
+	369	2556	Hoa Hång §á Tinh X¶o-Trôy	3	0	120	86	1								
+	369	2556	Hoa Hång §á Tinh X¶o-Trôy	3	0	120	87	1								
+	369	2556	Hoa Hång PhÊn Tinh X¶o-Trôy	3	0	120	88	1								
+	369	2556	Hoa Hång PhÊn Tinh X¶o-Trôy	3	0	120	89	1								
+	369	2556	Hoa Hång PhÊn Tinh X¶o-Trôy	3	0	120	90	1								
+	369	2556	Hoa Hång PhÊn Tinh X¶o-Trôy	3	0	120	91	1								
+	369	2556	Hoa Hång Xanh Tinh X¶o-Trôy	3	0	120	92	1								
+	369	2556	Hoa Hång Xanh Tinh X¶o-Trôy	3	0	120	93	1								
+	369	2556	Hoa Hång Xanh Tinh X¶o-Trôy	3	0	120	94	1								
+	369	2556	Hoa Hång Xanh Tinh X¶o-Trôy	3	0	120	95	1								
+	369	2556	Hoa Hång §á Tinh X¶o-Ch©n	3	0	121	72	1								
+	369	2556	Hoa Hång §á Tinh X¶o-Ch©n	3	0	121	73	1								
+	369	2556	Hoa Hång §á Tinh X¶o-Ch©n	3	0	121	74	1								
+	369	2556	Hoa Hång §á Tinh X¶o-Ch©n	3	0	121	75	1								
+	369	2556	Hoa Hång PhÊn Tinh X¶o-Ch©n	3	0	121	76	1								
+	369	2556	Hoa Hång PhÊn Tinh X¶o-Ch©n	3	0	121	77	1								
+	369	2556	Hoa Hång PhÊn Tinh X¶o-Ch©n	3	0	121	78	1								
+	369	2556	Hoa Hång PhÊn Tinh X¶o-Ch©n	3	0	121	79	1								
+	369	2556	Hoa Hång Xanh Tinh X¶o-Ch©n	3	0	121	80	1								
+	369	2556	Hoa Hång Xanh Tinh X¶o-Ch©n	3	0	121	81	1								
+	369	2556	Hoa Hång Xanh Tinh X¶o-Ch©n	3	0	121	82	1								
+	369	2556	Hoa Hång Xanh Tinh X¶o-Ch©n	3	0	121	83	1								
+	369	3056	Chong Chãng Tuæi Th¬	3	0	120	96	1								
+	369	3056	Chong Chãng Tuæi Th¬	3	0	120	97	1								
+	369	3056	Chong Chãng Tuæi Th¬	3	0	120	98	1								
+	369	3056	Chong Chãng Tuæi Th¬	3	0	120	99	1								
+	369	3056	DiÒu GiÊy B­ím Lam	3	0	120	100	1								
+	369	3056	DiÒu GiÊy B­ím Lam	3	0	120	101	1								
+	369	3056	DiÒu GiÊy B­ím Lam	3	0	120	102	1								
+	369	3056	DiÒu GiÊy B­ím Lam	3	0	120	103	1								
+	369	3056	Hå L« KhØ MËp-Nhá	3	0	120	104	1								
+	369	3056	Hå L« KhØ MËp-Nhá	3	0	120	105	1								
+	369	3056	Hå L« KhØ MËp-Nhá	3	0	120	106	1								
+	369	3056	Hå L« KhØ MËp-Nhá	3	0	120	107	1								
+	369	3056	Hå L« KhØ MËp-Lín	3	0	120	108	1								
+	369	3056	Hå L« KhØ MËp-Lín	3	0	120	109	1								
+	369	3056	Hå L« KhØ MËp-Lín	3	0	120	110	1								
+	369	3056	Hå L« KhØ MËp-Lín	3	0	120	111	1								
+	369	2414	Ma ThÇn §Çu Chung-Nhá	3	0	120	112	1								
+	369	2414	Ma ThÇn §Çu Chung-Nhá	3	0	120	113	1								
+	369	2414	Ma ThÇn §Çu Chung-Nhá	3	0	120	114	1								
+	369	2414	Ma ThÇn §Çu Chung-Nhá	3	0	120	115	1								
+	369	2414	Ma ThÇn §Çu Chung-Lín	3	0	120	116	1								
+	369	2414	Ma ThÇn §Çu Chung-Lín	3	0	120	117	1								
+	369	2414	Ma ThÇn §Çu Chung-Lín	3	0	120	118	1								
+	369	2414	Ma ThÇn §Çu Chung-Lín	3	0	120	119	1								
+	369	2556	Con C¸-Eo (§á)	3	0	120	126	1								
+	369	2556	Con C¸-Eo (§á)	3	0	120	127	1								
+	369	2556	Con C¸-Eo (§á)	3	0	120	128	1								
+	369	2556	Con C¸-Eo (§á)	3	0	120	129	1								
+	369	2556	Con C¸-L­ng (§á)	3	0	120	130	1								
+	369	2556	Con C¸-L­ng (§á)	3	0	120	131	1								
+	369	2556	Con C¸-L­ng (§á)	3	0	120	132	1								
+	369	2556	Con C¸-L­ng (§á)	3	0	120	133	1								
+	369	2556	Nh¸nh §µo T­¬i	3	0	120	134	1								
+	369	2556	Nh¸nh §µo T­¬i	3	0	120	135	1								
+	369	2556	Nh¸nh §µo T­¬i	3	0	120	136	1								
+	369	2556	Nh¸nh §µo T­¬i	3	0	120	137	1								
+	369	2556	HuyÕt NhiÔm S¬n Hµ	3	0	120	138	1								
+	369	2556	HuyÕt NhiÔm S¬n Hµ	3	0	120	139	1								
+	369	2556	HuyÕt NhiÔm S¬n Hµ	3	0	120	140	1								
+	369	2556	HuyÕt NhiÔm S¬n Hµ	3	0	120	141	1								
+	369	2556	X¹ Thiªn Lang	3	0	120	142	1								
+	369	2556	X¹ Thiªn Lang	3	0	120	143	1								
+	369	2556	X¹ Thiªn Lang	3	0	120	144	1								
+	369	2556	X¹ Thiªn Lang	3	0	120	145	1								
+	369	2556	ChiÕn Phong Yªn	3	0	120	146	1								
+	369	2556	ChiÕn Phong Yªn	3	0	120	147	1								
+	369	2556	ChiÕn Phong Yªn	3	0	120	148	1								
+	369	2556	ChiÕn Phong Yªn	3	0	120	149	1								
+	369	2556	H¶i NguyÖt Thanh Huy	3	0	120	150	1								
+	369	2556	H¶i NguyÖt Thanh Huy	3	0	120	151	1								
+	369	2556	H¶i NguyÖt Thanh Huy	3	0	120	152	1								
+	369	2556	H¶i NguyÖt Thanh Huy	3	0	120	153	1								
+	369	2556	Ch©u L¹c Ngäc Bµn	3	0	120	154	1								
+	369	2556	Ch©u L¹c Ngäc Bµn	3	0	120	155	1								
+	369	2556	Ch©u L¹c Ngäc Bµn	3	0	120	156	1								
+	369	2556	Ch©u L¹c Ngäc Bµn	3	0	120	157	1								
+	369	2556	§ång KiÕm Thu Thñy	3	0	120	158	1								
+	369	2556	§ång KiÕm Thu Thñy	3	0	120	159	1								
+	369	2556	§ång KiÕm Thu Thñy	3	0	120	160	1								
+	369	2556	§ång KiÕm Thu Thñy	3	0	120	161	1								
+	369	2556	Phï Sinh Cöu Th¸n	3	0	120	162	1								
+	369	2556	Phï Sinh Cöu Th¸n	3	0	120	163	1								
+	369	2556	Phï Sinh Cöu Th¸n	3	0	120	164	1								
+	369	2556	Phï Sinh Cöu Th¸n	3	0	120	165	1								
+	369	2556	Hµn Phong TuyÕt	3	0	120	166	1								
+	369	2556	Hµn Phong TuyÕt	3	0	120	167	1								
+	369	2556	Hµn Phong TuyÕt	3	0	120	168	1								
+	369	2556	Hµn Phong TuyÕt	3	0	120	169	1								
+	369	2556	Bóp Bª H¹nh Phóc (§á)	3	0	120	170	1								
+	369	2556	Bóp Bª H¹nh Phóc (§á)	3	0	120	171	1								
+	369	2556	Bóp Bª H¹nh Phóc (§á)	3	0	120	172	1								
+	369	2556	Bóp Bª H¹nh Phóc (§á)	3	0	120	173	1								
+	369	2556	Bóp Bª H¹nh Phóc (Lam)	3	0	120	174	1								
+	369	2556	Bóp Bª H¹nh Phóc (Lam)	3	0	120	175	1								
+	369	2556	Bóp Bª H¹nh Phóc (Lam)	3	0	120	176	1								
+	369	2556	Bóp Bª H¹nh Phóc (Lam)	3	0	120	177	1								
+	369	2556	Tú Bµ	3	0	120	178	1								
+	369	2556	Tú Bµ	3	0	120	179	1								
+	369	2556	Tú Bµ	3	0	120	180	1								
+	369	2556	Tú Bµ	3	0	120	181	1								
+	369	2506	Tr¸p TÇm B¶o	3	0	120	195	1								
+	369	2506	Tr¸p TÇm B¶o	3	0	120	196	1								
+	369	2506	Tr¸p TÇm B¶o	3	0	120	197	1								
+	369	2506	Tr¸p TÇm B¶o	3	0	120	198	1								
+	369	2556	Khuynh	3	0	120	207	1								
+	369	2556	Khuynh	3	0	120	208	1								
+	369	2556	Khuynh	3	0	120	209	1								
+	369	2556	Khuynh	3	0	120	210	1								
+	369	2556	Tóy	3	0	119	207	1								
+	369	2556	Tóy	3	0	119	208	1								
+	369	2556	Tóy	3	0	119	209	1								
+	369	2556	Tóy	3	0	119	210	1								
+	369	2556	Thµnh	3	0	121	207	1								
+	369	2556	Thµnh	3	0	121	208	1								
+	369	2556	Thµnh	3	0	121	209	1								
+	369	2556	Thµnh	3	0	121	210	1								
+	369	2556	Qu¶ Chuèi To	3	0	120	211	1								
+	369	2556	Qu¶ Chuèi To	3	0	120	212	1								
+	369	3056	Qu¶ Chuèi To	3	0	120	213	1								
+	369	3056	Qu¶ Chuèi To	3	0	120	214	1								
+	369	2056	c Giang Nam	3	0	120	215	1								
+	369	2056	c Giang Nam	3	0	120	216	1								
+	369	2056	c Giang Nam	3	0	120	217	1								
+	369	2056	c Giang Nam	3	0	120	218	1								
+	369	2056	Giang Hoa	3	0	119	211	1								
+	369	2056	Giang Hoa	3	0	119	212	1								
+	369	2056	Giang Hoa	3	0	119	213	1								
+	369	2056	Giang Hoa	3	0	119	214	1								
+	369	2056	Xu©n Lai Thñy	3	0	121	211	1								
+	369	2056	Xu©n Lai Thñy	3	0	121	212	1								
+	369	2056	Xu©n Lai Thñy	3	0	121	213	1								
+	369	2056	Xu©n Lai Thñy	3	0	121	214	1								
+	369	2056	Mai Tiªu TuyÕt	3	0	120	219	1								
+	369	2056	Mai Tiªu TuyÕt	3	0	120	220	1								
+	369	2056	Mai Tiªu TuyÕt	3	0	120	221	1								
+	369	2056	Mai Tiªu TuyÕt	3	0	120	222	1								
+	369	2056	Héc Ch©u	3	0	119	215	1								
+	369	2056	Héc Ch©u	3	0	119	216	1								
+	369	2056	Héc Ch©u	3	0	119	217	1								
+	369	2056	Héc Ch©u	3	0	119	218	1								
+	369	2056	Tóy Ph¸ch	3	0	121	215	1								
+	369	2056	Tóy Ph¸ch	3	0	121	216	1								
+	369	2056	Tóy Ph¸ch	3	0	121	217	1								
+	369	2056	Tóy Ph¸ch	3	0	121	218	1								
+	369	2056	§µo Chi	3	0	120	223	1								
+	369	2056	§µo Chi	3	0	120	224	1								
+	369	2056	§µo Chi	3	0	120	225	1								
+	369	2056	§µo Chi	3	0	120	226	1								
+	369	2056	§µo DiÖp	3	0	119	223	1								
+	369	2056	§µo DiÖp	3	0	119	224	1								
+	369	2056	§µo DiÖp	3	0	119	225	1								
+	369	2056	§µo DiÖp	3	0	119	226	1								
+	369	2056	§µo C¨n	3	0	121	223	1								
+	369	2056	§µo C¨n	3	0	121	224	1								
+	369	2056	§µo C¨n	3	0	121	225	1								
+	369	2056	§µo C¨n	3	0	121	226	1								
+	369	2056	Thanh	3	0	119	227	1								
+	369	2056	Thanh	3	0	119	228	1								
+	369	2056	Thanh	3	0	119	229	1								
+	369	2056	Thanh	3	0	119	230	1								
+	369	2056	Ngäc	3	0	120	227	1								
+	369	2056	Ngäc	3	0	120	228	1								
+	369	2056	Ngäc	3	0	120	229	1								
+	369	2056	Ngäc	3	0	120	230	1								
+	369	2056	ƒn	3	0	121	227	1								
+	369	2056	ƒn	3	0	121	228	1								
+	369	2056	ƒn	3	0	121	229	1								
+	369	2056	ƒn	3	0	121	230	1								
+	369	2056	Soa Y	3	0	120	231	1								
+	369	2056	Soa Y	3	0	120	232	1								
+	369	2056	Soa Y	3	0	120	233	1								
+	369	2056	Soa Y	3	0	120	234	1								
+	369	2056	¤ GiÊy DÇu	3	0	120	247	1								
+	369	2056	¤ GiÊy DÇu	3	0	120	248	1								
+	369	2056	¤ GiÊy DÇu	3	0	120	249	1								
+	369	2056	¤ GiÊy DÇu	3	0	120	250	1								
+	369	2056	Chim B¨ng	3	0	120	255	1								
+	369	2056	Chim B¨ng	3	0	120	256	1								
+	369	2056	Chim B¨ng	3	0	120	257	1								
+	369	2056	Chim B¨ng	3	0	120	258	1								
+	369	2056	Song Phi YÕn	3	0	120	259	1								
+	369	2056	Song Phi YÕn	3	0	120	260	1								
+	369	2056	Song Phi YÕn	3	0	120	261	1								
+	369	2056	Song Phi YÕn	3	0	120	262	1								
+	369	2056	KhØ Trém Chuèi	3	0	120	279	1								
+	369	2056	KhØ Trém Chuèi	3	0	120	280	1								
+	369	2056	KhØ Trém Chuèi	3	0	120	281	1								
+	369	2056	KhØ Trém Chuèi	3	0	120	282	1								
+	369	2056	§¹p	3	0	119	275	1								
+	369	2056	§¹p	3	0	119	276	1								
+	369	2056	§¹p	3	0	119	277	1								
+	369	2056	§¹p	3	0	119	278	1								
+	369	2056	Sa	3	0	120	275	1								
+	369	2056	Sa	3	0	120	276	1								
+	369	2056	Sa	3	0	120	277	1								
+	369	2056	Sa	3	0	120	278	1								
+	369	2056	Hµnh	3	0	121	275	1								
+	369	2056	Hµnh	3	0	121	276	1								
+	369	2056	Hµnh	3	0	121	277	1								
+	369	2056	Hµnh	3	0	121	278	1								
+	369	1041	Quý	3	0	119	279	1								
+	369	1041	Quý	3	0	119	280	1								
+	369	1041	Quý	3	0	119	281	1								
+	369	1041	Quý	3	0	119	282	1								
+	369	1041	Cµnh	3	0	120	283	1								
+	369	1041	Cµnh	3	0	120	284	1								
+	369	1041	Cµnh	3	0	120	285	1								
+	369	1041	Cµnh	3	0	120	286	1								
+	369	1041	H­¬ng	3	0	121	279	1								
+	369	1041	H­¬ng	3	0	121	280	1								
+	369	1041	H­¬ng	3	0	121	281	1								
+	369	1041	H­¬ng	3	0	121	282	1								
+	369	1041	T©y 	3	0	120	291	1								
+	369	1041	T©y 	3	0	120	292	1								
+	369	1041	T©y 	3	0	120	293	1								
+	369	1041	T©y 	3	0	120	294	1								
+	369	1041	Giang	3	0	119	291	1								
+	369	1041	Giang	3	0	119	292	1								
+	369	1041	Giang	3	0	119	293	1								
+	369	1041	Giang	3	0	119	294	1								
+	369	1041	NguyÖt	3	0	121	291	1								
+	369	1041	NguyÖt	3	0	121	292	1								
+	369	1041	NguyÖt	3	0	121	293	1								
+	369	1041	NguyÖt	3	0	121	294	1								
+	369	1041	Ngäc	3	0	120	295	1								
+	369	1041	Ngäc	3	0	120	296	1								
+	369	1041	Ngäc	3	0	120	297	1								
+	369	1041	Ngäc	3	0	120	298	1								
+	369	1041	L©u	3	0	119	295	1								
+	369	1041	L©u	3	0	119	296	1								
+	369	1041	L©u	3	0	119	297	1								
+	369	1041	L©u	3	0	119	298	1								
+	369	1041	Xu©n	3	0	121	295	1								
+	369	1041	Xu©n	3	0	121	296	1								
+	369	1041	Xu©n	3	0	121	297	1								
+	369	1041	Xu©n	3	0	121	298	1								
+	369	1041	Hµn	3	0	120	299	1								
+	369	1041	Hµn	3	0	120	300	1								
+	369	1041	Hµn	3	0	120	301	1								
+	369	1041	Hµn	3	0	120	302	1								
+	369	1041	§­êng	3	0	119	299	1								
+	369	1041	§­êng	3	0	119	300	1								
+	369	1041	§­êng	3	0	119	301	1								
+	369	1041	§­êng	3	0	119	302	1								
+	369	1041	Nh¹n	3	0	121	299	1								
+	369	1041	Nh¹n	3	0	121	300	1								
+	369	1041	Nh¹n	3	0	121	301	1								
+	369	1041	Nh¹n	3	0	121	302	1								
+	369	1041	Thanh	3	0	119	307	1								
+	369	1041	Thanh	3	0	119	308	1								
+	369	1041	Thanh	3	0	119	309	1								
+	369	1041	Thanh	3	0	119	310	1								
+	369	1041	B»ng	3	0	120	311	1								
+	369	1041	B»ng	3	0	120	312	1								
+	369	1041	B»ng	3	0	120	313	1								
+	369	1041	B»ng	3	0	120	314	1								
+	369	1041	Nh¹c	3	0	121	307	1								
+	369	1041	Nh¹c	3	0	121	308	1								
+	369	1041	Nh¹c	3	0	121	309	1								
+	369	1041	Nh¹c	3	0	121	310	1								
+	369	1041	L©m	3	0	119	311	1								
+	369	1041	L©m	3	0	119	312	1								
+	369	1041	L©m	3	0	119	313	1								
+	369	1041	L©m	3	0	119	314	1								
+	369	1041	Giang	3	0	120	315	1								
+	369	1041	Giang	3	0	120	316	1								
+	369	1041	Giang	3	0	120	317	1								
+	369	1041	Giang	3	0	120	318	1								
+	369	1041	Tiªn	3	0	121	311	1								
+	369	1041	Tiªn	3	0	121	312	1								
+	369	1041	Tiªn	3	0	121	313	1								
+	369	1041	Tiªn	3	0	121	314	1								
+	369	1041	Ng­	3	0	119	323	1								
+	369	1041	Ng­	3	0	119	324	1								
+	369	1041	Ng­	3	0	119	325	1								
+	369	1041	Ng­	3	0	119	326	1								
+	369	1041	Gia	3	0	120	323	1								
+	369	1041	Gia	3	0	120	324	1								
+	369	1041	Gia	3	0	120	325	1								
+	369	1041	Gia	3	0	120	326	1								
+	369	1041	Ng¹o	3	0	121	323	1								
+	369	1041	Ng¹o	3	0	121	324	1								
+	369	1041	Ng¹o	3	0	121	325	1								
+	369	1041	Ng¹o	3	0	121	326	1								
+	369	1041	Thanh	3	0	119	327	1								
+	369	1041	Thanh	3	0	119	328	1								
+	369	1041	Thanh	3	0	119	329	1								
+	369	1041	Thanh	3	0	119	330	1								
+	369	1041	Linh	3	0	120	327	1								
+	369	1041	Linh	3	0	120	328	1								
+	369	1041	Linh	3	0	120	329	1								
+	369	1041	Linh	3	0	120	330	1								
+	369	1041	Tr¶o	3	0	121	327	1								
+	369	1041	Tr¶o	3	0	121	328	1								
+	369	1041	Tr¶o	3	0	121	329	1								
+	369	1041	Tr¶o	3	0	121	330	1								
+	369	1041	Táa	3	0	119	331	1								
+	369	1041	Táa	3	0	119	332	1								
+	369	1041	Táa	3	0	119	333	1								
+	369	1041	Táa	3	0	119	334	1								
+	369	1041	Song	3	0	120	331	1								
+	369	1041	Song	3	0	120	332	1								
+	369	1041	Song	3	0	120	333	1								
+	369	1041	Song	3	0	120	334	1								
+	369	1041	Hµn	3	0	121	331	1								
+	369	1041	Hµn	3	0	121	332	1								
+	369	1041	Hµn	3	0	121	333	1								
+	369	1041	Hµn	3	0	121	334	1								
+	369	1041	V©n Chö	3	0	119	351	1								
+	369	1041	V©n Chö	3	0	119	352	1								
+	369	1041	V©n Chö	3	0	119	353	1								
+	369	1041	V©n Chö	3	0	119	354	1								
+	369	1041	BÇu Trêi Trong Xanh	3	0	120	351	1								
+	369	1041	BÇu Trêi Trong Xanh	3	0	120	352	1								
+	369	1041	BÇu Trêi Trong Xanh	3	0	120	353	1								
+	369	1041	BÇu Trêi Trong Xanh	3	0	120	354	1								
+	369	1041	B¾c §Èu §an Xen	3	0	121	351	1								
+	369	1041	B¾c §Èu §an Xen	3	0	121	352	1								
+	369	1041	B¾c §Èu §an Xen	3	0	121	353	1								
+	369	1041	B¾c §Èu §an Xen	3	0	121	354	1								
+	369	1041	CÇu Son Rõng BiÕc	3	0	119	359	1								
+	369	1041	CÇu Son Rõng BiÕc	3	0	119	360	1								
+	369	1041	CÇu Son Rõng BiÕc	3	0	119	361	1								
+	369	1041	CÇu Son Rõng BiÕc	3	0	119	362	1								
+	369	1041	ThiÒu Hoa	3	0	120	359	1								
+	369	1041	ThiÒu Hoa	3	0	120	360	1								
+	369	1041	ThiÒu Hoa	3	0	120	361	1								
+	369	1041	ThiÒu Hoa	3	0	120	362	1								
+	369	1041	Hoa Bay La §µ	3	0	121	359	1								
+	369	1041	Hoa Bay La §µ	3	0	121	360	1								
+	369	1041	Hoa Bay La §µ	3	0	121	361	1								
+	369	1041	Hoa Bay La §µ	3	0	121	362	1								
+fenghua3	370	250000	VÐ §æi Trang Søc Ngo¹i Trang	3	2	1	31320	1			4					
+	370	250000	PhiÕu §æi Ngo¹i Trang	3	2	1	31233	1			4					
+	370	499900	Trang søc ®eo h«ng h¹n giê	1				368								
+	370	100	Trang søc ®eo h«ng vÜnh viÔn	1				369								
+kfymg_win	371	230000	®iÓm kinh nghiÖm	4				50000000								
+	371	200000	®iÓm kinh nghiÖm	4				100000000								
+	371	100000	®iÓm kinh nghiÖm	4				200000000								
+	371	100000	Tói §¸ Quý CÊp 4	3	2	1	31001	1			4					
+	371	200000	PhiÕu §æi Ngo¹i Trang	3	2	1	31233	2			4					
+	371	100000	Th­¬ng H¶i Ch©u Lv3 (Ch­a gi¸m ®Þnh)	3	2	102	210	1			4					
+	371	50000	Th­¬ng H¶i Ch©u Lv4 (Ch­a gi¸m ®Þnh)	3	2	102	211	1			4					
+	371	18000	Th­¬ng H¶i Ch©u Lv5 (Ch­a gi¸m ®Þnh)	3	2	102	212	1			4					
+	371	2000	Th­¬ng H¶i Ch©u Lv6 (Ch­a gi¸m ®Þnh)	3	2	102	213	1			4					
+kfymg_failure	372	230000	®iÓm kinh nghiÖm	4				25000000								
+	372	200000	®iÓm kinh nghiÖm	4				50000000								
+	372	100000	®iÓm kinh nghiÖm	4				100000000								
+	372	100000	TuÝ ®¸ quý cÊp 3	3	2	1	31000	1			4					
+	372	200000	PhiÕu §æi Ngo¹i Trang	3	2	1	31233	1			4					
+	372	100000	Th­¬ng H¶i Ch©u Lv2 (Ch­a gi¸m ®Þnh)	3	2	102	209	1			4					
+	372	50000	Th­¬ng H¶i Ch©u Lv3 (Ch­a gi¸m ®Þnh)	3	2	102	210	1			4					
+	372	18000	Th­¬ng H¶i Ch©u Lv4 (Ch­a gi¸m ®Þnh)	3	2	102	211	1			4					
+	372	2000	Th­¬ng H¶i Ch©u Lv5 (Ch­a gi¸m ®Þnh)	3	2	102	212	1			4					
+dilingjinghua	373	333333	Thanh Long	10	66			1			4		1			
+	373	333333	Chu T­íc	10	67			1			4		1			
+	373	333334	Hæ tr¾ng	10	68			1			4		1			

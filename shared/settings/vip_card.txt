@@ -1,0 +1,14 @@
+ID	Switch	Name	G	D	P	StartTime	EndTime	Time
+H≠Ìng d…n	ß„ng mÎ	T™n	G	D	P	ThÍi gian bæt Æ«u k›ch hoπt	ThÍi gian k’t thÛc k›ch hoπt	Hπn sˆ dÙng (Ngµy)
+1	1	ßπi Hi÷p L÷nh	2	1	50254			30
+2	1	ßπi Hi÷p L÷nh	2	1	50254			30
+3	1	ßπi Hi÷p L÷nh	2	1	50254			30
+4	1	ßπi Hi÷p L÷nh	2	1	50254			30
+5	1	ßπi Hi÷p L÷nh	2	1	50254			30
+6	1	ßπi Hi÷p L÷nh	2	1	50254			30
+7	1	ßπi Hi÷p L÷nh	2	1	50254			30
+8	1	ßπi Hi÷p L÷nh	2	1	50254			30
+9	1	ßπi Hi÷p L÷nh	2	1	50254			30
+10	1	ßπi Hi÷p L÷nh	2	1	50254			30
+11	1	ßπi Hi÷p L÷nh	2	1	50254			30
+12	1	ßπi Hi÷p L÷nh	2	1	50254			30

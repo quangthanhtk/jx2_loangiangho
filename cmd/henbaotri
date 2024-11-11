@@ -1,0 +1,34 @@
+#!/bin/bash
+# -----------------------------------------------------
+# Load Variables
+DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+source "$DIR/config.sh"
+
+nMStop=16
+nMStopTo=1
+
+cd ./..${APP_DIR}/bishop
+for ((i=0; i<nMStop; i++))
+do
+	nM=$(echo " $nMStop - $i" | bc -l)
+	echo -e "${BL}Stop GS sau ${YL} $nM phut."
+	./KG_Bishop send-msg-to-gs to-players all "Server sÏ b¶o tr× cËp nhËt n©ng cÊp m¸y chñ sau $nM phót n÷a, thêi gian dù kiÕn $nMStopTo phót."
+	# ./KG_Bishop send-msg-to-gs to-players all "M¸y chñ sÏ ®ãng l¹i Alpha Test sau $nM phót n÷a. Thêi gian Open lµ 19h00 tèi nay.!!!"
+	# ./KG_Bishop send-msg-to-gs to-players all "C¶m ¬n c¸c b¹n ®· nhiÖt t×nh tham gia tr¶i nghiÖm test, h·y quay l¹i vµo lóc 19h00 tèi nay nhÐ.!!!"
+	# ./KG_Bishop send-msg-to-gs to-players all "Sau b¶o tr×, ®¹i hiÖp cÇn tho¸t game & ch¹y Autoupdate ®Ó t¶i client míi nhÊt.!"
+	sleep 60
+done
+
+cd /home
+./stopggs
+./stopgw
+
+for ((i=0; i<nMStopTo; i++))
+do
+	nM=$(echo " $nMStopTo - $i" | bc -l)
+	echo -e "${BL}Start GS sau ${YL} $nM phut."
+	sleep 60
+done
+
+cd /home
+./restartall

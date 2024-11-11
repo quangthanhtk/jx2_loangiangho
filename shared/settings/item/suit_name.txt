@@ -1,0 +1,280 @@
+ID	Name
+32248	Tèng-Uy Hæ T­íng Qu©n-V« Th­êng
+32249	Tèng-Uy Hæ T­íng Qu©n-NiÕt Bµn
+32250	Tèng-Uy Hæ T­íng Qu©n-V« Ng·
+32251	Tèng-Uy Hæ T­íng Qu©n-ChØ Khiªn
+32252	Tèng-Uy Hæ T­íng Qu©n-Cam Vò
+32253	Tèng-Uy Hæ T­íng Qu©n-Tõ V©n
+32254	Tèng-Uy Hæ T­íng Qu©n-Tiªu Dao
+32255	Tèng-Uy Hæ T­íng Qu©n-Tóy Du
+32256	Tèng-Uy Hæ T­íng Qu©n-Tö Tiªu
+32257	Tèng-Uy Hæ T­íng Qu©n-Thanh TÞnh
+32258	Tèng-Uy Hæ T­íng Qu©n-Thiªn Ph¸
+32259	Tèng-Uy Hæ T­íng Qu©n-B¹ch Vò
+32260	Tèng-Uy Hæ T­íng Qu©n-Mµn §ªm
+32261	Tèng-Uy Hæ T­íng Qu©n-§o¹n T×nh
+32262	Tèng-Uy Hæ T­íng Qu©n-BÝch Ngäc
+32263	Tèng-Uy Hæ T­íng Qu©n-ƒnh S¸ng
+32264	Tèng-Uy Hæ T­íng Qu©n-Häa Lao
+32265	Tèng-Uy Hæ T­íng Qu©n-Hñy DiÖt
+32266	Tèng-Uy Hæ T­íng Qu©n-Kinh Hång
+32267	Tèng-Uy Hæ T­íng Qu©n-Xu©n Phong
+32268	Tèng-Uy Hæ T­íng Qu©n-YÕn Håi
+32269	Tèng-Uy Hæ T­íng Qu©n-Canh Phong
+32270	Tèng-Uy Hæ Nguyªn So¸i-V« Th­êng
+32271	Tèng-Uy Hæ Nguyªn So¸i-NiÕt Bµn
+32272	Tèng-Uy Hæ Nguyªn So¸i-V« Ng·
+32273	Tèng-Uy Hæ Nguyªn So¸i-ChØ Khiªn
+32274	Tèng-Uy Hæ Nguyªn So¸i-Cam Vò
+32275	Tèng-Uy Hæ Nguyªn So¸i-Tõ V©n
+32276	Tèng-Uy Hæ Nguyªn So¸i-Tiªu Dao
+32277	Tèng-Uy Hæ Nguyªn So¸i-Tóy Du
+32278	Tèng-Uy Hæ Nguyªn So¸i-Tö Tiªu
+32279	Tèng-Uy Hæ Nguyªn So¸i-Thanh TÞnh
+32280	Tèng-Uy Hæ Nguyªn So¸i-Thiªn Ph¸
+32281	Tèng-Uy Hæ Nguyªn So¸i-B¹ch Vò
+32282	Tèng-Uy Hæ Nguyªn So¸i-Mµn §ªm
+32283	Tèng-Uy Hæ Nguyªn So¸i-§o¹n T×nh
+32284	Tèng-Uy Hæ Nguyªn So¸i-BÝch Ngäc
+32285	Tèng-Uy Hæ Nguyªn So¸i-ƒnh S¸ng
+32286	Tèng-Uy Hæ Nguyªn So¸i-Häa Lao
+32287	Tèng-Uy Hæ Nguyªn So¸i-Hñy DiÖt
+32288	Tèng-Uy Hæ Nguyªn So¸i-Kinh Hång
+32289	Tèng-Uy Hæ Nguyªn So¸i-Xu©n Phong
+32290	Tèng-Uy Hæ Nguyªn So¸i-YÕn Håi
+32291	Tèng-Uy Hæ Nguyªn So¸i-Canh Phong
+32292	Liªu-Uy Hæ T­íng Qu©n-V« Th­êng
+32293	Liªu-Uy Hæ T­íng Qu©n-NiÕt Bµn
+32294	Liªu-Uy Hæ T­íng Qu©n-V« Ng·
+32295	Liªu-Uy Hæ T­íng Qu©n-ChØ Khiªn
+32296	Liªu-Uy Hæ T­íng Qu©n-Cam Vò
+32297	Liªu-Uy Hæ T­íng Qu©n-Tõ V©n
+32298	Liªu-Uy Hæ T­íng Qu©n-Tiªu Dao
+32299	Liªu-Uy Hæ T­íng Qu©n-Tóy Du
+32300	Liªu-Uy Hæ T­íng Qu©n-Tö Tiªu
+32301	Liªu-Uy Hæ T­íng Qu©n-Thanh TÞnh
+32302	Liªu-Uy Hæ T­íng Qu©n-Thiªn Ph¸
+32303	Liªu-Uy Hæ T­íng Qu©n-B¹ch Vò
+32304	Liªu-Uy Hæ T­íng Qu©n-Mµn §ªm
+32305	Liªu-Uy Hæ T­íng Qu©n-§o¹n T×nh
+32306	Liªu-Uy Hæ T­íng Qu©n-BÝch Ngäc
+32307	Liªu-Uy Hæ T­íng Qu©n-ƒnh S¸ng
+32308	Liªu-Uy Hæ T­íng Qu©n-Häa Lao
+32309	Liªu-Uy Hæ T­íng Qu©n-Hñy DiÖt
+32310	Liªu-Uy Hæ T­íng Qu©n-Kinh Hång
+32311	Liªu-Uy Hæ T­íng Qu©n-Xu©n Phong
+32312	Liªu-Uy Hæ T­íng Qu©n-YÕn Håi
+32313	Liªu-Uy Hæ T­íng Qu©n-Canh Phong
+32314	Liªu-Uy Hæ Nguyªn So¸i-V« Th­êng
+32315	Liªu-Uy Hæ Nguyªn So¸i-NiÕt Bµn
+32316	Liªu-Uy Hæ Nguyªn So¸i-V« Ng·
+32317	Liªu-Uy Hæ Nguyªn So¸i-ChØ Khiªn
+32318	Liªu-Uy Hæ Nguyªn So¸i-Cam Vò
+32319	Liªu-Uy Hæ Nguyªn So¸i-Tõ V©n
+32320	Liªu-Uy Hæ Nguyªn So¸i-Tiªu Dao
+32321	Liªu-Uy Hæ Nguyªn So¸i-Tóy Du
+32322	Liªu-Uy Hæ Nguyªn So¸i-Tö Tiªu
+32323	Liªu-Uy Hæ Nguyªn So¸i-Thanh TÞnh
+32324	Liªu-Uy Hæ Nguyªn So¸i-Thiªn Ph¸
+32325	Liªu-Uy Hæ Nguyªn So¸i-B¹ch Vò
+32326	Liªu-Uy Hæ Nguyªn So¸i-Mµn §ªm
+32327	Liªu-Uy Hæ Nguyªn So¸i-§o¹n T×nh
+32328	Liªu-Uy Hæ Nguyªn So¸i-BÝch Ngäc
+32329	Liªu-Uy Hæ Nguyªn So¸i-ƒnh S¸ng
+32330	Liªu-Uy Hæ Nguyªn So¸i-Häa Lao
+32331	Liªu-Uy Hæ Nguyªn So¸i-Hñy DiÖt
+32332	Liªu-Uy Hæ Nguyªn So¸i-Kinh Hång
+32333	Liªu-Uy Hæ Nguyªn So¸i-Xu©n Phong
+32334	Liªu-Uy Hæ Nguyªn So¸i-YÕn Håi
+32335	Liªu-Uy Hæ Nguyªn So¸i-Canh Phong
+32336	Cöu Ch©u NiÕt Bµn
+32340	Long V¨n
+32341	Ph­îng V¨n
+300000	Tèng-Chu T­íc T­íng-V« Th­êng
+300001	Tèng-Chu T­íc T­íng-NiÕt Bµn
+300002	Tèng-Chu T­íc T­íng-V« Ng·
+300003	Tèng-Chu T­íc T­íng-ChØ Khiªn
+300004	Tèng-Chu T­íc T­íng-Cam Vò
+300005	Tèng-Chu T­íc T­íng-Tõ V©n
+300006	Tèng-Chu T­íc T­íng-Tiªu Dao
+300007	Tèng-Chu T­íc T­íng-Tóy Du
+300008	Tèng-Chu T­íc T­íng-Tö Tiªu
+300009	Tèng-Chu T­íc T­íng-Thanh TÞnh
+300010	Tèng-Chu T­íc T­íng-Thiªn Ph¸
+300011	Tèng-Chu T­íc T­íng-B¹ch Vò
+300012	Tèng-Chu T­íc T­íng-Mµn §ªm
+300013	Tèng-Chu T­íc T­íng-§o¹n T×nh
+300014	Tèng-Chu T­íc T­íng-BÝch Ngäc
+300015	Tèng-Chu T­íc T­íng-ƒnh S¸ng
+300016	Tèng-Chu T­íc T­íng-Häa Lao
+300017	Tèng-Chu T­íc T­íng-Hñy DiÖt
+300018	Tèng-Chu T­íc T­íng-Kinh Hång
+300019	Tèng-Chu T­íc T­íng-Xu©n Phong
+300020	Tèng-Chu T­íc T­íng-YÕn Håi
+300021	Tèng-Chu T­íc T­íng-Canh Phong
+300022	Tèng-Chu T­íc So¸i-V« Th­êng
+300023	Tèng-Chu T­íc So¸i-NiÕt Bµn
+300024	Tèng-Chu T­íc So¸i-V« Ng·
+300025	Tèng-Chu T­íc So¸i-ChØ Khiªn
+300026	Tèng-Chu T­íc So¸i-Cam Vò
+300027	Tèng-Chu T­íc So¸i-Tõ V©n
+300028	Tèng-Chu T­íc So¸i-Tiªu Dao
+300029	Tèng-Chu T­íc So¸i-Tóy Du
+300030	Tèng-Chu T­íc So¸i-Tö Tiªu
+300031	Tèng-Chu T­íc So¸i-Thanh TÞnh
+300032	Tèng-Chu T­íc So¸i-Thiªn Ph¸
+300033	Tèng-Chu T­íc So¸i-B¹ch Vò
+300034	Tèng-Chu T­íc So¸i-Mµn §ªm
+300035	Tèng-Chu T­íc So¸i-§o¹n T×nh
+300036	Tèng-Chu T­íc So¸i-BÝch Ngäc
+300037	Tèng-Chu T­íc So¸i-ƒnh S¸ng
+300038	Tèng-Chu T­íc So¸i-Häa Lao
+300039	Tèng-Chu T­íc So¸i-Hñy DiÖt
+300040	Tèng-Chu T­íc So¸i-Kinh Hång
+300041	Tèng-Chu T­íc So¸i-Xu©n Phong
+300042	Tèng-Chu T­íc So¸i-YÕn Håi
+300043	Tèng-Chu T­íc So¸i-Canh Phong
+300044	Liªu-Chu T­íc T­íng-V« Th­êng
+300045	Liªu-Chu T­íc T­íng-NiÕt Bµn
+300046	Liªu-Chu T­íc T­íng-V« Ng·
+300047	Liªu-Chu T­íc T­íng-ChØ Khiªn
+300048	Liªu-Chu T­íc T­íng-Cam Vò
+300049	Liªu-Chu T­íc T­íng-Tõ V©n
+300050	Liªu-Chu T­íc T­íng-Tiªu Dao
+300051	Liªu-Chu T­íc T­íng-Tóy Du
+300052	Liªu-Chu T­íc T­íng-Tö Tiªu
+300053	Liªu-Chu T­íc T­íng-Thanh TÞnh
+300054	Liªu-Chu T­íc T­íng-Thiªn Ph¸
+300055	Liªu-Chu T­íc T­íng-B¹ch Vò
+300056	Liªu-Chu T­íc T­íng-Mµn §ªm
+300057	Liªu-Chu T­íc T­íng-§o¹n T×nh
+300058	Liªu-Chu T­íc T­íng-BÝch Ngäc
+300059	Liªu-Chu T­íc T­íng-ƒnh S¸ng
+300060	Liªu-Chu T­íc T­íng-Häa Lao
+300061	Liªu-Chu T­íc T­íng-Hñy DiÖt
+300062	Liªu-Chu T­íc T­íng-Kinh Hång
+300063	Liªu-Chu T­íc T­íng-Xu©n Phong
+300064	Liªu-Chu T­íc T­íng-YÕn Håi
+300065	Liªu-Chu T­íc T­íng-Canh Phong
+300066	Liªu-Chu T­íc So¸i-V« Th­êng
+300067	Liªu-Chu T­íc So¸i-NiÕt Bµn
+300068	Liªu-Chu T­íc So¸i-V« Ng·
+300069	Liªu-Chu T­íc So¸i-ChØ Khiªn
+300070	Liªu-Chu T­íc So¸i-Cam Vò
+300071	Liªu-Chu T­íc So¸i-Tõ V©n
+300072	Liªu-Chu T­íc So¸i-Tiªu Dao
+300073	Liªu-Chu T­íc So¸i-Tóy Du
+300074	Liªu-Chu T­íc So¸i-Tö Tiªu
+300075	Liªu-Chu T­íc So¸i-Thanh TÞnh
+300076	Liªu-Chu T­íc So¸i-Thiªn Ph¸
+300077	Liªu-Chu T­íc So¸i-B¹ch Vò
+300078	Liªu-Chu T­íc So¸i-Mµn §ªm
+300079	Liªu-Chu T­íc So¸i-§o¹n T×nh
+300080	Liªu-Chu T­íc So¸i-BÝch Ngäc
+300081	Liªu-Chu T­íc So¸i-ƒnh S¸ng
+300082	Liªu-Chu T­íc So¸i-Häa Lao
+300083	Liªu-Chu T­íc So¸i-Hñy DiÖt
+300084	Liªu-Chu T­íc So¸i-Kinh Hång
+300085	Liªu-Chu T­íc So¸i-Xu©n Phong
+300086	Liªu-Chu T­íc So¸i-YÕn Håi
+300087	Liªu-Chu T­íc So¸i-Canh Phong
+300088	Ph¸ Hån NhiÕp T©m
+300113	ChiÕn KhÝ S¸t ThÇn
+32342	Tinh Huy
+32343	Háa S¸t
+32344	NguyÖt KhuyÕt
+32345	Long V¨n
+32346	Ph­îng V¨n
+2170402	Tèng-ThÇn ¦ng T­íng-V« Th­êng
+2170403	Tèng-ThÇn ¦ng T­íng-NiÕt Bµn
+2170404	Tèng-ThÇn ¦ng T­íng-V« Ng·
+2170405	Tèng-ThÇn ¦ng T­íng-ChØ Khiªn
+2170406	Tèng-ThÇn ¦ng T­íng-Cam Vò
+2170407	Tèng-ThÇn ¦ng T­íng-Tõ V©n
+2170408	Tèng-ThÇn ¦ng T­íng-Tiªu Dao
+2170409	Tèng-ThÇn ¦ng T­íng-Tóy Du
+2170410	Tèng-ThÇn ¦ng T­íng-Tö Tiªu
+2170411	Tèng-ThÇn ¦ng T­íng-Thanh TÞnh
+2170412	Tèng-ThÇn ¦ng T­íng-Thiªn Ph¸
+2170413	Tèng-ThÇn ¦ng T­íng-B¹ch Vò
+2170414	Tèng-ThÇn ¦ng T­íng-Mµn §ªm
+2170415	Tèng-ThÇn ¦ng T­íng-§o¹n T×nh
+2170416	Tèng-ThÇn ¦ng T­íng-BÝch Ngäc
+2170417	Tèng-ThÇn ¦ng T­íng-A¸nh S¸ng
+2170418	Tèng-ThÇn ¦ng T­íng-Häa Lao
+2170419	Tèng-ThÇn ¦ng T­íng-Hñy DiÖt
+2170420	Tèng-ThÇn ¦ng T­íng-Kinh Hång
+2170421	Tèng-ThÇn ¦ng T­íng-Xu©n Phong
+2170422	Tèng-ThÇn ¦ng T­íng-YÕn Håi
+2170423	Tèng-ThÇn ¦ng T­íng-Canh Phong
+2170424	Tèng-ThÇn ¦ng So¸i-V« Th­êng
+2170425	Tèng-ThÇn ¦ng So¸i-NiÕt Bµn
+2170426	Tèng-ThÇn ¦ng So¸i-V« Ng·
+2170427	Tèng-ThÇn ¦ng So¸i-ChØ Khiªn
+2170428	Tèng-ThÇn ¦ng So¸i-Cam Vò
+2170429	Tèng-ThÇn ¦ng So¸i-Tõ V©n
+2170430	Tèng-ThÇn ¦ng So¸i-Tiªu Dao
+2170431	Tèng-ThÇn ¦ng So¸i-Tóy Du
+2170432	Tèng-ThÇn ¦ng So¸i-Tö Tiªu
+2170433	Tèng-ThÇn ¦ng So¸i-Thanh TÞnh
+2170434	Tèng-ThÇn ¦ng So¸i-Thiªn Ph¸
+2170435	Tèng-ThÇn ¦ng So¸i-B¹ch Vò
+2170436	Tèng-ThÇn ¦ng So¸i-Mµn §ªm
+2170437	Tèng-ThÇn ¦ng So¸i-§o¹n T×nh
+2170438	Tèng-ThÇn ¦ng So¸i-BÝch Ngäc
+2170439	Tèng-ThÇn ¦ng So¸i-A¸nh S¸ng
+2170440	Tèng-ThÇn ¦ng So¸i-Häa Lao
+2170441	Tèng-ThÇn ¦ng So¸i-Hñy DiÖt
+2170442	Tèng-ThÇn ¦ng So¸i-Kinh Hång
+2170443	Tèng-ThÇn ¦ng So¸i-Xu©n Phong
+2170444	Tèng-ThÇn ¦ng So¸i-YÕn Håi
+2170445	Tèng-ThÇn ¦ng So¸i-Canh Phong
+2170446	Liªu-ThÇn ¦ng T­íng-V« Th­êng
+2170447	Liªu-ThÇn ¦ng T­íng-NiÕt Bµn
+2170448	Liªu-ThÇn ¦ng T­íng-V« Ng·
+2170449	Liªu-ThÇn ¦ng T­íng-ChØ Khiªn
+2170450	Liªu-ThÇn ¦ng T­íng-Cam Vò
+2170451	Liªu-ThÇn ¦ng T­íng-Tõ V©n
+2170452	Liªu-ThÇn ¦ng T­íng-Tiªu Dao
+2170453	Liªu-ThÇn ¦ng T­íng-Tóy Du
+2170454	Liªu-ThÇn ¦ng T­íng-Tö Tiªu
+2170455	Liªu-ThÇn ¦ng T­íng-Thanh TÞnh
+2170456	Liªu-ThÇn ¦ng T­íng-Thiªn Ph¸
+2170457	Liªu-ThÇn ¦ng T­íng-B¹ch Vò
+2170458	Liªu-ThÇn ¦ng T­íng-Mµn §ªm
+2170459	Liªu-ThÇn ¦ng T­íng-§o¹n T×nh
+2170460	Liªu-ThÇn ¦ng T­íng-BÝch Ngäc
+2170461	Liªu-ThÇn ¦ng T­íng-A¸nh S¸ng
+2170462	Liªu-ThÇn ¦ng T­íng-Häa Lao
+2170463	Liªu-ThÇn ¦ng T­íng-Hñy DiÖt
+2170464	Liªu-ThÇn ¦ng T­íng-Kinh Hång
+2170465	Liªu-ThÇn ¦ng T­íng-Xu©n Phong
+2170466	Liªu-ThÇn ¦ng T­íng-YÕn Håi
+2170467	Liªu-ThÇn ¦ng T­íng-Canh Phong
+2170468	Liªu-ThÇn ¦ng So¸i-V« Th­êng
+2170469	Liªu-ThÇn ¦ng So¸i-NiÕt Bµn
+2170470	Liªu-ThÇn ¦ng So¸i-V« Ng·
+2170471	Liªu-ThÇn ¦ng So¸i-ChØ Khiªn
+2170472	Liªu-ThÇn ¦ng So¸i-Cam Vò
+2170473	Liªu-ThÇn ¦ng So¸i-Tõ V©n
+2170474	Liªu-ThÇn ¦ng So¸i-Tiªu Dao
+2170475	Liªu-ThÇn ¦ng So¸i-Tóy Du
+2170476	Liªu-ThÇn ¦ng So¸i-Tö Tiªu
+2170477	Liªu-ThÇn ¦ng So¸i-Thanh TÞnh
+2170478	Liªu-ThÇn ¦ng So¸i-Thiªn Ph¸
+2170479	Liªu-ThÇn ¦ng So¸i-B¹ch Vò
+2170480	Liªu-ThÇn ¦ng So¸i-Mµn §ªm
+2170481	Liªu-ThÇn ¦ng So¸i-§o¹n T×nh
+2170482	Liªu-ThÇn ¦ng So¸i-BÝch Ngäc
+2170483	Liªu-ThÇn ¦ng So¸i-A¸nh S¸ng
+2170484	Liªu-ThÇn ¦ng So¸i-Häa Lao
+2170485	Liªu-ThÇn ¦ng So¸i-Hñy DiÖt
+2170486	Liªu-ThÇn ¦ng So¸i-Kinh Hång
+2170487	Liªu-ThÇn ¦ng So¸i-Xu©n Phong
+2170488	Liªu-ThÇn ¦ng So¸i-YÕn Håi
+2170489	Liªu-ThÇn ¦ng So¸i-Canh Phong
+2170490	L¨ng S­¬ng
+2170491	Quû Thiªn §Þa S¸t
+2170492	C«n B»ng
+2170493	Toan Nghª
+2170494	Chóc Long

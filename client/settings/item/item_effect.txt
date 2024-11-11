@@ -1,0 +1,15 @@
+ID	EFFECT_PATH	EFFECT_TYPE	SIZE	OFFSET	COLOR	FRAME	LOOP	REMARK
+								
+1	\UImage\µÚÈý°æ\zÖ÷½çÃæ\tÍ¼ËØ\SÊ¥¹âÍ¼±ê\ÁùÃ¢ÐÇºì.spr		50;50	53;56	0xFFFFFFFF			Dïng ®Ó thö nghiÖmÃ
+2	\UImage\µÚÈý°æ\tÍ¨ÓÃ\tÍ¼ËØ\ÆßÐÛ\ÎÞ.png	1	40;40	68;0	0xFFFFFFFF			
+3	\UImage\µÚÈý°æ\tÍ¨ÓÃ\tÍ¼ËØ\ÆßÐÛ\º«.png	1	40;40	68;0	0xFFFFFFFF			
+4	\UImage\µÚÈý°æ\tÍ¨ÓÃ\tÍ¼ËØ\ÆßÐÛ\Îº.png	1	40;40	68;0	0xFFFFFFFF			
+5	\UImage\µÚÈý°æ\tÍ¨ÓÃ\tÍ¼ËØ\ÆßÐÛ\ÇØ.png	1	40;40	68;0	0xFFFFFFFF			
+6	\UImage\µÚÈý°æ\tÍ¨ÓÃ\tÍ¼ËØ\ÆßÐÛ\Ñà.png	1	40;40	68;0	0xFFFFFFFF			
+7	\UImage\µÚÈý°æ\tÍ¨ÓÃ\tÍ¼ËØ\ÆßÐÛ\³þ.png	1	40;40	68;0	0xFFFFFFFF			
+8	\UImage\ÎåÐÐÍ¼±ê\½ð.spr	0	40;40	68;68	0xFFFFFFFF			
+9	\UImage\ÎåÐÐÍ¼±ê\Ä¾.spr	0	40;40	68;68	0xFFFFFFFF			
+10	\UImage\ÎåÐÐÍ¼±ê\Ë®.spr	0	40;40	68;68	0xFFFFFFFF			
+11	\UImage\ÎåÐÐÍ¼±ê\»ð.spr	0	40;40	68;68	0xFFFFFFFF			
+12	\UImage\ÎåÐÐÍ¼±ê\ÍÁ.spr	0	40;40	68;68	0xFFFFFFFF			
+13	\UImage\µÚÈý°æ\zÖ÷½çÃæ\tÍ¼ËØ\SÊ¥¹âÍ¼±ê\ÁùÃ¢ÐÇÂÌ.spr	0	40;40	68;68	0xFFFFFFFF			Th­¬ng H¶i Ch©u V¹n T­îng

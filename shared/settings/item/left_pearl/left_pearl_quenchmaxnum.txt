@@ -1,0 +1,9 @@
+left_pearl_level	left_pearl_max_quenchnum
+1	20
+2	20
+3	20
+4	20
+5	20
+6	30
+7	30
+8	30

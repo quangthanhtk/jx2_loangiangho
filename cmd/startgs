@@ -1,0 +1,34 @@
+#!/bin/bash
+# -----------------------------------------------------
+# Load Variables
+DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+source "$DIR/config.sh"
+
+echo "===== Begin task: Start GS ====="
+echo "Alias IP..."
+ip addr add 10.224.31.1/32 dev ${LAN_DEVICE}:1
+ip addr add 10.224.31.2/32 dev ${LAN_DEVICE}:2
+ip addr add 10.224.31.3/32 dev ${LAN_DEVICE}:3
+ip addr add 10.224.31.4/32 dev ${LAN_DEVICE}:4
+ip addr add 10.224.31.5/32 dev ${LAN_DEVICE}:5
+sudo -u root -H sh -c "tmux kill-session -t gs1"
+sudo -u root -H sh -c "tmux kill-session -t gs2"
+sudo -u root -H sh -c "tmux kill-session -t gs3"
+sudo -u root -H sh -c "tmux kill-session -t gs4"
+sudo -u root -H sh -c "tmux kill-session -t gs5"
+echo "----- Start GS1..."
+sudo -u root -H sh -c "tmux new-session -d -s gs1 'cd ${APP_DIR}/gameserver1 && ./start'"
+sleep 2
+echo "----- Start GS2..."
+sudo -u root -H sh -c "tmux new-session -d -s gs2 'cd ${APP_DIR}/gameserver2 && ./start'"
+sleep 2
+echo "----- Start GS3..."
+sudo -u root -H sh -c "tmux new-session -d -s gs3 'cd ${APP_DIR}/gameserver3 && ./start'"
+sleep 2
+echo "----- Start GS4..."
+sudo -u root -H sh -c "tmux new-session -d -s gs4 'cd ${APP_DIR}/gameserver4 && ./start'"
+sleep 2
+echo "----- Start GS5..."
+sudo -u root -H sh -c "tmux new-session -d -s gs5 'cd ${APP_DIR}/gameserver5 && ./start'"
+sleep 2
+echo "===== Finish task: Start GS ====="

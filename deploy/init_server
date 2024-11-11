@@ -1,0 +1,20 @@
+#!/bin/bash
+# KSGVN SERVER INSTALLER v1.0.0
+
+export LOG_FILE=init_server.log
+
+# -----------------------------------------------------
+# Load Variables
+DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+# shellcheck source=config.sh
+source "$DIR/config.sh"
+
+# -----------------------------------------------------
+# Begin install
+sh "$DIR"/task/task_init.sh
+sh "$DIR"/task/task_install_package.sh
+sh "$DIR"/task/task_prepare_source.sh
+sh "$DIR"/task/task_create_firewall.sh
+sh "$DIR"/task/task_config_database.sh
+sh "$DIR"/task/task_create_cronjob.sh
+sh "$DIR"/task/task_clean_and_start.sh

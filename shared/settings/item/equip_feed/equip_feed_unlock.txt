@@ -1,0 +1,121 @@
+ID	Name	EquipWorth	UnlockLv1	AttrGroup1	AttrLv1	UnlockLv2	AttrGroup2	AttrLv2	UnlockLv3	AttrGroup3	AttrLv3
+	unuse line(2~10)										
+	unuse line(2~10)										
+	unuse line(2~10)										
+	unuse line(2~10)										
+	unuse line(2~10)										
+	unuse line(2~10)										
+	unuse line(2~10)										
+	unuse line(2~10)										
+	unuse line(2~10)										
+1	MÎ kh„a 1 sao	800	4	9		8	9				
+2	MÎ kh„a 2 sao	1200	4	9		9	10				
+3	MÎ kh„a 3 sao	1600	2	10		6	10		10	10	
+4	3+ mÎ kh„a huy ch≠¨ng	1800	2	10		6	11		10	11	
+5	3+mÎ kh„a ∏o choµng	1800	2	10		6	12		10	12	
+6	3+ mÎ kh„a giµy	1800	2	10		6	13		10	13	
+7	3++ mÎ kh„a huy ch≠¨ng	2000	2	10		6	11		10	11	
+8	3++mÎ kh„a ∏o choµng	2000	2	10		6	12		10	12	
+9	3++ mÎ kh„a giµy	2000	2	10		6	13		10	13	
+10	Huy Ch≠¨ng T≠Ìng Qu©n mÎ kh„a	2000	5	16		10	17				
+11	Huy Ch≠¨ng Nguy™n So∏i mÎ kh„a	2000	5	20		10	21				
+12	∏o Choµng T≠Ìng Qu©n mÎ kh„a	2000	5	18		10	17				
+13	∏o Choµng Nguy™n So∏i mÎ kh„a	2000	5	22		10	21				
+14	Chi’n Hµi T≠Ìng Qu©n mÎ kh„a	2000	5	19		10	17				
+15	Chi’n Hµi Nguy™n So∏i mÎ kh„a	2000	5	23		10	21				
+16	Thi™n Hπ V´ Song mÎ kh„a	2000	10	29							
+17	MÎ kh„a ∏o Choµng Du Hi÷p	3000	6	32		11	33				
+18	MÎ kh„a ∏o Choµng Thi’t Huy’t 	3000	6	38		11	39				
+19	MÎ kh„a ∏o Choµng V©n Du 	3000	6	44		11	45				
+20	MÎ kh„a Huy Ch≠¨ng Du Hi÷p 	3000	6	32		11	34				
+21	MÎ kh„a Huy Ch≠¨ng Thi’t Huy’t 	3000	6	38		11	40				
+22	MÎ kh„a Huy Ch≠¨ng V©n Du 	3000	6	44		11	46				
+23	MÎ kh„a Tr≠Íng Hµi Du Hi÷p	3000	6	32		11	35				
+24	MÎ kh„a Tr≠Íng Hµi Thi’t Huy’t	3000	6	38		11	41				
+25	MÎ kh„a ßπo Hµi V©n Du	3000	6	44		11	47				
+26	Linh ßÂ ß«u	6000	1	63		6	67		10	71	
+27	Linh ßÂ Y	6000	1	63		6	68		10	71	
+28	Linh ßÂ KhË	6000	1	63		6	69		10	71	
+29	VÚ Kh› Linh ßÂ	6000	1	64		6	65				
+30	Linh ßÂ GiÌi Chÿ	6000	1	66		6	70		10	72	
+31	N„n Hµo Hi÷p (Ph’)	6000	1	73		6	73		10	73	
+32	∏o Hµo Hi÷p (Ph’)	6000	1	74		6	74		10	74	
+33	Qu«n Hµo Hi÷p (Ph’)	6000	1	75		6	75		10	75	
+34	VÚ Kh› Hµo Hi÷p (Ph’)	6000	1	76		6	76		10	76	
+35	Nh…n Hµo Hi÷p (Ph’)	6000	1	77		6	77		10	77	
+36	Hµo Hi÷p ß«u	6000	1	101		6	102		10	103	
+37	Hµo Hi÷p y	6000	1	104		6	105		10	106	
+38	Qu«n Hµo Hi÷p	6000	1	107		6	108		10	109	
+39	Nh…n Hµo Hi÷p	6000	1	113		6	114		10	115	
+40	VÚ kh› Hµo Hi÷p	6000	1	110		6	111		10	112	
+41	∏o kho∏c Hi÷p CËt	6000	4	119		8	120		12	121	
+42	∏o kho∏c QÒy PhÔ	6000	4	126		8	127		12	128	
+43	∏o kho∏c ßªng V©n	6000	4	133		8	134		12	135	
+44	Huy ch≠¨ng Hi÷p CËt	6000	4	119		8	120		12	121	
+45	Huy ch≠¨ng QÒy PhÔ	6000	4	126		8	127		12	128	
+46	Huy ch≠¨ng ßªng V©n	6000	4	133		8	134		12	135	
+47	Hi÷p CËt Tr≠Íng Ngoa	6000	4	119		8	120		12	122	
+48	QÒy PhÔ Chi’n Ngoa	6000	4	126		8	127		12	129	
+49	ßªng V©n ßπo Ngoa	6000	4	133		8	134		12	136	
+50	»m Huy’t ß«u	3000	1	185		6	186		10	187	
+51	»m Huy’t y	3000	1	191		6	192		10	193	
+52	»m Huy’t Trang	3000	1	197		6	198		10	199	
+53	¬m Huy’t GiÌi	3000	1	203		6	204		10	205	
+54	»m Huy’t BÈi	3000	1	209		6	210		10	211	
+55	vÚ kh› »m huy’t (nÈi)	3000	1	227		6	228		10	229	
+56	mÎ kh„a V´ Song Chi’n Th«n	2000	10	238							
+57	vÚ kh› »m huy’t (ngoπi)	3000	1	245		6	246		10	247	
+58	Hoan L®ng Phi Phong	6000	4	251		8	252		12	253	
+59	ßªng Giao Phi Phong	6000	4	259		8	260		12	261	
+60	KhÎi Ph≠Óng Phi Phong	6000	4	266		8	267		12	268	
+61	Hoan L®ng Ch≠¨ng	6000	4	251		8	252		12	254	
+62	ßªng Giao Ch≠¨ng	6000	4	259		8	260		12	261	
+63	KhÎi Ph≠Óng Ch≠¨ng	6000	4	266		8	267		12	268	
+64	Hoan L®ng Ngoa	6000	4	251		8	252		12	255	
+65	ßªng Giao Ngoa	6000	4	259		8	260		12	262	
+66	KhÎi Ph≠Óng Ngoa	6000	4	266		8	267		12	269	
+67	ß«u S∏t Tinh	6000	1	288		6	289		10	290	
+68	∏o S∏t Tinh	6000	1	288		6	289		10	290	
+69	Qu«n S∏t Tinh	6000	1	288		6	289		10	290	
+70	VÚ Kh› S∏t Tinh	6000	1	318		6	319		10	320	
+71	Trang S¯c S∏t Tinh	6000	1	310		6	311		10	312	
+72	Phi Phong S∏t Lang	6000	4	324		8	325		12	326	
+73	Phi Phong Nhu÷ Nha	6000	4	332		8	333		12	334	
+74	Phi Phong MÈng S∏t	6000	4	339		8	340		12	341	
+75	Huy Ch≠¨ng S∏t Lang	6000	4	324		8	325		12	327	
+76	Huy Ch≠¨ng Nhu÷ Nha	6000	4	332		8	333		12	334	
+77	Huy Ch≠¨ng MÈng S∏t	6000	4	339		8	340		12	341	
+78	Giµy S∏t Lang	6000	4	324		8	325		12	328	
+79	Giµy Nhu÷ Nha	6000	4	332		8	333		12	335	
+80	Giµy MÈng S∏t	6000	4	339		8	340		12	342	
+81	ß«u Ph∏ HÂn	6000	1	346		6	347		10	348	
+82	∏o Ph∏ HÂn	6000	1	346		6	347		10	348	
+83	Qu«n Ph∏ HÂn	6000	1	346		6	347		10	348	
+84	VÚ Kh› Ph∏ HÂn	6000	1	358		6	359		10	360	
+85	Trang S¯c Ph∏ HÂn	6000	1	350		6	351		10	352	
+86	ß«u Chi’n Kh› S∏t Th«n	6000	1	370							
+87	∏o Chi’n Kh› S∏t Th«n	6000	1	370							
+88	Qu«n Chi’n Kh› S∏t Th«n	6000	1	370							
+89	Phi Phong Tinh Huy	6000	4	374		8	375		12	376	
+90	Phi Phong H·a S∏t	6000	4	382		8	383		12	384	
+91	Phi Phong Nguy÷t Khuy’t	6000	4	389		8	390		12	391	
+92	Huy Ch≠¨ng Tinh Huy	6000	4	374		8	375		12	377	
+93	Huy Ch≠¨ng H·a S∏t	6000	4	382		8	383		12	384	
+94	Huy Ch≠¨ng Nguy÷t Khuy’t	6000	4	389		8	390		12	391	
+95	Giµy Tinh Huy	6000	4	374		8	375		12	378	
+96	Giµy H·a S∏t	6000	4	382		8	383		12	385	
+97	Giµy Nguy÷t Khuy’t	6000	4	389		8	390		12	392	
+98	L®ng S≠¨ng ß«u	6000	1	411		6	412		10	413
+99	L®ng S≠¨ng Y	6000	1	411		6	412		10	413
+100	L®ng S≠¨ng Trang	6000	1	411		6	412		10	413
+101	VÚ kh› L®ng S≠¨ng	6000	1	423		6	424		10	425
+102	Trang s¯c L®ng S≠¨ng	6000	1	415		6	416		10	417
+103	Phi Phong C´n Bªng	6000	4	429		8	430		12	431
+104	Phi Phong Toan Ngh™	6000	4	437		8	438		12	439
+105	Phi Phong ChÛc Long	6000	4	444		8	445		12	446
+106	Huy Ch≠¨ng C´n Bªng	6000	4	429		8	430		12	432
+107	Huy Ch≠¨ng Toan Ngh™	6000	4	437		8	438		12	439
+108	Huy Ch≠¨ng ChÛc Long	6000	4	444		8	445		12	446
+109	C´n Bªng Ngoa	6000	4	429		8	430		12	433
+110	Toan Ngh™ Ngoa	6000	4	437		8	438		12	440
+111	ChÛc Long Ngoa	6000	4	444		8	445		12	447
